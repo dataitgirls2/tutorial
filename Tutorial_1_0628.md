@@ -23,7 +23,15 @@ https://guides.github.com/features/mastering-markdown/
 
 * 레퍼지토리란 무엇인가? 
 
-레퍼지토리는 파일들을 저장하는 일종의 폴더이다. 나의 로컬 환경 안에 생성하여 작업할 수 있다. 깃헙에서 repository 생성 시, public으로 공개할 경우 무료이고, private은 유료이므로 주의한다. 우리 수업에서는 MIT license(수정/배포 자유, 실무 혹은 상업적 이용 가능, 오류발생 시 법적책임 없음)를 이용하여 생성하였다. (from Dayounghong’s 0628 TWL) 
+레퍼지토리는 파일들을 저장하는 일종의 폴더이다. 
+
+쉽게 생각하면 개인 GitHub 계정에 생성하는 하나의 ‘저장 폴더’라고 생각하면 된다. 나의 로컬 환경 안에 생성하여 작업할 수 있다. 
+
+GitHub메인 화면에서 repository 탭으로 들어가 New 탭을 통해 새 repository를 설정할 수 있다.
+
+깃헙에서 repository 생성 시, public으로 공개할 경우 무료이고, private은 유료이므로 주의한다. 
+
+우리 수업에서는 MIT license(수정/배포 자유, 실무 혹은 상업적 이용 가능, 오류발생 시 법적책임 없음)를 이용하여 생성하였다. (from Dayounghong’s 0628 TWL) 
 
 * What is Repository? 
 
@@ -90,7 +98,7 @@ tutorial repository는 daitgirls2 organization 에서 yebin 님이 만든 reposi
     * 스프린트 : 오픈소스 발전에 기여하기 위해 현재 이슈 해결에 참여하는 것. 파이썬 한국 사용자 모임에서도 진행한다.
 - 정적 블로그 운영 
     * 정적 블로그 : '~.github.io' 주소로 되어있는 블로그. 입문자용 튜토리얼을 참고하거나, 잘 만들어진 테마를 Fork해서 만들 수 있다.
-
+    
 
 ### (2) 기타 Tips 
 - 마크다운 문서 편집 : PC 브라우저/휴대전화로도 가능하므로 일일 커밋이 끊기지 않게 할 수 있다.
@@ -99,3 +107,6 @@ tutorial repository는 daitgirls2 organization 에서 yebin 님이 만든 reposi
 ### (1) 애란 선생님의 부가설명 
 
 ### (2) 배로 선생님의 수업 관련 보충자료 
+
+### (3) Git 이란 무엇이고, Github 은 무엇인가? 
+
