@@ -19,7 +19,7 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 https://guides.github.com/features/mastering-markdown/
 
 
-### (2) repository (저장고)
+### (2) repository (저장소)
 
 * 레퍼지토리란 무엇인가? 
 
@@ -70,19 +70,30 @@ tutorial repository는 daitgirls2 organization 에서 yebin 님이 만든 reposi
 * 
 
 ### (5) Sourcetree (소스트리) 
+- SSH Key 설정
+소스트리는 내 로컬 컴퓨터의 자료와 깃헙을 연결해주는 프로그램이다. 
+로컬에서 깃을 수정하면 깃헙에 자동으로 업데이트 되지 않으나 소스트리를 이용하면 이것이 가능해진다.
 
 
 ## B. [수업 내] 배로 선생님의 강의 관련 내용 
 
 ### (1) TIL (Today I Learned) 로 일일 커밋하기 
+- 다른 사람의 저장소 따라하기
+- Stack Overflow에서 배운 코드를 타이핑 (주의 : Ctrl C+V 하면 안됨)
+    * Stack Overflow : 개발자들의 지식iN. https://stackoverflow.com/
+- Kaggle에 있는 튜토리얼 따라하기
+    * Kaggle (캐글) : 데이터 사이언티스트들의 지식iN 겸 경진대회장. https://www.kaggle.com/
+- 책에서 본 코드를 따라 써보기
+    * 각 IT출판사(길벗, 한빛미디어 등)의 베타리더, 리뷰어 모집에 응모해서 당첨된 책의 소스 리뷰하며 따라쓰기
+- 간단한 튜토리얼 번역해보기 (ex. 장고걸스 튜토리얼)
+- 스프린트 참여하기
+    * 스프린트 : 오픈소스 발전에 기여하기 위해 현재 이슈 해결에 참여하는 것. 파이썬 한국 사용자 모임에서도 진행한다.
+- 정적 블로그 운영 
+    * 정적 블로그 : '~.github.io' 주소로 되어있는 블로그. 입문자용 튜토리얼을 참고하거나, 잘 만들어진 테마를 Fork해서 만들 수 있다.
 
-- 스택오버플로우, 캐글 튜토리얼 따라하기 
-- 정적 블로그 운영하기 
-- 스프린트, 장고, 판타스, … , 패키지 이슈 해결해서 오픈소스에 기여하기 
-(from chaewon0917 and Dalbongjooin’s 0628 TWL)
 
 ### (2) 기타 Tips 
-
+- 마크다운 문서 편집 : PC 브라우저/휴대전화로도 가능하므로 일일 커밋이 끊기지 않게 할 수 있다.
 ## C. [수업 외] 기타 
 
 ### (1) 애란 선생님의 부가설명 
