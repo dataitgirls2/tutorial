@@ -8,7 +8,8 @@
 
 * 마크다운이란 무엇인가?
 
-Markdown은 텍스트 기반의 마크업언어로 2004년 존 그루버에 의해 만들어졌다. 쉽게 쓰고 읽을 수 있으며 HTML로 변환이 가능하다. 특수기호와 문자를 이용한 매우 간단한 구조의 문법을 사용하여 웹에서도 보다 빠르게 컨텐츠를 작성하고 보다 직관적으로 인식할 수 있다. (출처: https://gist.github.com/ihoneymon/652be052a0727ad59601) 
+Markdown은 텍스트 기반의 마크업언어로 2004년 존 그루버에 의해 만들어졌다. 쉽게 쓰고 읽을 수 있으며 HTML로 변환이 가능하다. 특수기호와 문자를 이용한 매우 간단한 구조의 문법을 사용하여 웹에서도 보다 빠르게 컨텐츠를 작성하고 보다 직관적으로 인식할 수 있다. 
+(출처: https://gist.github.com/ihoneymon/652be052a0727ad59601) 
 
 
 * 마크다운의 파일 확장자는 .md 이다. e.g.) filename.md (from BLUENCE’s 0628 TWL)
@@ -128,6 +129,13 @@ tutorial repository는 daitgirls2 organization 에서 yebin 님이 만든 reposi
 - 우리 실습의 경우 add 등의 과정을 거치지 않았고, Github 서버에서 파일을 생성-수정하는 것이 add 가 실행된 것으로, 보이지 않았을 뿐.
 - fork 는 Git 에는 없는 용어로, Github 에 있는 repository 를 다른 github 서버로 옮겨가는 것이다. clone 의 개념이 github 에 적용된 것이라고 보면 됨.
 - 즉, 우리가 중앙 기구 (중앙 로컬 환경)으로 설정한 것이 daitgirls2 repository 인 것. Github 시스템 하에서의 약속과 같다.
+
+
+![Image of Diagram](https://git-scm.com/figures/18333fig0201-tn.png)
+
+![Image of Diagram](http://images.abizern.org/365git/March10/GitObjects01.png)
+
+![Image of Diagram](http://file.instiz.net/data/file/20121229/8/b/1/8b1c7f28c9d3c548de466dc9b038d254)
 
 
 ### (2) 배로 선생님의 수업 관련 보충자료 
