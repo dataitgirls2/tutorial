@@ -1,10 +1,10 @@
-#### 😇 This document is made by Chaewon Kang, Sunmin Park, Yewon Jeong (Team A) for making Daitgirls' Github Tutorial.
+#### This is made by Chaewon Kang, Sunmin Park, Yewon Jeong (Team A) for making Daitgirls' Github Tutorial.
 
 # Tutorial 01 (0628, Thu)
 
 ## A. [수업 내] Github 실습 관련 내용
 
-(1) markdown (마크다운)
+### (1) markdown (마크다운)
 
 * 마크다운이란 무엇인가?
 
@@ -19,7 +19,7 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 https://guides.github.com/features/mastering-markdown/
 
 
-(2) repository (저장고)
+### (2) repository (저장고)
 
 * 레퍼지토리란 무엇인가? 
 
@@ -39,27 +39,27 @@ Repository is a location where all the files for a particular project is stored.
 
 tutorial repository는 daitgirls2 organization 에서 yebin 님이 만든 repository이며 이 또한 마찬가지로 데잇걸즈 전원이 권한을 가진다. 정해진 각 조는 돌아가면서 TWL repository에 반영된 내용을 정리하여 tutorial로 만든다. 정리된 내용이 완성되면 깃북을 통해서 복습과 실습에 참고할 수 있는 형태로 출력된다. 
 
-(3) fork (포크)
+### (3) fork (포크)
 
-(4) full request (풀리퀘스트 a.k.a 풀리퀘)
+### (4) full request (풀리퀘스트 a.k.a 풀리퀘)
 
-(4) issue (이슈)
+### (4) issue (이슈)
 
-(5) Sourcetree (소스트리) 
+### (5) Sourcetree (소스트리) 
 
 
 ## B. [수업 내] 배로 선생님의 강의 관련 내용 
 
-(1) TIL (Today I Learned) 로 일일 커밋하기 (from chaewon0917 and Dalbongjooin’s 0628 TWL)
+### (1) TIL (Today I Learned) 로 일일 커밋하기 (from chaewon0917 and Dalbongjooin’s 0628 TWL)
 
 - 스택오버플로우, 캐글 튜토리얼 따라하기 
 - 정적 블로그 운영하기 
 - 스프린트, 장고, 판타스, … , 패키지 이슈 해결해서 오픈소스에 기여하기 
 
-(2) 기타 Tips 
+### (2) 기타 Tips 
 
 ## C. [수업 외] 기타 
 
-(1) 애란 선생님의 부가설명 
+### (1) 애란 선생님의 부가설명 
 
-(2) 배로 선생님의 수업 관련 보충자료 
+### (2) 배로 선생님의 수업 관련 보충자료 
