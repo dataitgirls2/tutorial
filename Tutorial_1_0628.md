@@ -79,7 +79,8 @@ tutorial repository는 daitgirls2 organization 에서 yebin 님이 만든 reposi
 - 스택오버플로우, 캐글 튜토리얼 따라하기 
 - 정적 블로그 운영하기 
 - 스프린트, 장고, 판타스, … , 패키지 이슈 해결해서 오픈소스에 기여하기 
-(from chaewon0917 and Dalbongjooin’s 0628 TWL)
+- 10 minutes to pandas 같은 튜토리얼 번역하기 
+(from chaewon0917, HeeyoungK and Dalbongjooin’s 0628 TWL)
 
 ### (2) 기타 Tips 
 
@@ -88,3 +89,6 @@ tutorial repository는 daitgirls2 organization 에서 yebin 님이 만든 reposi
 ### (1) 애란 선생님의 부가설명 
 
 ### (2) 배로 선생님의 수업 관련 보충자료 
+
+### (3) Git 이란 무엇이고, Github 은 무엇인가? 
+
