@@ -79,7 +79,8 @@ tutorial repository는 daitgirls2 organization 에서 yebin 님이 만든 reposi
 
 - 이슈를 게시할 경우 고유한 넘버가 생성되며, 넘버는 '#'+'숫자'의 형태로 발생한다. 
 
-- 
+- 어떠한 활동을 통해 full request를 보낼 때, 특정 이슈에 관한 사항임을 알리고자 할 경우 생성된 고유 넘버를 태깅해서 나타낸다.
+
 
 ### (5) Sourcetree (소스트리) 
 
