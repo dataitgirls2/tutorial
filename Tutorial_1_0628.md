@@ -41,20 +41,45 @@ tutorial repository는 daitgirls2 organization 에서 yebin 님이 만든 reposi
 
 ### (3) fork (포크)
 
-### (4) full request (풀리퀘스트 a.k.a 풀리퀘)
+* 포크란 무엇인가? 
+
+다른 사람이 생성한 repository를 fork하여 나의 로컬 환경으로 가져올 수 있는 기능이다. Git 시스템 상에서는 clone 기능과 상통한다. fork 해온 repository 안에서 fork 해 온 당시의 상태를 기준으로 액션들을 실행할 수 있다. 
+
+### (4) full request (풀 리퀘스트 a.k.a 풀리퀘)와 merge (머지) 
+
+* 풀 리퀘스트란 무엇인가? 
+
+" 수정했으니 반영해줘! ", " 내가 반영한 내용을 검토해봐! "
+
+여러명이서 관리하고 있는 repository 안에서 자신이 실행한 액션들을 반영하기 위해, 해당 repository의 상위 관리자 (merge 기능을 가진 사람)에게 '반영 요청'을 보내는 것을 풀 리퀘스트, 줄여서 풀리퀘라고 한다. 
+
+* 머지란 무엇인가?
+
+" 그래, 합쳐줄게. ", " 이 내용 괜찮으니 반영해도 되겠어. "
+
+머지는 머지 권한을 가진 사람이 실행할 수 있는 기능으로, 풀 리퀘스트를 파악한 후 그러한 사항을 반영할 것인지 말 것인지를 결정하고 허락하는 행위이다. 
+
+(from BLUENCE's 0628 TWL) 
+
+* 우리 수업에서는? 
+
+우리 수업에서는 TWL 폴더의 merge 기능을 모두가 가지고 있으므로, 자신이 자신의 로컬 환경 (개개인의 github 페이지)에서 반영한 수정 사항들에 대해 daitgirls2 (중앙 관리 기구)에 풀 리퀘스트를 보내고, 스스로 머지 허락을 할 수 있다. 
 
 ### (4) issue (이슈)
+
+* 
 
 ### (5) Sourcetree (소스트리) 
 
 
 ## B. [수업 내] 배로 선생님의 강의 관련 내용 
 
-### (1) TIL (Today I Learned) 로 일일 커밋하기 (from chaewon0917 and Dalbongjooin’s 0628 TWL)
+### (1) TIL (Today I Learned) 로 일일 커밋하기 
 
 - 스택오버플로우, 캐글 튜토리얼 따라하기 
 - 정적 블로그 운영하기 
 - 스프린트, 장고, 판타스, … , 패키지 이슈 해결해서 오픈소스에 기여하기 
+(from chaewon0917 and Dalbongjooin’s 0628 TWL)
 
 ### (2) 기타 Tips 
 
