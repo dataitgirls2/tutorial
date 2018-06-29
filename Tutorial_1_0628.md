@@ -106,7 +106,38 @@ tutorial repository는 daitgirls2 organization 에서 yebin 님이 만든 reposi
 
 ### (1) 애란 선생님의 부가설명 
 
+- 내 로컬 환경에 폴더를 하나 만든다. 그 폴더에 특정 파일을 넣을 경우, 자동으로 그것이 repository로 인식된다.
+- 그 repository 는 크게 두 영역으로 구분된다. untracked 영역, tracked 영역,
+- repository 에 파일 A 를 넣을 경우 A 는 untracked 영역으로 들어가게 되고, 이 때 A 는 Git 과는 관련없는 개체들이다.
+- 그러나 A 에 add 를 실행할 경우 A 는 tracked 영역으로 옮겨지며, 이 때 부터 버전 관리가 가능하게 된다.
+- add 는 ntracked 영역에 있는 개체들을 tracked 영역으로 옮기기 위해 실행하는 명령이다. 
+- tracked 영역은 다시 staged 와 unstaged 로 나뉜다.
+- staged 는 파일이 '영구히 저장될 준비'가 되었다는 것을 뜻한다. 즉, add 를 실행하면 파일은 untracked 에서 tracked + staged 로 이동한다.
+- tracked + staged 에 놓인 파일 A 를 수정해서 A'를 만들면, A'는 tracked + unstaged로 이동한다.
+- tracked + unstaged 에 놓인 파일 A' 를 tracked + staged 영역으로 옮길 때도 add 를 실행한다.
+- 즉, add 는 tracked + staged 로 옮길 때도 사용하고, tracked + staged 상태에서 수정을 가해 tracked + unstaged 로 간 것을 다시 tracked + staged 로 이동시킬 때에도 사용한다.
+- 이러한 결과를 '영구히 저장'하고자 할 때 commit 을 한다.
+- commit 은 tracked + staged 영역에 놓인 내용들이 통째로 복사가 되어 duplicated 되는 것을 뜻한다.
+- commit 을 하는 순간, 옛 버전은 v1이 되고, 현재 버전이 v2가 되는 것이다. 이런 식으로 v3, v4, v5, ... 식으로 버전관리가 실행된다.
+- 이것이 Git의 시스템이다.
+- 이러한 시스템은 나의 로컬 환경 (나의 컴퓨터)에서 실행 가능하며, 다른 사람의 로컬 환경 혹은 내 컴퓨터의 다른 폴더로 가져가고자 할 때 clone 기능을 쓴다.
+- 그러면, tracked + staged 영역의 현재 버전과 이전의 히스토리까지 전부 복사된다.
+- 복사된 정보들을 다른 로컬 환경에서 수정하면, v6이 생기는데 이 버전은 상위 환경에는 적용되지 않은 상태이다.
+- 그렇기 때문에 v6을 당겨가라고 요청하는 것이 pull request이고, 상위 로컬 환경의 주체가 pull request 를 승인하는 것이 merge 이다.
+- 머지하게 되면, 원격으로 떨어져 있는 로컬 환경들에서 같은 버전을 보게 된다.
+- 우리 실습의 경우 add 등의 과정을 거치지 않았고, Github 서버에서 파일을 생성-수정하는 것이 add 가 실행된 것으로, 보이지 않았을 뿐.
+- fork 는 Git 에는 없는 용어로, Github 에 있는 repository 를 다른 github 서버로 옮겨가는 것이다. clone 의 개념이 github 에 적용된 것이라고 보면 됨.
+- 즉, 우리가 중앙 기구 (중앙 로컬 환경)으로 설정한 것이 daitgirls2 repository 인 것. Github 시스템 하에서의 약속과 같다.
+
+
 ### (2) 배로 선생님의 수업 관련 보충자료 
+
+- [github-cheat-sheet/README.ko.md](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ko.md)
+- [누구나 쉽게 이해할 수 있는 Git 입문! 버전 관리를 완벽하게 이용해보자! Backlog](https://backlog.com/git-tutorial/kr/)
+- [git - 간편 안내서 - 어렵지 않아요!](https://rogerdudler.github.io/git-guide/index.ko.html)
+- [Git - Book](https://git-scm.com/book/ko/v2) 
+- [어떻게 깃을 사용하는지 빠르게 알아봅시다](https://www.pigno.se/barn/tutorial-git/docs/#/) 
+- [Hello World · GitHub Guides](https://guides.github.com/activities/hello-world/) 
 
 ### (3) Git 이란 무엇이고, Github 은 무엇인가? 
 
