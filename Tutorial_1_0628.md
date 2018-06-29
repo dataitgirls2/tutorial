@@ -49,7 +49,7 @@ tutorial repository는 daitgirls2 organization 에서 yebin 님이 만든 reposi
 
 다른 사람이 생성한 repository를 fork하여 나의 로컬 환경으로 가져올 수 있는 기능이다. Git 시스템 상에서는 clone 기능과 상통한다. fork 해온 repository 안에서 fork 해 온 당시의 상태를 기준으로 액션들을 실행할 수 있다. 
 
-### (4) full request (풀 리퀘스트 a.k.a 풀리퀘)와 merge (머지) 
+### (4) pull request (풀 리퀘스트 a.k.a 풀리퀘)와 merge (머지) 
 
 * 풀 리퀘스트란 무엇인가? 
 
