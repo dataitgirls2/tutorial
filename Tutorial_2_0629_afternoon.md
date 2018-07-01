@@ -17,7 +17,7 @@
 ### Gitbash
 
 깃을 설치했다면 터미널을 이용해 직접 디렉토리에 변경을 가하고 바로 원격저장소(remote = github in this case)에 올리는 작업을 하게 됩니다. 
-이것을 하는 곳이 바로 Gitbash.
+이것을 하는 곳이 바로 Git bash. Git bash는 google에 검색하여 맞는 OS, 34/64bit에 맞춰 설치합니다.
 
 
 ### 실습01 - 1987년 헌법개정안으로 git, remote, add, commit, push 이해하기
@@ -26,7 +26,7 @@
 받습니다.
 https://drive.google.com/drive/u/0/folders/11REn11b5WaOTWVeHy-T3ddM48_Y_P7CB
 
-2. git으로 관리할 폴더를 하나 생성합니다. 폴더명은 constitution-kr 로 합니다.
+2. git으로 관리할 폴더를 로컬(내 컴퓨터)에 하나 생성합니다. 폴더명은 constitution-kr 로 합니다.
 
 > **주의 사항**
 >
@@ -64,6 +64,7 @@ git 명령어 -h로 대부분의 명령어에 대한 옵션 도움말을 볼 수
 > git push -u origin master
 
 8. git remote add 로 리모트 저장소를 추가합니다.
+
 
 ---
 
@@ -163,6 +164,23 @@ https://help.github.com/articles/changing-a-remote-s-url/
 10. github 으로 가서 해당 파일이 업데이트 되었는지 확인해 봅니다. 
 
 
+실습01 정리) git bash에 타이핑할 1~10번까지의 전체 소스 코드입니다.
+> git init
+>
+> git add "대한민국 헌법.txt"
+>
+> git commit -m "1987년 헌법"
+>
+> git remote add origin https://github.com/oranjieunk/constitution-kr.git
+>
+> git push -u origin master
+>
+
+**오류 해결 방법**
+오류 메시지를 그대로 google에 검색하고, 해결 방법을 탐색해 봅시다.
+예) Updates were rejected because the remote contains work that you do not have locally
+가 뜨는 경우가 있는데 마지막에 git push -u origin master대신에 git push -f origin master를 사용하면 됩니다.
+
 ### 실습02 - 2018년 헌법개정안으로 브랜치 이해하기
 
 1. 2018년 헌법개정안 파일을 다운로드 받습니다.
@@ -194,6 +212,17 @@ https://drive.google.com/drive/u/0/folders/11REn11b5WaOTWVeHy-T3ddM48_Y_P7CB
 
 9. github 으로 가서 2018 브랜치를 master 브랜치로 pull request를 생성합니다.
 이 pull request메시지는 깃헙에서 새로고침 해보면 상단에 바로 표시가 된다.
+
+실습02 정리) git bash에 타이핑할 1~9번까지의 전체 소스 코드입니다.
+> git checkout -b "2018"
+>
+> git add "대한민국 헌법.txt"
+>
+> git commit -m "2018년 개정안"
+>
+> git push -u origin 2018
+>
+=> github 페이지에서 Pull request 생성하고, Merge하기
 
 이전 실습에서는 포크해온 저장소에 풀리퀘스트를 보냈지만, 이번에는 같은 저장소에서 다른
 브랜치를 통해 풀리퀘스트를 생성했습니다.
