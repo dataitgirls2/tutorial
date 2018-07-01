@@ -142,7 +142,7 @@
   구체적,명시적|확률적 진술
   7월2일 오전 10시에 데잇걸스 수업을 받고 있을 것이다| 다음주에 데잇걸스 수업을 갈 확률은 30%다.
    
-# 빅데이터 &  FUTURE PREDICTION <br>
+> 빅데이터 &  FUTURE PREDICTION <br>
 > Forecast와  Prediction 중 Prediction에 가깝다.<br>
 > 즉, '과거'의 패턴을 '통계'기법으로 분석 -> '미래'를 제시 <br>
 
