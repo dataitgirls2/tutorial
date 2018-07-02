@@ -85,7 +85,8 @@ git 명령어 -h로 대부분의 명령어에 대한 옵션 도움말을 볼 수
 
 > ls -al
 
-오류가 났던 사람들은 아무 것도 뜨지 않을 것이다.
+주소에 id_rsa.pub, id_rsa 파일이 있어야지 ssh key를 가지고 있는 것이다.
+id_rsa.pub 에 있는 key 가 github 에 등록되어 있어야 ssh 프로토콜을 사용할 수 있다.
 
 2. 현재 작업 중인 디렉토리로 cd를 이용해 돌아오자.
 
@@ -214,7 +215,7 @@ https://drive.google.com/drive/u/0/folders/11REn11b5WaOTWVeHy-T3ddM48_Y_P7CB
 이 pull request메시지는 깃헙에서 새로고침 해보면 상단에 바로 표시가 된다.
 
 실습02 정리) git bash에 타이핑할 1~9번까지의 전체 소스 코드입니다.
-> git checkout -b "2018"
+> git checkout -b 2018
 >
 > git add "대한민국 헌법.txt"
 >
