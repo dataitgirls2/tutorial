@@ -21,7 +21,7 @@
 
 “ 데이터과학의 전형적인 흐름은 이럴 것이다. “
 
-**Import -> Tidy -> (Transform -> Visualize -> Model) -> Communicate **
+** Import -> Tidy -> (Transform -> Visualize -> Model) -> Communicate **
 
 1. 데이터를 가져온다(import)
 2. 데이터를 정리한다(tidy) <- 모든 업무량의 80%소요 
