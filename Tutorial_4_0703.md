@@ -92,21 +92,15 @@ for I in range(5):
     ~~~
     총점과 평균 구하기
     
-    +score = [70, 55, 90, 85, 100, 77]
-    
-    +num = 0
-    
-    +total = 0
-    
-    +for i in score:
-    
+    score = [70, 55, 90, 85, 100, 77]
+    num = 0
+    total = 0
+    for i in score:
     total = total + i
+    num = num + 1 
+    average = total / num
     
-    num = num + 1
-    
-    +average = total / num
-    
-    +print('총점 :', total, '평균 :', average)
+    print('총점 :', total, '평균 :', average)
    ~~~
   
     # Q. 70, 55, 90, 85, 100, 77의 합계와 평균 구하기
@@ -122,7 +116,7 @@ for I in range(5):
   - def calc_sum()  
   - Define calculate_summation()
   - def calc_sum()  //서로다른 단어 연결시 언더바(_)사용  
-  - 
+  
 ~~~
     합계 구하기 실습
     
