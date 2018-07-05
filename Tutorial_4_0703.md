@@ -52,7 +52,7 @@
   짙은 파란색 : expression
   옅은 파란색 : keyword
 - keyword : 언어 구현을 위해 개발 환경에서 기능이 예약된 문자열, 변수 이름으로 사용 불가
-- for 변수 in 리스트 : 반복문. 리스트로 정의된 조건의 한도 내에서 작동을 반복함.
+- for 변수 in iterable : 반복문. iterative한 변수(예-list)를 차례대로 돌면서 작동을 반복함.
 
 - 정수 : Integer (int) / 실수 : Floating point (float).  
   
@@ -149,4 +149,16 @@ for I in range(5):
   
   Literal 0과 objects 0은 다름  
   모든 Expression을 evaluation평가해서 나오는 0은 evaluated value=objects 0  
+  ex: a = 3 일 경우, a에 들어있는 값을 평가했더니 상수 0과 같은 것 (즉 a = 1+2, a = 0+3 일 경우에도 그 값을 평가하면 상수 3과 같다)  
 
+파이썬 실습 2- 짝프로그래밍
+--> 코드 앞에 +가 붙어 있음. 삭제 필요
+
+합계 구하기 실습
+--> 코드 부분 ```로 묶어주어서 가독성 높이기
+
+마지막줄
+Literal 0과 objects 0은 다름
+모든 Expression을 evaluation평가해서 나오는 0은 evaluated value=objects 0
+--> 무슨 의미인지 좀 더 자세히 설명해주면 좋을 것 같아요.
+--> a = 3 일 경우, a에 들어있는 값을 평가했더니 상수 0과 같은 것 (즉 a = 1+2, a = 0+3일 경우에도 그 값을 평가하면 상수 3과 같다)
