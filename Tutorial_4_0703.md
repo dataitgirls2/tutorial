@@ -77,7 +77,6 @@
     print(average)
 ```
 for I in range(5):
-
 =for I in [0, 1, 2, 3, 4]:
 ```
 변수 등을 통해 호출될 수 있는 연결 관계가 모두 끊어진 object(메모리에 저장된 임시 값)는 자동 삭제됨
