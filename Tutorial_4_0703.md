@@ -89,7 +89,6 @@ for I in range(5):
 
 ### 파이썬 실습 2 - 짝 프로그래밍
 
-    ~~~
     총점과 평균 구하기
     
     score = [70, 55, 90, 85, 100, 77]
@@ -102,14 +101,12 @@ for I in range(5):
     
     print('총점 :', total, '평균 :', average)
    ~~~
-  
     # Q. 70, 55, 90, 85, 100, 77의 합계와 평균 구하기
     
     score = [70, 55, 90, 85, 100, 77]  
     sum_score = sum(score)
     average = sum_score / 6
     print(score, '의 합계와 평균 :', sum_score,',', average)
-    
 ~~~
 - 함수 정의(def)
   - 함수 - def 함수이름():  
