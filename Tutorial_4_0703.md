@@ -2,13 +2,13 @@
 
 ---
 
-수업의 목표
+## 수업의 목표
 
 - 파이썬 소개  
 - 기본 문법과 개념 익히기  
 - 파이썬 프로그래밍 환경 Colab 익히기  
 
-Python
+### Python
 
 - 범용적 프로그래밍 언어. 데이터 분석, 과학 계산, 웹 프로그래밍 등에 주로 쓰임
   a list of Programming languages : https://en.wikipedia.org/wiki/List_of_programming_languages
@@ -33,7 +33,7 @@ Python
 - 개발자를 미치게 하는 10가지 언어 : http://www.itworld.co.kr/slideshow/90954
 - 서버 호텔=ICT
 
-파이썬 실습 1 - 다양한 실습 도구 활용
+### 파이썬 실습 1 - 다양한 실습 도구 활용
 
 - Scratch -> Python 실습 : Blockly (https://blockly-demo.appspot.com/static/demos/code/index.html)
   블럭이 각 언어로 어떻게 변환되는지 살펴보기(언어로 바로 쓰는 것보다 복잡할 수 있음)
@@ -45,7 +45,7 @@ Python
   - 소스 코드를 단계별로 실행하면서 작동 원리/오류 원인을 확인 가능. 
   - http://www.pythontutor.com
 
-파이썬 문법
+### 파이썬 문법
 
 - 대입문 : '변수(variable) = 수식(expression)' 형식 (순서가 바뀌어 수식 = 변수가 되면 안됨)
   '='는 대입 연산자(assignment operator). literal, integer, floating도 수식.
@@ -87,7 +87,7 @@ for I in range(5):
   return: 값을 메모리에 저장만 할 뿐(아무것도 출력되지 않음)  
   
 
-파이썬 실습 2 - 짝 프로그래밍
+### 파이썬 실습 2 - 짝 프로그래밍
 
     
     총점과 평균 구하기
