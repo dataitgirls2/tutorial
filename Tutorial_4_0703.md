@@ -10,9 +10,9 @@
 
 ### Python
 
-- 범용적 프로그래밍 언어. 데이터 분석, 과학 계산, 웹 프로그래밍 등에 주로 쓰임
-  a list of Programming languages : https://en.wikipedia.org/wiki/List_of_programming_languages
-  Python? :  https://en.wikipedia.org/wiki/Python_(programming_language)
+- 범용적 프로그래밍 언어. 데이터 분석, 과학 계산, 웹 프로그래밍 등에 주로 쓰임  
+  a list of Programming languages : <https://en.wikipedia.org/wiki/List_of_programming_languages>  
+  Python? :  <https://en.wikipedia.org/wiki/Python_(programming_language)>
 
 - 장점
   1) 데이터 수집, 분석, 웹 서비스 적용까지 모든 과정을 한 언어로 끝낼 수 있음.
@@ -35,7 +35,7 @@
 
 ### 파이썬 실습 1 - 다양한 실습 도구 활용
 
-- Scratch -> Python 실습 : Blockly (https://blockly-demo.appspot.com/static/demos/code/index.html)
+- Scratch -> Python 실습 : Blockly (https://blockly-demo.appspot.com/static/demos/code/index.html)  
   블럭이 각 언어로 어떻게 변환되는지 살펴보기(언어로 바로 쓰는 것보다 복잡할 수 있음)
 - Python 실습 : Google Colaboratory 
   - https://colab.research.google.com/notebooks/welcome.ipynb#recent=true
@@ -89,7 +89,7 @@ for I in range(5):
 
 ### 파이썬 실습 2 - 짝 프로그래밍
 
-    
+    ~~~
     총점과 평균 구하기
     
     +score = [70, 55, 90, 85, 100, 77]
@@ -107,8 +107,8 @@ for I in range(5):
     +average = total / num
     
     +print('총점 :', total, '평균 :', average)
-   
-
+   ~~~
+  
     # Q. 70, 55, 90, 85, 100, 77의 합계와 평균 구하기
     
     score = [70, 55, 90, 85, 100, 77]  
@@ -116,15 +116,15 @@ for I in range(5):
     average = sum_score / 6
     print(score, '의 합계와 평균 :', sum_score,',', average)
     
-
+~~~
 - 함수 정의(def)
   - 함수 - def 함수이름():  
   - def calc_sum()  
   - Define calculate_summation()
   - def calc_sum()  //서로다른 단어 연결시 언더바(_)사용  
   - 
-
-     합계 구하기 실습
+~~~
+    합계 구하기 실습
     
     def calc_sum(numbs):			 #함수 정의('def')는 동사형, 변수 정의는 명사형을 주로 사용
         result = 0				    #결과값을 저장하는 변수
@@ -147,7 +147,7 @@ for I in range(5):
     total = calc_sum(scores)		#함수를 호출
     avg = calc_average(scores)  
     print(total, avg)  
-
+~~~
 -  참고 : $$ 수학/공학 수식을 입력할 때에는 앞/뒤로 '$$'를 붙이면 됩니다. $$  
   
   Library : 블럭을 쌓아서 압축하는 개념  
