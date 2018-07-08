@@ -1,39 +1,11 @@
 ### 20180706 TWL
 
 
-
-- #### Git 최신 상태로 유지하기
-
-  - Git bash로 SSH 키 등록하기
-    - ls : 목록을 보여줌
-    - ls -al : 숨김파일까지 전체 파일 목록을 보여줌
-    - ls -al ~/.ssh : SSH 확인
-  - SSH 프로코콜을 사용하여 GitHub 이용하기
-    - git config --list : 로컬에 설정된 git config 확인 (Exit는 :q 입력)
-    - git remote -v : 설정된 경로 확인
-    - git remote set-url origin : remote URL 설정 변경 (https:// -> SSH)
-  - Git 최신 상태로 유지하기
-    - git pull (= git fetch + merge) : 중앙 저장소 → 로컬 저장소, 작업중인 소스들의 merge
-    - git fetch :  중앙 저장소 → 로컬 저장소 수행. 작업중인 소스들의 merge는 제외.
-    - git pull --rebase : 저장소의 이력을 간결하게 유지할 수 있음
-  - Fork해 온 원본 저장소(공동 Repo)의 업데이트된 소스를 가져오기
-    - git remote add upstream 원본 저장소 주소 : 원본 저장소를 추가
-    - git pull --rebase upstream master : 공동 Repo → 개인 계정 Repo 내용 이동
-  - 과제
-    - 헌법개정안 실습 (기존에 완료 못 하신 경우)
-    - TWL (개인)
-    - Tutorial 정리 (A~F조 대상. 해당일자별.)
-    - Anaconda 프로그램 설치
-
-
-
-
-
 - #### 김슬 기자님 특강 : 시빅 해킹
 
   - 데이터 분석 : 배울 내용이 너무 많다 → 월급을 위해 배우기에는 쉽지 않음
   - 시빅해킹 : 공공문제를 해결하는 or 이야기하는 프로그램을 만드는 일
-
+  - 오픈소스는 '공유'의 정신이 중요 : 내 것이 틀릴 수 있음 → 오픈소스를 공개하고, 검사받아야 함
   
 
   - 기존 프로젝트 사례 
