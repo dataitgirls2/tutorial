@@ -71,8 +71,9 @@ Jekyll(이하 지킬)을 통해 Github에 정적 블로그(HTML 웹사이트)를
 
 
 # ruby 버전 확인
-```ruby -v
-지킬 설치를 위해 Xcode의 설치가 필요하다. (이미 설치되어 있다면 생략)```
+
+```ruby -v```
+지킬 설치를 위해 Xcode의 설치가 필요하다. (이미 설치되어 있다면 생략)
 
 # Xcode 설치
 ```xcode-select --install```
@@ -116,15 +117,20 @@ cd ~/나의깃허브아이디.github.com
 - 터미널로 돌아가서, repository를 연결하고 push 해준다.
 터미널에서 현재 위치는 ~/나의깃허브아이디.github.com 이여야 한다.
 
-```# connect repository
+
+# connect repository
+```
 git init
 git remote add origin *복사한 repository URL*
 git remote -v
-   
+```
+
 # commit and push
+```
 git add .
 git commit -m "Create blog"
-git push -u origin master```
+git push -u origin master
+```
 
 
 - 깃허브에서 commit 이 잘 되었는지 확인하고 블로그 생성을 확인한다.
@@ -171,10 +177,12 @@ bundler를 설치한다.
 터미널로 돌아가서 내 repository로 테마 파일을 푸시해준다.
 터미널에서 현재 위치는 ~/나의깃허브아이디.github.com 이여야 한다.
 
-```# commit and push
+# commit and push
+```
 git add .
 git commit -m "Change Theme"
-git push -u origin master```
+git push -u origin master
+```
 - 깃허브에서 commit 이 잘 되었는지 확인하고 블로그 생성을 확인한다.
 나의깃허브아이디.github.io 에서 내 블로그를 볼 수 있다. 연동에는 5분 이상의 시간이 걸릴 수 있다. *(조금 기다려보자 꼭!!!!!222)
 
@@ -189,6 +197,7 @@ git push -u origin master```
 - Settings-Github pages에서 Sourse 를 gh-pages 브랜치로 설정
 - 내 블로그 레파지토리를 삭제하고 포크해온 테마의 주소를 https://내깃헙아이디.github.io 로 바꾸면 블로그에 테마 적용
 - ```_config.yml``` 파일에서 블로그의 타이틀 등을 변경할 수 있고, 이미지 파일 변경을 통해 프로필 사진도 등록할 수 있다.
+
 #### Kaggle 소개
 
  - Kaggle : 개발자에게 GitHub이 있다면 데이터 사이언티스트에게는 Kaggle이 있음
@@ -229,14 +238,14 @@ git push -u origin master```
 
  - 참고
 
-   ~~~
-   - 지도학습 : 특정 상황별로 결과값이 분류된 데이터를 가지고 진행하는 방법
-   - 비지도학습 : 분류되지 않은 데이터를 가지고 진행. 클러스터링 등을 통해 직접 분류해야 함.
-   ~~~
+~~~
+- 지도학습 : 특정 상황별로 결과값이 분류된 데이터를 가지고 진행하는 방법
+- 비지도학습 : 분류되지 않은 데이터를 가지고 진행. 클러스터링 등을 통해 직접 분류해야 함.
+~~~
 
-  ~~~
+~~~
 - [2017 캐글 설문조사 분석](https://colab.research.google.com/drive/10SuqOyUNbDDlYOQQqueMTlkNqrX7BjlS#scrollTo=01yrTtpiUMWl)
 - 캐글을 통해 관심있는 데이터셋을 보고 직접 분석해보거나 따라해보는 것이 도움됨!
-  ~~~
+~~~
 
 
