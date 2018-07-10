@@ -20,6 +20,7 @@ Install Jekyll on Windows 10
 지킬은 유닉스(Unix), 리눅스(Linux), 맥(OS X)을 지원한다고 나와 있습니다.
 윈도우는 빠져있죠. 그래서 윈도우에 지킬을 설치해 보도록 하겠습니다.
 설치는 Ruby 그리고 Ruby DevKit으로 충분합니다.
+
 1) 윈도우
 루비를 설치한다.
  
@@ -202,7 +203,7 @@ git push -u origin master
 
  - Kaggle : 개발자에게 GitHub이 있다면 데이터 사이언티스트에게는 Kaggle이 있음
 
- - Titanic : Kaggle 입문용 경진대회. 타이타닉호 사망자 통계 분석.
+ - Titanic : Kaggle 입문용 경진대회. 타이타닉호 생존여부 통계 분석.
 
  - Kaggle Tutorial, Kernel을 참조해서 데이터 분석 방법을 익히자.
 
