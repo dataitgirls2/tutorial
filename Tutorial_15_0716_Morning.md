@@ -58,7 +58,7 @@
 
 + Fisher-Yates sampling의 방식
 
-  > Ronald Fisher와 Frank Yates가 1938에 <Statistical tables for biological, agricultural and medical research>에서 소개한 절차. “난수표"랑 종이와 연필이 필요.
+  Ronald Fisher와 Frank Yates가 1938에 <Statistical tables for biological, agricultural and medical research>에서 소개한 절차. “난수표"랑 종이와 연필이 필요.
   >
   > **[Fisher-Yates sampling 참고 페이지](https://exceptionnotfound.net/understanding-the-fisher-yates-card-shuffling-algorithm/) 'Visualizing the Original Method' 에서 시각적으로 어떤 과정을 통해  sampling이 이뤄지는지 알 수 있음**
 
