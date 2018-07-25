@@ -131,7 +131,7 @@ Training Data를 넣고, 바로 Test 한다. Unsupervised 같은 경우는, labe
 
 
 
-**TfidVertorizer**
+** TfidVertorizer **
 
 - 검색 엔진에서 자주 사용하는 알고리즘. 단어에 가중치를 준다. Bag of Word의 단점을 보완하는 도구로 사용되고 있다.
 
