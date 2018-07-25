@@ -131,7 +131,7 @@ Training Data를 넣고, 바로 Test 한다. Unsupervised 같은 경우는, labe
 
 
 
-** TfidVertorizer **
+#### TfidVertorizer 
 
 - 검색 엔진에서 자주 사용하는 알고리즘. 단어에 가중치를 준다. Bag of Word의 단점을 보완하는 도구로 사용되고 있다.
 
@@ -183,7 +183,7 @@ Mddel이 너무 단순해서 Data의 내재된 구조를 학습하지 못할 때
 
 
 
-**Decision Trees **
+#### Decision Trees 
 
 - True / False 로 구분되는 Data. 어떤 기준을 바탕으로 점점 True/False로 Depth를 더해가며 그래프를 그린다.
 - 이것이 정확도가 떨어져서, 이 부분을 보완한 것이 RandomForests이다. 이러한 Decision Trees 를 Random하게 매우 많이 그린다. depth를 너무 깊게 내려가도 overfitting이 되어 정확도가 떨어지고, depth가 너무 낮아도 underfitting 되어 정확도가 떨어진다. 데이터에 맞게 적절한 지점을 찾는 것이 중요하다.
