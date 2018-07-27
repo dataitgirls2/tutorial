@@ -203,9 +203,9 @@ print(title)
   >> '마음껏 구경하세요' >> background 색이 변한다.
   ```
 
-# yes24 파이썬 검색결과 목록 추출하기
+## yes24 파이썬 검색결과 목록 추출하기
 
-## robots.txt 확인
+### robots.txt 확인
 [robots.txt](http://www.yes24.co.kr/robots.txt)
 ~~~
 User-agent: *
@@ -215,7 +215,7 @@ Allow: /
 ~~~
 templates와 member 데이터만 건들지 않으면(그리고 과도한 트래픽을 유발하지 않는다면) 데이터를 수집해도 괜찮은 것 같습니다.
 
-## 필요한 패키지  import
+### 필요한 패키지  import
 - html5lib: 엉망으로 만들어진 HTML 문서도 적절히 잘 분석해서 DOM 구조로 만들어줌.
 - beautifulsoup4: SS Selector를 이용하여 DOM 구조에서 원하는 엘리먼트들을 뽑아내는 기능을 제공
 
@@ -229,8 +229,8 @@ from bs4 import BeautifulSoup
 import pandas as pd
 ```
 
-## HTML 받아오기
-예스24 서버로 HTTP 요청을 보내서 HTML을 받아온 후 파이썬 문자열(str)로 변환해보겠습니다.
+### HTML 받아오기
+- 예스24 서버로 HTTP 요청을 보내서 HTML을 받아온 후 파이썬 문자열(str)로 변환해보겠습니다.
 
 
 ```
@@ -253,13 +253,13 @@ with request.urlopen(url) as f:
     UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb4 in position 241: invalid start byte
 
 
-### DON'T PANIC
+#### DON'T PANIC
 ####왜 오류가 발생했을까?
-소스 코드를 살펴보니 아래와 같은 부분이 있습니다.
+- 소스 코드를 살펴보니 아래와 같은 부분이 있습니다.
 ~~~html
 <meta http-equiv="Content-Type" content="text/html;charset=euc-kr" />
 ~~~
-utf-8이 아닌 **euc-kr**을 써야합니다. euc-kr은 오래 전에 한국에서만 쓰이던 낡은 방식이지만 불행히도 아직도 상당수 한국 웹사이트에서 이 방식을 사용합니다.
+- utf-8이 아닌 **euc-kr**을 써야합니다. euc-kr은 오래 전에 한국에서만 쓰이던 낡은 방식이지만 불행히도 아직도 상당수 한국 웹사이트에서 이 방식을 사용합니다.
 
 
 ```
@@ -268,7 +268,7 @@ with request.urlopen(url) as f:
   html = f.read().decode('euc-kr')
 ```
 
-사이트에 따라 utf-8 또는 euc-kr로 코드를 바꿔주는 반복 작업을 하고 싶지 않습니다. (애란쌤이)구글 검색을 해보니 이렇게 쓰면 된다고 합니다.
+- 사이트에 따라 utf-8 또는 euc-kr로 코드를 바꿔주는 반복 작업을 하고 싶지 않습니다. (애란쌤이)구글 검색을 해보니 이렇게 쓰면 된다고 합니다.
 
 
 ```
@@ -278,10 +278,11 @@ with request.urlopen(url) as f:
   html = f.read().decode(charset)
 ```
 
-## HTML 문자열을 분석하여 DOM 구성하기
-html5lib를 이용하여 DOM을 구성한 후 DOM 트리 구조를 탐색하여 원하는 정보를 추출하는 코드를 만들어도 되지만 번거롭습니다. beautifulsoup을 이용하면 CSS 셀렉터를 써서 원하는 정보를 쉽게 추출해낼 수 있습니다.
+### HTML 문자열을 분석하여 DOM 구성하기
+- html5lib를 이용하여 DOM을 구성한 후 DOM 트리 구조를 탐색하여 원하는 정보를 추출하는 코드를 만들어도 되지만 번거롭습니다.
+- beautifulsoup을 이용하면 CSS 셀렉터를 써서 원하는 정보를 쉽게 추출해낼 수 있습니다.
 
-beautifulsoup은 내부적으로 DOM 트리를 구성하는데, 이 때 어떤 분석기(parser)를 사용할지 지정해줄 수 있습니다. 우리는 html5lib를 쓰도록 하겠습니다.
+- beautifulsoup은 내부적으로 DOM 트리를 구성하는데, 이 때 어떤 분석기(parser)를 사용할지 지정해줄 수 있습니다. 우리는 html5lib를 쓰도록 하겠습니다.
 
 
 
@@ -289,9 +290,9 @@ beautifulsoup은 내부적으로 DOM 트리를 구성하는데, 이 때 어떤 �
 soup = BeautifulSoup(html, 'html5lib')
 ```
 
-soup 객체에는 select_one() 함수와 select() 함수가 있습니다. 두 함수 모두 CSS 셀렉터로 원하는 엘리먼트를 찾아주는 기능을 한다는 점은 같지만  
-- select_one() 함수는: 처음으로 발견한 하나의 엘리먼트만 반환합니다 
-- select() 함수는 발견한 모든 엘리먼트를 리스트 형식으로 반환합니다.
+- soup 객체에는 select_one() 함수와 select() 함수가 있습니다. 두 함수 모두 CSS 셀렉터로 원하는 엘리먼트를 찾아주는 기능을 한다는 점은 같지만  
+ - select_one() 함수는: 처음으로 발견한 하나의 엘리먼트만 반환합니다 
+ - select() 함수는 발견한 모든 엘리먼트를 리스트 형식으로 반환합니다.
 
 
 ```
@@ -305,7 +306,7 @@ print (soup.select("a")[0] == soup.select_one("a"))
     True
     
 
-먼저 상품 리스트(div 태그, class는 goodsList) 안의 상품명만 추출해보겠습니다.
+- 먼저 상품 리스트(div 태그, class는 goodsList) 안의 상품명만 추출해보겠습니다.
 
 
 ```
@@ -345,7 +346,7 @@ len(titles), titles
 
 
 
-다음으로 상품 가격(할인이 적용된 가격)을 추출해보겠습니다.
+- 다음으로 상품 가격(할인이 적용된 가격)을 추출해보겠습니다.
 
 
 ```
@@ -383,10 +384,10 @@ len(prices), prices
 
 
 이런! 사람이 읽기 쉽도록 세 자리수마다 쉼표를 삽입한데다 가격 뒤에 '원'이 붙어있습니다. 또한 가격 데이터의 타입이 숫자(int)가 아니라 문자열입니다. 이대로라면 상품 가격을 통계적으로 분석하는 등, 크롤링한 데이터를 이후에 활용하는 데에 별도의 전처리 과정이 필요해 불편해질 것입니다.   
-쉼표와 '원'을 제거하고, 데이터 타입을 int로 변환해줍시다.
+- 쉼표와 '원'을 제거하고, 데이터 타입을 int로 변환해줍시다.
 
 
-코드 1과 2는 실질적으로 동일한 기능을 하며 동일한 결과물을 생성하나, 2가 보다 깔끔합니다.
+- 코드 1과 2는 실질적으로 동일한 기능을 하며 동일한 결과물을 생성하나, 2가 보다 깔끔합니다.
 
 
 ```
@@ -459,7 +460,7 @@ prices_tidy
 
 
 
-titles와 prices_tidy, 두 리스트로 데이터프레임을 만들어봅시다.
+- titles와 prices_tidy, 두 리스트로 데이터프레임을 만들어봅시다.
 
 
 ```
@@ -525,9 +526,9 @@ df.head()
 
 
 
-수고하셨습니다!
+- 수고하셨습니다!
 
-# yes24 베스트셀러 목록 추출하기
+## yes24 베스트셀러 목록 추출하기
 수업에서는 yes24 '파이썬' 키워드 검색 결과창을 대상으로 실습을 했던 것 같은데, 수업자료와 애란쌤이 올려주신 콜랩 노트북에는 베스트셀러 페이지 목록 추출 실습으로 되어있어서 내용을 추가했습니다.  
 
 사실 우리가 수업시간에 배우지 않은 내용이 있을 가능성이 있어 애란쌤이 올려주신 콜랩 노트북 내용을 그대로 복사해왔습니다.
