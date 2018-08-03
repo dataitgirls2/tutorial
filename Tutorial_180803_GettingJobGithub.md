@@ -1,78 +1,79 @@
-# ¿ÀÀü 1 : (Æ¯°­) [±êÇãºê·Î Ãë¾÷ÇÏ±â](https://sujinlee.me/professional-github/)
+# ì˜¤ì „ 1 : (íŠ¹ê°•) [ê¹ƒí—ˆë¸Œë¡œ ì·¨ì—…í•˜ê¸°](https://sujinlee.me/professional-github/)
 
-- ¸Å·ÂÀûÀÎ ÇÁ·ÎÇÊ ¸¸µé±â 
+- ë§¤ë ¥ì ì¸ í”„ë¡œí•„ ë§Œë“¤ê¸° 
 
-  - »çÁø : µ¿/½Ä¹° »çÁø, ÀÏ·¯½ºÆ® »ç¿ë ±ÝÁö
-  - ´Ð³×ÀÓ : ½Ç¸íÀ» ¿µ¾î·Î ±âÀç
-  - ÀÌ¸ÞÀÏ : Gmail ÁÖ¼Ò ±âÀç
-  - Bio : ÇÁ·ÎÁ§Æ® ¼öÇà ³»¿ª ±âÀç
-  - URL, Company, Location ±âÀç
-  - Customize your pinned repositories ¼³Á¤
+  - ì‚¬ì§„ : ë™/ì‹ë¬¼ ì‚¬ì§„, ì¼ëŸ¬ìŠ¤íŠ¸ ì‚¬ìš© ê¸ˆì§€
+  - ë‹‰ë„¤ìž„ : ì‹¤ëª…ì„ ì˜ì–´ë¡œ ê¸°ìž¬
+  - ì´ë©”ì¼ : Gmail ì£¼ì†Œ ê¸°ìž¬
+  - Bio : í”„ë¡œì íŠ¸ ìˆ˜í–‰ ë‚´ì—­ ê¸°ìž¬
+  - URL, Company, Location ê¸°ìž¬
+  - Customize your pinned repositories ì„¤ì •
 
-- 1ÀÏ 1Ä¿¹Ô
+- 1ì¼ 1ì»¤ë°‹
 
-  - Job apply ÀÏÀÚ ±âÁØÀ¸·Î ÃÖ±Ù 2ÁÖ °£ÀÇ commitÀº Áö¿ø È¸»ç¿¡¼­ È®ÀÎÇÔ.
-  - Contribution setting ¡æ Public contributions only ·Î ¼³Á¤
+  - Job apply ì¼ìž ê¸°ì¤€ìœ¼ë¡œ ìµœê·¼ 2ì£¼ ê°„ì˜ commitì€ ì§€ì› íšŒì‚¬ì—ì„œ í™•ì¸í•¨.
+  - Contribution setting â†’ Public contributions only ë¡œ ì„¤ì •
 
-- ¿Ã¹Ù¸£°Ô Ä¿¹ÔÇÏ±â
+- ì˜¬ë°”ë¥´ê²Œ ì»¤ë°‹í•˜ê¸°
 
-  - ÀÛÀº ´ÜÀ§·Î ³ª´²¼­ ¿©·¯ ¹ø commit ÇÏ±â
+  - ìž‘ì€ ë‹¨ìœ„ë¡œ ë‚˜ëˆ ì„œ ì—¬ëŸ¬ ë²ˆ commit í•˜ê¸°
 
-  - Ä¿¹Ô ¸Þ½ÃÁö ÀÛ¼º¹ý
+  - ì»¤ë°‹ ë©”ì‹œì§€ ìž‘ì„±ë²•
 
-    - Ä¿¹Ô ´ÜÀ§ : feat. fix. doc. style. refactor. test. chore
+    - ì»¤ë°‹ ë‹¨ìœ„ : feat. fix. doc. style. refactor. test. chore
 
-    - Á¦¸ñ : "Å¸ÀÔ(Type) : Á¦¸ñ" Çü½Ä. µ¿»ç ¿øÇüÀ¸·Î ½ÃÀÛ, Ã¹ ±ÛÀÚ ´ë¹®ÀÚ.
+    - ì œëª© : "íƒ€ìž…(Type) : ì œëª©" í˜•ì‹. ë™ì‚¬ ì›í˜•ìœ¼ë¡œ ì‹œìž‘, ì²« ê¸€ìž ëŒ€ë¬¸ìž.  
+            ì´ ê¸€ìž ìˆ˜ 50ìž ì´ë‚´, ë§ˆì§€ë§‰ì— ë§ˆì¹¨í‘œ(`.`)ë¥¼ ë¶™ì´ì§€ ì•ŠìŒ
 
   - Tip
 
-    - Master branch¿¡ commitÇÏÁö ¾Ê±â (= branch µû¼­ commit ÇÏ±â)
-    - git ignore : GitHub¿¡ ¾÷·Îµå ¾ÈÇÒ °Íµé(Ex. ¼³Ä¡ ÆÄÀÏ)À» ¼³Á¤ÇÒ ¼ö ÀÖÀ½
+    - Master branchì— commití•˜ì§€ ì•Šê¸° (= branch ë”°ì„œ commit í•˜ê¸°)
+    - git ignore : GitHubì— ì—…ë¡œë“œ ì•ˆí•  ê²ƒë“¤(Ex. ì„¤ì¹˜ íŒŒì¼)ì„ ì„¤ì •í•  ìˆ˜ ìžˆìŒ
 
-- ÇÁ·ÎÁ§Æ® ¼Ò°³ ±Û ÀÛ¼ºÇÏ±â
+- í”„ë¡œì íŠ¸ ì†Œê°œ ê¸€ ìž‘ì„±í•˜ê¸°
 
-  - Readme.md ÆÄÀÏ : ¸¶Å©´Ù¿î ¹®¹ýÀ¸·Î ÀÛ¼º
-  - ³»¿ë : ÇÁ·ÎÁ§Æ®¸í, ÇÁ·ÎÁ§Æ® ¼Ò°³, ¼³Ä¡ ¹æ¹ý, »ç¿ë ¿¹Á¦, °³¹ß È¯°æ ¼³Á¤ ¹æ¹ý, ±â¿© ¹æ¹ý, º¯°æ ·Î±×, ¶óÀÌ¼¾½º / ÀÛ¼ºÀÚ Á¤º¸
-  - ÇÁ·ÎÁ§Æ® Á¦¸ñ : ¾î¶² ±â¼ú·Î ¹«½¼ ÇÁ·ÎÁ§Æ®¸¦ ¸¸µé¾ú´ÂÁö. Á÷°üÀûÀ¸·Î ÀÛ¼º.
-  - ÅÂ±× Ãß°¡ : ÇÁ·ÎÁ§Æ®¿¡ »ç¿ëÇÑ ±â¼ú, ºÐ¾ß, ÁÖÁ¦ µî
-  - ¼³Ä¡ ¹æ¹ý : ´Ù¼Ò ½ÉÇÏ´Ù ½ÍÀ» Á¤µµ·Î ÀÚ¼¼È÷ ¾²±â
-  - Å©·¹µ÷ : ¿ÀÇÂ ¼Ò½º ÇÁ·ÎÁ§Æ®¸¦ »ç¿ëÇÑ °æ¿ì or µµ¿òÀ» ¹ÞÀº °æ¿ì ²À ¸í½ÃÇÏ±â
-  - ¶óÀÌ¼¾½º : ÀúÀÛ±Ç ¼³Á¤. MIT ¶óÀÌ¼¾½º¸¦ ¸¹ÀÌ »ç¿ëÇÔ.
-  - ¹îÁö »ç¿ëÀÌ ÇÊ¿äÇÑ °æ¿ì [shields.io](https://shields.io/#/) ÂüÁ¶.
+  - Readme.md íŒŒì¼ : ë§ˆí¬ë‹¤ìš´ ë¬¸ë²•ìœ¼ë¡œ ìž‘ì„±
+  - ë‚´ìš© : í”„ë¡œì íŠ¸ëª…, í”„ë¡œì íŠ¸ ì†Œê°œ, ì„¤ì¹˜ ë°©ë²•, ì‚¬ìš© ì˜ˆì œ, ê°œë°œ í™˜ê²½ ì„¤ì • ë°©ë²•, ê¸°ì—¬ ë°©ë²•, ë³€ê²½ ë¡œê·¸, ë¼ì´ì„¼ìŠ¤ / ìž‘ì„±ìž ì •ë³´
+  - í”„ë¡œì íŠ¸ ì œëª© : ì–´ë–¤ ê¸°ìˆ ë¡œ ë¬´ìŠ¨ í”„ë¡œì íŠ¸ë¥¼ ë§Œë“¤ì—ˆëŠ”ì§€. ì§ê´€ì ìœ¼ë¡œ ìž‘ì„±.
+  - íƒœê·¸ ì¶”ê°€ : í”„ë¡œì íŠ¸ì— ì‚¬ìš©í•œ ê¸°ìˆ , ë¶„ì•¼, ì£¼ì œ ë“±
+  - ì„¤ì¹˜ ë°©ë²• : ë‹¤ì†Œ ì‹¬í•˜ë‹¤ ì‹¶ì„ ì •ë„ë¡œ ìžì„¸ížˆ ì“°ê¸°
+  - í¬ë ˆë”§ : ì˜¤í”ˆ ì†ŒìŠ¤ í”„ë¡œì íŠ¸ë¥¼ ì‚¬ìš©í•œ ê²½ìš° or ë„ì›€ì„ ë°›ì€ ê²½ìš° ê¼­ ëª…ì‹œí•˜ê¸°
+  - ë¼ì´ì„¼ìŠ¤ : ì €ìž‘ê¶Œ ì„¤ì •. MIT ë¼ì´ì„¼ìŠ¤ë¥¼ ë§Žì´ ì‚¬ìš©í•¨.
+  - ë±ƒì§€ ì‚¬ìš©ì´ í•„ìš”í•œ ê²½ìš° [shields.io](https://shields.io/#/) ì°¸ì¡°.
 
-- ÇÁ·ÎÁ§Æ® °ü¸®ÇÏ±â
+- í”„ë¡œì íŠ¸ ê´€ë¦¬í•˜ê¸°
 
-  - ÇÁ·ÎÁ§Æ® Ä­¹Ý º¸µå »ç¿ë
-  - ÀÌ½´ °ü¸®ÇÏ±â 
-    - (°³ÀÎ Repo) ÇöÀç ÁøÇà ÁßÀÎ °³¹ß ³»¿ªµéÀ» °¢°¢ÀÇ ÀÌ½´·Î µî·Ï / °ü¸®
-    - (°øµ¿ Repo) ÀÌ½´ ÅÛÇÃ¸´ ¼³Á¤ ±â´É »ç¿ë : Repository ¡æ Issues ¡æ Labels
-    - (°øµ¿ Repo) ³» Repo¿¡ Å¸ÀÎÀÌ ³²±ä ±â¿©¿¡ ´ëÇØ ¹ÝÀÀÇÏ±â (Reply µî) 
+  - í”„ë¡œì íŠ¸ ì¹¸ë°˜ ë³´ë“œ ì‚¬ìš©
+  - ì´ìŠˆ ê´€ë¦¬í•˜ê¸° 
+    - (ê°œì¸ Repo) í˜„ìž¬ ì§„í–‰ ì¤‘ì¸ ê°œë°œ ë‚´ì—­ë“¤ì„ ê°ê°ì˜ ì´ìŠˆë¡œ ë“±ë¡ / ê´€ë¦¬
+    - (ê³µë™ Repo) ì´ìŠˆ í…œí”Œë¦¿ ì„¤ì • ê¸°ëŠ¥ ì‚¬ìš© : Repository â†’ Issues â†’ Labels
+    - (ê³µë™ Repo) ë‚´ Repoì— íƒ€ì¸ì´ ë‚¨ê¸´ ê¸°ì—¬ì— ëŒ€í•´ ë°˜ì‘í•˜ê¸° (Reply ë“±) 
 
-- ¿ÀÇÂ ¼Ò½º ±â¿©ÇÏ±â
+- ì˜¤í”ˆ ì†ŒìŠ¤ ê¸°ì—¬í•˜ê¸°
 
-  - ÀÌ½´ °íÄ¡±â - Pull request º¸³»±â
+  - ì´ìŠˆ ê³ ì¹˜ê¸° - Pull request ë³´ë‚´ê¸°
 
-  - ¿ÀÅ»ÀÚ °íÄ¡±â
+  - ì˜¤íƒˆìž ê³ ì¹˜ê¸°
 
-  - ÀÌ½´ Á¦±âÇÏ±â
+  - ì´ìŠˆ ì œê¸°í•˜ê¸°
 
-  - ¹ø¿ªÇÏ±â (°­Ãß!)
+  - ë²ˆì—­í•˜ê¸° (ê°•ì¶”!)
 
-    - Áö±Ý °øºÎÇÏ´Â ÁÖÁ¦¿Í °ü·ÃµÈ Article, Repo, ³í¹® µî ¹ø¿ª
-    - ¾ç(Quantity)ÀÌ ³Ê¹« ¸¹Àº, ¾î·Á¿î, º¹ÀâÇÑ, DetailÀÌ ¸¹Àº ±ÛÀº ÇÇÇÒ °Í
-    - ³Ê¹« Æ®·»µðÇÑ ÁÖÁ¦´Â ÇÇÇÒ °Í
-    - ¹ø¿ª Àü ¿øÀÛÀÚ¿¡°Ô µ¿ÀÇ ¿©ºÎ È®ÀÎ 
-    - ¹ø¿ªÇÑ ÈÄ ¿øÀÛÀÚ¿¡°Ô °¨»ç ÀÎ»ç, SNS / µ¥ÀÌÅÍ »çÀÌ¾ð½º Ä¿¹Â´ÏÆ¼·Î °øÀ¯
-    - [KIGO ¹ø¿ª ½ºÅ¸ÀÏ °¡ÀÌµå](https://www.facebook.com/groups/kigostyleguide/) ÆäÀÌ½ººÏ ±×·ì ÂüÁ¶
+    - ì§€ê¸ˆ ê³µë¶€í•˜ëŠ” ì£¼ì œì™€ ê´€ë ¨ëœ Article, Repo, ë…¼ë¬¸ ë“± ë²ˆì—­
+    - ì–‘(Quantity)ì´ ë„ˆë¬´ ë§Žì€, ì–´ë ¤ìš´, ë³µìž¡í•œ, Detailì´ ë§Žì€ ê¸€ì€ í”¼í•  ê²ƒ
+    - ë„ˆë¬´ íŠ¸ë Œë””í•œ ì£¼ì œëŠ” í”¼í•  ê²ƒ
+    - ë²ˆì—­ ì „ ì›ìž‘ìžì—ê²Œ ë™ì˜ ì—¬ë¶€ í™•ì¸ 
+    - ë²ˆì—­í•œ í›„ ì›ìž‘ìžì—ê²Œ ê°ì‚¬ ì¸ì‚¬, SNS / ë°ì´í„° ì‚¬ì´ì–¸ìŠ¤ ì»¤ë®¤ë‹ˆí‹°ë¡œ ê³µìœ 
+    - [KIGO ë²ˆì—­ ìŠ¤íƒ€ì¼ ê°€ì´ë“œ](https://www.facebook.com/groups/kigostyleguide/) íŽ˜ì´ìŠ¤ë¶ ê·¸ë£¹ ì°¸ì¡°
 
   - Tip 
 
-    - °ü½É ÀÖ´Â Å°¿öµå °Ë»ö ¡æ Star¸¦ ¸¹ÀÌ ¹ÞÀº ³×ÀÓµå °³¹ßÀÚ / ¿ÀÇÂ ¼Ò½º Ã£¾Æ³»±â
+    - ê´€ì‹¬ ìžˆëŠ” í‚¤ì›Œë“œ ê²€ìƒ‰ â†’ Starë¥¼ ë§Žì´ ë°›ì€ ë„¤ìž„ë“œ ê°œë°œìž / ì˜¤í”ˆ ì†ŒìŠ¤ ì°¾ì•„ë‚´ê¸°
 
-    - ³×ÀÓµå °³¹ßÀÚ / ¿ÀÇÂ ¼Ò½º ÇÁ·ÎÁ§Æ®ÀÇ Repository Follow & SlackÀ¸·Î ÄÁÅÃ
+    - ë„¤ìž„ë“œ ê°œë°œìž / ì˜¤í”ˆ ì†ŒìŠ¤ í”„ë¡œì íŠ¸ì˜ Repository Follow & Slackìœ¼ë¡œ ì»¨íƒ
 
       
 
-# ¿ÀÀü 2 : µ¥¹Ù½Ã (¿ì¸®´Â Çàº¹ÇÏ°Ô ÀÏÇÒ ¼ö ÀÖÀ»±î? by YoungestSalon)
+# ì˜¤ì „ 2 : ë°ë°”ì‹œ (ìš°ë¦¬ëŠ” í–‰ë³µí•˜ê²Œ ì¼í•  ìˆ˜ ìžˆì„ê¹Œ? by YoungestSalon)
 
-- ['ITÈ¸»ç¿¡¼­ µ¥ÀÌÅÍ ºÐ¼®°¡·Î ÀÏÇÏ´Â °ÍÀº Á¤¸» Áñ°Ì°í, Çàº¹ÇÒ±î?'](https://github.com/YoungestSalon/TIL/blob/master/20180803_SIOS.md) Markdown ÆÄÀÏ ÂüÁ¶
+- ['ITíšŒì‚¬ì—ì„œ ë°ì´í„° ë¶„ì„ê°€ë¡œ ì¼í•˜ëŠ” ê²ƒì€ ì •ë§ ì¦ê²ê³ , í–‰ë³µí• ê¹Œ?'](https://github.com/YoungestSalon/TIL/blob/master/20180803_SIOS.md) Markdown íŒŒì¼ ì°¸ì¡°
