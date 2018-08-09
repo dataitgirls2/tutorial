@@ -4,15 +4,21 @@
 1. 적당한 위치에 프로젝트 폴더 만들기-조건
 
    ●    프로젝트 관련 폴더를 생성하여 관리하는 것이 좋음
+
    ●    공백, 특수문자, 한글 사용하지 않기
+
    ●    영문자 소문자, 숫자, 하이픈(-), 언더바(_)만 쓰기
 
    ●    좋은 예시:
+
    ​	○    C:\Users\aeran\projects\slackbot
+
    ​	○    C:\Users\aeran\projects\slack-bot
 
    ●    나쁜 예시:
+
    ​	○    C:\Users\aeran\projects\slack bot (띄어쓰기)
+
    ​	○    C:\Users\aeran\projects\슬랙봇 (한글)
 
    
