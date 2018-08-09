@@ -1,12 +1,17 @@
 
-### 오전수업 애란쌤
+### 오전수업
 
-#### Git 과 Github을 뽀개보자
+#### Git 과 Github 이해하기
 
-- Seyoungbot 프로젝트 만들기
-- `MIT라이센스` : 하고싶은대로 다 하세요
+- Slack chatbot 프로젝트 만들기
+- `MIT라이센스` : 자유롭게 이용 가능하나 그로 인해 발생하는 문제는 책임지지 않음. 
 - `GPL라이센스` : 무조건 gpl이 되어야 함.
 - 라이센스가 명시되어있지 않다면, 원 저작권자에게 물어보아야 함.
+
+
+#### 깃헙으로 깃 이해하기
+
+
 
 
 
@@ -28,7 +33,7 @@
 다음으로, main.py파일을 변경한 다음, 아래의 내용을 수행해보기
 
 ```bash
-wolever@wolever-PC MINGW64 /d/projects/seyoungbot (master)
+
 $ git status
 On branch master
 Your branch is up to date with 'origin/master'.
@@ -44,7 +49,6 @@ Changes not staged for commit:
 
         modified:   main.py
 
-wolever@wolever-PC MINGW64 /d/projects/seyoungbot (master)
 $ git checkout -- main.py
 ```
 
