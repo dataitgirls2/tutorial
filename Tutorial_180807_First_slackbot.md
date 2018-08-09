@@ -11,6 +11,7 @@
 $ pipenv install rtmbot
 ```
 rtmbot을 깔아주는 작업 실행! (real time bot이라고 이미 누군가가 만들어 놓은 실시간 봇)
+
 5. `main.py` 파일에 다음 코드를 입력하기
 ```
 from rtmbot import RtmBot
