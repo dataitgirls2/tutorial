@@ -66,3 +66,47 @@ bot.start()
 
 
 ## 깃헙에 올릴 준비
+
+### 챗봇 깃에 올려보기 ( git ignore 해서 )
+
+- Piffle, pipfile.lock : pipenv의 버전 정보(=개발 환경 정보)의 전달/공유를 위해 GitHub 업로드 필요 
+
+  - `pipfile` 과 `pipfile.lock` 은 항상 버전 관리를 해서 다른 개발자가 클론해갔을 때 나와 똑같은 환경에서 사용할 수 있다. 따라서 이 2개의 파일도 깃허브에 올립니다.
+
+  ```
+  git add pip* (pip으로 시작하는 거는 모두 에드하겠다는 뜻 )
+  ```
+
+  
+
+- ` SLACK_TOKEN` 으로 챗봇의 토큰을 저장하는 변수를 만듭니다. 
+  - slack API의 비밀번호(=OAut Token)에 해당하는 부분 : GitHub에 업로드 금지
+  - 별도의 파일(secret.py)로 분리해서 해당 파일은 GitHub에 올리지 않도록 합니다.
+
+  1.  새파일 만들어서 secret.py 이름으로 저장합니다. 
+  2.  slack token을  secret.py 에 복사해서 저장합니다.
+  3.  Slack token을 import 해준다. 
+
+  
+
+  Import 해주는 방법은 아래의 2개 중에 하나를 사용합니다.
+  ~~~
+  from secret import SLACK_TOKEN 
+  
+  import secret 
+  => 호출 시에 secret.SLACK_TOKEN 
+  ~~~
+
+  
+
+- 깃허브에 업로드 시 `.git ingnore` 파일을 새로 만들어서 업로드 되면 안되는 것들(rtmbot.log, secret.py) 을 등록 해줍니다. 
+
+  - 다른 개발자도 무시할 수 있도록 gitignore도 함께 깃허브에 올려줍니다. 
+
+  ~~~
+  git add .gitignore 
+  ~~~
+
+
+
+올릴 내용이 모두 add 되었으면 commit 하고 push해서 해당 저장소로 업로드합니다. 
