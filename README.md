@@ -12,9 +12,9 @@
 
 180702 [tidydata](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180702_tidydata.md)
 
-180703[Python introduction](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180703_Python%20introduction.md)
+180703 [Python introduction](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180703_Python%20introduction.md)
 
-180705[PythonReview(Lamda)](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180705_PythonReview(Lamda).md)
+180705 [PythonReview(Lamda)](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180705_PythonReview(Lamda).md)
 
 180705 [Resume(1)](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180705_Resume(1).md)
 
