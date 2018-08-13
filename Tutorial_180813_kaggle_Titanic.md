@@ -3,13 +3,13 @@
 
 #### 1. 스프레드시트로 캐글 참여하기
 
-1) 캐글 사이트에서 train.csv와 test.csv를 다운로드 받습니다.
+(1) 캐글 사이트에서 train.csv와 test.csv를 다운로드 받습니다.
 
-2) 구글 스프레드 시트에 titanic 폴더를 하나 생성하고 파일을 올립니다.
+(2) 구글 스프레드 시트에 titanic 폴더를 하나 생성하고 파일을 올립니다.
 
-3) train.csv 시트를 열어 봅니다.
+(3) train.csv 시트를 열어 봅니다.
 
-4) train.csv 시트에서 피봇테이블로 각 항목별 생존률을 봅니다.
+(4) train.csv 시트에서 피봇테이블로 각 항목별 생존률을 봅니다.
 
 예) 성별, 등급, 가족, 탑승지 등에 따라 생존률을 봅니다.
 
@@ -17,32 +17,35 @@
 
 ![img](https://lh6.googleusercontent.com/A6s5d8YAUkj2ZfTNfX-NQprR3ahGeDlw3HNVSzD34dKpdyKSArJqLJf1aQYMVYty51-lgZxrKB-ApCQ822Lt1nHomdHZR7fbCh3XHSTQCnuH6Kkccg2YnZXFwEYQTVPZ9lRDFvZi)
 
-5) train.csv 의 피봇테이블에서 본 데이터를 바탕으로
+(5) train.csv 의 피봇테이블에서 본 데이터를 바탕으로
 
-6) test.csv 파일에서 스프레드시트의 수식기호를 사용해 생존자를 구해봅니다. 
+(6) test.csv 파일에서 스프레드시트의 수식기호를 사용해 생존자를 구해봅니다. 
 
 생존했을 때 1, 그렇지 못했을 때 0으로 표시합니다. 예) =IF(E3="female", 1, 0)전체행에 수식을 적용하는 것은 수식이 있는 첫번째 셀의 작은 네모에 마우스를 가져가면 + 표시가 생깁니다. 이 표시를 더블클릭하면 전체 행에 수식이 적용됩니다. 
 
 ![img](https://lh5.googleusercontent.com/CU1FSXUrXH0OjbvJx-v55rHZmI_atQ1GC5vNBk6eAff4XlMZzNz4bTEu-hkW3HpKIkGgGfhIMaMBuD8WPxN3N6i3XniNjNDCiDJjoB3DUWtBWdfQw2o-kv54dgz2VmwnsSHwTdJs)
 
-7) submission 파일을 만들어 제출합니다. 이때, submission 파일의 형식은 캐글 사이트에서 다운로드 받은 것과 같은 형식이어야 합니다. 다음과 같은 2개의 컬럼을 가지며 컬럼명이 일치해야 합니다.PassengerIdSurvived
+(7) submission 파일을 만들어 제출합니다. 이때, submission 파일의 형식은 캐글 사이트에서 다운로드 받은 것과 같은 형식이어야 합니다. 다음과 같은 2개의 컬럼을 가지며 컬럼명이 일치해야 합니다.PassengerIdSurvived
 
-8) 새로운 시트를 만들어 수식을 제외한 값만 붙여넣기 해서 제출 파일을 만듭니다.![img](https://lh4.googleusercontent.com/MC_00j3ylufe1w5iYSdZqKTheU3XH70jTzRiXpzZK0rb4yk-k5i1IbHwQt3zME5v9FkU2pCr1j39qXoKHmk7hYO2Pdrmfi41OI4-_63l5nOrlF16q7PI2IFUgTuMEevldwG594f0)예) 제출파일 형태로 csv로 저장
+(8) 새로운 시트를 만들어 수식을 제외한 값만 붙여넣기 해서 제출 파일을 만듭니다.
+
+![img](https://lh4.googleusercontent.com/MC_00j3ylufe1w5iYSdZqKTheU3XH70jTzRiXpzZK0rb4yk-k5i1IbHwQt3zME5v9FkU2pCr1j39qXoKHmk7hYO2Pdrmfi41OI4-_63l5nOrlF16q7PI2IFUgTuMEevldwG594f0)예) 제출파일 형태로 csv로 저장
 
 ![img](https://lh3.googleusercontent.com/JxUyUcUXrO79aSB_1BJNxnch0XaUDid1419Rh0aFDnSjhQYV-ZysgEnoueEYmBljJsy20TMUNPmbL2HQZXOdfzagnYWxXLDDYfHaVFUUyahRsnn-FDYBLInNX_-3mp6xKbgH6fDn)
-9) 조별 실습을 통해 데이터를 보고 생존률을 머신러닝이 아닌 집단지성을 통해 해결해 봅니다.
 
-10) 스프레드시트의 수식으로 집단지성을 구현해 보고 캐글에 제출하고 어느 조가 가장 높은 점수를 얻는지 공유해 보도록 해요.
+(9) 조별 실습을 통해 데이터를 보고 생존률을 머신러닝이 아닌 집단지성을 통해 해결해 봅니다.
+
+(10) 스프레드시트의 수식으로 집단지성을 구현해 보고 캐글에 제출하고 어느 조가 가장 높은 점수를 얻는지 공유해 보도록 해요.
 
 
 ### 2. 파이썬으로 분석하기
 
 엑셀로 분석했던 과정을 똑같이 파이썬으로 해봅니다.
 
-1. train, test.csv 파일불러오기
-2. 엑셀에서 했던 것 처럼 pivot 테이블 만들어 분석해 보기
-3. 파이썬 코드로 엑셀에서 했던 과정을 똑같이 해보기
-4. submission.csv 파일 생성해서 제출해 보기
+(1) train, test.csv 파일불러오기
+(2) 엑셀에서 했던 것 처럼 pivot 테이블 만들어 분석해 보기
+(3) 파이썬 코드로 엑셀에서 했던 과정을 똑같이 해보기
+(4) submission.csv 파일 생성해서 제출해 보기
 
 
 
@@ -85,19 +88,7 @@ train.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -234,19 +225,7 @@ train.groupby('Sex')[['Survived']].mean()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -282,19 +261,7 @@ train.pivot_table(values=['Survived'], index=['Sex'], aggfunc=np.mean)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -330,19 +297,7 @@ train.pivot_table(index=['Sex'])
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -403,23 +358,7 @@ train.groupby('Sex')[['Survived']].describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead tr th {
-        text-align: left;
-    }
-
-    .dataframe thead tr:last-of-type th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -488,19 +427,7 @@ train.pivot_table('Survived', ['Sex', 'Pclass'], aggfunc=np.mean)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -556,19 +483,7 @@ train.groupby('Sex')[['Survived']].mean()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -611,19 +526,7 @@ test.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -775,19 +678,7 @@ submission.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -844,19 +735,7 @@ submission.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
