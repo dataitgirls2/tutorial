@@ -50,9 +50,15 @@ Beautiful Soup을 사용하여 크롤링, 국민청원 데이터 시각화와 �
 국민청원 카테고리 분류하기, Kaggle_NLP로 예측율 높이기  
 
 180731 [MTPlanning_project](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180731_MTPlanning.md)
+데잇걸즈 MT 계획으로 애자일 프로세스 실습해보기  
 
 180802 [Data_analysis_seminar_Shoppingmall](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180802_ZigZag.md)
+ZIGZAG데이터 분석 이야기_크로키닷컴 by. 박인성님  
 
 180803 [Github_seminar](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180803_GettingJobGithub.md), [Linear regression](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180803_Statistics4.md)
+깃허브로 취업하기, 회귀분석  
 
 180806 [Folium_practice.ipynb](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180806_Folium_practice.ipynb), [Geolocatin_API_practice.ipynb](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180806_Geolocatin_API_practice.ipynb), [XGBoost.ipynb](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180806_XGBoost.ipynb)
+공공데이터 상권정보 분석해 보기  
+
+
