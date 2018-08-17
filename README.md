@@ -29,19 +29,19 @@
 180713 [Pandas](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180713_Pandas101.md), [ExperimentDesign](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180713_ExperimentDesignLecture_%EA%B9%80%EC%B0%BD%EC%A4%80%EB%8B%98.md)  자료의 요약 과제를 통한 판다스 실습, 실험계획에 관해 알아보기
 
 180716 [Crawling_Shuffle](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180716_Crawling_Shuffle.md), [Markup_Html5lib](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180716_Markup_Html5lib.md)
-
+저작권과 직업윤리를 인지하고 크롤링 셔틀 실습, 파이썬으로 크롤링하기  
 180717 [10minPandas](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180717_10minPandas.md), [PandasPetition](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180717_PandasPetition.md)
-
+10분 판다스, 판다스로 국민청원하기  
 180719 [Crawling_BeautifulSoup](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180719_%20BeautifulSoup.md), [Plotnine.ipynb](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180719_plotnine.ipynb)
-저작권과 직업윤리를 인지하고 크롤링 셔틀 실습, 파이썬으로 크롤링하기
+Beautiful Soup을 사용하여 크롤링, 국민청원 데이터 시각화와 자연어 처리-plontnine 실습하기  
 180720 [Data_analysis_seminar_Commerce](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180720_coupang.md), [ProbabilityDistribution](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180720_ProbabilityDistribution.md)
-10분 판다스, 판다스로 국민청원하기
+네이버 클로바 AI R&D Director 배순민님 특강, 통계학-자료의 요약, 확률분포  
 180723 [Machine_learning](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180723_Machine%20learning.md), [Word_vectorsization](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180723_word%20vectorsization.md)
-Beautiful Soup을 사용하여 크롤링, 국민청원 데이터 시각화와 자연어 처리-plontnine 실습하기
+기계학습의 기초(지도학습/비지도학습/머신러닝), 텍스트 데이터 시각화 (워드투백)  
 180726 [Data_analysis_seminar_Portal](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180726_naver.md), [Library.ipynb](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180726_library.ipynb)
-네이버 클로바 AI R&D Director 배순민님 특강, 통계학-자료의 요약, 확률분포
+
 180730 [Categorizing](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180730_Categorizing_v2.md), [Kaggle_NLP](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180730_Kaggle_NLP_v2.md), [Hypothesis test](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180730_Statistics.md)
-기계학습의 기초(지도학습/비지도학습/머신러닝), 
+
 180731 [MTPlanning_project](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180731_MTPlanning.md)
 
 180802 [Data_analysis_seminar_Shoppingmall](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180802_ZigZag.md)
