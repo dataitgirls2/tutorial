@@ -87,3 +87,66 @@
     4. 저장 : Ctrl + S
     ~~~
 
+
+
+
+테스트 주도 개발 (Test-Driven Development)
+
+- (복습) 테스트 주도 개발 순서
+  1. 테스트 추가
+  2. 테스트 실행 → 실패 확인
+  3. 코드 수정 → 테스트 성공 확인
+  4. 깔끔한 코드로 다듬기
+     - 의도가 잘 드러나며, 중복이 없다.
+     - DTSTTCPW : Do the simplest thing that could possibly work.
+     - YAGNI : You ain't gonna need it
+  5. 테스트 다시 실행 → 성공 확인
+  6. Go to 1.
+  
+- (시연) 테스트 주도 개발 사례 : 피보나치 수열 구현
+  - 테스트 주도 개발의 '테스트' : 개발 알고리즘의 구현이 가능한 정도로 테스트 실행
+  - 테스트 주도 개발을 해도 QA 과정은 필요 (테스트 대상, 범위, 방법이 다소 다름)
+  
+- (실습) 테스트 주도 개발 사례 : Vending Machine Bot
+      1. Atom : 테스트 코드 파일 생성
+      2. Anaconda Prompt/Git Bash : 테스트 코드 실행, 에러 메시지 확인
+      3. Atom : 에러 메시지를 참고하여 테스트 코드 파일 수정
+      4. Anaconda Prompt/Git Bash : 테스트 코드 재실행, 성공 확인
+      5. Atom : 깔끔한 코드로 다듬기
+      6. Anaconda Prompt/Git Bash : 다듬은 코드에 대한 테스트 실행, 성공 확인
+      7. Git Bash : git status, git idff, git add . , git commit
+      
+      
+      
+- 프로젝트 폴더 만들기 (git bash):
+      
+      1. cd 명령으로 프로젝트 모음 폴더로 이동. 예: cd /Users/ak/Projects
+      2. pwd 명령으로 현재 경로 확인
+      3. mkdir 명령으로 프로젝트 폴더 생성: 예: mkdir vendingmachine
+      4. cd 명령으로 프로젝트 폴더로 이동. 예: cd vendingmachine
+      5. pwd 명령으로 현재 경로 확인
+      6. 깃 초기화: git init (깃헙에 올리지 않고도 깃을 사용할 수 있어요)
+      7. 아톰으로 프로젝트 폴더 열기
+      8. 빈 테스트 파일 만들기: test_vm.py (반드시 test_로 시작하는 이름으로 생성)
+      
+      def test_plus():
+          assert 3 == 1 + 2
+          
+          
+- 파이썬 가상 환경 만들기 (Anaconda Prompt):
+      
+      1. cd 명령으로 프로젝트 폴더로 이동. 예: cd /Users/ak/Projects/vendingmachine
+      2. 가상 환경 생성: pipenv --python 3.6 (에러가 나면 이 단계는 건너뛰기)
+      3. 단위 테스트 라이브러리 설치: pipenv install pytest
+      (2번 단계에서 에러가 났으면 pip install pytest)
+      4. 실행해보기: pipenv run pytest
+      (2번 단계에서 에러가 났으면 pytest)
+      
+  - 반드시 git status 해보기
+  - 넣지 말아야할 파일들은 꼭  .gitignore에 등록
+    
+- 좋은 테스트의 요건
+  - Test Isolation : 테스트 간의 간섭 효과가 없어야 함
+  - 하나의 기능(논리적인 단위) 별로 테스트가 생성되어야 함
+    (= 오류는 1개인데 테스트 코드 여러 개가 깨진다면 테스트 코드를 잘못 짠거임)
+
