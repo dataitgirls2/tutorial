@@ -61,5 +61,19 @@ ZIGZAG데이터 분석 이야기_크로키닷컴 by. 박인성님
 180806 [Folium_practice.ipynb](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180806_Folium_practice.ipynb), [Geolocatin_API_practice.ipynb](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180806_Geolocatin_API_practice.ipynb), [XGBoost.ipynb](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180806_XGBoost.ipynb)
 공공데이터 상권정보 분석해 보기,서울창업허브(공덕역) 맛집지도 ,XGBoost 분산형 그래디언트 부스팅 알고리즘  
 
+180807 [Git review](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180807_Git_review.md)
+깃과 깃헙 복습, 다른 사람의 레파지토리에 기여하기
 
+180810 [Apartment Analysis Statistics](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180810_Apt_analysis_Statistics5.md)
+아파트 분양가 분석 및 회귀분석
+
+180813 [Kaggle Titanic](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180813_kaggle_Titanic.md)
+스프레드시트로 캐글 타이타닉 참가하기
+
+180814 [Python Obejct-oriented Programming](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180814_Python_Class.md)
+[Test Driven Development](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180814_Test_Driven_Development.md)
+테스트 주도 개발, 객체지향 프로그래밍
+
+180817 [Colors in Data Visualization](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180817_Colors_in_Data_Visualization.ipynb)
+데이터 시각화와 
 
