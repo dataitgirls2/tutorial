@@ -75,5 +75,5 @@ ZIGZAG데이터 분석 이야기_크로키닷컴 by. 박인성님
 테스트 주도 개발, 객체지향 프로그래밍
 
 180817 [Colors in Data Visualization](https://github.com/dataitgirls2/tutorial/blob/master/Tutorial_180817_Colors_in_Data_Visualization.ipynb)
-데이터 시각화와 
+데이터 시각화와 색의 활용
 
