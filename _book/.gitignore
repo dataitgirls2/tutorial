@@ -1,3 +1,6 @@
-.ipynb_checkpoints/
-.sass-cache/
-_site/
+MANIFEST
+.DS_Store
+_book
+node_modules
+.idea
+.swp
