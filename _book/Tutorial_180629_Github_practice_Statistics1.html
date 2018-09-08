@@ -1,0 +1,831 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title> 확률통계 기초와 깃허브 실습  · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Tutorial_180629_Statistics.html" />
+    
+    
+    <link rel="prev" href="Tutorial_180629_Git_with_constitution.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Tutorial_180628_Git_and_Github.html">
+            
+                <a href="Tutorial_180628_Git_and_Github.html">
+            
+                    
+                    Git과 Github, 기본 개념과 설명
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Tutorial_180629_Git_with_constitution.html">
+            
+                <a href="Tutorial_180629_Git_with_constitution.html">
+            
+                    
+                    헌법개정안으로 깃베쉬, 소스트리, 브랜치 이해하기 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="Tutorial_180629_Github_practice_Statistics1.html">
+            
+                <a href="Tutorial_180629_Github_practice_Statistics1.html">
+            
+                    
+                     확률통계 기초와 깃허브 실습 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Tutorial_180629_Statistics.html">
+            
+                <a href="Tutorial_180629_Statistics.html">
+            
+                    
+                    통계 기본 개념과 설명
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Tutorial_180702_Programming_Intro.html">
+            
+                <a href="Tutorial_180702_Programming_Intro.html">
+            
+                    
+                    스크래치 실습을 통한 프로그래밍 맛보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Tutorial_180702_tidydata.html">
+            
+                <a href="Tutorial_180702_tidydata.html">
+            
+                    
+                    데이터다루기(tidydata)와 프로그래밍기초
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Tutorial_180703_Python%20introduction.md">
+            
+                <span>
+            
+                    
+                    파이썬 기초 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Tutorial_180705_PythonReview(Lamda">
+            
+                <span>
+            
+                    
+                    범죄데이터로 파이썬 실습 (Lamda)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="Tutorial_180705_Resume(1">
+            
+                <span>
+            
+                    
+                    자기소개서 워크숍(1)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="Tutorial_180706_Civic_hacking_seminar.html">
+            
+                <a href="Tutorial_180706_Civic_hacking_seminar.html">
+            
+                    
+                    특강_시빅해킹
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="Tutorial_180709_StaticBlogging_JekyllandRuby.html">
+            
+                <a href="Tutorial_180709_StaticBlogging_JekyllandRuby.html">
+            
+                    
+                    지킬과 루비로 정적 블로그 만들기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="Tutorial_180710_Lecture_Cooperation_%EA%B9%80%EC%B0%BD%EC%A4%80%EB%8B%98.md">
+            
+                <span>
+            
+                    
+                    협업 특강
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="Tutorial_180710_Lecture_Speciality_%EA%B9%80%EC%B0%BD%EC%A4%80%EB%8B%98.md">
+            
+                <span>
+            
+                    
+                    전문성 특강
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="Tutorial_180712_DataVisualization101.html">
+            
+                <a href="Tutorial_180712_DataVisualization101.html">
+            
+                    
+                    데이터 시각화 이해
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="Tutorial_180712_AttraciveResume2.html">
+            
+                <a href="Tutorial_180712_AttraciveResume2.html">
+            
+                    
+                    자소서 특강 (2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="Tutorial_180713_Pandas101.html">
+            
+                <a href="Tutorial_180713_Pandas101.html">
+            
+                    
+                    자료의 요약 과제를 통한 판다스 실습
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="Tutorial_180713_ExperimentDesignLecture_%EA%B9%80%EC%B0%BD%EC%A4%80%EB%8B%98.md">
+            
+                <span>
+            
+                    
+                    실험계획에 관해 알아보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="Tutorial_180716_Crawling_Shuffle.html">
+            
+                <a href="Tutorial_180716_Crawling_Shuffle.html">
+            
+                    
+                    저작권과 직업윤리를 인지하고 크롤링 셔플 실습
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="Tutorial_180716_Markup_Html5lib.html">
+            
+                <a href="Tutorial_180716_Markup_Html5lib.html">
+            
+                    
+                    Markup Html5lib, 파이썬으로 크롤링하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="Tutorial_180717_10minPandas.html">
+            
+                <a href="Tutorial_180717_10minPandas.html">
+            
+                    
+                    Pandas 10분 완성
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="Tutorial_180717_PandasPetition.html">
+            
+                <a href="Tutorial_180717_PandasPetition.html">
+            
+                    
+                    PandasPetition
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="Tutorial_180719_%20BeautifulSoup.md">
+            
+                <span>
+            
+                    
+                    Beautiful Soup을 사용하여 크롤링
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="Tutorial_180719_plotnine.md">
+            
+                <span>
+            
+                    
+                    국민청원 데이터 시각화와 자연어 처리-plontnine 실습하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="Tutorial_180720_coupang.html">
+            
+                <a href="Tutorial_180720_coupang.html">
+            
+                    
+                    특강 - 비전공자가 데이터 분석가로 취업하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="Tutorial_180720_ProbabilityDistribution.html">
+            
+                <a href="Tutorial_180720_ProbabilityDistribution.html">
+            
+                    
+                    통계학-자료의 요약, 확률분포(ProbabilityDistribution)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="Tutorial_180723_Machine%20learning.md">
+            
+                <span>
+            
+                    
+                    기계학습의 기초(지도학습/비지도학습/머신러닝)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="Tutorial_180723_word%20vectorsization.md">
+            
+                <span>
+            
+                    
+                    텍스트 데이터 시각화 Word_vectorsization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="Tutorial_180726_naver.html">
+            
+                <a href="Tutorial_180726_naver.html">
+            
+                    
+                    특강 - AI R&D Director 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="Tutorial_180726_library.md">
+            
+                <span>
+            
+                    
+                    전국도서관표준데이터 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="Tutorial_180730_Categorizing_v2.html">
+            
+                <a href="Tutorial_180730_Categorizing_v2.html">
+            
+                    
+                    국민청원 카테고리 분류하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="Tutorial_180730_Kaggle_NLP_v2.html">
+            
+                <a href="Tutorial_180730_Kaggle_NLP_v2.html">
+            
+                    
+                    Kaggle NLP로 예측율 높이기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="Tutorial_180730_Statistics.html">
+            
+                <a href="Tutorial_180730_Statistics.html">
+            
+                    
+                    Hypothesis test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="Tutorial_180731_MTPlanning.html">
+            
+                <a href="Tutorial_180731_MTPlanning.html">
+            
+                    
+                    데잇걸즈 MT 계획으로 애자일 프로세스 실습해보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="Tutorial_180802_ZigZag.html">
+            
+                <a href="Tutorial_180802_ZigZag.html">
+            
+                    
+                    특강 - 쇼핑몰 데이터 분석 이야기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="Tutorial_180803_GettingJobGithub.html">
+            
+                <a href="Tutorial_180803_GettingJobGithub.html">
+            
+                    
+                    깃허브로 취업하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="Tutorial_180803_Statistics4.html">
+            
+                <a href="Tutorial_180803_Statistics4.html">
+            
+                    
+                    회귀분석(Linear regression)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="Tutorial_180806_Folium_practice.md">
+            
+                <span>
+            
+                    
+                    공공데이터 상권정보 분석해 보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="Tutorial_180806_Geolocatin_API_practice.md">
+            
+                <span>
+            
+                    
+                    서울창업허브(공덕역) 맛집지도
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="Tutorial_180806_XGBoost.md">
+            
+                <span>
+            
+                    
+                    XGBoost 분산형 그래디언트 부스팅 알고리즘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41" data-path="Tutorial_180807_Git_review.html">
+            
+                <a href="Tutorial_180807_Git_review.html">
+            
+                    
+                    깃과 깃헙 복습, 다른 사람의 레파지토리에 기여하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.42" data-path="Tutorial_180810_Apt_analysis_Statistics5.html">
+            
+                <a href="Tutorial_180810_Apt_analysis_Statistics5.html">
+            
+                    
+                    아파트 분양가 분석 및 회귀분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.43" data-path="Tutorial_180813_kaggle_Titanic.html">
+            
+                <a href="Tutorial_180813_kaggle_Titanic.html">
+            
+                    
+                    스프레드시트로 캐글 타이타닉 참가하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.44" data-path="Tutorial_180814_Python_Class.html">
+            
+                <a href="Tutorial_180814_Python_Class.html">
+            
+                    
+                    객체지향 프로그래밍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.45" data-path="Tutorial_180814_Test_Driven_Development.html">
+            
+                <a href="Tutorial_180814_Test_Driven_Development.html">
+            
+                    
+                    테스트 주도 개발
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46" data-path="Tutorial_180817_Colors_in_Data_Visualization.md">
+            
+                <span>
+            
+                    
+                    데이터 시각화와 색의 활용
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." > 확률통계 기초와 깃허브 실습 </a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>Created by Jieun Kim, Dahye Lee, Sohyun Park, Dayoung Hong</p>
+<h1 id="tutorial2-0629-fri">Tutorial2 0629 Fri</h1>
+<h2 id="&#xD655;&#xB960;-&#xD1B5;&#xACC4;-&#xAE30;&#xCD08;-by-&#xC9C0;&#xD604;&#xC324;">&#xD655;&#xB960; &#xD1B5;&#xACC4; &#xAE30;&#xCD08; by &#xC9C0;&#xD604;&#xC324;</h2>
+<h2 id="github-&#xC2E4;&#xC2B5;-by-&#xBC30;&#xB85C;&#xC324;">Github &#xC2E4;&#xC2B5; by &#xBC30;&#xB85C;&#xC324;</h2>
+<h3 id="1987&#xB144;-&#xD5CC;&#xBC95;&#xAC1C;&#xC815;&#xC548;-&#xB9AC;&#xBAA8;&#xD2B8;-&#xC800;&#xC7A5;&#xC18C;&#xC5D0;-push&#xD558;&#xAE30;">&quot;1987&#xB144; &#xD5CC;&#xBC95;&#xAC1C;&#xC815;&#xC548;&quot; &#xB9AC;&#xBAA8;&#xD2B8; &#xC800;&#xC7A5;&#xC18C;&#xC5D0; push&#xD558;&#xAE30;</h3>
+<p><strong>git init
+git add &quot;&#xB300;&#xD55C;&#xBBFC;&#xAD6D; &#xD5CC;&#xBC95;.txt&quot;
+git commit -m &quot;1987&#xB144; &#xD5CC;&#xBC95;&quot;
+git remote add origin <a href="https://github.com/oranjieunk/constitution-kr.git" target="_blank">https://github.com/oranjieunk/constitution-kr.git</a>
+git push -f origin master</strong></p>
+<h3 id="2018-&#xD5CC;&#xBC95;&#xAC1C;&#xC815;&#xC548;&#xC744;-branch&#xB85C;-push&#xD558;&#xAE30;">&quot;2018 &#xD5CC;&#xBC95;&#xAC1C;&#xC815;&#xC548;&quot;&#xC744; Branch&#xB85C; push&#xD558;&#xAE30;</h3>
+<p><strong>git checkout -b &quot;2018&quot;
+git add &quot;&#xB300;&#xD55C;&#xBBFC;&#xAD6D; &#xD5CC;&#xBC95;.txt&quot;
+git commit -m &quot;2018&#xB144; &#xAC1C;&#xC815;&#xC548;&quot;
+git push -u origin 2018</strong>
+=&gt; github &#xD398;&#xC774;&#xC9C0;&#xC5D0;&#xC11C; Pull request &#xC0DD;&#xC131;&#xD558;&#xACE0;, Merge&#xD558;&#xAE30;</p>
+<h2 id="&#xC218;&#xC5C5;-&#xC678;">&#xC218;&#xC5C5; &#xC678;</h2>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Tutorial_180629_Git_with_constitution.html" class="navigation navigation-prev " aria-label="Previous page: 헌법개정안으로 깃베쉬, 소스트리, 브랜치 이해하기 ">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Tutorial_180629_Statistics.html" class="navigation navigation-next " aria-label="Next page: 통계 기본 개념과 설명">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":" 확률통계 기초와 깃허브 실습 ","level":"1.4","depth":1,"next":{"title":"통계 기본 개념과 설명","level":"1.5","depth":1,"path":"Tutorial_180629_Statistics.md","ref":"Tutorial_180629_Statistics.md","articles":[]},"previous":{"title":"헌법개정안으로 깃베쉬, 소스트리, 브랜치 이해하기 ","level":"1.3","depth":1,"path":"Tutorial_180629_Git_with_constitution.md","ref":"Tutorial_180629_Git_with_constitution.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Tutorial_180629_Github_practice_Statistics1.md","mtime":"2018-07-28T22:58:53.186Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-08T10:01:46.499Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
