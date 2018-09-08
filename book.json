@@ -1,0 +1,11 @@
+{
+    "plugins": ["ga", "-sharing"],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-43356518-7"
+        }
+    },
+    "variables": {
+        "BASE_URL": "https://dataitgirls2.github.io"
+    }
+}
