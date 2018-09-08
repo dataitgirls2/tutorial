@@ -1,0 +1,979 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>깃과 깃헙 복습, 다른 사람의 레파지토리에 기여하기 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Tutorial_180810_Apt_analysis_Statistics5.html" />
+    
+    
+    <link rel="prev" href="Tutorial_180806_XGBoost.md" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Tutorial_180628_Git_and_Github.html">
+            
+                <a href="Tutorial_180628_Git_and_Github.html">
+            
+                    
+                    Git과 Github, 기본 개념과 설명
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Tutorial_180629_Git_with_constitution.html">
+            
+                <a href="Tutorial_180629_Git_with_constitution.html">
+            
+                    
+                    헌법개정안으로 깃베쉬, 소스트리, 브랜치 이해하기 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Tutorial_180629_Github_practice_Statistics1.html">
+            
+                <a href="Tutorial_180629_Github_practice_Statistics1.html">
+            
+                    
+                     확률통계 기초와 깃허브 실습 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Tutorial_180629_Statistics.html">
+            
+                <a href="Tutorial_180629_Statistics.html">
+            
+                    
+                    통계 기본 개념과 설명
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Tutorial_180702_Programming_Intro.html">
+            
+                <a href="Tutorial_180702_Programming_Intro.html">
+            
+                    
+                    스크래치 실습을 통한 프로그래밍 맛보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Tutorial_180702_tidydata.html">
+            
+                <a href="Tutorial_180702_tidydata.html">
+            
+                    
+                    데이터다루기(tidydata)와 프로그래밍기초
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Tutorial_180703_Python%20introduction.md">
+            
+                <span>
+            
+                    
+                    파이썬 기초 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Tutorial_180705_PythonReview_Lamda.html">
+            
+                <a href="Tutorial_180705_PythonReview_Lamda.html">
+            
+                    
+                    범죄데이터로 파이썬 실습 (Lamda)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="Tutorial_180705_Resume_01.html">
+            
+                <a href="Tutorial_180705_Resume_01.html">
+            
+                    
+                    특강-자기소개서 워크숍(1)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="Tutorial_180706_Civic_hacking_seminar.html">
+            
+                <a href="Tutorial_180706_Civic_hacking_seminar.html">
+            
+                    
+                    특강-시빅해킹
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="Tutorial_180709_StaticBlogging_JekyllandRuby.html">
+            
+                <a href="Tutorial_180709_StaticBlogging_JekyllandRuby.html">
+            
+                    
+                    지킬과 루비로 정적 블로그 만들기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="Tutorial_180710_Lecture_Cooperation.html">
+            
+                <a href="Tutorial_180710_Lecture_Cooperation.html">
+            
+                    
+                    특강-협업
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="Tutorial_180710_Lecture_Speciality.html">
+            
+                <a href="Tutorial_180710_Lecture_Speciality.html">
+            
+                    
+                    특강-전문성
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="Tutorial_180712_DataVisualization101.html">
+            
+                <a href="Tutorial_180712_DataVisualization101.html">
+            
+                    
+                    데이터 시각화 이해
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="Tutorial_180712_AttraciveResume2.html">
+            
+                <a href="Tutorial_180712_AttraciveResume2.html">
+            
+                    
+                    특강-자기소개서 워크숍(2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="Tutorial_180713_Pandas101.html">
+            
+                <a href="Tutorial_180713_Pandas101.html">
+            
+                    
+                    자료의 요약 과제를 통한 판다스 실습
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="Tutorial_180713_ExperimentDesignLecture.html">
+            
+                <a href="Tutorial_180713_ExperimentDesignLecture.html">
+            
+                    
+                    특강-실험계획에 관해 알아보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="Tutorial_180716_Crawling_Shuffle.html">
+            
+                <a href="Tutorial_180716_Crawling_Shuffle.html">
+            
+                    
+                    저작권과 직업윤리를 인지하고 크롤링 셔플 실습
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="Tutorial_180716_Markup_Html5lib.html">
+            
+                <a href="Tutorial_180716_Markup_Html5lib.html">
+            
+                    
+                    Markup Html5lib, 파이썬으로 크롤링하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="Tutorial_180717_10minPandas.html">
+            
+                <a href="Tutorial_180717_10minPandas.html">
+            
+                    
+                    Pandas 10분 완성
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="Tutorial_180717_PandasPetition.html">
+            
+                <a href="Tutorial_180717_PandasPetition.html">
+            
+                    
+                    국민청원 첫시작 판다스로 국민청원하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="Tutorial_180719_%20BeautifulSoup.md">
+            
+                <span>
+            
+                    
+                    Beautiful Soup을 사용하여 크롤링
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="Tutorial_180719_plotnine.md">
+            
+                <span>
+            
+                    
+                    국민청원 데이터 시각화와 자연어 처리-plontnine 실습하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="Tutorial_180720_coupang.html">
+            
+                <a href="Tutorial_180720_coupang.html">
+            
+                    
+                    특강 - 비전공자가 데이터 분석가로 취업하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="Tutorial_180720_ProbabilityDistribution.html">
+            
+                <a href="Tutorial_180720_ProbabilityDistribution.html">
+            
+                    
+                    통계학-자료의 요약, 확률분포(ProbabilityDistribution)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="Tutorial_180723_Machine%20learning.md">
+            
+                <span>
+            
+                    
+                    기계학습의 기초(지도학습/비지도학습/머신러닝)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="Tutorial_180723_word%20vectorsization.md">
+            
+                <span>
+            
+                    
+                    텍스트 데이터 시각화 Word_vectorsization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="Tutorial_180726_naver.html">
+            
+                <a href="Tutorial_180726_naver.html">
+            
+                    
+                    특강 - AI R&D Director 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="Tutorial_180726_library.md">
+            
+                <span>
+            
+                    
+                    전국도서관표준데이터 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="Tutorial_180730_Categorizing_v2.html">
+            
+                <a href="Tutorial_180730_Categorizing_v2.html">
+            
+                    
+                    국민청원 카테고리 분류하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="Tutorial_180730_Kaggle_NLP_v2.html">
+            
+                <a href="Tutorial_180730_Kaggle_NLP_v2.html">
+            
+                    
+                    Kaggle NLP로 예측율 높이기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="Tutorial_180730_Statistics.html">
+            
+                <a href="Tutorial_180730_Statistics.html">
+            
+                    
+                    Hypothesis test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="Tutorial_180731_MTPlanning.html">
+            
+                <a href="Tutorial_180731_MTPlanning.html">
+            
+                    
+                    데잇걸즈 MT 계획으로 애자일 프로세스 실습해보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="Tutorial_180802_ZigZag.html">
+            
+                <a href="Tutorial_180802_ZigZag.html">
+            
+                    
+                    특강 - 쇼핑몰 데이터 분석 이야기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="Tutorial_180803_GettingJobGithub.html">
+            
+                <a href="Tutorial_180803_GettingJobGithub.html">
+            
+                    
+                    깃허브로 취업하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="Tutorial_180803_Statistics4.html">
+            
+                <a href="Tutorial_180803_Statistics4.html">
+            
+                    
+                    회귀분석(Linear regression)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="Tutorial_180806_Folium_practice.md">
+            
+                <span>
+            
+                    
+                    공공데이터 상권정보 분석해 보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="Tutorial_180806_Geolocatin_API_practice.md">
+            
+                <span>
+            
+                    
+                    서울창업허브(공덕역) 맛집지도
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="Tutorial_180806_XGBoost.md">
+            
+                <span>
+            
+                    
+                    XGBoost 분산형 그래디언트 부스팅 알고리즘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.41" data-path="Tutorial_180807_Git_review.html">
+            
+                <a href="Tutorial_180807_Git_review.html">
+            
+                    
+                    깃과 깃헙 복습, 다른 사람의 레파지토리에 기여하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.42" data-path="Tutorial_180810_Apt_analysis_Statistics5.html">
+            
+                <a href="Tutorial_180810_Apt_analysis_Statistics5.html">
+            
+                    
+                    아파트 분양가 분석 및 회귀분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.43" data-path="Tutorial_180813_kaggle_Titanic.html">
+            
+                <a href="Tutorial_180813_kaggle_Titanic.html">
+            
+                    
+                    스프레드시트로 캐글 타이타닉 참가하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.44" data-path="Tutorial_180814_Python_Class.html">
+            
+                <a href="Tutorial_180814_Python_Class.html">
+            
+                    
+                    객체지향 프로그래밍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.45" data-path="Tutorial_180814_Test_Driven_Development.html">
+            
+                <a href="Tutorial_180814_Test_Driven_Development.html">
+            
+                    
+                    테스트 주도 개발
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46" data-path="Tutorial_180817_Colors_in_Data_Visualization.md">
+            
+                <span>
+            
+                    
+                    데이터 시각화와 색의 활용
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >깃과 깃헙 복습, 다른 사람의 레파지토리에 기여하기</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#xC624;&#xC804;&#xC218;&#xC5C5;">&#xC624;&#xC804;&#xC218;&#xC5C5;</h3>
+<h4 id="git-&#xACFC;-github-&#xC774;&#xD574;&#xD558;&#xAE30;">Git &#xACFC; Github &#xC774;&#xD574;&#xD558;&#xAE30;</h4>
+<ul>
+<li>Slack chatbot &#xD504;&#xB85C;&#xC81D;&#xD2B8; &#xB9CC;&#xB4E4;&#xAE30;</li>
+<li><code>MIT&#xB77C;&#xC774;&#xC13C;&#xC2A4;</code> : &#xC790;&#xC720;&#xB86D;&#xAC8C; &#xC774;&#xC6A9; &#xAC00;&#xB2A5;&#xD558;&#xB098; &#xADF8;&#xB85C; &#xC778;&#xD574; &#xBC1C;&#xC0DD;&#xD558;&#xB294; &#xBB38;&#xC81C;&#xB294; &#xCC45;&#xC784;&#xC9C0;&#xC9C0; &#xC54A;&#xC74C;. </li>
+<li><code>GPL&#xB77C;&#xC774;&#xC13C;&#xC2A4;</code> : &#xBB34;&#xC870;&#xAC74; gpl&#xC774; &#xB418;&#xC5B4;&#xC57C; &#xD568;.</li>
+<li>&#xB77C;&#xC774;&#xC13C;&#xC2A4;&#xAC00; &#xBA85;&#xC2DC;&#xB418;&#xC5B4;&#xC788;&#xC9C0; &#xC54A;&#xB2E4;&#xBA74;, &#xC6D0; &#xC800;&#xC791;&#xAD8C;&#xC790;&#xC5D0;&#xAC8C; &#xBB3C;&#xC5B4;&#xBCF4;&#xC544;&#xC57C; &#xD568;.</li>
+</ul>
+<h4 id="&#xAE43;&#xD5D9;&#xC73C;&#xB85C;-&#xAE43;-&#xC774;&#xD574;&#xD558;&#xAE30;-&#xC2E4;&#xC2B5;">&#xAE43;&#xD5D9;&#xC73C;&#xB85C; &#xAE43; &#xC774;&#xD574;&#xD558;&#xAE30; &#xC2E4;&#xC2B5;</h4>
+<p>&#xC774;&#xBC88; &#xC218;&#xC5C5;&#xC5D0;&#xC120; &#xAE43;&#xD5D9;&#xC5D0; &#xCC57;&#xBD07;&#xC744; &#xC704;&#xD55C; &#xB808;&#xD30C;&#xC9C0;&#xD1A0;&#xB9AC;&#xB97C; &#xB9CC;&#xB4E4;&#xC5B4; &#xC9DD;&#xAFCD;&#xACFC; &#xD568;&#xAED8; &#xACF5;&#xB3D9;&#xC791;&#xC5C5;&#xC744; &#xD558;&#xB294; &#xBC29;&#xBC95;&#xC744; &#xC775;&#xD600;&#xBCF4;&#xC558;&#xC2B5;&#xB2C8;&#xB2E4;. </p>
+<ul>
+<li><p>[&#xC2E4;&#xC2B5;] GitHub Repository&#xC640; Atom&#xC744; &#xD65C;&#xC6A9;&#xD55C; &#xC791;&#xC5C5; @ Git Bash</p>
+<pre><code> &#xC791;&#xC5C5; &#xACBD;&#xB85C; &#xD655;&#xC778; : $ pwd
+ &#xD3F4;&#xB354; &#xBCC0;&#xACBD; : $ cd &#xD3F4;&#xB354;&#xBA85;
+ &#xD3F4;&#xB354; &#xB0B4;&#xC758; &#xD30C;&#xC77C; &#xD655;&#xC778; : $ ls -als
+ &#xC790;&#xC2E0;&#xC758; Repo&#xB97C; Clone : $ git clone git@github.com:YoungestSalon/menubot.git
+ &#xC790;&#xC2E0;&#xC758; Repo&#xB97C; Atom&#xC5D0; &#xB744;&#xC6C0; : $ atom .
+ &#xC218;&#xC815; &#xC791;&#xC5C5; (@ Atom : Ex. &#xBB38;&#xC7A5; 1&#xAC1C; &#xCD94;&#xAC00; : print(&quot;Hello World!&quot;))
+ &#xC791;&#xC5C5; &#xB0B4;&#xC5ED; &#xD655;&#xC778; : $ git status
+ &#xC791;&#xC5C5; &#xB0B4;&#xC5ED; Add : $ git add main.py
+ &#xC791;&#xC5C5; &#xB0B4;&#xC5ED; Commit : $ git commit -m &quot;Hello World&quot;
+ &#xC791;&#xC5C5; &#xB0B4;&#xC5ED; Push : $ git push
+</code></pre><ul>
+<li><p>[&#xC2E4;&#xC2B5;] GitHub Repository&#xC640; Atom&#xC744; &#xD65C;&#xC6A9;&#xD55C; &#xD611;&#xC5C5; &#xC791;&#xC5C5; @ Git Bash</p>
+<pre><code>&#xC0C1;&#xC704; &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; : $ cd ..
+&#xC791;&#xC5C5; &#xACBD;&#xB85C; &#xD655;&#xC778; : $ pwd
+&#xD3F4;&#xB354; &#xB0B4;&#xC758; &#xD30C;&#xC77C; &#xD655;&#xC778; : $ ls
+&#xB3D9;&#xB8CC;&#xC758; Repo&#xB97C; Clone : $ git clone https://github.com/YoungestSalon/Quotesbot
+&#xB3D9;&#xB8CC;&#xC758; Repo&#xB97C; Atom&#xC5D0; &#xB744;&#xC6C0; : $ atom .
+&#xC218;&#xC815; &#xC791;&#xC5C5; (@ Atom)
+&#xBCC0;&#xACBD; &#xB0B4;&#xC5ED; &#xD655;&#xC778; : $ git diff
+&#xC791;&#xC5C5; &#xB0B4;&#xC5ED; &#xD655;&#xC778; : $ git status
+&#xC791;&#xC5C5; &#xB0B4;&#xC5ED; Add : $ git add --all
+&#xC791;&#xC5C5; &#xB0B4;&#xC5ED; Commit : $ git commit -m &quot;Add sentence&quot;
+&#xC791;&#xC5C5; &#xB0B4;&#xC5ED; Push : $ git push
+Pull request &#xC0DD;&#xC131; (@ WEB : GitHub Repository) 
+
+&#xCC38;&#xACE0;) &#xD604;&#xC7AC; &#xB514;&#xB809;&#xD1A0;&#xB9AC;&#xC758; &#xC791;&#xC5C5; &#xB0B4;&#xC5ED;&#xC744; &#xBAA8;&#xB450; &#xC0AD;&#xC81C;&#xD558;&#xB294; &#xACBD;&#xC6B0; : $ git checkout --.
+</code></pre></li>
+<li><p>[&#xC2E4;&#xC2B5;] GitHub Repository Pull Request&#xC5D0;&#xC11C; Conflict&#xAC00; &#xBC1C;&#xC0DD;&#xD55C; &#xACBD;&#xC6B0; &#xB300;&#xCC98; &#xBC29;&#xBC95; @ Git Bash</p>
+<pre><code>[&#xAC01;&#xC790; &#xC791;&#xC5C5;]
+&#xC790;&#xC2E0;&#xC758; Repo&#xB85C; &#xC774;&#xB3D9; : $ cd &#xD3F4;&#xB354;&#xBA85;
+&#xC790;&#xC2E0;&#xC758; Local Clone&#xC744; &#xCD5C;&#xC2E0;&#xD654; : $ git pull
+&#xC790;&#xC2E0;&#xC758; Local Clone&#xC5D0; &#xB300;&#xD55C; &#xC218;&#xC815; &#xC791;&#xC5C5; + &#xC791;&#xC5C5; &#xB0B4;&#xC5ED; Add - Commit (* Push&#xB294; &#xC81C;&#xC678;)
+&#xB3D9;&#xB8CC; Repo&#xC758; Local Clone&#xC73C;&#xB85C; &#xC774;&#xB3D9; : $ cd &#xD3F4;&#xB354;&#xBA85;
+&#xB3D9;&#xB8CC;&#xC758; Local Clone&#xC5D0; &#xB300;&#xD55C; &#xC218;&#xC815; &#xC791;&#xC5C5; + &#xC791;&#xC5C5; &#xB0B4;&#xC5ED; Add - Commit - Push
+&#xC790;&#xC2E0;&#xC758; Local Clone &#xC218;&#xC815; &#xC791;&#xC5C5;&#xC5D0; &#xB300;&#xD55C; Push : Conflict&#xAC00; &#xBC1C;&#xC0DD;
+
+[Conflict&#xAC00; &#xBC1C;&#xC0DD;&#xD55C; Pull Request&#xB97C; &#xC62C;&#xB9B0; &#xC0AC;&#xB78C;(=Fork&#xD574;&#xC11C; &#xC791;&#xC5C5;&#xD55C; &#xC0AC;&#xB78C;)&#xC774; &#xC791;&#xC5C5;]
+* &#xCC38;&#xC870; : Conflict&#xAC00; &#xBC1C;&#xC0DD;&#xD55C; &#xACBD;&#xC6B0;, PR&#xC744; &#xB0A0;&#xB9AC;&#xB294; &#xCABD;&#xC5D0;&#xC11C; &#xD574;&#xACB0;&#xD574;&#xC8FC;&#xB294; &#xAC83;&#xC774; &#xAD00;&#xB840;
+&#xB3D9;&#xB8CC;&#xC758; Local Clone&#xC73C;&#xB85C; &#xC774;&#xB3D9; : $ cd &#xD3F4;&#xB354;&#xBA85;
+&#xB3D9;&#xB8CC;&#xC758; &#xC6D0;&#xBCF8; Repo(Fork&#xD55C; Repo &#xC544;&#xB2D8;!)&#xB97C; upstream&#xC73C;&#xB85C; &#xC124;&#xC815; : $ git remote add upstream https://github.com/Yoonkimove/Quotesbot
+&#xB3D9;&#xB8CC;&#xC758; &#xC6D0;&#xBCF8; Repo&#xC5D0;&#xC11C; &#xCD5C;&#xC2E0;&#xBCF8;&#xC744; &#xB2E4;&#xC6B4;&#xB85C;&#xB4DC; &#xBC1B;&#xC544; &#xC784;&#xC2DC;&#xD3F4;&#xB354;&#xC5D0; &#xC800;&#xC7A5; : $ git fetch upstream
+&#xB2E4;&#xC6B4;&#xB85C;&#xB4DC; &#xBC1B;&#xC740; &#xC784;&#xC2DC;&#xD3F4;&#xB354;&#xC758; &#xCD5C;&#xC2E0;&#xBCF8; + &#xAE30;&#xC874;&#xC758; &#xC791;&#xC5C5; &#xB0B4;&#xC5ED; : $ git merge upstream/master &#x2192; &#xB2F9;&#xC5F0;&#xD788; Conflict&#xAC00; &#xBC1C;&#xC0DD;&#xD568;
+&#xC218;&#xC815; &#xC791;&#xC5C5; (@Atom) : &apos;&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD&apos;, &apos;=======&apos;, &apos;&gt;&gt;&gt;&gt;&gt;&gt;&gt; upstream/master&apos;&#xC758; &#xD615;&#xD0DC;&#xB85C; &#xCDA9;&#xB3CC;&#xC774; &#xBC1C;&#xC0DD;&#xD55C; &#xBD80;&#xBD84;&#xC744; &#xC54C;&#xB824;&#xC90C; &#x2192; &#xCDA9;&#xB3CC; &#xD574;&#xC18C; : &#xC591;&#xC790;&#xD0DD;&#xC77C; or &#xD569;&#xCE58;&#xAE30;
+&#xC218;&#xC815; &#xC791;&#xC5C5; &#xB0B4;&#xC5ED;&#xC5D0; &#xB300;&#xD55C; Add - Commit - Push : &#xAE30;&#xC874;&#xC5D0; &#xC62C;&#xB9B0; PR&#xC758; Conflict&#xAC00; &#xD574;&#xC18C;&#xB428;
+Merge :
+</code></pre></li>
+</ul>
+</li>
+</ul>
+<h3 id="git-github-gitbash-&#xC774;&#xC6A9;&#xD558;&#xAE30;">git, github, gitbash &#xC774;&#xC6A9;&#xD558;&#xAE30;</h3>
+<h4 id="&#xAE43;&#xD5D9;-&#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;">&#xAE43;&#xD5D9; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;</h4>
+<ul>
+<li>&#xAE43;&#xD5D9; &#xC774;&#xC6A9; &#xC2DC;, <code>create a new project</code>(&#xC6B0;&#xCE21; &#xC0C1;&#xB2E8; &#xCD08;&#xB85D;&#xC0C9; &#xBC84;&#xD2BC;)&#xC744; &#xB204;&#xB974;&#xAC8C; &#xB418;&#xBA74; &#xAE43;&#xD5D9; &#xC11C;&#xBC84;&#xC5D0; &#xC0C8;&#xB85C;&#xC6B4; &#xB0B4; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xAC00; &#xC0DD;&#xC131;&#xB429;&#xB2C8;&#xB2E4;.</li>
+<li>&#xB2E4;&#xB978; &#xC0AC;&#xB78C;&#xC758; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xB97C; &#xAC00;&#xC838;&#xC624;&#xACE0; &#xC2F6;&#xC740; &#xACBD;&#xC6B0;, &#xD574;&#xB2F9; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xC5D0;&#xC11C; <code>fork</code>&#xB97C; &#xB20C;&#xB7EC; &#xBCF8;&#xC778;&#xC758; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xB85C; &#xD3EC;&#xD06C;&#xD574; &#xC62C; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</li>
+</ul>
+<h4 id="&#xB85C;&#xCEEC;-pc&#xB85C;-&#xD074;&#xB860;-&#xBC1B;&#xC544;&#xC624;&#xAE30;">&#xB85C;&#xCEEC; PC&#xB85C; &#xD074;&#xB860; &#xBC1B;&#xC544;&#xC624;&#xAE30;</h4>
+<p>&#xC0C8;&#xB85C; &#xC0DD;&#xC131;&#xD558;&#xAC70;&#xB098;, fork&#xD574; &#xC628; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xB97C; &#xB85C;&#xCEEC; PC&#xC5D0;&#xC11C; &#xC791;&#xC5C5;&#xD558;&#xAE30; &#xC704;&#xD558;&#xC5EC; &#xD074;&#xB860;&#xC744; &#xBC1B;&#xC544;&#xC640;&#xC57C; &#xD569;&#xB2C8;&#xB2E4;. </p>
+<blockquote>
+<p> fork&#xB780;, &#xAE43;&#xD5D9; &#xC790;&#xCCB4;&#xC5D0;&#xC11C; &#xD3B8;&#xC758;&#xC0C1; &#xC774;&#xC6A9;&#xB418;&#xB294; &#xAC1C;&#xB150;&#xC73C;&#xB85C;, &#xAE43;&#xD5D9; &#xC0C1;&#xC5D0;&#xC11C; &#xB2E4;&#xB978; &#xC0AC;&#xB78C;&#xB4E4;&#xC758; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xB97C; &#xB098;&#xC758; &#xAE43;&#xD5D9; &#xACF5;&#xAC04;&#xC73C;&#xB85C; clone&#xD574; &#xC624;&#xB294; &#xAC83;&#xC744; &#xB9D0;&#xD569;&#xB2C8;&#xB2E4;.</p>
+</blockquote>
+<ul>
+<li><p>&#xBA3C;&#xC800;, &#xAE43;&#xD5D9;&#xC5D0;&#xC11C; &#xB85C;&#xCEEC;&#xB85C; &#xD074;&#xB860;&#xBC1B;&#xC544; &#xC62C; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xB97C; &#xB20C;&#xB7EC; SSH key &#xC8FC;&#xC18C;&#xB97C; &#xBCF5;&#xC0AC;&#xD569;&#xB2C8;&#xB2E4;. (SSH key &#xC8FC;&#xC18C;&#xB294; &#xCD08;&#xB85D;&#xC0C9; <code>Clone or Download</code>&#xBC84;&#xD2BC;&#xC744; &#xB20C;&#xB7EC; &#xD655;&#xC778;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.)</p>
+</li>
+<li><p>&#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC; &#xD3F4;&#xB354;&#xB97C; &#xC0DD;&#xC131;&#xD560; &#xB85C;&#xCEEC; &#xACBD;&#xB85C;&#xB85C; &#xAC00;&#xC11C; git bash&#xB97C; &#xC2E4;&#xD589;&#xC2DC;&#xD0B5;&#xB2C8;&#xB2E4;.</p>
+</li>
+<li><code>git clone &#xD074;&#xB860;&#xBC1B;&#xC544;&#xC62C; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xC758; &#xC8FC;&#xC18C;</code> &#xB97C; &#xC785;&#xB825;&#xD558;&#xBA74; &#xC790;&#xB3D9;&#xC73C;&#xB85C; &#xAE43;&#xC73C;&#xB85C; &#xAD00;&#xB9AC;&#xB418;&#xB294; &#xB85C;&#xCEEC; &#xD3F4;&#xB354;&#xAC00; &#xC0DD;&#xC131;&#xB429;&#xB2C8;&#xB2E4;.</li>
+</ul>
+<p>git &#xC744; &#xD074;&#xB860;&#xD574;&#xC624;&#xBCC0; &#xC6D0;&#xB798;&#xC758; &#xC800;&#xC7A5;&#xC18C;&#xC5D0;&#xB294; origin&#xC774;&#xB77C;&#xB294; &#xC774;&#xB984;&#xC744; &#xBD99;&#xC5EC;&#xC90D;&#xB2C8;&#xB2E4;.</p>
+<h4 id="&#xB85C;&#xCEEC;&#xC5D0;&#xC11C;-&#xD3B8;&#xC9D1;&#xD55C;-&#xD30C;&#xC77C;&#xC744;-git&#xC73C;&#xB85C;-&#xAD00;&#xB9AC;&#xD558;&#xAE30;">&#xB85C;&#xCEEC;&#xC5D0;&#xC11C; &#xD3B8;&#xC9D1;&#xD55C; &#xD30C;&#xC77C;&#xC744; git&#xC73C;&#xB85C; &#xAD00;&#xB9AC;&#xD558;&#xAE30;</h4>
+<p>&#xB85C;&#xCEEC; PC&#xC5D0;&#xC11C; &#xC5EC;&#xB7EC;&#xAC00;&#xC9C0; &#xD30C;&#xC77C;&#xB4E4;&#xC744; &#xC218;&#xC815; &#xBC0F; &#xC0DD;&#xC131;&#xD55C; &#xD6C4; &#xAE43;&#xD5D9;&#xC5D0; &#xC5C5;&#xB85C;&#xB4DC;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<ul>
+<li><p><code>git init</code>: &#xB9CC;&#xC57D; &#xD3F4;&#xB354;&#xB97C; &#xC0C8;&#xB86D;&#xAC8C; &#xC0DD;&#xC131;&#xD55C; &#xACBD;&#xC6B0;, git&#xC73C;&#xB85C; &#xAD00;&#xB9AC;&#xD558;&#xAE30; &#xC704;&#xD558;&#xC5EC; &#xC801;&#xC5B4;&#xC90D;&#xB2C8;&#xB2E4;.</p>
+</li>
+<li><p><code>git status</code> &#xC5EC;&#xB7EC;&#xAC00;&#xC9C0; &#xD604;&#xC7AC; &#xB85C;&#xCEEC; &#xD30C;&#xC77C;&#xC758; &#xC815;&#xBCF4;&#xB4E4;&#xC744; &#xD655;&#xC778;&#xD574; &#xBCFC; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xC0C8;&#xB85C; &#xC0DD;&#xC131;&#xB41C; &#xD30C;&#xC77C;&#xC774; untracked &#xC0C1;&#xD0DC;&#xC784;&#xC744; &#xC54C; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+</li>
+<li><code>git add &#xD30C;&#xC77C;&#xBA85;</code>: untracked &#xC0C1;&#xD0DC;&#xC600;&#xB358; &#xD30C;&#xC77C;&#xC744; tracked &#xC0C1;&#xD0DC;&#xB85C; &#xC62C;&#xB9BD;&#xB2C8;&#xB2E4;.</li>
+</ul>
+<p>&#xC2E4;&#xC2B5; &#xC2DC;&#xAC04;&#xC5D0; &#xB85C;&#xCEEC; PC&#xC5D0;&#xC11C; &#xC0C8;&#xB85C; &#xC0DD;&#xC131;&#xD558;&#xC5EC; &#xC791;&#xC5C5;&#xD588;&#xB358; main.py &#xD30C;&#xC77C;&#xC744; &#xBCC0;&#xACBD;&#xD55C; &#xB2E4;&#xC74C;, &#xB2E4;&#xC74C;&#xC744; &#xC218;&#xD589;&#xD574; &#xBD05;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-bash">$ git status
+On branch master
+Your branch is up to date with <span class="hljs-string">&apos;origin/master&apos;</span>.
+
+Changes to be committed:
+  (use <span class="hljs-string">&quot;git reset HEAD &lt;file&gt;...&quot;</span> to unstage)
+
+        new file:   main.py
+
+Changes not staged <span class="hljs-keyword">for</span> commit:
+  (use <span class="hljs-string">&quot;git add &lt;file&gt;...&quot;</span> to update what will be committed)
+  (use <span class="hljs-string">&quot;git checkout -- &lt;file&gt;...&quot;</span> to discard changes <span class="hljs-keyword">in</span> working directory)
+
+        modified:   main.py
+</code></pre>
+<pre><code class="lang-bash">$ git commit -m <span class="hljs-string">&quot;Hello world &#xC791;&#xC131;&quot;</span>
+
+$ git status
+On branch master Your branch is ahead of <span class="hljs-string">&apos;origin/master&apos;</span> by 1 commit. (use <span class="hljs-string">&quot;git push&quot;</span> to publish your <span class="hljs-built_in">local</span> commits)
+
+nothing to commit, working tree clean
+</code></pre>
+<p>&#xD130;&#xBBF8;&#xB110;&#xC744; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xCEE4;&#xBC0B;&#xC744; &#xD574; &#xC8FC;&#xC5C8;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; <code>git status</code>&#xB97C; &#xD655;&#xC778;&#xD574; &#xBCF4;&#xB2C8; &#xCEE4;&#xBC0B;&#xD560; &#xAC83;&#xC774; &#xC5C6;&#xB294; &#xC0C1;&#xD0DC;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<ul>
+<li><code>git push</code>:  origin&#xC758; master&#xB85C; push&#xB418;&#xC5B4; &#xAE43;&#xD5D9;&#xC5D0; &#xBC18;&#xC601;&#xB429;&#xB2C8;&#xB2E4;. (&#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC; &#xC0DD;&#xC131; &#xC2DC; &#xB530;&#xB85C; &#xC9C0;&#xC815;&#xD574;&#xC8FC;&#xC9C0; &#xC54A;&#xC73C;&#xBA74; master&#xBE0C;&#xB79C;&#xCE58;&#xAC00; &#xAE30;&#xBCF8; &#xBE0C;&#xB79C;&#xCE58;&#xB85C; &#xC124;&#xC815;&#xB429;&#xB2C8;&#xB2E4;.)</li>
+</ul>
+<h5 id="git&#xC73C;&#xB85C;-&#xD30C;&#xC77C;-&#xAD00;&#xB9AC;&#xD558;&#xAE30;&#xC758;-&#xACFC;&#xC815;">git&#xC73C;&#xB85C; &#xD30C;&#xC77C; &#xAD00;&#xB9AC;&#xD558;&#xAE30;&#xC758; &#xACFC;&#xC815;</h5>
+<ol>
+<li>&#xD30C;&#xC77C;&#xC744; &#xC0DD;&#xC131;&#xD558;&#xACE0; &#xC218;&#xC815;&#xD569;&#xB2C8;&#xB2E4;. </li>
+<li>&#xD574;&#xB2F9; &#xD30C;&#xC77C;&#xC740; &#xD604;&#xC7AC; untracked &amp; unstaged &#xC0C1;&#xD0DC;&#xC785;&#xB2C8;&#xB2E4;.</li>
+<li>add &#xD574; &#xC8FC;&#xBA74; tracked &amp; staged &#xC0C1;&#xD0DC;&#xB85C; &#xBCC0;&#xACBD;&#xB429;&#xB2C8;&#xB2E4;.</li>
+<li>&#xB610; &#xB2E4;&#xC2DC; &#xD30C;&#xC77C;&#xC744; &#xC218;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</li>
+<li>&#xD574;&#xB2F9; &#xD30C;&#xC77C;&#xC740; tracked &#xC774;&#xC9C0;&#xB9CC;, modified(unstaged) &#xC0C1;&#xD0DC;&#xB85C; &#xBCC0;&#xACBD;&#xB429;&#xB2C8;&#xB2E4;.</li>
+<li>add &#xD574; &#xC8FC;&#xBA74; tracked &amp; staged &#xC0C1;&#xD0DC;&#xB85C; &#xBCC0;&#xACBD;&#xB429;&#xB2C8;&#xB2E4;.</li>
+<li>&#xD30C;&#xC77C;&#xC744; commit &#xD569;&#xB2C8;&#xB2E4;.</li>
+<li>&#xD574;&#xB2F9; &#xD30C;&#xC77C;&#xC774; committed &#xC0C1;&#xD0DC;&#xB85C; &#xBCC0;&#xACBD;&#xB418;&#xC5B4; github&#xC758; &#xAE30;&#xB85D;&#xC5D0; &#xB0A8;&#xC2B5;&#xB2C8;&#xB2E4;.</li>
+</ol>
+<h4 id="&#xB2E4;&#xB978;-&#xC0AC;&#xB78C;&#xC758;-&#xD504;&#xB85C;&#xC81D;&#xD2B8;&#xC5D0;-&#xAE30;&#xC5EC;&#xD558;&#xAE30;">&#xB2E4;&#xB978; &#xC0AC;&#xB78C;&#xC758; &#xD504;&#xB85C;&#xC81D;&#xD2B8;&#xC5D0; &#xAE30;&#xC5EC;&#xD558;&#xAE30;</h4>
+<p>&#xD3EC;&#xD06C;&#xD574; &#xC628; &#xB2E4;&#xB978; &#xC0AC;&#xB78C;&#xC758; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xB97C; &#xB0B4; &#xB85C;&#xCEEC;PC&#xB85C; &#xD074;&#xB860; &#xBC1B;&#xC544;&#xC635;&#xB2C8;&#xB2E4;.</p>
+<ul>
+<li><p><code>git add upstream &#xB2E4;&#xB978; &#xC0AC;&#xB78C;&#xC758; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC; &#xC8FC;&#xC18C;</code>: &#xB2E4;&#xB978; &#xC0AC;&#xB78C;&#xC758; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xB97C; upstream &#xC73C;&#xB85C; &#xC124;&#xC815;&#xD574;&#xC90D;&#xB2C8;&#xB2E4;.</p>
+<p>(&apos;down&apos;load&#xC640; &apos;up&apos;load&#xCC98;&#xB7FC;, &#xC774; &#xACBD;&#xC6B0;&#xC5D0;&#xB294; &apos;up&apos;stream&#xC774; &#xBCF8;&#xB798;&#xC758;(&#xB2E4;&#xB978; &#xC0AC;&#xB78C;&#xC758;) &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xAC00; &#xB429;&#xB2C8;&#xB2E4;.)</p>
+</li>
+<li><p>&#xBCF8;&#xC778;&#xC758; &#xB85C;&#xCEEC; PC&#xC5D0;&#xC11C; &#xC218;&#xC815;&#xD55C; &#xD30C;&#xC77C;&#xC744; origin(&#xBCF8;&#xC778;&#xC758; &#xAE43;&#xD5D9;)&#xC73C;&#xB85C; add, commit, push&#xD574; &#xC90D;&#xB2C8;&#xB2E4;.</p>
+</li>
+<li><p>&#xBCF8;&#xC778;&#xC758; &#xAE43;&#xD5D9; &#xACC4;&#xC815;&#xC758; &#xD574;&#xB2F9; &#xB808;&#xD37C;&#xC9C0;&#xD1A0;&#xB9AC;&#xB85C; &#xC774;&#xB3D9;&#xD558;&#xC5EC; pull request&#xB97C; &#xC0DD;&#xC131;&#xD569;&#xB2C8;&#xB2E4;.</p>
+</li>
+<li><p>&#xC0C1;&#xB300;&#xBC29;&#xC774; &#xD574;&#xB2F9; request&#xB97C; &#xC77D;&#xC5B4; &#xBCF8; &#xD6C4;, &#xC758;&#xACAC;&#xC744; &#xC870;&#xC728;&#xD558;&#xC5EC; merge&#xB97C; &#xD574; &#xC900;&#xB2E4;&#xBA74; &#xC644;&#xB8CC;!</p>
+</li>
+</ul>
+<h4 id="&#xC5EC;&#xB7EC;&#xAC00;&#xC9C0;-git-&#xBA85;&#xB839;&#xC5B4;&#xB4E4;">&#xC5EC;&#xB7EC;&#xAC00;&#xC9C0; git &#xBA85;&#xB839;&#xC5B4;&#xB4E4;</h4>
+<ul>
+<li><code>pwd</code>: print working directory</li>
+<li><code>&#x3163;&#x3163;</code>: &#xD604;&#xC7AC; &#xB514;&#xB809;&#xD1A0;&#xB9AC;&#xC758; &#xD3F4;&#xB354; &#xB9AC;&#xC2A4;&#xD2B8;&#xAC00; &#xBCF4;&#xC5EC;&#xC9D1;&#xB2C8;&#xB2E4;.</li>
+<li><code>-v</code>: &apos;verbal&apos;&#xC758; &#xC758;&#xBBF8;&#xB85C;, &#xB354; &#xC790;&#xC138;&#xD558;&#xAC8C; &#xC124;&#xBA85;&#xD574;&#xC90D;&#xB2C8;&#xB2E4;.</li>
+<li><code>[tab]</code>: &apos;tab&apos;&#xBC84;&#xD2BC;&#xC740; &#xC804;&#xCCB4; &#xD30C;&#xC77C;&#xBA85;&#xC744; &#xC785;&#xB825;&#xD558;&#xC9C0; &#xC54A;&#xC544;&#xB3C4; &#xC55E; &#xBA87; &#xAE00;&#xC790;&#xB9CC;&#xC73C;&#xB85C;&#xB3C4; &#xD30C;&#xC77C;&#xBA85;&#xC744; &#xC27D;&#xAC8C; &#xC785;&#xB825;&#xD560; &#xC218; &#xC788;&#xAC8C; &#xB3C4;&#xC640;&#xC90D;&#xB2C8;&#xB2E4;.</li>
+<li><code>git diff</code>: &#xC218;&#xC815;&#xB41C; &#xB0B4;&#xC6A9;&#xC774; &#xBCF4;&#xC5EC;&#xC9D1;&#xB2C8;&#xB2E4;.</li>
+<li><code>git status</code>: &#xD604; &#xC0C1;&#xD0DC;&#xC5D0;&#xC11C; &#xC790;&#xC8FC; &#xC0AC;&#xC6A9;&#xD558;&#xB294; git &#xBA85;&#xB839;&#xC5B4;&#xB97C; &#xD568;&#xAED8; &#xCD9C;&#xB825;&#xD574; &#xC90D;&#xB2C8;&#xB2E4;.</li>
+<li><code>git checkout -- main.py</code>: &#xD30C;&#xC77C;&#xC744; &#xC218;&#xC815;&#xD558;&#xAE30; &#xC774;&#xC804; &#xBC84;&#xC804;&#xC73C;&#xB85C; &#xB3CC;&#xC544;&#xAC08; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. (commit&#xB41C; &#xC0C1;&#xD0DC;&#xC758; &#xD30C;&#xC77C;&#xB4E4;&#xC740; &#xB300;&#xBD80;&#xBD84; &#xAE30;&#xB85D;&#xC774; &#xB0A8;&#xC9C0;&#xB9CC;, add&#xB9CC; &#xB418;&#xC5B4; &#xC788;&#xB294; &#xC0C1;&#xD0DC;&#xC758; &#xD30C;&#xC77C;&#xB4E4;&#xC758; &#xAE30;&#xB85D;&#xC740; &#xB0A8;&#xC9C0; &#xC54A;&#xC2B5;&#xB2C8;&#xB2E4;.)</li>
+<li><code>git fetch upstream</code>: git ignore&#xD30C;&#xC77C; &#xC5B4;&#xB518;&#xAC00;&#xC5D0; upstream&#xC758; &#xC218;&#xC815;&#xB41C; &#xB0B4;&#xC6A9;&#xC744; &#xC784;&#xC2DC;&#xB85C; &#xC800;&#xC7A5;&#xD574; &#xB461;&#xB2C8;&#xB2E4;. (upstream&#xC758; &#xC2E4;&#xC81C; &#xCEE4;&#xBC0B;&#xC744; &#xB0B4; &#xB85C;&#xCEEC;PC &#xC5B4;&#xB518;&#xAC00;&#xC5D0; &#xC800;&#xC7A5;&#xD574;&#xB461;&#xB2C8;&#xB2E4;. working directory&#xC5D0; &#xBC18;&#xC601;&#xB418;&#xC9C0;&#xB294; &#xC54A;&#xC2B5;&#xB2C8;&#xB2E4;.)</li>
+<li><code>git merge upstream/master</code>: &#xBCC0;&#xACBD;&#xB41C; &#xB0B4;&#xC6A9;&#xB4E4;&#xC744; merge&#xD574; &#xC90D;&#xB2C8;&#xB2E4;. (&#xD604;&#xC7AC; &#xBE0C;&#xB79C;&#xCE58;&#xC640; fetch&#xC5D0;&#xC11C; &#xBC1B;&#xC544;&#xC628; &#xAC83;&#xB4E4;&#xC744; &#xD569;&#xCCD0;&#xC90D;&#xB2C8;&#xB2E4;.)</li>
+<li><code>--rebase</code>&#xBA85;&#xB839;&#xC5B4;&#xB294; &#xC704;&#xC758; &#xACFC;&#xC815;&#xB4E4;&#xC744; &#xAE54;&#xB054;&#xD788; &#xD574; &#xC8FC;&#xB294; &#xAD49;&#xC7A5;&#xD788; &#xAC15;&#xB825;&#xD55C; &#xB3C4;&#xAD6C;&#xC774;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC798; &#xC0AC;&#xC6A9;&#xD574;&#xC57C; &#xD569;&#xB2C8;&#xB2E4;.</li>
+</ul>
+<h4 id="&#xC544;&#xB098;&#xCF58;&#xB2E4;-&#xD504;&#xB86C;&#xD504;&#xD2B8;&#xB85C;-&#xD30C;&#xC774;&#xC36C;-&#xC2E4;&#xD589;&#xD558;&#xAE30;">&#xC544;&#xB098;&#xCF58;&#xB2E4; &#xD504;&#xB86C;&#xD504;&#xD2B8;&#xB85C; &#xD30C;&#xC774;&#xC36C; &#xC2E4;&#xD589;&#xD558;&#xAE30;</h4>
+<ul>
+<li><code>cd &#xACBD;&#xB85C;</code>: &#xC2E4;&#xD589;&#xD560; &#xD30C;&#xC77C;&#xC774; &#xC788;&#xB294; &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9;&#xD574;&#xC90D;&#xB2C8;&#xB2E4;.</li>
+<li><code>python &#xC2E4;&#xD589;&#xD560;&#xD30C;&#xC77C;&#xBA85;.py</code>&#xB85C; &#xD30C;&#xC774;&#xC36C; &#xD30C;&#xC77C;&#xC744; &#xC2E4;&#xD589;&#xC2DC;&#xCF1C; &#xC90D;&#xB2C8;&#xB2E4;.<ul>
+<li><code>ctrl+c</code>&#xB97C; &#xB20C;&#xB7EC; &#xC2E4;&#xD589;&#xC744; &#xC885;&#xB8CC;&#xD569;&#xB2C8;&#xB2E4;.</li>
+</ul>
+</li>
+<li><code>python</code>: &#xD604;&#xC7AC; &#xD30C;&#xC774;&#xC36C; &#xBC84;&#xC804;&#xC744; &#xD655;&#xC778;&#xD569;&#xB2C8;&#xB2E4;.<ul>
+<li><code>quit()</code>&#xC73C;&#xB85C; &#xC911;&#xB2E8;&#xD569;&#xB2C8;&#xB2E4;.</li>
+</ul>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Tutorial_180806_XGBoost.md" class="navigation navigation-prev " aria-label="Previous page: XGBoost 분산형 그래디언트 부스팅 알고리즘">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Tutorial_180810_Apt_analysis_Statistics5.html" class="navigation navigation-next " aria-label="Next page: 아파트 분양가 분석 및 회귀분석">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"깃과 깃헙 복습, 다른 사람의 레파지토리에 기여하기","level":"1.41","depth":1,"next":{"title":"아파트 분양가 분석 및 회귀분석","level":"1.42","depth":1,"path":"Tutorial_180810_Apt_analysis_Statistics5.md","ref":"Tutorial_180810_Apt_analysis_Statistics5.md","articles":[]},"previous":{"title":"XGBoost 분산형 그래디언트 부스팅 알고리즘","level":"1.40","depth":1,"path":"Tutorial_180806_XGBoost.md","ref":"Tutorial_180806_XGBoost.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"BASE_URL":"https://dataitgirls2.github.io"},"plugins":["ga","-sharing"],"pluginsConfig":{"ga":{"configuration":"auto","token":"UA-43356518-7"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Tutorial_180807_Git_review.md","mtime":"2018-09-07T13:38:18.038Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-08T11:21:46.374Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

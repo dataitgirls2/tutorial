@@ -1,0 +1,4592 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Pandas 10분 완성 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Tutorial_180717_PandasPetition.html" />
+    
+    
+    <link rel="prev" href="Tutorial_180716_Markup_Html5lib.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Tutorial_180628_Git_and_Github.html">
+            
+                <a href="Tutorial_180628_Git_and_Github.html">
+            
+                    
+                    Git과 Github, 기본 개념과 설명
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Tutorial_180629_Git_with_constitution.html">
+            
+                <a href="Tutorial_180629_Git_with_constitution.html">
+            
+                    
+                    헌법개정안으로 깃베쉬, 소스트리, 브랜치 이해하기 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Tutorial_180629_Github_practice_Statistics1.html">
+            
+                <a href="Tutorial_180629_Github_practice_Statistics1.html">
+            
+                    
+                     확률통계 기초와 깃허브 실습 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Tutorial_180629_Statistics.html">
+            
+                <a href="Tutorial_180629_Statistics.html">
+            
+                    
+                    통계 기본 개념과 설명
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Tutorial_180702_Programming_Intro.html">
+            
+                <a href="Tutorial_180702_Programming_Intro.html">
+            
+                    
+                    스크래치 실습을 통한 프로그래밍 맛보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Tutorial_180702_tidydata.html">
+            
+                <a href="Tutorial_180702_tidydata.html">
+            
+                    
+                    데이터다루기(tidydata)와 프로그래밍기초
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Tutorial_180703_Python%20introduction.md">
+            
+                <span>
+            
+                    
+                    파이썬 기초 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Tutorial_180705_PythonReview_Lamda.html">
+            
+                <a href="Tutorial_180705_PythonReview_Lamda.html">
+            
+                    
+                    범죄데이터로 파이썬 실습 (Lamda)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="Tutorial_180705_Resume_01.html">
+            
+                <a href="Tutorial_180705_Resume_01.html">
+            
+                    
+                    특강-자기소개서 워크숍(1)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="Tutorial_180706_Civic_hacking_seminar.html">
+            
+                <a href="Tutorial_180706_Civic_hacking_seminar.html">
+            
+                    
+                    특강-시빅해킹
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="Tutorial_180709_StaticBlogging_JekyllandRuby.html">
+            
+                <a href="Tutorial_180709_StaticBlogging_JekyllandRuby.html">
+            
+                    
+                    지킬과 루비로 정적 블로그 만들기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="Tutorial_180710_Lecture_Cooperation.html">
+            
+                <a href="Tutorial_180710_Lecture_Cooperation.html">
+            
+                    
+                    특강-협업
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="Tutorial_180710_Lecture_Speciality.html">
+            
+                <a href="Tutorial_180710_Lecture_Speciality.html">
+            
+                    
+                    특강-전문성
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="Tutorial_180712_DataVisualization101.html">
+            
+                <a href="Tutorial_180712_DataVisualization101.html">
+            
+                    
+                    데이터 시각화 이해
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="Tutorial_180712_AttraciveResume2.html">
+            
+                <a href="Tutorial_180712_AttraciveResume2.html">
+            
+                    
+                    특강-자기소개서 워크숍(2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="Tutorial_180713_Pandas101.html">
+            
+                <a href="Tutorial_180713_Pandas101.html">
+            
+                    
+                    자료의 요약 과제를 통한 판다스 실습
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="Tutorial_180713_ExperimentDesignLecture.html">
+            
+                <a href="Tutorial_180713_ExperimentDesignLecture.html">
+            
+                    
+                    특강-실험계획에 관해 알아보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="Tutorial_180716_Crawling_Shuffle.html">
+            
+                <a href="Tutorial_180716_Crawling_Shuffle.html">
+            
+                    
+                    저작권과 직업윤리를 인지하고 크롤링 셔플 실습
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="Tutorial_180716_Markup_Html5lib.html">
+            
+                <a href="Tutorial_180716_Markup_Html5lib.html">
+            
+                    
+                    Markup Html5lib, 파이썬으로 크롤링하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.21" data-path="Tutorial_180717_10minPandas.html">
+            
+                <a href="Tutorial_180717_10minPandas.html">
+            
+                    
+                    Pandas 10분 완성
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="Tutorial_180717_PandasPetition.html">
+            
+                <a href="Tutorial_180717_PandasPetition.html">
+            
+                    
+                    국민청원 첫시작 판다스로 국민청원하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="Tutorial_180719_%20BeautifulSoup.md">
+            
+                <span>
+            
+                    
+                    Beautiful Soup을 사용하여 크롤링
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="Tutorial_180719_plotnine.md">
+            
+                <span>
+            
+                    
+                    국민청원 데이터 시각화와 자연어 처리-plontnine 실습하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="Tutorial_180720_coupang.html">
+            
+                <a href="Tutorial_180720_coupang.html">
+            
+                    
+                    특강 - 비전공자가 데이터 분석가로 취업하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="Tutorial_180720_ProbabilityDistribution.html">
+            
+                <a href="Tutorial_180720_ProbabilityDistribution.html">
+            
+                    
+                    통계학-자료의 요약, 확률분포(ProbabilityDistribution)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="Tutorial_180723_Machine%20learning.md">
+            
+                <span>
+            
+                    
+                    기계학습의 기초(지도학습/비지도학습/머신러닝)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="Tutorial_180723_word%20vectorsization.md">
+            
+                <span>
+            
+                    
+                    텍스트 데이터 시각화 Word_vectorsization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="Tutorial_180726_naver.html">
+            
+                <a href="Tutorial_180726_naver.html">
+            
+                    
+                    특강 - AI R&D Director 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="Tutorial_180726_library.md">
+            
+                <span>
+            
+                    
+                    전국도서관표준데이터 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="Tutorial_180730_Categorizing_v2.html">
+            
+                <a href="Tutorial_180730_Categorizing_v2.html">
+            
+                    
+                    국민청원 카테고리 분류하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="Tutorial_180730_Kaggle_NLP_v2.html">
+            
+                <a href="Tutorial_180730_Kaggle_NLP_v2.html">
+            
+                    
+                    Kaggle NLP로 예측율 높이기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="Tutorial_180730_Statistics.html">
+            
+                <a href="Tutorial_180730_Statistics.html">
+            
+                    
+                    Hypothesis test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="Tutorial_180731_MTPlanning.html">
+            
+                <a href="Tutorial_180731_MTPlanning.html">
+            
+                    
+                    데잇걸즈 MT 계획으로 애자일 프로세스 실습해보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="Tutorial_180802_ZigZag.html">
+            
+                <a href="Tutorial_180802_ZigZag.html">
+            
+                    
+                    특강 - 쇼핑몰 데이터 분석 이야기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="Tutorial_180803_GettingJobGithub.html">
+            
+                <a href="Tutorial_180803_GettingJobGithub.html">
+            
+                    
+                    깃허브로 취업하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="Tutorial_180803_Statistics4.html">
+            
+                <a href="Tutorial_180803_Statistics4.html">
+            
+                    
+                    회귀분석(Linear regression)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="Tutorial_180806_Folium_practice.md">
+            
+                <span>
+            
+                    
+                    공공데이터 상권정보 분석해 보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="Tutorial_180806_Geolocatin_API_practice.md">
+            
+                <span>
+            
+                    
+                    서울창업허브(공덕역) 맛집지도
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="Tutorial_180806_XGBoost.md">
+            
+                <span>
+            
+                    
+                    XGBoost 분산형 그래디언트 부스팅 알고리즘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41" data-path="Tutorial_180807_Git_review.html">
+            
+                <a href="Tutorial_180807_Git_review.html">
+            
+                    
+                    깃과 깃헙 복습, 다른 사람의 레파지토리에 기여하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.42" data-path="Tutorial_180810_Apt_analysis_Statistics5.html">
+            
+                <a href="Tutorial_180810_Apt_analysis_Statistics5.html">
+            
+                    
+                    아파트 분양가 분석 및 회귀분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.43" data-path="Tutorial_180813_kaggle_Titanic.html">
+            
+                <a href="Tutorial_180813_kaggle_Titanic.html">
+            
+                    
+                    스프레드시트로 캐글 타이타닉 참가하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.44" data-path="Tutorial_180814_Python_Class.html">
+            
+                <a href="Tutorial_180814_Python_Class.html">
+            
+                    
+                    객체지향 프로그래밍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.45" data-path="Tutorial_180814_Test_Driven_Development.html">
+            
+                <a href="Tutorial_180814_Test_Driven_Development.html">
+            
+                    
+                    테스트 주도 개발
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46" data-path="Tutorial_180817_Colors_in_Data_Visualization.md">
+            
+                <span>
+            
+                    
+                    데이터 시각화와 색의 활용
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Pandas 10분 완성</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="pandas-10&#xBD84;-&#xC644;&#xC131;">Pandas 10&#xBD84; &#xC644;&#xC131;</h1>
+<p>&#xC774; &#xC18C;&#xAC1C;&#xC11C;&#xB294; &#xC8FC;&#xB85C; &#xC2E0;&#xADDC; &#xC0AC;&#xC6A9;&#xC790;&#xB97C; &#xB300;&#xC0C1;&#xC73C;&#xB85C; &#xD55C; &#xD310;&#xB2E4;&#xC2A4;&#xC5D0; &#xB300;&#xD55C; &#xAC04;&#xB7B5;&#xD55C; &#xC18C;&#xAC1C;&#xC785;&#xB2C8;&#xB2E4;. &#xB354; &#xBCF5;&#xC7A1;&#xD55C; &#xBC29;&#xBC95;&#xC740; <a href="https://pandas.pydata.org/pandas-docs/stable/cookbook.html#cookbook" target="_blank">Cookbook</a> &#xC5D0;&#xC11C; &#xBCFC; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<p>&#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xAC00;&#xC838;&#xC635;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python"><span class="hljs-comment"># pd&#xAC00; &#xC544;&#xB2C8;&#xC5B4;&#xB3C4; &#xD3B8;&#xD55C; &#xC774;&#xB984;&#xC73C;&#xB85C; pandas&#xC758; &#xBCC4;&#xCE6D; &#xB9CC;&#xB4E4;&#xAE30;</span>
+<span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd
+</code></pre>
+<pre><code class="lang-python"><span class="hljs-comment"># as = alias.</span>
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+</code></pre>
+<pre><code class="lang-python"><span class="hljs-comment"># Pandas&#xC5D0; &#xB0B4;&#xC7A5;&#xB41C; &#xAE30;&#xB2A5;&#xB4E4;&#xC740; Pandas&#xC758; &#xAC83;&#xC774; &#xC544;&#xB2C8;&#xB77C;, matplotlib&#xC758; &#xAC83;. </span>
+<span class="hljs-comment"># &#xD55C;&#xAE00; &#xD3F0;&#xD2B8;, &#xC18D;&#xC131;(&#xC0C9;&#xAE54; &#xB4F1;)&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xAE30; &#xC704;&#xD574;&#xC11C;&#xB3C4; matplotlib&#xC774; &#xD544;&#xC694;. matplotlib&#xC740; matlab &#xAE30;&#xBC18;&#xC73C;&#xB85C; &#xC81C;&#xC791;.</span>
+<span class="hljs-comment"># matplotlib.org &#xAD49;&#xC7A5;&#xD788; &#xBCF5;&#xC7A1;&#xD568;. &#xADF8;&#xAC83;&#xC744; &#xB354; &#xC4F0;&#xAE30; &#xC27D;&#xAC8C; &#xD55C;&#xBC88; &#xB354; &#xB9F5;&#xD551;&#xD574; &#xB454; &#xAC83;&#xC774; seaborn.seaborn&#xC774; matplotlib &#xAE30;&#xBC18;&#xC73C;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC9D0;</span>
+<span class="hljs-comment"># &#xCE90;&#xAE00;&#xB7EC; &#xC124;&#xBB38;&#xC870;&#xC0AC; &#xACB0;&#xACFC;&#xB294; &#xB300;&#xBD80;&#xBD84; seaborn&#xC73C;&#xB85C; &#xC218;&#xD589;&#xD55C; &#xAC83;. </span>
+<span class="hljs-comment"># plotnine : ggplot &#xBB38;&#xBC95; &#xAE30;&#xBC18;&#xC73C;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC9D0;</span>
+<span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+</code></pre>
+<pre><code class="lang-python">!pip install plotnine
+</code></pre>
+<pre><code>Collecting plotnine
+[?25l  Downloading https://files.pythonhosted.org/packages/3a/68/cf39dfde4e9fd886703621e3393cd8103cb48d5ecc95b8f048ec148e53a6/plotnine-0.3.0-py2.py3-none-any.whl (3.4MB)
+[K    100% |&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;| 3.4MB 6.2MB/s 
+[?25hRequirement already satisfied: pandas&gt;=0.21.0 in /usr/local/lib/python3.6/dist-packages (from plotnine) (0.22.0)
+Requirement already satisfied: patsy&gt;=0.4.1 in /usr/local/lib/python3.6/dist-packages (from plotnine) (0.5.0)
+Requirement already satisfied: matplotlib&gt;=2.1.0 in /usr/local/lib/python3.6/dist-packages (from plotnine) (2.1.2)
+Collecting scipy&gt;=1.0.0 (from plotnine)
+[?25l  Downloading https://files.pythonhosted.org/packages/a8/0b/f163da98d3a01b3e0ef1cab8dd2123c34aee2bafbb1c5bffa354cc8a1730/scipy-1.1.0-cp36-cp36m-manylinux1_x86_64.whl (31.2MB)
+[K    100% |&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;| 31.2MB 962kB/s 
+[?25hRequirement already satisfied: six in /usr/local/lib/python3.6/dist-packages (from plotnine) (1.11.0)
+Collecting mizani&gt;=0.4.1 (from plotnine)
+[?25l  Downloading https://files.pythonhosted.org/packages/52/01/8a3b4c6e45749674a1e5241174b4b63cd6435125e124bec275f3e02c96ac/mizani-0.4.6-py2.py3-none-any.whl (65kB)
+[K    100% |&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;| 71kB 13.3MB/s 
+[?25hRequirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from plotnine) (1.14.5)
+Requirement already satisfied: statsmodels&gt;=0.8.0 in /usr/local/lib/python3.6/dist-packages (from plotnine) (0.8.0)
+Requirement already satisfied: pytz&gt;=2011k in /usr/local/lib/python3.6/dist-packages (from pandas&gt;=0.21.0-&gt;plotnine) (2018.5)
+Requirement already satisfied: python-dateutil&gt;=2 in /usr/local/lib/python3.6/dist-packages (from pandas&gt;=0.21.0-&gt;plotnine) (2.5.3)
+Requirement already satisfied: cycler&gt;=0.10 in /usr/local/lib/python3.6/dist-packages (from matplotlib&gt;=2.1.0-&gt;plotnine) (0.10.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,&gt;=2.0.1 in /usr/local/lib/python3.6/dist-packages (from matplotlib&gt;=2.1.0-&gt;plotnine) (2.2.0)
+Collecting palettable (from mizani&gt;=0.4.1-&gt;plotnine)
+[?25l  Downloading https://files.pythonhosted.org/packages/56/8a/84537c0354f0d1f03bf644b71bf8e0a50db9c1294181905721a5f3efbf66/palettable-3.1.1-py2.py3-none-any.whl (77kB)
+[K    100% |&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;| 81kB 6.2MB/s 
+[?25hInstalling collected packages: scipy, palettable, mizani, plotnine
+  Found existing installation: scipy 0.19.1
+    Uninstalling scipy-0.19.1:
+      Successfully uninstalled scipy-0.19.1
+Successfully installed mizani-0.4.6 palettable-3.1.1 plotnine-0.3.0 scipy-1.1.0
+</code></pre><h1 id="object-creation-&#xAC1D;&#xCCB4;-&#xC0DD;&#xC131;">Object Creation (&#xAC1D;&#xCCB4; &#xC0DD;&#xC131;)</h1>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/dsintro.html#dsintro" target="_blank">&#xB370;&#xC774;&#xD130; &#xAD6C;&#xC870; &#xC18C;&#xAC1C; &#xC139;&#xC158;</a>&#xC744; &#xCC38;&#xC870;&#xD558;&#xC2ED;&#xC2DC;&#xC624;.</p>
+<p>&#xD310;&#xB2E4;&#xC2A4;&#xB294; &#xAC12;&#xC744; &#xAC00;&#xC9C0;&#xACE0; &#xC788;&#xB294; &#xB9AC;&#xC2A4;&#xD2B8;&#xB97C; &#xD1B5;&#xD574; <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.html#pandas.Series" target="_blank">&#xC2DC;&#xB9AC;&#xC988;</a>&#xB97C; &#xB9CC;&#xB4E4;&#xACE0;, &#xC778;&#xB371;&#xC2A4;&#xB97C; &#xAE30;&#xBCF8;&#xAC12;&#xC73C;&#xB85C; &#xBD88;&#xB7EC;&#xC62C; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python"><span class="hljs-comment"># np.nan&#xC740; null&#xAC12;(&#xACF5;&#xBC31;&#xAC12;)&#xC744; numpy&#xB85C; &#xC0DD;&#xC131;&#xD55C;&#xB2E4;&#xB294; &#xB73B;.</span>
+<span class="hljs-comment"># pd&#xB294; &#xC784;&#xD3EC;&#xD2B8;&#xC5D0;&#xC11C; &#xC120;&#xC5B8;&#xD55C; &#xAC83;&#xC744; &#xBC18;&#xBCF5;&#xD55C; &#xAC83;.</span>
+s = pd.Series([<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">5</span>,np.nan,<span class="hljs-number">6</span>,<span class="hljs-number">8</span>])
+</code></pre>
+<pre><code class="lang-python"><span class="hljs-comment"># &#xAC01; &#xC778;&#xB371;&#xC2A4;&#xC5D0; vector data&#xB85C; &#xBD88;&#xB7EC;&#xC628;&#xB2E4;</span>
+s
+</code></pre>
+<pre><code>0    1.0
+1    3.0
+2    5.0
+3    NaN
+4    6.0
+5    8.0
+dtype: float64
+</code></pre><p>datetime &#xC778;&#xB371;&#xC2A4;&#xC640; &#xB808;&#xC774;&#xBE14;&#xC774; &#xC788;&#xB294; &#xC5F4;&#xC774;&#xC788;&#xB294; NumPy &#xBC30;&#xC5F4;&#xC744; &#xC804;&#xB2EC;&#xD558;&#xC5EC; &#xB370;&#xC774;&#xD130; &#xD504;&#xB808;&#xC784; &#xB9CC;&#xB4E4;&#xAE30; :</p>
+<pre><code class="lang-python"><span class="hljs-comment"># date_range&#xB294; &#xC778;&#xC790;&#xAC12;&#xC744; 6&#xC73C;&#xB85C; &#xD558;&#xC5EC; 6&#xAC1C;&#xC758; &#xB0A0;&#xC9DC;&#xB97C; &#xC0DD;&#xC131;</span>
+dates = pd.date_range(<span class="hljs-string">&apos;20130101&apos;</span>, periods=<span class="hljs-number">6</span>)
+</code></pre>
+<pre><code class="lang-python">dates
+</code></pre>
+<pre><code>DatetimeIndex([&apos;2013-01-01&apos;, &apos;2013-01-02&apos;, &apos;2013-01-03&apos;, &apos;2013-01-04&apos;,
+               &apos;2013-01-05&apos;, &apos;2013-01-06&apos;],
+              dtype=&apos;datetime64[ns]&apos;, freq=&apos;D&apos;)
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># np.random.randn(6,4)&#xB294; numpy&#xC5D0;&#xC11C; &#xB79C;&#xB364;&#xD558;&#xAC8C; &#xC22B;&#xC790;&#xB97C; &#xC0DD;&#xC131;&#xD558;&#xB77C;&#xB294; &#xB73B;. </span>
+<span class="hljs-comment"># &#xB79C;&#xB364;&#xD55C; &#xC22B;&#xC790;&#xB97C; 6,4&#xB85C; &#xD589;&#xB82C; &#xC9C0;&#xC815;&#xD558;&#xC5EC; 6&#xAC1C;&#xC758; &#xD589;&#xC5D0; 4&#xAC1C;&#xC758; &#xCEEC;&#xB7FC; &#xB4E4;&#xC5B4;&#xAC00;&#xAC8C; &#xD14C;&#xC774;&#xBE14;&#xC744; &#xB9CC;&#xB4E4;&#xAE30;</span>
+<span class="hljs-comment"># &#xBCA1;&#xD130;&#xC640; &#xD589;&#xB82C;&#xC758; raw &#xAC12;&#xC774; &#xD56D;&#xC0C1; &#xB9DE;&#xC544;&#xC57C; &#xD55C;&#xB2E4;. &#xC778;&#xC790;&#xAC12; 6&#xAC1C; &#xD574;&#xC92C;&#xACE0;, column 4&#xAC1C;. 6x4=24.</span>
+df = pd.DataFrame(np.random.randn(<span class="hljs-number">6</span>,<span class="hljs-number">4</span>), index=dates, columns=list(<span class="hljs-string">&apos;ABCD&apos;</span>))
+</code></pre>
+<pre><code class="lang-python"><span class="hljs-comment"># &#xB370;&#xC774;&#xD130;&#xB97C; &#xBD88;&#xB7EC;&#xC624;&#xACE0; shage&#xB97C; &#xCC0D;&#xC5B4;&#xC11C; &#xB370;&#xC774;&#xD130;&#xB97C; &#xD655;&#xC778;&#xD560; &#xC218; &#xC788;&#xC74C;</span>
+df
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2013-01-01</th>
+      <td>0.112723</td>
+      <td>-0.405223</td>
+      <td>0.609430</td>
+      <td>-0.922518</td>
+    </tr>
+    <tr>
+      <th>2013-01-02</th>
+      <td>0.172926</td>
+      <td>1.258247</td>
+      <td>-0.503618</td>
+      <td>-1.444750</td>
+    </tr>
+    <tr>
+      <th>2013-01-03</th>
+      <td>-0.349227</td>
+      <td>-0.251152</td>
+      <td>-0.271460</td>
+      <td>-1.325293</td>
+    </tr>
+    <tr>
+      <th>2013-01-04</th>
+      <td>0.829756</td>
+      <td>-1.406244</td>
+      <td>-0.458275</td>
+      <td>1.680711</td>
+    </tr>
+    <tr>
+      <th>2013-01-05</th>
+      <td>1.004529</td>
+      <td>0.611415</td>
+      <td>-0.751275</td>
+      <td>-1.133753</td>
+    </tr>
+    <tr>
+      <th>2013-01-06</th>
+      <td>0.624723</td>
+      <td>0.580754</td>
+      <td>-0.006615</td>
+      <td>-0.215584</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xC2DC;&#xB9AC;&#xC988;&#xC640; &#xAC19;&#xC740; &#xAC83;&#xC73C;&#xB85C; &#xBC14;&#xB014; &#xC218; &#xC788;&#xB294; &#xAC1D;&#xCCB4;&#xC758; dict&#xB85C; &#xAD6C;&#xC131;&#xB41C; dataframe&#xC744; &#xB9CC;&#xB4ED;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python"><span class="hljs-comment"># pd&#xC5D0; Timestamp = &#xB0A0;&#xC9DC; &#xD615;&#xC2DD;&#xC73C;&#xB85C; &#xB123;&#xC5B4;&#xC8FC;&#xB77C;&#xB294; &#xB73B;</span>
+<span class="hljs-comment"># &#xD558;&#xB098;&#xD558;&#xB098;&#xC758; raw&#xB4E4;&#xC774; &#xB2E4; &#xC2DC;&#xB9AC;&#xC988; &#xB370;&#xC774;&#xD130;.</span>
+<span class="hljs-comment"># C&#xC5F4; &#xAC19;&#xC740; &#xACBD;&#xC6B0;, &#xB370;&#xC774;&#xD130;&#xD0C0;&#xC785;&#xC774; float&#xC73C;&#xB85C; &#xC9C0;&#xC815;&#xB418;&#xC5B4; &#xC788;&#xB2E4;. &#xB9CC;&#xC57D; int&#xB85C; &#xD588;&#xC73C;&#xBA74; &#xC18C;&#xC218;&#xC810; &#xC548; &#xBD99;&#xC5C8;&#xC744; &#xAC83;. </span>
+<span class="hljs-comment"># &#xB2E4;&#xC74C; &#xC904;&#xC740; int&#xB85C; &#xC9C0;&#xC815;.</span>
+<span class="hljs-comment"># E&#xB294; &#xCE74;&#xD14C;&#xACE0;&#xB9AC;&#xCEEC; &#xB370;&#xC774;&#xD130;.</span>
+<span class="hljs-comment"># foo. &#xB370;&#xC774;&#xD130;&#xD0C0;&#xC785;&#xAE4C;&#xC9C0; &#xB2E4; &#xC9C0;&#xC815;. A&#xB294; 1&#xD558;&#xACE0; .&#xC744;&#xCC0D;&#xC5C8;&#xC73C;&#xB2C8; float&#xC73C;&#xB85C; &#xC790;&#xB3D9; &#xC801;&#xC6A9;&#xB418;&#xC5B4; &#xC788;&#xC74C;.</span>
+<span class="hljs-comment"># &#xB370;&#xC774;&#xD130; &#xD504;&#xB808;&#xC784; &#xC0DD;&#xC131;. &#xAC01;&#xAC01;&#xC758; &#xCEEC;&#xB7FC; A~F&#xB294; &#xC2DC;&#xB9AC;&#xC988; &#xB370;&#xC774;&#xD130;&#xC774;&#xB2E4;.</span>
+df2 = pd.DataFrame({<span class="hljs-string">&apos;A&apos;</span> : <span class="hljs-number">1.</span>,
+                    <span class="hljs-string">&apos;B&apos;</span> : pd.Timestamp(<span class="hljs-string">&apos;20130102&apos;</span>),
+                    <span class="hljs-string">&apos;C&apos;</span> : pd.Series(<span class="hljs-number">1</span>,index=list(range(<span class="hljs-number">4</span>)),dtype=<span class="hljs-string">&apos;float32&apos;</span>),
+                    <span class="hljs-string">&apos;D&apos;</span> : np.array([<span class="hljs-number">3</span>] * <span class="hljs-number">4</span>,dtype=<span class="hljs-string">&apos;int32&apos;</span>),
+                    <span class="hljs-string">&apos;E&apos;</span> : pd.Categorical([<span class="hljs-string">&quot;test&quot;</span>,<span class="hljs-string">&quot;train&quot;</span>,<span class="hljs-string">&quot;test&quot;</span>,<span class="hljs-string">&quot;train&quot;</span>]),
+                    <span class="hljs-string">&apos;F&apos;</span> : <span class="hljs-string">&apos;foo&apos;</span> })
+</code></pre>
+<pre><code class="lang-python">df2
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+      <th>E</th>
+      <th>F</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.0</td>
+      <td>2013-01-02</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>test</td>
+      <td>foo</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1.0</td>
+      <td>2013-01-02</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>train</td>
+      <td>foo</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.0</td>
+      <td>2013-01-02</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>test</td>
+      <td>foo</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.0</td>
+      <td>2013-01-02</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>train</td>
+      <td>foo</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p> DataFrame &#xACB0;&#xACFC;&#xC758; &#xD589;&#xC740; &#xB2E4;&#xC591;&#xD55C; &#xB370;&#xC774;&#xD130;&#xD0C0;&#xC785;(dtypes)&#xC73C;&#xB85C; &#xAD6C;&#xC131;&#xB429;&#xB2C8;&#xB2E4;.  </p>
+<pre><code class="lang-python"><span class="hljs-comment"># &#xB370;&#xC774;&#xD130; &#xD0C0;&#xC785;&#xC5D0; &#xB530;&#xB77C; &#xC694;&#xC57D;&#xAC12;&#xC744; &#xB2E4;&#xB974;&#xAC8C; &#xCC0D;&#xC5B4;&#xC8FC;&#xBBC0;&#xB85C; &#xB370;&#xC774;&#xD130; &#xD0C0;&#xC785;&#xC744; &#xD655;&#xC778;&#xD558;&#xB294; &#xAC83;&#xC774; &#xB9E4;&#xC6B0; &#xC911;&#xC694;</span>
+df2.dtypes
+</code></pre>
+<pre><code>A           float64
+B    datetime64[ns]
+C           float32
+D             int32
+E          category
+F            object
+dtype: object
+</code></pre><p>IPython&#xC744; &#xC774;&#xC6A9;&#xD558;&#xACE0; &#xACC4;&#xC2DC;&#xB2E4;&#xBA74;, &#xC5F4; &#xC774;&#xB984;&#xC5D0; &#xB300;&#xD55C;(&#xACF5;&#xC6A9;&#xC18D;&#xC131;&#xC740; &#xBB3C;&#xB860;) tap&#xC644;&#xC131; &#xAE30;&#xB2A5;(tap completion)&#xC774; &#xC790;&#xB3D9;&#xC73C;&#xB85C; &#xD65C;&#xC131;&#xD654;&#xB429;&#xB2C8;&#xB2E4;. &#xB2E4;&#xC74C;&#xC740; &#xC644;&#xC131;&#xB420; &#xC18D;&#xC131;&#xC5D0; &#xB300;&#xD55C; &#xBD80;&#xBD84;&#xC9D1;&#xD569;(subset)&#xC785;&#xB2C8;&#xB2E4;. </p>
+<pre><code class="lang-python"><span class="hljs-comment"># df2.describe?&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xBA74; &#xC0AC;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB294; &#xBA85;&#xB839;&#xC5B4; &#xBCFC; &#xC218; &#xC788;&#xC74C;</span>
+df2.&lt;TAB&gt;
+</code></pre>
+<pre><code>  File &quot;&lt;ipython-input-16-915637deb483&gt;&quot;, line 1
+    df2.&lt;TAB&gt;
+        ^
+SyntaxError: invalid syntax
+</code></pre><p><strong>IPython&#xC5D0;&#xC11C; &#xC2E4;&#xD589;&#xD558;&#xBA74; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC740; &#xACB0;&#xACFC;&#xAC12;&#xC774; &#xB098;&#xC628;&#xB2E4;.</strong></p>
+<pre><code>df2.A                  df2.bool
+df2.abs                df2.boxplot
+df2.add                df2.C
+df2.add_prefix         df2.clip
+df2.add_suffix         df2.clip_lower
+df2.align              df2.clip_upper
+df2.all                df2.columns
+df2.any                df2.combine
+df2.append             df2.combine_first
+df2.apply              df2.compound
+df2.applymap           df2.consolidate
+df2.D
+</code></pre><p>&#xBCF4;&#xC2DC;&#xB2E4;&#xC2DC;&#xD53C;, A,B,C&#xADF8;&#xB9AC;&#xACE0; D &#xC5F4;&#xC774; &#xD0ED; &#xC790;&#xB3D9;&#xC644;&#xC131;&#xAE30;&#xB2A5;&#xC73C;&#xB85C; &#xC2E4;&#xD589;&#xB429;&#xB2C8;&#xB2E4;. &#xBB3C;&#xB860; E&#xB3C4; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xB098;&#xBA38;&#xC9C0; &#xC18D;&#xC131;&#xB4E4;&#xC740; &#xAC04;&#xACB0;&#xD558;&#xAC8C; &#xC798;&#xB77C;&#xBC84;&#xB838;&#xC2B5;&#xB2C8;&#xB2E4;. </p>
+<h1 id="viewing-data&#xB370;&#xC774;&#xD130;-&#xD655;&#xC778;&#xD558;&#xAE30;">Viewing Data(&#xB370;&#xC774;&#xD130; &#xD655;&#xC778;&#xD558;&#xAE30;)</h1>
+<p><strong>Viewing Data &#xB370;&#xC774;&#xD130; &#xD655;&#xC778;&#xD558;&#xAE30;</strong></p>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/basics.html#basics" target="_blank">Basic Section</a>&#xC744; &#xBD05;&#xB2C8;&#xB2E4;.</p>
+<p>&#xB370;&#xC774;&#xD130;&#xD504;&#xB808;&#xC784;&#xC758; &#xB9E8; &#xC717; &#xC904;&#xACFC; &#xB9C8;&#xC9C0;&#xB9C9; &#xC904;&#xC744; &#xD655;&#xC778;&#xD558;&#xACE0; &#xC2F6;&#xC744; &#xB54C; .head()&#xC640; .tail()&#xC744; &#xC785;&#xB825;&#xD569;&#xB2C8;&#xB2E4;. </p>
+<p>&#xAD04;&#xD638;()&#xC548;&#xC5D0;&#xB294; &#xC22B;&#xC790;&#xAC00; &#xB4E4;&#xC5B4;&#xAC08; &#xC218;&#xB3C4; &#xC788;&#xACE0; &#xC548; &#xB4E4;&#xC5B4;&#xAC08; &#xC218;&#xB3C4; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. 
+&#xC22B;&#xC790;&#xAC00; &#xB4E4;&#xC5B4;&#xAC04;&#xB2E4;&#xBA74;, &#xC717;/&#xB9C8;&#xC9C0;&#xB9C9; &#xC904;&#xC758; &#xD2B9;&#xC815; &#xC904;&#xC744; &#xBD88;&#xB7EC;&#xC62C; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. 
+&#xC22B;&#xC790;&#xAC00; &#xB4E4;&#xC5B4;&#xAC00;&#xC9C0; &#xC54A;&#xB2E4;&#xBA74;, &#xAE30;&#xBCF8;&#xAC12;&#xC778; 5&#xB85C; &#xCC98;&#xB9AC;&#xB429;&#xB2C8;&#xB2E4;.</p>
+<p>(&#xC608;&#xC2DC;) 
+df.tail(3) - &#xB05D;&#xC5D0;&#xC11C; &#xB9C8;&#xC9C0;&#xB9C9; 3&#xC904;&#xC744; &#xBD88;&#xB7EC;&#xC634;
+df.tail() - &#xB05D;&#xC5D0;&#xC11C; &#xB9C8;&#xC9C0;&#xB9C9; 5&#xC904; &#xBD88;&#xB7EC;&#xC634;</p>
+<pre><code class="lang-python">df.head()
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2013-01-01</th>
+      <td>-0.414296</td>
+      <td>-0.197622</td>
+      <td>-1.085198</td>
+      <td>-0.023086</td>
+    </tr>
+    <tr>
+      <th>2013-01-02</th>
+      <td>1.310316</td>
+      <td>-1.236729</td>
+      <td>2.279797</td>
+      <td>-1.959987</td>
+    </tr>
+    <tr>
+      <th>2013-01-03</th>
+      <td>0.723715</td>
+      <td>0.573125</td>
+      <td>-1.069190</td>
+      <td>1.555839</td>
+    </tr>
+    <tr>
+      <th>2013-01-04</th>
+      <td>0.371333</td>
+      <td>-0.613136</td>
+      <td>-0.128201</td>
+      <td>0.211691</td>
+    </tr>
+    <tr>
+      <th>2013-01-05</th>
+      <td>-1.711670</td>
+      <td>-1.473291</td>
+      <td>0.996679</td>
+      <td>0.299594</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">df.tail(<span class="hljs-number">3</span>)
+</code></pre>
+<p>&#xC778;&#xB371;&#xC2A4;(Index), &#xC5F4;(Column) &#xADF8;&#xB9AC;&#xACE0; NumPy &#xB370;&#xC774;&#xD130;&#xC5D0; &#xB300;&#xD55C; &#xC138;&#xBD80; &#xC815;&#xBCF4;&#xB97C; &#xBCF4;&#xB824;&#xBA74; .index, .columns, .values&#xB97C; &#xC785;&#xB825;&#xD569;&#xB2C8;&#xB2E4;. </p>
+<pre><code class="lang-python"><span class="hljs-comment"># index &#xAC12;&#xC744; &#xBCFC; &#xC218; &#xC788;&#xC74C;</span>
+df.index
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+NameError                                 Traceback (most recent call last)
+
+&lt;ipython-input-1-08c554537916&gt; in &lt;module&gt;()
+----&gt; 1 df.index
+
+
+NameError: name &apos;df&apos; is not defined
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># column&#xC744; &#xCC0D;&#xC5B4;&#xBCF4;&#xACE0; &#xC2F6;&#xC744; &#xB54C;. &#xC5D1;&#xC140; &#xD30C;&#xC77C;&#xC744; &#xBCF4;&#xBA74; &#xCCAB;&#xBC88;&#xC9F8; column&#xC5D0; &#xC81C;&#xBAA9;&#xAC19;&#xC740; &#xAC83;&#xC774; &#xC368;&#xC788;&#xAC70;&#xB098; &#xD55C; &#xACBD;&#xC6B0;&#xAC00; &#xC788;&#xC74C;</span>
+<span class="hljs-comment"># &#xADF8;&#xB7F4; &#xB54C; &#xC790;&#xB8CC;&#xAC00; &#xC2DC;&#xC791;&#xB418;&#xB294; column&#xBD80;&#xD130;&#xB97C; &#xC801;&#xC6A9;&#xC2DC;&#xD0AC; &#xC218; &#xC788;&#xC74C;</span>
+<span class="hljs-comment"># &#xC790;&#xB8CC;&#xC758; &#xC694;&#xC57D; &#xC218;&#xC5C5;&#xB54C;&#xB3C4; &#xB9E8; &#xC717; &#xC904;&#xC744; drop &#xC2DC;&#xD0A4;&#xACE0; &#xAC00;&#xC838;&#xC654;&#xC5C8;&#xB294;&#xB370; &#xADF8; &#xBD80;&#xBD84; &#xC0DD;&#xAC01;&#xD574; &#xBCF4;&#xAE30;.</span>
+df.columns
+</code></pre>
+<pre><code>Index([&apos;A&apos;, &apos;B&apos;, &apos;C&apos;, &apos;D&apos;], dtype=&apos;object&apos;)
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># &#xAC01; &#xC5F4;&#xC774; &#xC758;&#xBBF8;&#xD558;&#xB294; &#xAC83;&#xC740; series</span>
+df.values
+</code></pre>
+<pre><code>array([[-0.41429646, -0.19762242, -1.08519754, -0.02308603],
+       [ 1.31031598, -1.23672901,  2.27979739, -1.95998692],
+       [ 0.72371532,  0.5731255 , -1.06918956,  1.55583868],
+       [ 0.37133325, -0.61313642, -0.12820145,  0.21169111],
+       [-1.71166962, -1.47329121,  0.99667917,  0.29959364],
+       [ 0.64706968, -0.05617486, -1.39994375, -0.4958439 ]])
+</code></pre><p>&#xB370;&#xC774;&#xD130;&#xC758; &#xB300;&#xB7B5;&#xC801;&#xC778; &#xD1B5;&#xACC4;&#xC801; &#xC815;&#xBCF4;&#xB97C; &#xBCF4;&#xB824;&#xBA74; <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html#pandas.DataFrame.describe" target="_blank">describe() </a>&#xB97C; &#xC785;&#xB825;&#xD569;&#xB2C8;&#xB2E4;.  </p>
+<pre><code class="lang-python"><span class="hljs-comment"># &#xAC1C;&#xC694;&#xB97C; &#xC0B4;&#xD3B4;&#xBCFC; &#xC218; &#xC788;&#xC74C;</span>
+df.describe()
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>6.000000</td>
+      <td>6.000000</td>
+      <td>6.000000</td>
+      <td>6.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>0.154411</td>
+      <td>-0.500638</td>
+      <td>-0.067676</td>
+      <td>-0.068632</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>1.072910</td>
+      <td>0.767186</td>
+      <td>1.446407</td>
+      <td>1.150207</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>-1.711670</td>
+      <td>-1.473291</td>
+      <td>-1.399944</td>
+      <td>-1.959987</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>-0.217889</td>
+      <td>-1.080831</td>
+      <td>-1.081196</td>
+      <td>-0.377654</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>0.509201</td>
+      <td>-0.405379</td>
+      <td>-0.598696</td>
+      <td>0.094303</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>0.704554</td>
+      <td>-0.091537</td>
+      <td>0.715459</td>
+      <td>0.277618</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>1.310316</td>
+      <td>0.573125</td>
+      <td>2.279797</td>
+      <td>1.555839</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xB370;&#xC774;&#xD130;&#xB97C; &#xC804;&#xCE58;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python"><span class="hljs-comment"># #column&#xACFC; row&#xB97C; &#xBC14;&#xAFC8;</span>
+df.T
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>2013-01-01 00:00:00</th>
+      <th>2013-01-02 00:00:00</th>
+      <th>2013-01-03 00:00:00</th>
+      <th>2013-01-04 00:00:00</th>
+      <th>2013-01-05 00:00:00</th>
+      <th>2013-01-06 00:00:00</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>A</th>
+      <td>-0.016348</td>
+      <td>0.923949</td>
+      <td>-0.740104</td>
+      <td>1.509731</td>
+      <td>0.149121</td>
+      <td>0.337573</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <td>-1.039512</td>
+      <td>-0.600859</td>
+      <td>0.415755</td>
+      <td>-1.800477</td>
+      <td>0.466604</td>
+      <td>0.828969</td>
+    </tr>
+    <tr>
+      <th>C</th>
+      <td>2.217217</td>
+      <td>-0.046872</td>
+      <td>0.952118</td>
+      <td>-1.223772</td>
+      <td>-1.467452</td>
+      <td>1.369278</td>
+    </tr>
+    <tr>
+      <th>D</th>
+      <td>0.349947</td>
+      <td>-1.890090</td>
+      <td>-0.591175</td>
+      <td>-0.272443</td>
+      <td>0.739277</td>
+      <td>-0.305797</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xCD95; &#xBCC4;&#xB85C; &#xC815;&#xB82C;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python"><span class="hljs-comment"># ascending=False &#xC5ED;&#xC21C;&#xC73C;&#xB85C; &#xBCF4;&#xC5EC;&#xC8FC;&#xB294; &#xB73B;</span>
+<span class="hljs-comment"># axis=0&#xC73C;&#xB85C; &#xD558;&#xBA74;, &#xD589;(Row)&#xC744; &#xAE30;&#xC900;&#xC73C;&#xB85C; &#xC815;&#xB82C;&#xB41C;&#xB2E4;. 0&#xC740; &#xD589;(Row), 1&#xC740; &#xC5F4;(Column). </span>
+<span class="hljs-comment"># ascending &#xC21C;&#xCC28;&#xC801;&#xC73C;&#xB85C; &#xC815;&#xB82C;. descending &#xC5ED;&#xC21C;&#xC73C;&#xB85C; &#xC815;&#xB82C;. </span>
+<span class="hljs-comment"># ascending=False &#xB294; D-&gt;C-&gt;B-&gt;A</span>
+df.sort_index(axis=<span class="hljs-number">1</span>, ascending=<span class="hljs-keyword">False</span>)
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>D</th>
+      <th>C</th>
+      <th>B</th>
+      <th>A</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2013-01-01</th>
+      <td>0.095868</td>
+      <td>2.642896</td>
+      <td>0.416627</td>
+      <td>1.163115</td>
+    </tr>
+    <tr>
+      <th>2013-01-02</th>
+      <td>0.525729</td>
+      <td>-0.679141</td>
+      <td>-0.879822</td>
+      <td>0.587121</td>
+    </tr>
+    <tr>
+      <th>2013-01-03</th>
+      <td>0.642380</td>
+      <td>0.461575</td>
+      <td>0.284343</td>
+      <td>0.436873</td>
+    </tr>
+    <tr>
+      <th>2013-01-04</th>
+      <td>0.206035</td>
+      <td>1.956695</td>
+      <td>-0.546474</td>
+      <td>-0.947212</td>
+    </tr>
+    <tr>
+      <th>2013-01-05</th>
+      <td>-0.115390</td>
+      <td>0.580832</td>
+      <td>-1.763954</td>
+      <td>0.352037</td>
+    </tr>
+    <tr>
+      <th>2013-01-06</th>
+      <td>2.257174</td>
+      <td>1.528186</td>
+      <td>-0.828983</td>
+      <td>-0.171705</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xAC12; &#xBCC4;&#xB85C; &#xC815;&#xB82C;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python"><span class="hljs-comment"># &apos;B&apos; column&#xC758; &#xAC12;&#xC744; &#xC911;&#xC2EC;&#xC73C;&#xB85C; &#xC815;&#xB82C;</span>
+df.sort_values(by=<span class="hljs-string">&apos;B&apos;</span>)
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2013-01-05</th>
+      <td>0.352037</td>
+      <td>-1.763954</td>
+      <td>0.580832</td>
+      <td>-0.115390</td>
+    </tr>
+    <tr>
+      <th>2013-01-02</th>
+      <td>0.587121</td>
+      <td>-0.879822</td>
+      <td>-0.679141</td>
+      <td>0.525729</td>
+    </tr>
+    <tr>
+      <th>2013-01-06</th>
+      <td>-0.171705</td>
+      <td>-0.828983</td>
+      <td>1.528186</td>
+      <td>2.257174</td>
+    </tr>
+    <tr>
+      <th>2013-01-04</th>
+      <td>-0.947212</td>
+      <td>-0.546474</td>
+      <td>1.956695</td>
+      <td>0.206035</td>
+    </tr>
+    <tr>
+      <th>2013-01-03</th>
+      <td>0.436873</td>
+      <td>0.284343</td>
+      <td>0.461575</td>
+      <td>0.642380</td>
+    </tr>
+    <tr>
+      <th>2013-01-01</th>
+      <td>1.163115</td>
+      <td>0.416627</td>
+      <td>2.642896</td>
+      <td>0.095868</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<h1 id="selection-&#xC120;&#xD0DD;">Selection (&#xC120;&#xD0DD;)</h1>
+<p>&#xC8FC;&#xC11D;(Note) : &#xC120;&#xD0DD;&#xACFC; &#xC124;&#xC815;&#xC744; &#xC704;&#xD55C; Python, Numpy&#xC758; &#xD45C;&#xC900;&#xD654;&#xB41C; &#xD45C;&#xD604;&#xB4E4;&#xC774; &#xC9C1;&#xAD00;&#xC801;&#xC774;&#xBA70;, &#xCF54;&#xB4DC; &#xC791;&#xC131;&#xC744; &#xC704;&#xD55C; &#xC591;&#xBC29;&#xD5A5; &#xC791;&#xC5C5;&#xC5D0; &#xC720;&#xC6A9;&#xD558;&#xC9C0;&#xB9CC; &#xC6B0;&#xB9AC;&#xB294; Pandas&#xC5D0; &#xCD5C;&#xC801;&#xD654;&#xB41C; &#xB370;&#xC774;&#xD130; &#xC811;&#xADFC; &#xBC29;&#xBC95;&#xC778; .at, .iat, .loc &#xBC0F; .iloc &#xC744; &#xCD94;&#xCC9C;&#xD569;&#xB2C8;&#xB2E4;. </p>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing" target="_blank">&#xB370;&#xC774;&#xD130; &#xC778;&#xB371;&#xC2F1; &#xBC0F; &#xC120;&#xD0DD;</a> &#xBB38;&#xC11C;&#xC640; <a href="https://pandas.pydata.org/pandas-docs/stable/advanced.html#advanced" target="_blank">&#xB2E4;&#xC911; &#xC778;&#xB371;&#xC2F1; / &#xC2EC;&#xD654; &#xC778;&#xB371;&#xC2F1;</a> &#xBB38;&#xC11C;&#xB97C; &#xD655;&#xC778;&#xD558;&#xC2ED;&#xC2DC;&#xC624;.</p>
+<h2 id="getting-&#xB370;&#xC774;&#xD130;-&#xC5BB;&#xAE30;">Getting (&#xB370;&#xC774;&#xD130; &#xC5BB;&#xAE30;)</h2>
+<p>df.A &#xC640; &#xB3D9;&#xC77C;&#xD55C; Series&#xB97C; &#xC0DD;&#xC131;&#xD558;&#xB294; &#xB2E8;&#xC77C; &#xC5F4;&#xC744; &#xC120;&#xD0DD;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python"><span class="hljs-comment"># df Column &#xC5D0;&#xC11C; A&#xB9CC; &#xC5BB;&#xC744; &#xC218; &#xC788;&#xC74C;.</span>
+<span class="hljs-comment"># &#xC5EC;&#xB7EC; &#xAC1C;&#xC758; Columns &#xC744; &#xBF51;&#xACE0; &#xC2F6;&#xC744; &#xACBD;&#xC6B0;&#xC5D0;&#xB294; df [[&#x2018;A&#x2019;,&#x2018;B&#x2019;]]&#xB85C; &#xAEBE;&#xC1E0;&#xAD04;&#xD638;&#xB85C; &#xD55C;&#xBC88; &#xB354; &#xAC10;&#xC2F8;&#xC90C;. (pandas only)</span>
+df[<span class="hljs-string">&apos;A&apos;</span>]
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+NameError                                 Traceback (most recent call last)
+
+&lt;ipython-input-1-c31f9b0c4302&gt; in &lt;module&gt;()
+----&gt; 1 df[&apos;A&apos;]
+
+
+NameError: name &apos;df&apos; is not defined
+</code></pre><p>&#xD589;&#xC744; &#xBD84;&#xD560;&#xD558;&#xB294; [] &#xB97C; &#xD1B5;&#xD574; &#xC120;&#xD0DD;&#xD569;&#xB2C8;&#xB2E4;</p>
+<pre><code class="lang-python"><span class="hljs-comment"># index 0&#xBD80;&#xD130; &#xC2DC;&#xC791;&#xD558;&#xC5EC;, 3 &#xC804;&#xAE4C;&#xC9C0;&#xB97C; &#xB9D0;&#xD568;. 0, 1, 2&#xB97C; &#xD3EC;&#xD568;. </span>
+<span class="hljs-comment"># df[:]&#xB97C; &#xD558;&#xBA74; &#xC804;&#xCCB4;&#xB97C; &#xB2E4; &#xBD88;&#xB7EC;&#xC634;.</span>
+<span class="hljs-comment"># df[3:] 3&#xBD80;&#xD130; &#xB05D;&#xAE4C;&#xC9C0; &#xBD88;&#xB7EC;&#xC634;.</span>
+df[<span class="hljs-number">0</span>:<span class="hljs-number">3</span>]
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2013-01-01</th>
+      <td>0.395799</td>
+      <td>1.324341</td>
+      <td>0.153554</td>
+      <td>-0.672920</td>
+    </tr>
+    <tr>
+      <th>2013-01-02</th>
+      <td>-0.303496</td>
+      <td>-1.596556</td>
+      <td>-0.920610</td>
+      <td>-0.840386</td>
+    </tr>
+    <tr>
+      <th>2013-01-03</th>
+      <td>0.677687</td>
+      <td>0.204407</td>
+      <td>0.256671</td>
+      <td>-1.094652</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python"><span class="hljs-comment"># index&#xAC00; &#xB0A0;&#xC9DC;&#xB85C; &#xB418;&#xC5B4; &#xC788;&#xC744; &#xACBD;&#xC6B0; &#xC704;&#xC640; &#xAC19;&#xC774; &#xC22B;&#xC790;&#xB85C; &#xBF51;&#xC544;&#xC62C; &#xC218; &#xC788;&#xC74C;</span>
+<span class="hljs-comment"># &#xAD6D;&#xBBFC; &#xCCAD;&#xC6D0; &#xB370;&#xC774;&#xD130;&#xB294; index&#xB97C; &#xB0A0;&#xC9DC;&#xB85C; &#xC9C0;&#xC815;&#xD560; &#xC218; &#xC5C6;&#xC744; &#xAC83;. &#xACE0;&#xC720;&#xAC12;&#xC73C;&#xB85C;&#xB9CC; &#xAD6C;&#xC131;&#xB418;&#xC5B4; &#xC788;&#xC9C0; &#xC54A;&#xAE30; &#xB54C;&#xBB38;. (&#xB0A0;&#xC9DC; &#xC911;&#xBCF5; &#xBB38;&#xC81C;)</span>
+df[<span class="hljs-string">&apos;20130102&apos;</span>:<span class="hljs-string">&apos;20130104&apos;</span>]
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2013-01-02</th>
+      <td>-0.303496</td>
+      <td>-1.596556</td>
+      <td>-0.920610</td>
+      <td>-0.840386</td>
+    </tr>
+    <tr>
+      <th>2013-01-03</th>
+      <td>0.677687</td>
+      <td>0.204407</td>
+      <td>0.256671</td>
+      <td>-1.094652</td>
+    </tr>
+    <tr>
+      <th>2013-01-04</th>
+      <td>-1.109111</td>
+      <td>-0.770913</td>
+      <td>-0.330677</td>
+      <td>-0.570009</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<h2 id="selection-by-label-label-&#xC744;-&#xD1B5;&#xD55C;-&#xC120;&#xD0DD;">Selection by Label (Label &#xC744; &#xD1B5;&#xD55C; &#xC120;&#xD0DD;)</h2>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-label" target="_blank">Label&#xC744; &#xD1B5;&#xD55C; &#xC120;&#xD0DD;</a>&#xC5D0;&#xC11C; &#xB354; &#xB9CE;&#xC740; &#xB0B4;&#xC6A9;&#xC744; &#xD655;&#xC778;&#xD558;&#xC138;&#xC694;.</p>
+<p>&#xB77C;&#xBCA8;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xD6A1;&#xB2E8;&#xBA74;&#xC744; &#xC5BB;&#xB294; &#xBC29;&#xBC95;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df.loc[dates[<span class="hljs-number">0</span>]]
+</code></pre>
+<pre><code>A    0.395799
+B    1.324341
+C    0.153554
+D   -0.672920
+Name: 2013-01-01 00:00:00, dtype: float64
+</code></pre><p>&#xB77C;&#xBCA8;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xC5EC;&#xB7EC; &#xCD95;(&#xC758; &#xB370;&#xC774;&#xD130;)&#xC744; &#xC5BB;&#xB294; &#xBC29;&#xBC95;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python"><span class="hljs-comment"># :&#xB294; &#xC804;&#xCCB4; &#xB370;&#xC774;&#xD130; &#xC911;&#xC5D0;&#xC11C; A B &#xB370;&#xC774;&#xD130;&#xB9CC; &#xCD94;&#xCD9C;</span>
+df.loc[:,[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>]]
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2013-01-01</th>
+      <td>0.395799</td>
+      <td>1.324341</td>
+    </tr>
+    <tr>
+      <th>2013-01-02</th>
+      <td>-0.303496</td>
+      <td>-1.596556</td>
+    </tr>
+    <tr>
+      <th>2013-01-03</th>
+      <td>0.677687</td>
+      <td>0.204407</td>
+    </tr>
+    <tr>
+      <th>2013-01-04</th>
+      <td>-1.109111</td>
+      <td>-0.770913</td>
+    </tr>
+    <tr>
+      <th>2013-01-05</th>
+      <td>-0.223322</td>
+      <td>0.305182</td>
+    </tr>
+    <tr>
+      <th>2013-01-06</th>
+      <td>0.623582</td>
+      <td>0.705459</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xC591;&#xCABD; &#xC885;&#xB2E8;&#xC810;&#xC744; &#xD3EC;&#xD568;&#xD55C; &#xB77C;&#xBCA8; &#xC2AC;&#xB77C;&#xC774;&#xC2F1;&#xC744; &#xBD05;&#xC2DC;&#xB2E4;.</p>
+<pre><code class="lang-python">df.loc[<span class="hljs-string">&apos;20130102&apos;</span>:<span class="hljs-string">&apos;20130104&apos;</span>, [<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>]]
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2013-01-02</th>
+      <td>-0.303496</td>
+      <td>-1.596556</td>
+    </tr>
+    <tr>
+      <th>2013-01-03</th>
+      <td>0.677687</td>
+      <td>0.204407</td>
+    </tr>
+    <tr>
+      <th>2013-01-04</th>
+      <td>-1.109111</td>
+      <td>-0.770913</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xBC18;&#xD658;&#xB418;&#xB294; &#xAC1D;&#xCCB4;&#xC758; &#xD06C;&#xAE30;&#xB97C; &#xC904;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df.loc[<span class="hljs-string">&apos;20130102&apos;</span>,[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>]]
+</code></pre>
+<pre><code>A   -0.303496
+B   -1.596556
+Name: 2013-01-02 00:00:00, dtype: float64
+</code></pre><p>&#xC2A4;&#xCE7C;&#xB77C; &#xAC12;&#xC744; &#xC5BB;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">
+df.loc[dates[<span class="hljs-number">0</span>],<span class="hljs-string">&apos;A&apos;</span>]
+</code></pre>
+<pre><code>0.11272306638579893
+</code></pre><p>&#xC2A4;&#xCE7C;&#xB77C; &#xAC12;&#xC744; &#xB354; &#xBE60;&#xB974;&#xAC8C; &#xAD6C;&#xD558;&#xB294; &#xBC29;&#xBC95;&#xC785;&#xB2C8;&#xB2E4;. (&#xC55E;&#xC120; method&#xC640; &#xB3D9;&#xC77C;&#xD569;&#xB2C8;&#xB2E4;)</p>
+<pre><code class="lang-python">df.at[dates[<span class="hljs-number">0</span>],<span class="hljs-string">&apos;A&apos;</span>]
+</code></pre>
+<pre><code>0.39579879602076895
+</code></pre><h2 id="selection-by-position-&#xC704;&#xCE58;&#xB85C;-&#xC120;&#xD0DD;&#xD558;&#xAE30;">Selection by Position (&#xC704;&#xCE58;&#xB85C; &#xC120;&#xD0DD;&#xD558;&#xAE30;)</h2>
+<p>&#xC790;&#xC138;&#xD55C; &#xB0B4;&#xC6A9;&#xC740; <a href="https://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-integer" target="_blank">&#xC704;&#xCE58;&#xB85C; &#xC120;&#xD0DD;&#xD558;&#xAE30;</a>&#xB97C; &#xCC38;&#xACE0;&#xD574;&#xC8FC;&#xC138;&#xC694;.</p>
+<p>&#xB118;&#xACA8;&#xBC1B;&#xC740; &#xC815;&#xC218;&#xC758; &#xC704;&#xCE58;&#xB85C; &#xC120;&#xD0DD;&#xD558;&#xAE30;:</p>
+<pre><code class="lang-python">df.iloc[<span class="hljs-number">3</span>]
+</code></pre>
+<p>&#xB118;&#xD30C;&#xC774;/&#xD30C;&#xC774;&#xC36C; &#xC791;&#xB3D9; &#xBC29;&#xC2DD;&#xCC98;&#xB7FC; &#xC815;&#xC218;&#xB85C; &#xD45C;&#xAE30;&#xB41C; &#xC2AC;&#xB77C;&#xC774;&#xC2A4;&#xB85C; &#xC120;&#xD0DD;&#xD558;&#xAE30;:</p>
+<pre><code class="lang-python">df.iloc[<span class="hljs-number">3</span>:<span class="hljs-number">5</span>,<span class="hljs-number">0</span>:<span class="hljs-number">2</span>]
+</code></pre>
+<p>&#xB118;&#xD30C;&#xC774;/&#xD30C;&#xC774;&#xC36C; &#xC791;&#xB3D9; &#xBC29;&#xC2DD;&#xCC98;&#xB7FC; &#xC815;&#xC218;&#xB85C; &#xD45C;&#xAE30;&#xB41C; &#xC704;&#xCE58;&#xAC12;&#xC744; &#xAE30;&#xBC18;&#xC73C;&#xB85C; &#xC120;&#xD0DD;&#xD558;&#xAE30;:</p>
+<pre><code class="lang-python">df.iloc[[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">4</span>],[<span class="hljs-number">0</span>,<span class="hljs-number">2</span>]]
+</code></pre>
+<p>&#xD589;&#xB9CC; &#xB098;&#xB204;&#xACE0; &#xC2F6;&#xC744; &#xB54C;:</p>
+<pre><code class="lang-python">df.iloc[<span class="hljs-number">1</span>:<span class="hljs-number">3</span>,:]
+</code></pre>
+<p>&#xC5F4;&#xB9CC; &#xB098;&#xB204;&#xACE0; &#xC2F6;&#xC744; &#xB54C;:</p>
+<pre><code class="lang-python">df.iloc[:,<span class="hljs-number">1</span>:<span class="hljs-number">3</span>]
+</code></pre>
+<p>&#xAC12;&#xB9CC; &#xC5BB;&#xACE0; &#xC2F6;&#xC744; &#xB54C;:</p>
+<pre><code class="lang-python">df.iloc[<span class="hljs-number">1</span>,<span class="hljs-number">1</span>]
+</code></pre>
+<p>&#xC2A4;&#xCE7C;&#xB77C; &#xAC12;&#xC744; &#xBE68;&#xB9AC; &#xC5BB;&#xACE0; &#xC2F6;&#xC744; &#xB54C;(&#xC704; &#xBC29;&#xC2DD;&#xACFC; &#xB3D9;&#xC77C;):</p>
+<pre><code class="lang-python">df.iat[<span class="hljs-number">1</span>,<span class="hljs-number">1</span>]
+</code></pre>
+<h2 id="boolean-indexing-&#xBD80;&#xC6B8;&#xC778;&#xB371;&#xC2F1;">Boolean Indexing (&#xBD80;&#xC6B8;&#xC778;&#xB371;&#xC2F1;)</h2>
+<p>&#xC120;&#xD0DD;&#xD55C; &#xB370;&#xC774;&#xD130;&#xC5D0; &#xB2E8;&#xC77C; &#xC5F4;&#xC758; &#xAC12;&#xC744; &#xC0AC;&#xC6A9;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df[df.A &gt; <span class="hljs-number">0</span>]
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+NameError                                 Traceback (most recent call last)
+
+&lt;ipython-input-1-4c1bb2a68b7c&gt; in &lt;module&gt;()
+----&gt; 1 df[df.A &gt; 0]
+
+
+NameError: name &apos;df&apos; is not defined
+</code></pre><p>&#xBD80;&#xC6B8; &#xC870;&#xAC74;&#xC5D0; &#xCDA9;&#xC871;&#xB418;&#xB294; &#xB370;&#xC774;&#xD130;&#xD504;&#xB808;&#xC784;&#xC5D0;&#xC11C; &#xBCC0;&#xC218;&#xB97C; &#xC120;&#xD0DD;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df[df &gt; <span class="hljs-number">0</span>]
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+NameError                                 Traceback (most recent call last)
+
+&lt;ipython-input-2-3990d321393d&gt; in &lt;module&gt;()
+----&gt; 1 df[df &gt; 0]
+
+
+NameError: name &apos;df&apos; is not defined
+</code></pre><p>&#xD544;&#xD130;&#xB9C1; &#xBC29;&#xBC95;&#xC778; <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.isin.html#pandas.Series.isin" target="_blank">isin()</a>&#xC744; &#xC0AC;&#xC6A9;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df2 = df.copy()
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+NameError                                 Traceback (most recent call last)
+
+&lt;ipython-input-3-5239123e9f27&gt; in &lt;module&gt;()
+----&gt; 1 df2 = df.copy()
+
+
+NameError: name &apos;df&apos; is not defined
+</code></pre><pre><code class="lang-python">df2[<span class="hljs-string">&apos;E&apos;</span>] = [<span class="hljs-string">&apos;one&apos;</span>, <span class="hljs-string">&apos;one&apos;</span>,<span class="hljs-string">&apos;two&apos;</span>,<span class="hljs-string">&apos;three&apos;</span>,<span class="hljs-string">&apos;four&apos;</span>,<span class="hljs-string">&apos;three&apos;</span>]
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+NameError                                 Traceback (most recent call last)
+
+&lt;ipython-input-6-c2648a571dfc&gt; in &lt;module&gt;()
+----&gt; 1 df2[&apos;E&apos;] = [&apos;one&apos;, &apos;one&apos;,&apos;two&apos;,&apos;three&apos;,&apos;four&apos;,&apos;three&apos;]
+
+
+NameError: name &apos;df2&apos; is not defined
+</code></pre><pre><code class="lang-python">df2
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+NameError                                 Traceback (most recent call last)
+
+&lt;ipython-input-7-2068723f1203&gt; in &lt;module&gt;()
+----&gt; 1 df2
+
+
+NameError: name &apos;df2&apos; is not defined
+</code></pre><pre><code class="lang-python">df2[df2[<span class="hljs-string">&apos;E&apos;</span>].isin([<span class="hljs-string">&apos;two&apos;</span>,<span class="hljs-string">&apos;four&apos;</span>])]
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+NameError                                 Traceback (most recent call last)
+
+&lt;ipython-input-8-bdde5e490798&gt; in &lt;module&gt;()
+----&gt; 1 df2[df2[&apos;E&apos;].isin([&apos;two&apos;,&apos;four&apos;])]
+
+
+NameError: name &apos;df2&apos; is not defined
+</code></pre><h2 id="setting-&#xC124;&#xC815;">Setting (&#xC124;&#xC815;)</h2>
+<p>&#xC0C8;&#xB85C;&#xC6B4; &#xC5F4;&#xC744; &#xB0A0;&#xC9DC;&#xC640; &#xC778;&#xB371;&#xC2A4;&#xC5D0; &#xB530;&#xB77C; &#xC790;&#xB3D9;&#xC801;&#xC73C;&#xB85C; &#xC904;&#xC774; &#xB9DE;&#xCDB0;&#xC9C0;&#xB3C4;&#xB85D; &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;. </p>
+<pre><code class="lang-python">s1 = pd.Series([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>], index=pd.date_range(<span class="hljs-string">&apos;20130102&apos;</span>, periods=<span class="hljs-number">6</span>))
+</code></pre>
+<pre><code class="lang-python">s1
+</code></pre>
+<pre><code class="lang-python">df[<span class="hljs-string">&apos;F&apos;</span>] = s1
+</code></pre>
+<p>&#xB77C;&#xBCA8;&#xC5D0; &#xB530;&#xB77C; &#xAC12;&#xC744; &#xC124;&#xC815;&#xD558;&#xACE0; &#xC2F6;&#xB2E4;&#xBA74; :</p>
+<pre><code class="lang-python">df.at[dates[<span class="hljs-number">0</span>],<span class="hljs-string">&apos;A&apos;</span>] = <span class="hljs-number">0</span>
+</code></pre>
+<pre><code>DatetimeIndex([&apos;2013-01-01&apos;, &apos;2013-01-02&apos;, &apos;2013-01-03&apos;, &apos;2013-01-04&apos;,
+               &apos;2013-01-05&apos;, &apos;2013-01-06&apos;],
+              dtype=&apos;datetime64[ns]&apos;, freq=&apos;D&apos;)
+</code></pre><p>&#xC704;&#xCE58;&#xC5D0; &#xB530;&#xB77C; &#xAC12;&#xC744; &#xC124;&#xC815;&#xD558;&#xACE0; &#xC2F6;&#xB2E4;&#xBA74; :</p>
+<pre><code class="lang-python">df.iat[<span class="hljs-number">0</span>,<span class="hljs-number">1</span>] = <span class="hljs-number">0</span>
+</code></pre>
+<p>Numpy &#xBC30;&#xC5F4;&#xB85C; &#xD560;&#xB2F9;&#xD558;&#xACE0; &#xC2F6;&#xB2E4;&#xBA74;  :</p>
+<pre><code class="lang-python">df.loc[:,<span class="hljs-string">&apos;D&apos;</span>] = np.array([<span class="hljs-number">5</span>] * len(df))
+</code></pre>
+<p>&#xC704; &#xC124;&#xC815;&#xB300;&#xB85C; &#xC791;&#xB3D9;&#xD55C; &#xACB0;&#xACFC;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2013-01-01</th>
+      <td>-1.479995</td>
+      <td>0.361202</td>
+      <td>1.486119</td>
+      <td>0.115256</td>
+    </tr>
+    <tr>
+      <th>2013-01-02</th>
+      <td>-0.221067</td>
+      <td>0.487654</td>
+      <td>0.938039</td>
+      <td>-0.741746</td>
+    </tr>
+    <tr>
+      <th>2013-01-03</th>
+      <td>0.729247</td>
+      <td>-0.215760</td>
+      <td>0.337932</td>
+      <td>-1.177466</td>
+    </tr>
+    <tr>
+      <th>2013-01-04</th>
+      <td>0.847000</td>
+      <td>-0.118338</td>
+      <td>0.038752</td>
+      <td>-0.727101</td>
+    </tr>
+    <tr>
+      <th>2013-01-05</th>
+      <td>-0.239768</td>
+      <td>-0.581571</td>
+      <td>0.884636</td>
+      <td>0.134043</td>
+    </tr>
+    <tr>
+      <th>2013-01-06</th>
+      <td>0.204809</td>
+      <td>-0.082419</td>
+      <td>0.846424</td>
+      <td>-0.720843</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xC124;&#xC815;&#xB41C; where &#xC791;&#xC5C5;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df2 = df.copy()
+</code></pre>
+<pre><code class="lang-python">df2[df2 &gt; <span class="hljs-number">0</span>] = -df2
+</code></pre>
+<pre><code class="lang-python">df2
+</code></pre>
+<h1 id="missing-data&#xACB0;&#xCE21;&#xCE58;">Missing Data(&#xACB0;&#xCE21;&#xCE58;)</h1>
+<p>pandas&#xB294; missing data(&#xACB0;&#xCE21;&#xCE58;)&#xB97C; &#xD45C;&#xD604;&#xD558;&#xAE30; &#xC704;&#xD574; &#xC8FC;&#xB85C; np.nan &#xAC12;&#xC744; &#xC0AC;&#xC6A9;&#xD569;&#xB2C8;&#xB2E4;. &#xC774; &#xBC29;&#xBC95;&#xC740; default(&#xAE30;&#xBCF8; &#xC124;&#xC815;)&#xC774;&#xC9C0;&#xB9CC; &#xACC4;&#xC0B0;&#xC5D0;&#xB294; &#xD3EC;&#xD568;&#xB418;&#xC9C0; &#xC54A;&#xC2B5;&#xB2C8;&#xB2E4;. <a href="https://pandas.pydata.org/pandas-docs/stable/missing_data.html#missing-data" target="_blank">Missing Data section</a>&#xC744; &#xCC38;&#xC870;&#xD558;&#xC2ED;&#xC2DC;&#xC624;.</p>
+<p>Reindexing&#xC73C;&#xB85C; &#xC9C0;&#xC815;&#xB41C; &#xCD95;&#xC744; &#xBCC0;&#xACBD;/&#xCD94;&#xAC00;/&#xC0AD;&#xC81C;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. Reindexing&#xC740; &#xB370;&#xC774;&#xD130; &#xBCF5;&#xC0AC;&#xBCF8;&#xC744; &#xBC18;&#xD658;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df1 = df.reindex(index=dates[<span class="hljs-number">0</span>:<span class="hljs-number">4</span>], columns=list(df.columns) + [<span class="hljs-string">&apos;E&apos;</span>])
+</code></pre>
+<pre><code class="lang-python">df1.loc[dates[<span class="hljs-number">0</span>]:dates[<span class="hljs-number">1</span>],<span class="hljs-string">&apos;E&apos;</span>] = <span class="hljs-number">1</span>
+</code></pre>
+<pre><code class="lang-python">df1
+</code></pre>
+<p>missing data(&#xACB0;&#xCE21;&#xCE58;)&#xB97C; &#xAC16;&#xACE0; &#xC788;&#xB294; &#xD589;&#xB4E4;&#xC744; &#xC9C0;&#xC6C1;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df1.dropna(how=<span class="hljs-string">&apos;any&apos;</span>)
+</code></pre>
+<p>missing data(&#xACB0;&#xCE21;&#xCE58;)&#xB97C; &#xCC44;&#xC6C1;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df1.fillna(value=<span class="hljs-number">5</span>)
+</code></pre>
+<p>&#xAC12;&#xC774; nan&#xC778; boolean mask &#xC5BB;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">pd.isna(df1)
+</code></pre>
+<h1 id="operation-&#xC5F0;&#xC0B0;">Operation (&#xC5F0;&#xC0B0;)</h1>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/basics.html#basics-binop" target="_blank">&#xBC14;&#xC774;&#xB108;&#xB9AC; &#xC791;&#xC5C5;&#xC758; &#xAE30;&#xBCF8; &#xC139;&#xC158;</a>&#xC744; &#xCC38;&#xC870;&#xD558;&#xC2ED;&#xC2DC;&#xC624;.</p>
+<h2 id="stats&#xD1B5;&#xACC4;">Stats(&#xD1B5;&#xACC4;)</h2>
+<p>&#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xC5F0;&#xC0B0;&#xC740; missing data(&#xACB0;&#xCE21;&#xCE58;)&#xB97C; &#xC81C;&#xC678;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<p>&#xC11C;&#xC220;&#xC801;&#xC778; &#xD1B5;&#xACC4;&#xB97C; &#xC218;&#xD589;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df.mean()
+</code></pre>
+<p>&#xB2E4;&#xB978; &#xCD95;&#xC5D0;&#xC11C; &#xB3D9;&#xC77C;&#xD55C; &#xC791;&#xC5C5;&#xC744; &#xC218;&#xD589;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df.mean(<span class="hljs-number">1</span>)
+</code></pre>
+<p>&#xCC28;&#xC6D0;&#xC774; &#xB2E4;&#xB974;&#xACE0; &#xC815;&#xB82C;&#xC774; &#xD544;&#xC694;&#xD55C; &#xAC1D;&#xCCB4;&#xB85C; &#xC791;&#xC5C5;&#xD569;&#xB2C8;&#xB2E4;. &#xB610;&#xD55C; pandas&#xB294; &#xC9C0;&#xC815;&#xB41C; &#xCC28;&#xC6D0;&#xC744; &#xB530;&#xB77C; &#xC790;&#xB3D9;&#xC73C;&#xB85C; &#xBE0C;&#xB85C;&#xB4DC; &#xCE90;&#xC2A4;&#xD305;(&#xC5ED;&#xC8FC; : broadcast&#xB780; numpy&#xC5D0;&#xC11C; &#xC720;&#xB798;&#xD55C; &#xC6A9;&#xC5B4;&#xB85C;, n&#xCC28;&#xC6D0;&#xC774;&#xB098; &#xC2A4;&#xCE7C;&#xB77C; &#xAC12;&#xC73C;&#xB85C; &#xC5F0;&#xC0B0;&#xC744; &#xC218;&#xD589;&#xD560; &#xB54C; &#xB3C4;&#xCD9C;&#xB418;&#xB294; &#xACB0;&#xACFC;&#xC758; &#xADDC;&#xCE59;&#xC744; &#xC124;&#xBA85;&#xD558;&#xB294; &#xAC83;&#xC744; &#xC758;&#xBBF8;&#xD569;&#xB2C8;&#xB2E4;.)&#xB429;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">s = pd.Series([<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">5</span>,np.nan,<span class="hljs-number">6</span>,<span class="hljs-number">8</span>], index=dates).shift(<span class="hljs-number">2</span>)
+</code></pre>
+<pre><code class="lang-python">s
+</code></pre>
+<pre><code class="lang-python">df.sub(s, axis=<span class="hljs-string">&apos;index&apos;</span>)
+</code></pre>
+<h2 id="apply-&#xC801;&#xC6A9;&#xD558;&#xAE30;">Apply (&#xC801;&#xC6A9;&#xD558;&#xAE30;)</h2>
+<p>&#xB370;&#xC774;&#xD130;&#xC5D0; &#xAE30;&#xB2A5;&#xC744; &#xC801;&#xC6A9;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df.apply(np.cumsum)
+</code></pre>
+<pre><code class="lang-python">df.apply(<span class="hljs-keyword">lambda</span> x: x.max() - x.min())
+</code></pre>
+<h2 id="histogramming-&#xD788;&#xC2A4;&#xD1A0;&#xADF8;&#xB798;&#xBC0D;">Histogramming (&#xD788;&#xC2A4;&#xD1A0;&#xADF8;&#xB798;&#xBC0D;)</h2>
+<p>&#xB354; &#xB9CE;&#xC740; &#xB0B4;&#xC6A9;&#xC740; <a href="https://pandas.pydata.org/pandas-docs/stable/basics.html#basics-discretization" target="_blank">Histogramming and Discretization (&#xD788;&#xC2A4;&#xD1A0;&#xADF8;&#xB798;&#xBC0D;&#xACFC; &#xC774;&#xC0B0;&#xD654;)</a>&#xD56D;&#xBAA9;&#xC744; &#xCC38;&#xC870;&#xD558;&#xC2ED;&#xC2DC;&#xC624;.</p>
+<pre><code class="lang-python">s = pd.Series(np.random.randint(<span class="hljs-number">0</span>, <span class="hljs-number">7</span>, size=<span class="hljs-number">10</span>))
+</code></pre>
+<pre><code class="lang-python">s
+</code></pre>
+<pre><code class="lang-python">s.value_counts()
+</code></pre>
+<pre><code>8.0    1
+6.0    1
+5.0    1
+3.0    1
+1.0    1
+dtype: int64
+</code></pre><h2 id="string-mathods-&#xBB38;&#xC790;&#xC5F4;-&#xBA54;&#xC11C;&#xB4DC;">String Mathods (&#xBB38;&#xC790;&#xC5F4; &#xBA54;&#xC11C;&#xB4DC;)</h2>
+<p>Series &#xB294; &#xC544;&#xB798;&#xC758; &#xCF54;&#xB4DC; &#xC2A4;&#xB2C8;&#xD3AB;&#xC5D0;&#xC11C;&#xCC98;&#xB7FC; &#xBC30;&#xC5F4;&#xC758; &#xAC01; &#xC694;&#xC18C;&#xB97C; &#xC27D;&#xAC8C; &#xC870;&#xC791;&#xD560; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xD558;&#xB294; &#xBB38;&#xC790;&#xC5F4; &#xCC98;&#xB9AC; &#xBA54;&#xC11C;&#xB4DC; &#xC138;&#xD2B8;&#xB97C; &#xAC16;&#xCD94;&#xACE0; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xC8FC;&#xB85C; &#xBB38;&#xC790;&#xC5F4;&#xC5D0;&#xC11C;&#xC758; &#xD328;&#xD134; &#xB9E4;&#xCE6D;&#xC740; &#xC790;&#xB3D9;&#xC73C;&#xB85C; <a href="https://docs.python.org/3/library/re.html" target="_blank">regular expressions (&#xC815;&#xADDC;&#xC2DD;)</a>&#xC744; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;&#xB294; &#xAC83;&#xC744; &#xC720;&#xC758;&#xD558;&#xC2ED;&#xC2DC;&#xC624;. (&#xADF8;&#xB9AC;&#xACE0; &#xAC00;&#xB054; &#xC5B4;&#xB5A4; &#xACBD;&#xC6B0;&#xC5D0;&#xB294; &#xD56D;&#xC0C1; &#xC815;&#xADDC;&#xC2DD;&#xC744; &#xC0AC;&#xC6A9;&#xD569;&#xB2C8;&#xB2E4;.) </p>
+<p>&#xB354; &#xB9CE;&#xC740; &#xB0B4;&#xC6A9;&#xC740; <a href="https://pandas.pydata.org/pandas-docs/stable/text.html#text-string-methods" target="_blank">Vectorized String Methods (&#xBCA1;&#xD130;&#xD654;&#xB41C; &#xBB38;&#xC790;&#xC5F4; &#xBA54;&#xC11C;&#xB4DC;)</a> &#xD56D;&#xBAA9;&#xC744; &#xCC38;&#xC870;&#xD558;&#xC2ED;&#xC2DC;&#xC624;. </p>
+<pre><code class="lang-python">s = pd.Series([<span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>, <span class="hljs-string">&apos;C&apos;</span>, <span class="hljs-string">&apos;Aaba&apos;</span>, <span class="hljs-string">&apos;Baca&apos;</span>, np.nan, <span class="hljs-string">&apos;CABA&apos;</span>, <span class="hljs-string">&apos;dog&apos;</span>, <span class="hljs-string">&apos;cat&apos;</span>])
+</code></pre>
+<pre><code class="lang-python">s.str.lower()
+</code></pre>
+<pre><code class="lang-python">df = pd.DataFrame(np.random.randn(<span class="hljs-number">6</span>,<span class="hljs-number">4</span>), index=dates, columns=list(<span class="hljs-string">&apos;ABCD&apos;</span>))
+</code></pre>
+<pre><code class="lang-python">df
+</code></pre>
+<pre><code class="lang-python">df[<span class="hljs-string">&apos;F&apos;</span>] = s1
+</code></pre>
+<h1 id="merge-&#xBCD1;&#xD569;">Merge (&#xBCD1;&#xD569;)</h1>
+<h2 id="concat-&#xC5F0;&#xACB0;">Concat (&#xC5F0;&#xACB0;)</h2>
+<p>Pandas&#xB294; join/merge &#xC640; &#xAC19;&#xC740; &#xBCD1;&#xD569;&#xC791;&#xC5C5;&#xC758; &#xACBD;&#xC6B0; &apos;concat()&apos; &#xC744; &#xD1B5;&#xD574;<br>
+Series, DataFrame, Panel &#xAC1D;&#xCCB4;&#xB97C; index&#xC640; &#xAD00;&#xACC4; &#xB300;&#xC218; &#xAE30;&#xB2A5;&#xC5D0; &#xB300;&#xD55C; &#xB2E4;&#xC591;&#xD55C; &#xC720;&#xD615;&#xC758; &#xB17C;&#xB9AC;&#xB85C;<br>
+&#xC190;&#xC27D;&#xAC8C; &#xACB0;&#xD569;&#xD560; &#xC218; &#xC788;&#xB294; &#xB2E4;&#xC591;&#xD55C; &#xAE30;&#xB2A5;&#xC744; &#xC81C;&#xACF5;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<p>Merging &#xC139;&#xC158;&#xC744; &#xBD05;&#xC2DC;&#xB2E4;. <a href="https://pandas.pydata.org/pandas-docs/stable/merging.html#merging" target="_blank">Merging section</a> </p>
+<p>&apos;concat()&apos;&#xC73C;&#xB85C; Pandas &#xAC1D;&#xCCB4;&#xB97C; &#xC5F0;&#xACB0;(concatenating) &#xD569;&#xB2C8;&#xB2E4;. </p>
+<pre><code class="lang-python">df = pd.DataFrame(np.random.randn(<span class="hljs-number">10</span>, <span class="hljs-number">4</span>))
+</code></pre>
+<pre><code class="lang-python">df
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.129203</td>
+      <td>-0.237727</td>
+      <td>-0.769031</td>
+      <td>-1.964273</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1.040888</td>
+      <td>1.448563</td>
+      <td>-0.984106</td>
+      <td>-0.099231</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>-0.722966</td>
+      <td>-1.198605</td>
+      <td>-0.477420</td>
+      <td>-0.265710</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>-0.005394</td>
+      <td>0.286019</td>
+      <td>0.730833</td>
+      <td>-0.473830</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.231130</td>
+      <td>-1.574169</td>
+      <td>0.781478</td>
+      <td>-0.159057</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>-1.417875</td>
+      <td>-0.247297</td>
+      <td>-0.580590</td>
+      <td>1.369179</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>-0.905663</td>
+      <td>0.641291</td>
+      <td>0.266012</td>
+      <td>-0.474489</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>0.196629</td>
+      <td>1.592408</td>
+      <td>0.017062</td>
+      <td>-1.300836</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>0.034225</td>
+      <td>0.032075</td>
+      <td>-1.876997</td>
+      <td>-1.712954</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>0.399283</td>
+      <td>0.087454</td>
+      <td>-0.134279</td>
+      <td>-1.936356</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python"><span class="hljs-comment"># break it into pieces</span>
+pieces = [df[:<span class="hljs-number">3</span>], df[<span class="hljs-number">3</span>:<span class="hljs-number">7</span>], df[<span class="hljs-number">7</span>:]]
+pd.concat(pieces)
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.129203</td>
+      <td>-0.237727</td>
+      <td>-0.769031</td>
+      <td>-1.964273</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1.040888</td>
+      <td>1.448563</td>
+      <td>-0.984106</td>
+      <td>-0.099231</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>-0.722966</td>
+      <td>-1.198605</td>
+      <td>-0.477420</td>
+      <td>-0.265710</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>-0.005394</td>
+      <td>0.286019</td>
+      <td>0.730833</td>
+      <td>-0.473830</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.231130</td>
+      <td>-1.574169</td>
+      <td>0.781478</td>
+      <td>-0.159057</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>-1.417875</td>
+      <td>-0.247297</td>
+      <td>-0.580590</td>
+      <td>1.369179</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>-0.905663</td>
+      <td>0.641291</td>
+      <td>0.266012</td>
+      <td>-0.474489</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>0.196629</td>
+      <td>1.592408</td>
+      <td>0.017062</td>
+      <td>-1.300836</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>0.034225</td>
+      <td>0.032075</td>
+      <td>-1.876997</td>
+      <td>-1.712954</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>0.399283</td>
+      <td>0.087454</td>
+      <td>-0.134279</td>
+      <td>-1.936356</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">df.iloc[:,<span class="hljs-number">1</span>:<span class="hljs-number">3</span>]
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>B</th>
+      <th>C</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2013-01-01</th>
+      <td>1.324341</td>
+      <td>0.153554</td>
+    </tr>
+    <tr>
+      <th>2013-01-02</th>
+      <td>-1.596556</td>
+      <td>-0.920610</td>
+    </tr>
+    <tr>
+      <th>2013-01-03</th>
+      <td>0.204407</td>
+      <td>0.256671</td>
+    </tr>
+    <tr>
+      <th>2013-01-04</th>
+      <td>-0.770913</td>
+      <td>-0.330677</td>
+    </tr>
+    <tr>
+      <th>2013-01-05</th>
+      <td>0.305182</td>
+      <td>-1.508353</td>
+    </tr>
+    <tr>
+      <th>2013-01-06</th>
+      <td>0.705459</td>
+      <td>0.369007</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<h2 id="join">Join</h2>
+<p>SQL &#xBC29;&#xC2DD;&#xC73C;&#xB85C; merge&#xD569;&#xB2C8;&#xB2E4;. <a href="https://pandas.pydata.org/pandas-docs/stable/merging.html#merging-join" target="_blank">Database style joining</a> &#xC139;&#xC158;&#xC744; &#xCC38;&#xACE0;&#xD558;&#xC138;&#xC694;.</p>
+<pre><code class="lang-python">left = pd.DataFrame({<span class="hljs-string">&apos;key&apos;</span>: [<span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;foo&apos;</span>], <span class="hljs-string">&apos;lval&apos;</span>: [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>]})
+</code></pre>
+<pre><code class="lang-python">right = pd.DataFrame({<span class="hljs-string">&apos;key&apos;</span>: [<span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;foo&apos;</span>], <span class="hljs-string">&apos;rval&apos;</span>: [<span class="hljs-number">4</span>, <span class="hljs-number">5</span>]})
+</code></pre>
+<pre><code class="lang-python">left
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>key</th>
+      <th>lval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>foo</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>foo</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">right
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>key</th>
+      <th>rval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>foo</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>foo</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">pd.merge(left, right, on= <span class="hljs-string">&apos;key&apos;</span>)
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>key</th>
+      <th>lval</th>
+      <th>rval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>foo</td>
+      <td>1</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>foo</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>foo</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>foo</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xC774;&#xC640; &#xAC19;&#xC740; &#xB2E4;&#xB978; &#xC608;&#xC2DC;&#xB294; :</p>
+<pre><code class="lang-python">left = pd.DataFrame({<span class="hljs-string">&apos;key&apos;</span> : [<span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;bar&apos;</span>], <span class="hljs-string">&apos;lval&apos;</span> : [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>]})
+</code></pre>
+<pre><code class="lang-python">right = pd.DataFrame({<span class="hljs-string">&apos;key&apos;</span>: [<span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;bar&apos;</span>], <span class="hljs-string">&apos;rval&apos;</span>: [<span class="hljs-number">4</span>, <span class="hljs-number">5</span>]})
+</code></pre>
+<pre><code class="lang-python">left
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>key</th>
+      <th>lval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>foo</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>bar</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">right
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>key</th>
+      <th>rval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>foo</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>bar</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">pd.merge(left, right, on= <span class="hljs-string">&apos;key&apos;</span>)
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>key</th>
+      <th>lval</th>
+      <th>rval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>foo</td>
+      <td>1</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>bar</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<h2 id="append-&#xC694;&#xC18C;-&#xCD94;&#xAC00;">Append (&#xC694;&#xC18C; &#xCD94;&#xAC00;)</h2>
+<p>&#xB370;&#xC774;&#xD130;&#xD504;&#xB808;&#xC784;&#xC5D0; &#xD558;&#xB098;, &#xD639;&#xC740; &#xC5EC;&#xB7EC; &#xAC1C;&#xC758; &#xD589;&#xC744; &#xCD94;&#xAC00;&#xD569;&#xB2C8;&#xB2E4;. <a href="https://pandas.pydata.org/pandas-docs/stable/merging.html#merging-concatenation" target="_blank">Appending</a> &#xC139;&#xC158;&#xC744; &#xCC38;&#xC870;&#xD558;&#xC2DC;&#xAE30; &#xBC14;&#xB78D;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df = pd.DataFrame(np.random.randn(<span class="hljs-number">8</span>, <span class="hljs-number">4</span>), columns=[<span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>, <span class="hljs-string">&apos;C&apos;</span>, <span class="hljs-string">&apos;D&apos;</span>])
+</code></pre>
+<pre><code class="lang-python">df
+</code></pre>
+<pre><code class="lang-python">s = df.iloc[<span class="hljs-number">3</span>]
+</code></pre>
+<pre><code class="lang-python">df.append(s, ignore_index=<span class="hljs-keyword">True</span>)
+</code></pre>
+<h1 id="grouping-&#xADF8;&#xB8F9;&#xD654;">Grouping (&#xADF8;&#xB8F9;&#xD654;)</h1>
+<p><strong>&#xADF8;&#xB8F9;&#xD654;</strong>&#xB294; &#xB2E4;&#xC74C; &#xB2E8;&#xACC4; &#xC911; &#xD558;&#xB098; &#xC774;&#xC0C1;&#xC744; &#xD3EC;&#xD568;&#xD558;&#xB294; &#xD504;&#xB85C;&#xC138;&#xC2A4;&#xB97C; &#xB098;&#xD0C0;&#xB0C5;&#xB2C8;&#xB2E4;.</p>
+<ul>
+<li>&#xC5B4;&#xB5A4; &#xAE30;&#xC900;&#xC5D0; &#xB530;&#xB77C; &#xC5EC;&#xB7EC; &#xADF8;&#xB8F9;&#xC73C;&#xB85C; <strong>&#xB370;&#xC774;&#xD130; &#xBD84;&#xD560;(Splitting)</strong></li>
+<li>&#xAC01; &#xADF8;&#xB8F9;&#xC5D0; &#xB3C5;&#xB9BD;&#xC801;&#xC73C;&#xB85C; &#xD568;&#xC218;(function) <strong>&#xC801;&#xC6A9;(Applying)</strong></li>
+<li>&#xACB0;&#xACFC;&#xBB3C;&#xB4E4;&#xC744; &#xD558;&#xB098;&#xC758; &#xC790;&#xB8CC;&#xAD6C;&#xC870;&#xB85C;  <strong>&#xACB0;&#xD569;(Combining)</strong></li>
+</ul>
+<p>&#xC790;&#xC138;&#xD55C; &#xB0B4;&#xC6A9;&#xC740; <a href="https://pandas.pydata.org/pandas-docs/stable/groupby.html#groupby" target="_blank">&#xADF8;&#xB8F9;&#xD654; </a>&#xC139;&#xC158;&#xC744; &#xCC38;&#xC870;&#xD558;&#xC2ED;&#xC2DC;&#xC624;.</p>
+<pre><code class="lang-python">df = pd.DataFrame(
+    {
+        <span class="hljs-string">&apos;A&apos;</span> : [<span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;bar&apos;</span>, <span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;bar&apos;</span>, <span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;bar&apos;</span>, <span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;foo&apos;</span>],
+        <span class="hljs-string">&apos;B&apos;</span> : [<span class="hljs-string">&apos;one&apos;</span>, <span class="hljs-string">&apos;one&apos;</span>, <span class="hljs-string">&apos;two&apos;</span>, <span class="hljs-string">&apos;three&apos;</span>, <span class="hljs-string">&apos;two&apos;</span>, <span class="hljs-string">&apos;two&apos;</span>, <span class="hljs-string">&apos;one&apos;</span>, <span class="hljs-string">&apos;three&apos;</span>],
+        <span class="hljs-string">&apos;C&apos;</span> : np.random.randn(<span class="hljs-number">8</span>),
+        <span class="hljs-string">&apos;D&apos;</span> : np.random.randn(<span class="hljs-number">8</span>)
+    })
+</code></pre>
+<pre><code class="lang-python">df
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>foo</td>
+      <td>one</td>
+      <td>0.056468</td>
+      <td>-1.700804</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>bar</td>
+      <td>one</td>
+      <td>-0.223937</td>
+      <td>-0.448887</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>foo</td>
+      <td>two</td>
+      <td>0.328946</td>
+      <td>-0.401242</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>bar</td>
+      <td>three</td>
+      <td>1.023657</td>
+      <td>0.246377</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>foo</td>
+      <td>two</td>
+      <td>0.988012</td>
+      <td>0.965924</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>bar</td>
+      <td>two</td>
+      <td>-0.170186</td>
+      <td>-0.557526</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>foo</td>
+      <td>one</td>
+      <td>-0.808825</td>
+      <td>-1.947245</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>foo</td>
+      <td>three</td>
+      <td>0.216881</td>
+      <td>1.028468</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xC0DD;&#xC131;&#xB41C; &#xB370;&#xC774;&#xD130;&#xD504;&#xB808;&#xC784;&#xC744; <strong>&#xADF8;&#xB8F9;&#xD654;</strong>&#xD55C; &#xD6C4; &#xAC01; &#xADF8;&#xB8F9;&#xC5D0; <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.sum.html#pandas.DataFrame.sum" target="_blank">sum()</a> &#xD568;&#xC218;&#xB97C; <strong>&#xC801;&#xC6A9;</strong>&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df.groupby(<span class="hljs-string">&apos;A&apos;</span>).sum()
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+    <tr>
+      <th>A</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>bar</th>
+      <td>0.629535</td>
+      <td>-0.760035</td>
+    </tr>
+    <tr>
+      <th>foo</th>
+      <td>0.781481</td>
+      <td>-2.054898</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xC5EC;&#xB7EC; &#xC5F4;&#xC744; &#xAE30;&#xC900;&#xC73C;&#xB85C; <strong>&#xADF8;&#xB8F9;&#xD654;</strong>&#xD558;&#xBA74; &#xACC4;&#xCE35;&#xC801; index&#xAC00; &#xD615;&#xC131;&#xB429;&#xB2C8;&#xB2E4;. &#xC5EC;&#xAE30;&#xC5D0;&#xB3C4; sum &#xD568;&#xC218;&#xB97C; <strong>&#xC801;&#xC6A9;</strong> &#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df.groupby([<span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>]).sum()
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3" valign="top">bar</th>
+      <th>one</th>
+      <td>-0.223937</td>
+      <td>-0.448887</td>
+    </tr>
+    <tr>
+      <th>three</th>
+      <td>1.023657</td>
+      <td>0.246377</td>
+    </tr>
+    <tr>
+      <th>two</th>
+      <td>-0.170186</td>
+      <td>-0.557526</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">foo</th>
+      <th>one</th>
+      <td>-0.752358</td>
+      <td>-3.648049</td>
+    </tr>
+    <tr>
+      <th>three</th>
+      <td>0.216881</td>
+      <td>1.028468</td>
+    </tr>
+    <tr>
+      <th>two</th>
+      <td>1.316958</td>
+      <td>0.564682</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<h1 id="reshaping-&#xBCC0;&#xD615;">Reshaping (&#xBCC0;&#xD615;)</h1>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/advanced.html#advanced-hierarchical" target="_blank">&#xACC4;&#xCE35;&#xC801; &#xC778;&#xB371;&#xC2F1;</a> &#xBC0F; <a href="https://pandas.pydata.org/pandas-docs/stable/reshaping.html#reshaping-stacking" target="_blank">&#xBCC0;&#xD615;</a>&#xC5D0; &#xB300;&#xD55C; &#xC139;&#xC158;&#xC744; &#xCC38;&#xC870;&#xD558;&#xC2ED;&#xC2DC;&#xC624;.</p>
+<h2 id="stack-&#xC2A4;&#xD0DD;">Stack (&#xC2A4;&#xD0DD;)</h2>
+<pre><code class="lang-python">tuples = list(zip(*[[<span class="hljs-string">&apos;bar&apos;</span>, <span class="hljs-string">&apos;bar&apos;</span>, <span class="hljs-string">&apos;baz&apos;</span>, <span class="hljs-string">&apos;baz&apos;</span>,
+                     <span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;qux&apos;</span>, <span class="hljs-string">&apos;qux&apos;</span>],
+                    [<span class="hljs-string">&apos;one&apos;</span>, <span class="hljs-string">&apos;two&apos;</span>, <span class="hljs-string">&apos;one&apos;</span>, <span class="hljs-string">&apos;two&apos;</span>,
+                     <span class="hljs-string">&apos;one&apos;</span>, <span class="hljs-string">&apos;two&apos;</span>, <span class="hljs-string">&apos;one&apos;</span>, <span class="hljs-string">&apos;two&apos;</span>]]))
+</code></pre>
+<pre><code class="lang-python">index = pd.MultiIndex.from_tuples(tuples, names=[<span class="hljs-string">&apos;first&apos;</span>, <span class="hljs-string">&apos;second&apos;</span>])
+</code></pre>
+<pre><code class="lang-python">df = pd.DataFrame(np.random.randn(<span class="hljs-number">8</span>, <span class="hljs-number">2</span>), index=index, columns=[<span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>])
+</code></pre>
+<pre><code class="lang-python">df2  =  df[:<span class="hljs-number">4</span>]
+</code></pre>
+<pre><code class="lang-python">df2
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+    </tr>
+    <tr>
+      <th>first</th>
+      <th>second</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2" valign="top">bar</th>
+      <th>one</th>
+      <td>-0.195358</td>
+      <td>0.750044</td>
+    </tr>
+    <tr>
+      <th>two</th>
+      <td>-0.104833</td>
+      <td>-1.433699</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">baz</th>
+      <th>one</th>
+      <td>-0.113793</td>
+      <td>-0.954064</td>
+    </tr>
+    <tr>
+      <th>two</th>
+      <td>-2.333533</td>
+      <td>0.042629</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.stack.html#pandas.DataFrame.stack" target="_blank">stack()</a> &#xBA54;&#xC11C;&#xB4DC;&#xB294; DataFrame &#xC5F4;&#xB4E4;&#xC758; &#xB808;&#xBCA8;&#xC744; &quot;&#xC555;&#xCD95;&quot;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">stacked = df2.stack()
+</code></pre>
+<pre><code class="lang-python">stacked
+</code></pre>
+<pre><code>first  second   
+bar    one     A   -0.195358
+               B    0.750044
+       two     A   -0.104833
+               B   -1.433699
+baz    one     A   -0.113793
+               B   -0.954064
+       two     A   -2.333533
+               B    0.042629
+dtype: float64
+</code></pre><p>&quot;Stacked&quot; DataFrame &#xB610;&#xB294; Series (MultiIndex&#xB97C; &#xC778;&#xB371;&#xC2A4;&#xB85C; &#xC0AC;&#xC6A9;) &#xC778; &#xACBD;&#xC6B0; <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.stack.html#pandas.DataFrame.stack" target="_blank">stack()</a>&#xC758; &#xC5ED; &#xC5F0;&#xC0B0;&#xC740; <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.unstack.html#pandas.DataFrame.unstack" target="_blank">unstack()</a>&#xC774;&#xBA70;, &#xAE30;&#xBCF8;&#xC801;&#xC73C;&#xB85C; &#xB9C8;&#xC9C0;&#xB9C9; &#xB808;&#xBCA8;&#xC744; unstack&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">stacked.unstack()
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+    </tr>
+    <tr>
+      <th>first</th>
+      <th>second</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2" valign="top">bar</th>
+      <th>one</th>
+      <td>-0.195358</td>
+      <td>0.750044</td>
+    </tr>
+    <tr>
+      <th>two</th>
+      <td>-0.104833</td>
+      <td>-1.433699</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">baz</th>
+      <th>one</th>
+      <td>-0.113793</td>
+      <td>-0.954064</td>
+    </tr>
+    <tr>
+      <th>two</th>
+      <td>-2.333533</td>
+      <td>0.042629</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">stacked.unstack(<span class="hljs-number">1</span>)
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>second</th>
+      <th>one</th>
+      <th>two</th>
+    </tr>
+    <tr>
+      <th>first</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2" valign="top">bar</th>
+      <th>A</th>
+      <td>-0.875011</td>
+      <td>-1.556174</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <td>1.395960</td>
+      <td>-0.659940</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">baz</th>
+      <th>A</th>
+      <td>-0.104231</td>
+      <td>-0.436920</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <td>2.667967</td>
+      <td>-1.299129</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">foo</th>
+      <th>A</th>
+      <td>1.790953</td>
+      <td>0.978248</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <td>-0.232506</td>
+      <td>-0.547802</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">qux</th>
+      <th>A</th>
+      <td>0.980380</td>
+      <td>-0.387887</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <td>0.290200</td>
+      <td>-0.116857</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">stacked.unstack(<span class="hljs-number">0</span>)
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>first</th>
+      <th>bar</th>
+      <th>baz</th>
+    </tr>
+    <tr>
+      <th>second</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2" valign="top">one</th>
+      <th>A</th>
+      <td>-0.195358</td>
+      <td>-0.113793</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <td>0.750044</td>
+      <td>-0.954064</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">two</th>
+      <th>A</th>
+      <td>-0.104833</td>
+      <td>-2.333533</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <td>-1.433699</td>
+      <td>0.042629</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<h2 id="pivot-tables-&#xD53C;&#xBC97;-&#xD14C;&#xC774;&#xBE14;">Pivot Tables (&#xD53C;&#xBC97; &#xD14C;&#xC774;&#xBE14;)</h2>
+<p>&#xD53C;&#xBC97; &#xD14C;&#xC774;&#xBE14; &#xC139;&#xC158;&#xC744; &#xCC38;&#xC870;&#xD558;&#xC2ED;&#xC2DC;&#xC624;.</p>
+<pre><code class="lang-python">df = pd.DataFrame({<span class="hljs-string">&apos;A&apos;</span> : [<span class="hljs-string">&apos;one&apos;</span>, <span class="hljs-string">&apos;one&apos;</span>, <span class="hljs-string">&apos;two&apos;</span>, <span class="hljs-string">&apos;three&apos;</span>] * <span class="hljs-number">3</span>,
+                   <span class="hljs-string">&apos;B&apos;</span> : [<span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>, <span class="hljs-string">&apos;C&apos;</span>] * <span class="hljs-number">4</span>,
+                   <span class="hljs-string">&apos;C&apos;</span> : [<span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;foo&apos;</span>, <span class="hljs-string">&apos;bar&apos;</span>, <span class="hljs-string">&apos;bar&apos;</span>, <span class="hljs-string">&apos;bar&apos;</span>] * <span class="hljs-number">2</span>,
+                   <span class="hljs-string">&apos;D&apos;</span> : np.random.randn(<span class="hljs-number">12</span>),
+                   <span class="hljs-string">&apos;E&apos;</span> : np.random.randn(<span class="hljs-number">12</span>)})
+</code></pre>
+<pre><code class="lang-python">df
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>one</td>
+      <td>A</td>
+      <td>foo</td>
+      <td>0.988377</td>
+      <td>0.841519</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>one</td>
+      <td>B</td>
+      <td>foo</td>
+      <td>0.650030</td>
+      <td>-1.278552</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>two</td>
+      <td>C</td>
+      <td>foo</td>
+      <td>-0.572768</td>
+      <td>-0.113546</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>three</td>
+      <td>A</td>
+      <td>bar</td>
+      <td>-0.917207</td>
+      <td>-0.605644</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>one</td>
+      <td>B</td>
+      <td>bar</td>
+      <td>0.041252</td>
+      <td>0.490003</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>one</td>
+      <td>C</td>
+      <td>bar</td>
+      <td>0.006014</td>
+      <td>-1.556474</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>two</td>
+      <td>A</td>
+      <td>foo</td>
+      <td>-1.395743</td>
+      <td>-0.194504</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>three</td>
+      <td>B</td>
+      <td>foo</td>
+      <td>-1.273224</td>
+      <td>0.849112</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>one</td>
+      <td>C</td>
+      <td>foo</td>
+      <td>0.532535</td>
+      <td>-0.997676</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>one</td>
+      <td>A</td>
+      <td>bar</td>
+      <td>0.139564</td>
+      <td>-2.028593</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>two</td>
+      <td>B</td>
+      <td>bar</td>
+      <td>-0.873256</td>
+      <td>0.202317</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>three</td>
+      <td>C</td>
+      <td>bar</td>
+      <td>-0.821394</td>
+      <td>1.874484</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xC774; &#xB370;&#xC774;&#xD130;&#xC5D0;&#xC11C; &#xD53C;&#xBC97; &#xD14C;&#xC774;&#xBE14;&#xC744; &#xB9E4;&#xC6B0; &#xC27D;&#xAC8C; &#xC0DD;&#xC131; &#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">pd.pivot_table(df, values=<span class="hljs-string">&apos;D&apos;</span>, index=[<span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>], columns=[<span class="hljs-string">&apos;C&apos;</span>])
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>C</th>
+      <th>bar</th>
+      <th>foo</th>
+    </tr>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3" valign="top">one</th>
+      <th>A</th>
+      <td>0.139564</td>
+      <td>0.988377</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <td>0.041252</td>
+      <td>0.650030</td>
+    </tr>
+    <tr>
+      <th>C</th>
+      <td>0.006014</td>
+      <td>0.532535</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">three</th>
+      <th>A</th>
+      <td>-0.917207</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <td>NaN</td>
+      <td>-1.273224</td>
+    </tr>
+    <tr>
+      <th>C</th>
+      <td>-0.821394</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">two</th>
+      <th>A</th>
+      <td>NaN</td>
+      <td>-1.395743</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <td>-0.873256</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>C</th>
+      <td>NaN</td>
+      <td>-0.572768</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<h1 id="time-series-&#xC2DC;&#xACC4;&#xC5F4;">Time Series (&#xC2DC;&#xACC4;&#xC5F4;)</h1>
+<p>pandas&#xB294; &#xB9AC;&#xC0D8;&#xD50C;&#xB9C1; &#xC791;&#xC5C5;&#xC744; &#xC218;&#xD589;&#xD558;&#xAE30; &#xC704;&#xD574; &#xAC04;&#xB2E8;&#xD558;&#xACE0;, &#xAC15;&#xB825;&#xD558;&#xBA70; &#xD6A8;&#xC728;&#xC801;&#xC778; &#xAE30;&#xB2A5;&#xC744; &#xC81C;&#xACF5;&#xD569;&#xB2C8;&#xB2E4;(&#xC608; : 2&#xCC28; &#xC790;&#xB8CC;&#xB97C; 5-minutely &#xB370;&#xC774;&#xD130;&#xB85C; &#xBCC0;&#xD658;). &#xC774;&#xB294; &#xC7AC;&#xBB34; &#xC560;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC5D0;&#xC11C; &#xB9E4;&#xC6B0; &#xC77C;&#xBC18;&#xC801;&#xC774;&#xC9C0;&#xB9CC; &#xC774;&#xC5D0; &#xAD6D;&#xD55C;&#xB418;&#xC9C0; &#xC54A;&#xC2B5;&#xB2C8;&#xB2E4;. <a href="https://pandas.pydata.org/pandas-docs/stable/timeseries.html#timeseries" target="_blank">Time Series(&#xC2DC;&#xACC4;&#xC5F4;) &#xC139;&#xC158;</a>&#xC744; &#xCC38;&#xACE0;&#xD558;&#xC138;&#xC694;.</p>
+<pre><code class="lang-python">rng = pd.date_range(<span class="hljs-string">&apos;1/1/2012&apos;</span>, periods=<span class="hljs-number">100</span>, freq=<span class="hljs-string">&apos;S&apos;</span>)
+</code></pre>
+<pre><code class="lang-python">ts = pd.Series(np.random.randint(<span class="hljs-number">0</span>, <span class="hljs-number">500</span>, len(rng)), index=rng)
+</code></pre>
+<pre><code class="lang-python">ts.resample(<span class="hljs-string">&apos;5Min&apos;</span>).sum()
+</code></pre>
+<pre><code>2012-01-01    24266
+Freq: 5T, dtype: int64
+</code></pre><p>&#xC2DC;&#xAC04;&#xB300;&#xB97C; &#xD45C;&#xD604;&#xD569;&#xB2C8;&#xB2E4; :</p>
+<pre><code class="lang-python">rng = pd.date_range(<span class="hljs-string">&apos;3/6/2012 00:00&apos;</span>, periods=<span class="hljs-number">5</span>, freq=<span class="hljs-string">&apos;D&apos;</span>)
+</code></pre>
+<pre><code class="lang-python">ts = pd.Series(np.random.randn(len(rng)), rng)
+</code></pre>
+<pre><code class="lang-python">ts
+</code></pre>
+<pre><code>2012-03-06   -0.823286
+2012-03-07   -0.411211
+2012-03-08   -0.373167
+2012-03-09   -0.296496
+2012-03-10    0.669600
+Freq: D, dtype: float64
+</code></pre><pre><code class="lang-python">ts_utc = ts.tz_localize(<span class="hljs-string">&apos;UTC&apos;</span>)
+</code></pre>
+<pre><code class="lang-python">ts_utc
+</code></pre>
+<pre><code>2012-03-06 00:00:00+00:00   -0.823286
+2012-03-07 00:00:00+00:00   -0.411211
+2012-03-08 00:00:00+00:00   -0.373167
+2012-03-09 00:00:00+00:00   -0.296496
+2012-03-10 00:00:00+00:00    0.669600
+Freq: D, dtype: float64
+</code></pre><p>&#xB2E4;&#xB978; &#xC2DC;&#xAC04;&#xB300;&#xB85C; &#xBCC0;&#xD658;&#xC744; &#xC2DC;&#xD589;&#xD569;&#xB2C8;&#xB2E4; :</p>
+<pre><code class="lang-python">ts_utc.tz_convert(<span class="hljs-string">&apos;US/Eastern&apos;</span>)
+</code></pre>
+<pre><code>2012-03-05 19:00:00-05:00   -0.823286
+2012-03-06 19:00:00-05:00   -0.411211
+2012-03-07 19:00:00-05:00   -0.373167
+2012-03-08 19:00:00-05:00   -0.296496
+2012-03-09 19:00:00-05:00    0.669600
+Freq: D, dtype: float64
+</code></pre><p>&#xC2DC;&#xAC04; &#xBC94;&#xC704; &#xD45C;&#xD604; &#xAC04;&#xC5D0; &#xBCC0;&#xD658;&#xC744; &#xC2DC;&#xD589;&#xD569;&#xB2C8;&#xB2E4; :</p>
+<pre><code class="lang-python">rng = pd.date_range(<span class="hljs-string">&apos;1/1/2012&apos;</span>, periods=<span class="hljs-number">5</span>, freq=<span class="hljs-string">&apos;M&apos;</span>)
+</code></pre>
+<pre><code class="lang-python">ts = pd.Series(np.random.randn(len(rng)), index=rng)
+</code></pre>
+<pre><code class="lang-python">ts
+</code></pre>
+<pre><code>2012-01-31   -0.421486
+2012-02-29   -0.184594
+2012-03-31   -0.117843
+2012-04-30   -0.126489
+2012-05-31   -0.351443
+Freq: M, dtype: float64
+</code></pre><pre><code class="lang-python">ps = ts.to_period()
+</code></pre>
+<pre><code class="lang-python">ps
+</code></pre>
+<pre><code>2012-01   -0.421486
+2012-02   -0.184594
+2012-03   -0.117843
+2012-04   -0.126489
+2012-05   -0.351443
+Freq: M, dtype: float64
+</code></pre><pre><code class="lang-python">ps.to_timestamp()
+</code></pre>
+<pre><code>2012-01-01   -0.421486
+2012-02-01   -0.184594
+2012-03-01   -0.117843
+2012-04-01   -0.126489
+2012-05-01   -0.351443
+Freq: MS, dtype: float64
+</code></pre><p>&#xAE30;&#xAC04;&#xACFC; &#xD0C0;&#xC784; &#xC2A4;&#xD0EC;&#xD504;&#xB97C; &#xBCC0;&#xD658;&#xD558;&#xBA74; &#xD3B8;&#xB9AC;&#xD55C; &#xC0B0;&#xC220; &#xAE30;&#xB2A5;&#xC744; &#xC0AC;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xB2E4;&#xC74C; &#xC608;&#xC81C;&#xC5D0;&#xC11C;&#xB294; 11&#xC6D4;&#xC5D0; &#xB05D;&#xB098;&#xB294; &#xC5F0;&#xB9D0; &#xACB0;&#xC0B0;&#xC758; &#xBD84;&#xAE30; &#xBCC4; &#xBE48;&#xB3C4;&#xB97C; &#xB2E4;&#xC74C; &#xB2EC; &#xC624;&#xC804; 9&#xC2DC;&#xAE4C;&#xC9C0; &#xBCC0;&#xD658;&#xD569;&#xB2C8;&#xB2E4; :</p>
+<pre><code class="lang-python">prng = pd.period_range(<span class="hljs-string">&apos;1990Q1&apos;</span>, <span class="hljs-string">&apos;2000Q4&apos;</span>, freq=<span class="hljs-string">&apos;Q-NOV&apos;</span>)
+</code></pre>
+<pre><code class="lang-python">ts = pd.Series(np.random.randn(len(prng)), prng)
+</code></pre>
+<pre><code class="lang-python">ts.index = (prng.asfreq(<span class="hljs-string">&apos;M&apos;</span>, <span class="hljs-string">&apos;e&apos;</span>) + <span class="hljs-number">1</span>).asfreq(<span class="hljs-string">&apos;H&apos;</span>, <span class="hljs-string">&apos;s&apos;</span>) + <span class="hljs-number">9</span>
+</code></pre>
+<pre><code class="lang-python">ts.head()
+</code></pre>
+<pre><code>1990-03-01 09:00    0.427177
+1990-06-01 09:00   -0.042834
+1990-09-01 09:00   -1.484662
+1990-12-01 09:00    0.310516
+1991-03-01 09:00   -0.718662
+Freq: H, dtype: float64
+</code></pre><h1 id="categoricals-&#xBC94;&#xC8FC;&#xD654;">Categoricals (&#xBC94;&#xC8FC;&#xD654;)</h1>
+<p>&#xD310;&#xB2E4;&#xC2A4;&#xB294; &#xB370;&#xC774;&#xD130;&#xD504;&#xB808;&#xC784; &#xB0B4;&#xC5D0; &#xBC94;&#xC8FC;&#xD615; &#xB370;&#xC774;&#xD130;&#xB97C; &#xD3EC;&#xD568;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xAD00;&#xB828; &#xBB38;&#xC11C;&#xB294; <a href="https://pandas.pydata.org/pandas-docs/stable/categorical.html#categorical" target="_blank">&#xBC94;&#xC8FC;&#xD615; &#xB370;&#xC774;&#xD130; &#xC124;&#xBA85;&#xC11C;</a> &#xC640; <a href="https://pandas.pydata.org/pandas-docs/stable/api.html#api-categorical" target="_blank">API &#xBB38;&#xC11C;</a>&#xB97C; &#xCC38;&#xC870;&#xD558;&#xC138;&#xC694;.</p>
+<pre><code class="lang-python">df = pd.DataFrame({<span class="hljs-string">&quot;id&quot;</span>:[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>], <span class="hljs-string">&quot;raw_grade&quot;</span>:[<span class="hljs-string">&apos;a&apos;</span>, <span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-string">&apos;a&apos;</span>, <span class="hljs-string">&apos;a&apos;</span>, <span class="hljs-string">&apos;e&apos;</span>]})
+</code></pre>
+<p>raw grade&#xB97C; &#xBC94;&#xC8FC;&#xD615; &#xB370;&#xC774;&#xD130; &#xD0C0;&#xC785;&#xC73C;&#xB85C; &#xBC14;&#xAFD4;&#xC8FC;&#xC138;&#xC694;.</p>
+<pre><code class="lang-python">df[<span class="hljs-string">&quot;grade&quot;</span>] = df[<span class="hljs-string">&quot;raw_grade&quot;</span>].astype(<span class="hljs-string">&quot;category&quot;</span>)
+</code></pre>
+<pre><code class="lang-python">df[<span class="hljs-string">&quot;grade&quot;</span>]
+</code></pre>
+<p>&#xBC94;&#xC8FC;&#xB97C; &#xB354; &#xC758;&#xBBF8;&#xC788;&#xB294; &#xC774;&#xB984;&#xC73C;&#xB85C; &#xBC14;&#xAFD4;&#xC8FC;&#xC138;&#xC694;. (Series.cat&#xC744; &#xBC94;&#xC8FC;&#xD654;&#xD560; &#xC900;&#xBE44;&#xAC00; &#xB410;&#xC2B5;&#xB2C8;&#xB2E4;!)</p>
+<pre><code class="lang-python">df[<span class="hljs-string">&quot;grade&quot;</span>].cat.categories = [<span class="hljs-string">&quot;very good&quot;</span>, <span class="hljs-string">&quot;good&quot;</span>, <span class="hljs-string">&quot;very bad&quot;</span>]
+</code></pre>
+<p>&#xBC94;&#xC8FC;&#xC758; &#xC21C;&#xC11C;&#xB97C; &#xBC14;&#xAFB8;&#xACE0; &#xB204;&#xB77D;&#xB41C; &#xBC94;&#xC8FC;&#xB97C; &#xB3D9;&#xC2DC;&#xC5D0; &#xCD94;&#xAC00;&#xD569;&#xB2C8;&#xB2E4;. (Series.cat &#xBA54;&#xC11C;&#xB4DC;&#xB294; &#xC790;&#xB3D9;&#xC73C;&#xB85C; &#xC0C8; Series&#xB97C; &#xBC18;&#xD658;&#xD569;&#xB2C8;&#xB2E4;.)</p>
+<pre><code class="lang-python">df[<span class="hljs-string">&quot;grade&quot;</span>] = df[<span class="hljs-string">&quot;grade&quot;</span>].cat.set_categories([<span class="hljs-string">&quot;very bad&quot;</span>, <span class="hljs-string">&quot;bad&quot;</span>, <span class="hljs-string">&quot;medium&quot;</span>, <span class="hljs-string">&quot;good&quot;</span>, <span class="hljs-string">&quot;very good&quot;</span>])
+</code></pre>
+<pre><code class="lang-python">df[<span class="hljs-string">&quot;grade&quot;</span>]
+</code></pre>
+<p>&#xC815;&#xB82C;(sort)&#xC740; &#xC5B4;&#xD718; &#xC21C;&#xC11C;(lexical order)&#xAC00; &#xC544;&#xB2CC;, &#xBC94;&#xC8FC;(category) &#xC21C;&#xC11C;&#xB85C; &#xC218;&#xD589;&#xB429;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df.sort_values(by=<span class="hljs-string">&quot;grade&quot;</span>)
+</code></pre>
+<p>&#xBC94;&#xC8FC;&#xC758; &#xC5F4;&#xC744; &#xAE30;&#xC900;&#xC73C;&#xB85C; &#xADF8;&#xB8F9;&#xD654;&#xD558;&#xBA74;(grouping) &#xBE48; &#xBC94;&#xC8FC;&#xB3C4; &#xD45C;&#xC2DC;&#xB429;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df.groupby(<span class="hljs-string">&quot;grade&quot;</span>).size()
+</code></pre>
+<h1 id="plotting-&#xD50C;&#xB85C;&#xD305;">Plotting (&#xD50C;&#xB85C;&#xD305;)</h1>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/visualization.html#visualization" target="_blank">Plotting</a> &#xBB38;&#xC11C;&#xB97C; &#xCC38;&#xC870;&#xD558;&#xC138;&#xC694;.</p>
+<pre><code class="lang-python">ts = pd.Series(np.random.randn(<span class="hljs-number">1000</span>), index=pd.date_range(<span class="hljs-string">&apos;1/1/2000&apos;</span>, periods=<span class="hljs-number">1000</span>))
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+NameError                                 Traceback (most recent call last)
+
+&lt;ipython-input-5-1b5db062ba99&gt; in &lt;module&gt;()
+----&gt; 1 ts = pd.Series(np.random.randn(1000), index=pd.date_range(&apos;1/1/2000&apos;, periods=1000))
+
+
+NameError: name &apos;pd&apos; is not defined
+</code></pre><pre><code class="lang-python">ts = ts.cumsum()
+</code></pre>
+<pre><code class="lang-python">ts.plot()
+</code></pre>
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fe9146a1668&gt;
+</code></pre><p><img src="output_240_1.png" alt="png"></p>
+<p>DataFrame&#xC5D0;&#xC11C; <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html#pandas.DataFrame.plot" target="_blank">plot()</a> &#xBA54;&#xC18C;&#xB4DC;&#xB294; &#xB808;&#xC774;&#xBE14;&#xC5D0; &#xC788;&#xB294; &#xBAA8;&#xB4E0; &#xC5F4;&#xC744; &#xADF8;&#xB9B4; &#xB54C; &#xD3B8;&#xB9AC;&#xD569;&#xB2C8;&#xB2E4;</p>
+<pre><code class="lang-python">df = pd.DataFrame(np.random.randn(<span class="hljs-number">1000</span>, <span class="hljs-number">4</span>), index=ts.index,
+                  columns=[<span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>, <span class="hljs-string">&apos;C&apos;</span>, <span class="hljs-string">&apos;D&apos;</span>])
+</code></pre>
+<pre><code class="lang-python">df = df.cumsum()
+</code></pre>
+<pre><code class="lang-python">plt.figure(); df.plot(); plt.legend(loc=<span class="hljs-string">&apos;best&apos;</span>)
+</code></pre>
+<pre><code>&lt;matplotlib.legend.Legend at 0x7fe914792cf8&gt;
+
+
+
+
+&lt;matplotlib.figure.Figure at 0x7fe9145862e8&gt;
+</code></pre><p><img src="output_244_2.png" alt="png"></p>
+<h1 id="getting-data-inout">Getting Data In/Out</h1>
+<h2 id="csv">CSV</h2>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/io.html#io-store-in-csv" target="_blank">csv &#xD30C;&#xC77C;&#xC5D0; &#xC501;&#xB2C8;&#xB2E4;.</a></p>
+<pre><code class="lang-python">df.to_csv(<span class="hljs-string">&apos;foo.csv&apos;</span>)
+</code></pre>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/io.html#io-read-csv-table" target="_blank">csv &#xD30C;&#xC77C;&#xC5D0;&#xC11C; &#xC77D;&#xC2B5;&#xB2C8;&#xB2E4;.</a></p>
+<pre><code class="lang-python">pd.read_csv(<span class="hljs-string">&apos;foo.csv&apos;</span>)
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2000-01-01</td>
+      <td>-0.026335</td>
+      <td>-0.717745</td>
+      <td>0.117218</td>
+      <td>-0.549751</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2000-01-02</td>
+      <td>-1.049763</td>
+      <td>-1.785373</td>
+      <td>-0.822755</td>
+      <td>-0.781237</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2000-01-03</td>
+      <td>-1.268265</td>
+      <td>-0.791013</td>
+      <td>-0.141242</td>
+      <td>0.587446</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2000-01-04</td>
+      <td>-2.667261</td>
+      <td>-1.408698</td>
+      <td>0.240404</td>
+      <td>-0.705050</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2000-01-05</td>
+      <td>-4.471245</td>
+      <td>-2.303159</td>
+      <td>-0.314543</td>
+      <td>-0.252046</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2000-01-06</td>
+      <td>-3.832738</td>
+      <td>-2.485943</td>
+      <td>0.554620</td>
+      <td>-1.617591</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2000-01-07</td>
+      <td>-3.764604</td>
+      <td>-2.644763</td>
+      <td>1.224718</td>
+      <td>-1.640596</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2000-01-08</td>
+      <td>-3.706452</td>
+      <td>-3.435865</td>
+      <td>-0.816544</td>
+      <td>-0.449831</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2000-01-09</td>
+      <td>-3.936663</td>
+      <td>-3.419143</td>
+      <td>-3.106705</td>
+      <td>-0.312725</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2000-01-10</td>
+      <td>-5.014653</td>
+      <td>-3.227070</td>
+      <td>-3.314237</td>
+      <td>-0.252284</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2000-01-11</td>
+      <td>-4.206563</td>
+      <td>-3.708036</td>
+      <td>-2.286878</td>
+      <td>-1.057564</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2000-01-12</td>
+      <td>-2.854169</td>
+      <td>-2.604047</td>
+      <td>-2.011293</td>
+      <td>-0.496066</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2000-01-13</td>
+      <td>-2.425489</td>
+      <td>-1.964353</td>
+      <td>-4.310662</td>
+      <td>-0.254048</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2000-01-14</td>
+      <td>-2.861078</td>
+      <td>-2.412133</td>
+      <td>-5.397059</td>
+      <td>-0.806801</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2000-01-15</td>
+      <td>-3.719051</td>
+      <td>-2.304485</td>
+      <td>-6.486873</td>
+      <td>-0.764641</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2000-01-16</td>
+      <td>-3.954312</td>
+      <td>-2.581573</td>
+      <td>-8.355360</td>
+      <td>-0.367414</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2000-01-17</td>
+      <td>-4.536187</td>
+      <td>-1.894429</td>
+      <td>-7.774752</td>
+      <td>0.640860</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2000-01-18</td>
+      <td>-6.213764</td>
+      <td>-2.279379</td>
+      <td>-7.626798</td>
+      <td>1.334903</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2000-01-19</td>
+      <td>-5.164765</td>
+      <td>-2.382773</td>
+      <td>-6.484147</td>
+      <td>1.233413</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2000-01-20</td>
+      <td>-5.951784</td>
+      <td>-3.206533</td>
+      <td>-7.456596</td>
+      <td>0.322954</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2000-01-21</td>
+      <td>-6.094290</td>
+      <td>-1.806253</td>
+      <td>-9.041151</td>
+      <td>0.338585</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2000-01-22</td>
+      <td>-4.219268</td>
+      <td>-2.402346</td>
+      <td>-8.804568</td>
+      <td>0.513316</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2000-01-23</td>
+      <td>-2.293937</td>
+      <td>-0.970808</td>
+      <td>-9.969945</td>
+      <td>-1.423756</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2000-01-24</td>
+      <td>-2.352168</td>
+      <td>-1.972728</td>
+      <td>-10.398412</td>
+      <td>-1.538460</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2000-01-25</td>
+      <td>-3.424824</td>
+      <td>-3.400619</td>
+      <td>-10.598927</td>
+      <td>-0.946809</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>2000-01-26</td>
+      <td>-4.202295</td>
+      <td>-3.554636</td>
+      <td>-11.156441</td>
+      <td>0.381046</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>2000-01-27</td>
+      <td>-3.952622</td>
+      <td>-2.975130</td>
+      <td>-11.532670</td>
+      <td>-0.797718</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>2000-01-28</td>
+      <td>-1.792251</td>
+      <td>-2.364668</td>
+      <td>-12.882036</td>
+      <td>-0.858014</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>2000-01-29</td>
+      <td>-3.438095</td>
+      <td>-1.666424</td>
+      <td>-12.658937</td>
+      <td>-2.489144</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>2000-01-30</td>
+      <td>-4.057369</td>
+      <td>-1.405462</td>
+      <td>-12.806334</td>
+      <td>-1.991122</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>970</th>
+      <td>2002-08-28</td>
+      <td>-3.497089</td>
+      <td>-21.799331</td>
+      <td>-27.512780</td>
+      <td>-23.948642</td>
+    </tr>
+    <tr>
+      <th>971</th>
+      <td>2002-08-29</td>
+      <td>-3.780051</td>
+      <td>-23.708894</td>
+      <td>-28.615803</td>
+      <td>-23.760478</td>
+    </tr>
+    <tr>
+      <th>972</th>
+      <td>2002-08-30</td>
+      <td>-4.002507</td>
+      <td>-21.969386</td>
+      <td>-29.438393</td>
+      <td>-23.252988</td>
+    </tr>
+    <tr>
+      <th>973</th>
+      <td>2002-08-31</td>
+      <td>-4.661825</td>
+      <td>-22.424417</td>
+      <td>-29.850030</td>
+      <td>-23.513799</td>
+    </tr>
+    <tr>
+      <th>974</th>
+      <td>2002-09-01</td>
+      <td>-5.663649</td>
+      <td>-22.963628</td>
+      <td>-27.758539</td>
+      <td>-23.589569</td>
+    </tr>
+    <tr>
+      <th>975</th>
+      <td>2002-09-02</td>
+      <td>-5.292332</td>
+      <td>-23.556915</td>
+      <td>-28.301622</td>
+      <td>-22.163613</td>
+    </tr>
+    <tr>
+      <th>976</th>
+      <td>2002-09-03</td>
+      <td>-3.612934</td>
+      <td>-22.336902</td>
+      <td>-27.114755</td>
+      <td>-23.072718</td>
+    </tr>
+    <tr>
+      <th>977</th>
+      <td>2002-09-04</td>
+      <td>-2.004994</td>
+      <td>-21.699757</td>
+      <td>-28.022481</td>
+      <td>-22.063717</td>
+    </tr>
+    <tr>
+      <th>978</th>
+      <td>2002-09-05</td>
+      <td>-3.486140</td>
+      <td>-20.241942</td>
+      <td>-28.106275</td>
+      <td>-22.023699</td>
+    </tr>
+    <tr>
+      <th>979</th>
+      <td>2002-09-06</td>
+      <td>-2.948154</td>
+      <td>-20.530027</td>
+      <td>-28.772999</td>
+      <td>-22.433141</td>
+    </tr>
+    <tr>
+      <th>980</th>
+      <td>2002-09-07</td>
+      <td>-5.152315</td>
+      <td>-21.374976</td>
+      <td>-27.403556</td>
+      <td>-23.157017</td>
+    </tr>
+    <tr>
+      <th>981</th>
+      <td>2002-09-08</td>
+      <td>-5.147801</td>
+      <td>-20.548175</td>
+      <td>-29.534911</td>
+      <td>-24.613610</td>
+    </tr>
+    <tr>
+      <th>982</th>
+      <td>2002-09-09</td>
+      <td>-4.502910</td>
+      <td>-20.825335</td>
+      <td>-30.456955</td>
+      <td>-26.170400</td>
+    </tr>
+    <tr>
+      <th>983</th>
+      <td>2002-09-10</td>
+      <td>-4.055736</td>
+      <td>-20.860546</td>
+      <td>-30.771489</td>
+      <td>-26.248800</td>
+    </tr>
+    <tr>
+      <th>984</th>
+      <td>2002-09-11</td>
+      <td>-3.541193</td>
+      <td>-20.374508</td>
+      <td>-29.947598</td>
+      <td>-27.705778</td>
+    </tr>
+    <tr>
+      <th>985</th>
+      <td>2002-09-12</td>
+      <td>-2.381324</td>
+      <td>-20.117239</td>
+      <td>-30.709171</td>
+      <td>-29.244136</td>
+    </tr>
+    <tr>
+      <th>986</th>
+      <td>2002-09-13</td>
+      <td>-1.938442</td>
+      <td>-20.314696</td>
+      <td>-31.080254</td>
+      <td>-27.618574</td>
+    </tr>
+    <tr>
+      <th>987</th>
+      <td>2002-09-14</td>
+      <td>-2.802669</td>
+      <td>-20.325638</td>
+      <td>-29.945957</td>
+      <td>-28.456105</td>
+    </tr>
+    <tr>
+      <th>988</th>
+      <td>2002-09-15</td>
+      <td>-3.254465</td>
+      <td>-20.479762</td>
+      <td>-30.494301</td>
+      <td>-27.236968</td>
+    </tr>
+    <tr>
+      <th>989</th>
+      <td>2002-09-16</td>
+      <td>-4.003399</td>
+      <td>-20.993692</td>
+      <td>-30.913225</td>
+      <td>-28.414765</td>
+    </tr>
+    <tr>
+      <th>990</th>
+      <td>2002-09-17</td>
+      <td>-2.932438</td>
+      <td>-21.160098</td>
+      <td>-30.772429</td>
+      <td>-28.795505</td>
+    </tr>
+    <tr>
+      <th>991</th>
+      <td>2002-09-18</td>
+      <td>-0.115537</td>
+      <td>-20.376504</td>
+      <td>-29.998241</td>
+      <td>-27.913785</td>
+    </tr>
+    <tr>
+      <th>992</th>
+      <td>2002-09-19</td>
+      <td>-0.616637</td>
+      <td>-21.349927</td>
+      <td>-30.673046</td>
+      <td>-28.567137</td>
+    </tr>
+    <tr>
+      <th>993</th>
+      <td>2002-09-20</td>
+      <td>0.162513</td>
+      <td>-21.273755</td>
+      <td>-29.990274</td>
+      <td>-30.597840</td>
+    </tr>
+    <tr>
+      <th>994</th>
+      <td>2002-09-21</td>
+      <td>0.825661</td>
+      <td>-21.142892</td>
+      <td>-28.226350</td>
+      <td>-32.383629</td>
+    </tr>
+    <tr>
+      <th>995</th>
+      <td>2002-09-22</td>
+      <td>1.990832</td>
+      <td>-21.797458</td>
+      <td>-30.384845</td>
+      <td>-31.293541</td>
+    </tr>
+    <tr>
+      <th>996</th>
+      <td>2002-09-23</td>
+      <td>2.935926</td>
+      <td>-20.709951</td>
+      <td>-29.961604</td>
+      <td>-30.726829</td>
+    </tr>
+    <tr>
+      <th>997</th>
+      <td>2002-09-24</td>
+      <td>3.447949</td>
+      <td>-19.751597</td>
+      <td>-28.357718</td>
+      <td>-31.180625</td>
+    </tr>
+    <tr>
+      <th>998</th>
+      <td>2002-09-25</td>
+      <td>4.454119</td>
+      <td>-20.884311</td>
+      <td>-26.421078</td>
+      <td>-32.768527</td>
+    </tr>
+    <tr>
+      <th>999</th>
+      <td>2002-09-26</td>
+      <td>2.200247</td>
+      <td>-21.263247</td>
+      <td>-25.612438</td>
+      <td>-35.104136</td>
+    </tr>
+  </tbody>
+</table>
+<p>1000 rows &#xD7; 5 columns</p>
+</div>
+
+
+
+<h2 id="hdf5">HDF5</h2>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/io.html#io-hdf5" target="_blank">HDFStores</a>&#xC5D0; &#xC77D;&#xACE0; &#xC501;&#xB2C8;&#xB2E4;.</p>
+<p>HDF5 Store&#xC5D0; &#xC501;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">df.to_hdf(<span class="hljs-string">&apos;foo.h5&apos;</span>,<span class="hljs-string">&apos;df&apos;</span>)
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+ModuleNotFoundError                       Traceback (most recent call last)
+
+/usr/local/lib/python3.6/dist-packages/pandas/io/pytables.py in __init__(self, path, mode, complevel, complib, fletcher32, **kwargs)
+    444         try:
+--&gt; 445             import tables  # noqa
+    446         except ImportError as ex:  # pragma: no cover
+
+
+ModuleNotFoundError: No module named &apos;tables&apos;
+
+
+During handling of the above exception, another exception occurred:
+
+
+ImportError                               Traceback (most recent call last)
+
+&lt;ipython-input-26-2030282e689d&gt; in &lt;module&gt;()
+----&gt; 1 df.to_hdf(&apos;foo.h5&apos;,&apos;df&apos;)
+
+
+/usr/local/lib/python3.6/dist-packages/pandas/core/generic.py in to_hdf(self, path_or_buf, key, **kwargs)
+   1469 
+   1470         from pandas.io import pytables
+-&gt; 1471         return pytables.to_hdf(path_or_buf, key, self, **kwargs)
+   1472 
+   1473     def to_msgpack(self, path_or_buf=None, encoding=&apos;utf-8&apos;, **kwargs):
+
+
+/usr/local/lib/python3.6/dist-packages/pandas/io/pytables.py in to_hdf(path_or_buf, key, value, mode, complevel, complib, append, **kwargs)
+    278     if isinstance(path_or_buf, string_types):
+    279         with HDFStore(path_or_buf, mode=mode, complevel=complevel,
+--&gt; 280                       complib=complib) as store:
+    281             f(store)
+    282     else:
+
+
+/usr/local/lib/python3.6/dist-packages/pandas/io/pytables.py in __init__(self, path, mode, complevel, complib, fletcher32, **kwargs)
+    446         except ImportError as ex:  # pragma: no cover
+    447             raise ImportError(&apos;HDFStore requires PyTables, &quot;{ex}&quot; problem &apos;
+--&gt; 448                               &apos;importing&apos;.format(ex=str(ex)))
+    449 
+    450         if complib is not None and complib not in tables.filters.all_complibs:
+
+
+ImportError: HDFStore requires PyTables, &quot;No module named &apos;tables&apos;&quot; problem importing
+
+
+
+---------------------------------------------------------------------------
+NOTE: If your import is failing due to a missing package, you can
+manually install dependencies using either !pip or !apt.
+
+To view examples of installing some common dependencies, click the
+&quot;Open Examples&quot; button below.
+---------------------------------------------------------------------------
+</code></pre><p>HDF5 Store&#xC5D0;&#xC11C; &#xC77D;&#xC5B4;&#xC635;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">pd.read_hdf(<span class="hljs-string">&apos;foo.h5&apos;</span>,<span class="hljs-string">&apos;df&apos;</span>)
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+FileNotFoundError                         Traceback (most recent call last)
+
+&lt;ipython-input-10-4242b2e6e2a5&gt; in &lt;module&gt;()
+----&gt; 1 pd.read_hdf(&apos;foo.h5&apos;,&apos;df&apos;)
+
+
+/usr/local/lib/python3.6/dist-packages/pandas/io/pytables.py in read_hdf(path_or_buf, key, mode, **kwargs)
+    345         if not exists:
+    346             raise compat.FileNotFoundError(
+--&gt; 347                 &apos;File %s does not exist&apos; % path_or_buf)
+    348 
+    349         store = HDFStore(path_or_buf, mode=mode, **kwargs)
+
+
+FileNotFoundError: File foo.h5 does not exist
+</code></pre><h2 id="excel">Excel</h2>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/io.html#io-excel" target="_blank">MS Excel</a>&#xC5D0; &#xC77D;&#xACE0; &#xC501;&#xB2C8;&#xB2E4;. </p>
+<p>&#xC5D1;&#xC140; &#xD30C;&#xC77C;&#xC5D0; &#xC501;&#xB2C8;&#xB2E4;. </p>
+<pre><code class="lang-python">df.to_excel(<span class="hljs-string">&apos;foo.xlsx&apos;</span>, sheet_name=<span class="hljs-string">&apos;Sheet1&apos;</span>)
+</code></pre>
+<p>&#xC5D1;&#xC140; &#xD30C;&#xC77C;&#xC744; &#xC77D;&#xC5B4;&#xC635;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-python">pd.read_excel(<span class="hljs-string">&apos;foo.xlsx&apos;</span>, <span class="hljs-string">&apos;Sheet1&apos;</span>, index_col=<span class="hljs-keyword">None</span>, na_values=[<span class="hljs-string">&apos;NA&apos;</span>])
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2000-01-01</th>
+      <td>-0.026335</td>
+      <td>-0.717745</td>
+      <td>0.117218</td>
+      <td>-0.549751</td>
+    </tr>
+    <tr>
+      <th>2000-01-02</th>
+      <td>-1.049763</td>
+      <td>-1.785373</td>
+      <td>-0.822755</td>
+      <td>-0.781237</td>
+    </tr>
+    <tr>
+      <th>2000-01-03</th>
+      <td>-1.268265</td>
+      <td>-0.791013</td>
+      <td>-0.141242</td>
+      <td>0.587446</td>
+    </tr>
+    <tr>
+      <th>2000-01-04</th>
+      <td>-2.667261</td>
+      <td>-1.408698</td>
+      <td>0.240404</td>
+      <td>-0.705050</td>
+    </tr>
+    <tr>
+      <th>2000-01-05</th>
+      <td>-4.471245</td>
+      <td>-2.303159</td>
+      <td>-0.314543</td>
+      <td>-0.252046</td>
+    </tr>
+    <tr>
+      <th>2000-01-06</th>
+      <td>-3.832738</td>
+      <td>-2.485943</td>
+      <td>0.554620</td>
+      <td>-1.617591</td>
+    </tr>
+    <tr>
+      <th>2000-01-07</th>
+      <td>-3.764604</td>
+      <td>-2.644763</td>
+      <td>1.224718</td>
+      <td>-1.640596</td>
+    </tr>
+    <tr>
+      <th>2000-01-08</th>
+      <td>-3.706452</td>
+      <td>-3.435865</td>
+      <td>-0.816544</td>
+      <td>-0.449831</td>
+    </tr>
+    <tr>
+      <th>2000-01-09</th>
+      <td>-3.936663</td>
+      <td>-3.419143</td>
+      <td>-3.106705</td>
+      <td>-0.312725</td>
+    </tr>
+    <tr>
+      <th>2000-01-10</th>
+      <td>-5.014653</td>
+      <td>-3.227070</td>
+      <td>-3.314237</td>
+      <td>-0.252284</td>
+    </tr>
+    <tr>
+      <th>2000-01-11</th>
+      <td>-4.206563</td>
+      <td>-3.708036</td>
+      <td>-2.286878</td>
+      <td>-1.057564</td>
+    </tr>
+    <tr>
+      <th>2000-01-12</th>
+      <td>-2.854169</td>
+      <td>-2.604047</td>
+      <td>-2.011293</td>
+      <td>-0.496066</td>
+    </tr>
+    <tr>
+      <th>2000-01-13</th>
+      <td>-2.425489</td>
+      <td>-1.964353</td>
+      <td>-4.310662</td>
+      <td>-0.254048</td>
+    </tr>
+    <tr>
+      <th>2000-01-14</th>
+      <td>-2.861078</td>
+      <td>-2.412133</td>
+      <td>-5.397059</td>
+      <td>-0.806801</td>
+    </tr>
+    <tr>
+      <th>2000-01-15</th>
+      <td>-3.719051</td>
+      <td>-2.304485</td>
+      <td>-6.486873</td>
+      <td>-0.764641</td>
+    </tr>
+    <tr>
+      <th>2000-01-16</th>
+      <td>-3.954312</td>
+      <td>-2.581573</td>
+      <td>-8.355360</td>
+      <td>-0.367414</td>
+    </tr>
+    <tr>
+      <th>2000-01-17</th>
+      <td>-4.536187</td>
+      <td>-1.894429</td>
+      <td>-7.774752</td>
+      <td>0.640860</td>
+    </tr>
+    <tr>
+      <th>2000-01-18</th>
+      <td>-6.213764</td>
+      <td>-2.279379</td>
+      <td>-7.626798</td>
+      <td>1.334903</td>
+    </tr>
+    <tr>
+      <th>2000-01-19</th>
+      <td>-5.164765</td>
+      <td>-2.382773</td>
+      <td>-6.484147</td>
+      <td>1.233413</td>
+    </tr>
+    <tr>
+      <th>2000-01-20</th>
+      <td>-5.951784</td>
+      <td>-3.206533</td>
+      <td>-7.456596</td>
+      <td>0.322954</td>
+    </tr>
+    <tr>
+      <th>2000-01-21</th>
+      <td>-6.094290</td>
+      <td>-1.806253</td>
+      <td>-9.041151</td>
+      <td>0.338585</td>
+    </tr>
+    <tr>
+      <th>2000-01-22</th>
+      <td>-4.219268</td>
+      <td>-2.402346</td>
+      <td>-8.804568</td>
+      <td>0.513316</td>
+    </tr>
+    <tr>
+      <th>2000-01-23</th>
+      <td>-2.293937</td>
+      <td>-0.970808</td>
+      <td>-9.969945</td>
+      <td>-1.423756</td>
+    </tr>
+    <tr>
+      <th>2000-01-24</th>
+      <td>-2.352168</td>
+      <td>-1.972728</td>
+      <td>-10.398412</td>
+      <td>-1.538460</td>
+    </tr>
+    <tr>
+      <th>2000-01-25</th>
+      <td>-3.424824</td>
+      <td>-3.400619</td>
+      <td>-10.598927</td>
+      <td>-0.946809</td>
+    </tr>
+    <tr>
+      <th>2000-01-26</th>
+      <td>-4.202295</td>
+      <td>-3.554636</td>
+      <td>-11.156441</td>
+      <td>0.381046</td>
+    </tr>
+    <tr>
+      <th>2000-01-27</th>
+      <td>-3.952622</td>
+      <td>-2.975130</td>
+      <td>-11.532670</td>
+      <td>-0.797718</td>
+    </tr>
+    <tr>
+      <th>2000-01-28</th>
+      <td>-1.792251</td>
+      <td>-2.364668</td>
+      <td>-12.882036</td>
+      <td>-0.858014</td>
+    </tr>
+    <tr>
+      <th>2000-01-29</th>
+      <td>-3.438095</td>
+      <td>-1.666424</td>
+      <td>-12.658937</td>
+      <td>-2.489144</td>
+    </tr>
+    <tr>
+      <th>2000-01-30</th>
+      <td>-4.057369</td>
+      <td>-1.405462</td>
+      <td>-12.806334</td>
+      <td>-1.991122</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2002-08-28</th>
+      <td>-3.497089</td>
+      <td>-21.799331</td>
+      <td>-27.512780</td>
+      <td>-23.948642</td>
+    </tr>
+    <tr>
+      <th>2002-08-29</th>
+      <td>-3.780051</td>
+      <td>-23.708894</td>
+      <td>-28.615803</td>
+      <td>-23.760478</td>
+    </tr>
+    <tr>
+      <th>2002-08-30</th>
+      <td>-4.002507</td>
+      <td>-21.969386</td>
+      <td>-29.438393</td>
+      <td>-23.252988</td>
+    </tr>
+    <tr>
+      <th>2002-08-31</th>
+      <td>-4.661825</td>
+      <td>-22.424417</td>
+      <td>-29.850030</td>
+      <td>-23.513799</td>
+    </tr>
+    <tr>
+      <th>2002-09-01</th>
+      <td>-5.663649</td>
+      <td>-22.963628</td>
+      <td>-27.758539</td>
+      <td>-23.589569</td>
+    </tr>
+    <tr>
+      <th>2002-09-02</th>
+      <td>-5.292332</td>
+      <td>-23.556915</td>
+      <td>-28.301622</td>
+      <td>-22.163613</td>
+    </tr>
+    <tr>
+      <th>2002-09-03</th>
+      <td>-3.612934</td>
+      <td>-22.336902</td>
+      <td>-27.114755</td>
+      <td>-23.072718</td>
+    </tr>
+    <tr>
+      <th>2002-09-04</th>
+      <td>-2.004994</td>
+      <td>-21.699757</td>
+      <td>-28.022481</td>
+      <td>-22.063717</td>
+    </tr>
+    <tr>
+      <th>2002-09-05</th>
+      <td>-3.486140</td>
+      <td>-20.241942</td>
+      <td>-28.106275</td>
+      <td>-22.023699</td>
+    </tr>
+    <tr>
+      <th>2002-09-06</th>
+      <td>-2.948154</td>
+      <td>-20.530027</td>
+      <td>-28.772999</td>
+      <td>-22.433141</td>
+    </tr>
+    <tr>
+      <th>2002-09-07</th>
+      <td>-5.152315</td>
+      <td>-21.374976</td>
+      <td>-27.403556</td>
+      <td>-23.157017</td>
+    </tr>
+    <tr>
+      <th>2002-09-08</th>
+      <td>-5.147801</td>
+      <td>-20.548175</td>
+      <td>-29.534911</td>
+      <td>-24.613610</td>
+    </tr>
+    <tr>
+      <th>2002-09-09</th>
+      <td>-4.502910</td>
+      <td>-20.825335</td>
+      <td>-30.456955</td>
+      <td>-26.170400</td>
+    </tr>
+    <tr>
+      <th>2002-09-10</th>
+      <td>-4.055736</td>
+      <td>-20.860546</td>
+      <td>-30.771489</td>
+      <td>-26.248800</td>
+    </tr>
+    <tr>
+      <th>2002-09-11</th>
+      <td>-3.541193</td>
+      <td>-20.374508</td>
+      <td>-29.947598</td>
+      <td>-27.705778</td>
+    </tr>
+    <tr>
+      <th>2002-09-12</th>
+      <td>-2.381324</td>
+      <td>-20.117239</td>
+      <td>-30.709171</td>
+      <td>-29.244136</td>
+    </tr>
+    <tr>
+      <th>2002-09-13</th>
+      <td>-1.938442</td>
+      <td>-20.314696</td>
+      <td>-31.080254</td>
+      <td>-27.618574</td>
+    </tr>
+    <tr>
+      <th>2002-09-14</th>
+      <td>-2.802669</td>
+      <td>-20.325638</td>
+      <td>-29.945957</td>
+      <td>-28.456105</td>
+    </tr>
+    <tr>
+      <th>2002-09-15</th>
+      <td>-3.254465</td>
+      <td>-20.479762</td>
+      <td>-30.494301</td>
+      <td>-27.236968</td>
+    </tr>
+    <tr>
+      <th>2002-09-16</th>
+      <td>-4.003399</td>
+      <td>-20.993692</td>
+      <td>-30.913225</td>
+      <td>-28.414765</td>
+    </tr>
+    <tr>
+      <th>2002-09-17</th>
+      <td>-2.932438</td>
+      <td>-21.160098</td>
+      <td>-30.772429</td>
+      <td>-28.795505</td>
+    </tr>
+    <tr>
+      <th>2002-09-18</th>
+      <td>-0.115537</td>
+      <td>-20.376504</td>
+      <td>-29.998241</td>
+      <td>-27.913785</td>
+    </tr>
+    <tr>
+      <th>2002-09-19</th>
+      <td>-0.616637</td>
+      <td>-21.349927</td>
+      <td>-30.673046</td>
+      <td>-28.567137</td>
+    </tr>
+    <tr>
+      <th>2002-09-20</th>
+      <td>0.162513</td>
+      <td>-21.273755</td>
+      <td>-29.990274</td>
+      <td>-30.597840</td>
+    </tr>
+    <tr>
+      <th>2002-09-21</th>
+      <td>0.825661</td>
+      <td>-21.142892</td>
+      <td>-28.226350</td>
+      <td>-32.383629</td>
+    </tr>
+    <tr>
+      <th>2002-09-22</th>
+      <td>1.990832</td>
+      <td>-21.797458</td>
+      <td>-30.384845</td>
+      <td>-31.293541</td>
+    </tr>
+    <tr>
+      <th>2002-09-23</th>
+      <td>2.935926</td>
+      <td>-20.709951</td>
+      <td>-29.961604</td>
+      <td>-30.726829</td>
+    </tr>
+    <tr>
+      <th>2002-09-24</th>
+      <td>3.447949</td>
+      <td>-19.751597</td>
+      <td>-28.357718</td>
+      <td>-31.180625</td>
+    </tr>
+    <tr>
+      <th>2002-09-25</th>
+      <td>4.454119</td>
+      <td>-20.884311</td>
+      <td>-26.421078</td>
+      <td>-32.768527</td>
+    </tr>
+    <tr>
+      <th>2002-09-26</th>
+      <td>2.200247</td>
+      <td>-21.263247</td>
+      <td>-25.612438</td>
+      <td>-35.104136</td>
+    </tr>
+  </tbody>
+</table>
+<p>1000 rows &#xD7; 4 columns</p>
+</div>
+
+
+
+<h1 id="gotchas">Gotchas</h1>
+<p>&#xC791;&#xC5C5;&#xC744; &#xC218;&#xD589;&#xD558;&#xB824;&#xACE0; &#xC2DC;&#xB3C4;&#xD558;&#xBA74; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC740; &#xC608;&#xC678; &#xC0C1;&#xD669;&#xC744; &#xBCFC; &#xC218;&#xB3C4; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4; :</p>
+<pre><code class="lang-python"><span class="hljs-keyword">if</span> pd.Series([<span class="hljs-keyword">False</span>, <span class="hljs-keyword">True</span>, <span class="hljs-keyword">False</span>]):
+print(<span class="hljs-string">&quot;I was true&quot;</span>)
+</code></pre>
+<pre><code>  File &quot;&lt;ipython-input-80-9074a2390e8e&gt;&quot;, line 2
+    print(&quot;I was true&quot;)
+        ^
+IndentationError: expected an indented block
+</code></pre><p>&#xC124;&#xBA85; &#xBC0F; &#xC218;&#xD589; &#xD560; &#xC791;&#xC5C5;&#xC740; <a href="https://pandas.pydata.org/pandas-docs/stable/basics.html#basics-compare" target="_blank">&#xBE44;&#xAD50;</a>&#xB97C; &#xCC38;&#xC870;&#xD558;&#xC2ED;&#xC2DC;&#xC624;.</p>
+<p><a href="https://pandas.pydata.org/pandas-docs/stable/gotchas.html#gotchas" target="_blank">Gotchas</a>&#xB3C4; &#xCC38;&#xC870;&#xD558;&#xC2ED;&#xC2DC;&#xC624;.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Tutorial_180716_Markup_Html5lib.html" class="navigation navigation-prev " aria-label="Previous page: Markup Html5lib, 파이썬으로 크롤링하기">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Tutorial_180717_PandasPetition.html" class="navigation navigation-next " aria-label="Next page: 국민청원 첫시작 판다스로 국민청원하기">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Pandas 10분 완성","level":"1.21","depth":1,"next":{"title":"국민청원 첫시작 판다스로 국민청원하기","level":"1.22","depth":1,"path":"Tutorial_180717_PandasPetition.md","ref":"Tutorial_180717_PandasPetition.md","articles":[]},"previous":{"title":"Markup Html5lib, 파이썬으로 크롤링하기","level":"1.20","depth":1,"path":"Tutorial_180716_Markup_Html5lib.md","ref":"Tutorial_180716_Markup_Html5lib.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"BASE_URL":"https://dataitgirls2.github.io"},"plugins":["ga","-sharing"],"pluginsConfig":{"ga":{"configuration":"auto","token":"UA-43356518-7"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Tutorial_180717_10minPandas.md","mtime":"2018-07-28T22:58:53.192Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-08T11:21:46.374Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
