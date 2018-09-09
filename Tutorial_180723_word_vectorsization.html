@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>범죄데이터로 파이썬 실습 (Lamda) · GitBook</title>
+        <title>텍스트 데이터 시각화 Word_vectorsization · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Tutorial_180705_Resume_01.html" />
+    <link rel="next" href="Tutorial_180726_naver.html" />
     
     
-    <link rel="prev" href="Tutorial_180703_Python_introduction.html" />
+    <link rel="prev" href="Tutorial_180723_Machine_learning.html" />
     
 
     </head>
@@ -193,7 +193,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.9" data-path="Tutorial_180705_PythonReview_Lamda.html">
+        <li class="chapter " data-level="1.9" data-path="Tutorial_180705_PythonReview_Lamda.html">
             
                 <a href="Tutorial_180705_PythonReview_Lamda.html">
             
@@ -440,7 +440,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.28" data-path="Tutorial_180723_word_vectorsization.html">
+        <li class="chapter active" data-level="1.28" data-path="Tutorial_180723_word_vectorsization.html">
             
                 <a href="Tutorial_180723_word_vectorsization.html">
             
@@ -730,7 +730,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >범죄데이터로 파이썬 실습 (Lamda)</a>
+        <a href="." >텍스트 데이터 시각화 Word_vectorsization</a>
     </h1>
 </div>
 
@@ -745,183 +745,129 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="today-we-learned">Today We Learned</h1>
-<h2 id="20180705-thu-cloud">2018/07/05 thu :cloud:</h2>
-<h3 id="python-&#xC815;&#xB9AC;&#xD558;&#xAE30;">python &#xC815;&#xB9AC;&#xD558;&#xAE30;</h3>
+                                <h1 id="tutorial0723after">Tutorial_0723_after</h1>
+<h3 id="&#xB2E8;&#xC5B4;-&#xBCA1;&#xD130;&#xD654;-&#x2696;&#xFE0F;">&#xB2E8;&#xC5B4; &#xBCA1;&#xD130;&#xD654; &#x2696;&#xFE0F;</h3>
+<pre><code>&#xB744;&#xC5B4;&#xC4F0;&#xAE30;&#xB098; &#xB9DE;&#xCDA4;&#xBC95;&#xC5D0; &#xB530;&#xB77C; &#xB2E4;&#xB978; &#xC758;&#xBBF8; -&gt; &#xADF8;&#xB798;&#xC11C; &#xD14D;&#xC2A4;&#xD2B8; &#xC804;&#xCC98;&#xB9AC;&#xAC00; &#xD544;&#xC694;!
+</code></pre><hr>
+<h3 id="&#xD14D;&#xC2A4;&#xD2B8;-&#xB370;&#xC774;&#xD130;-&#xC815;&#xC81C;-&#xBC0F;-&#xC804;&#xCC98;&#xB9AC;-&#x1F3F8;">[ &#xD14D;&#xC2A4;&#xD2B8; &#xB370;&#xC774;&#xD130; &#xC815;&#xC81C; &#xBC0F; &#xC804;&#xCC98;&#xB9AC;] &#x1F3F8;</h3>
+<h4 id="1-&#xB370;&#xC774;&#xD130;-&#xC815;&#xC81C;-&#xBC0F;-&#xC804;&#xCC98;&#xB9AC;">(1) &#xB370;&#xC774;&#xD130; &#xC815;&#xC81C; &#xBC0F; &#xC804;&#xCC98;&#xB9AC;</h4>
+<ul>
+<li><p>&#xAE30;&#xACC4;&#xAC00; &#xD14D;&#xC2A4;&#xD2B8;&#xB97C; &#xC774;&#xD574;&#xD560; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xD14D;&#xC2A4;&#xD2B8;&#xB97C; &#xC815;&#xC81C;</p>
+</li>
+<li><p>&#xC2E0;&#xD638;&#xC640; &#xC18C;&#xC74C;&#xC744; &#xAD6C;&#xBD84;</p>
+</li>
+<li><p>&#xC544;&#xC6C3;&#xB77C;&#xC774;&#xC5B4;&#xB370;&#xC774;&#xD130;&#xB85C; &#xC778;&#xD55C; &#xC624;&#xBC84;&#xD53C;&#xD305;&#xC744; &#xBC29;&#xC9C0;</p>
+<ul>
+<li><p>HTML Tag, &#xD2B9;&#xC218;&#xBB38;&#xC790;, &#xC774;&#xBAA8;&#xD2F0;&#xCF58;</p>
+</li>
+<li><p>&#xC815;&#xADDC;&#xD45C;&#xD604;&#xC2DD;</p>
+</li>
+<li><p>&#xBD88;&#xC6A9;&#xC5B4; (stopword)</p>
+<pre><code>ex) &#xC870;&#xC0AC;, &#xC811;&#xBBF8;&#xC0AC; -&#xB098;, &#xB108;, &#xC740;, &#xB294;, &#xC774;, &#xAC00;, &#xD558;&#xB2E4;, &#xD569;&#xB2C8;&#xB2E4; &#xB4F1;
+</code></pre><ul>
+<li>&#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xCF54;&#xD37C;&#xC2A4;&#xC5D0;&#xC11C; &#xC790;&#xC8FC; &#xB098;&#xD0C0;&#xB098;&#xB294; &#xB2E8;&#xC5B4;&#xB85C;, &#xD559;&#xC2B5;&#xC774;&#xB098; &#xC608;&#xCE21; &#xD504;&#xB85C;&#xC138;&#xC2A4;&#xC5D0; &#xC2E4;&#xC81C;&#xB85C; &#xAE30;&#xC5EC;&#xD558;&#xC9C0; &#xC54A;&#xB294; &#xB2E8;&#xC5B4;&#xB4E4;.</li>
+<li>&#xC601;&#xC5B4;&#xB294; &#xBD88;&#xC6A9;&#xC5B4; Dataset &#xC798; &#xB418;&#xC5B4; &#xC788;&#xC9C0;&#xB9CC; &#xD55C;&#xAD6D;&#xC5B4;&#xC5D0; &#xC4F8;&#xB9CC;&#xD55C; &#xAC74; &#xC5C6;&#xB2E4;.</li>
+</ul>
+</li>
+<li><p>&#xC5B4;&#xAC04;&#xCD94;&#xCD9C; (stemming)</p>
+<pre><code>ex) &#xC0C8;&#xB85C;&#xC6B4;, &#xC0C8;&#xB85C;&#xC6B8; -&gt; &#xC0C8;&#xB86D;&#xB2E4;
+    &#xBA39;&#xC5C8;&#xB2E4;, &#xBA39;&#xC744;, &#xBA39;&#xC744;&#xC9C0;&#xB3C4; &#xBAA8;&#xB974;&#xB294; -&gt; &#xBA39;&#xB2E4;
+</code></pre><ul>
+<li>&#xB2E8;&#xC5B4;&#xB97C; &#xCD95;&#xC57D;&#xD615;&#xC73C;&#xB85C; &#xBC14;&#xAFD4;&#xC900;&#xB2E4;. &#xC758;&#xBBF8;&#xAC00; &#xD1B5;&#xD558;&#xB3C4;&#xB85D; &#xCD95;&#xC57D;&#xD558;&#xC5EC; &#xC5B4;&#xAC04;&#xC744; &#xCD94;&#xCD9C;&#xD55C;&#xB2E4;.</li>
+</ul>
+</li>
+<li><p>&#xC74C;&#xC18C;&#xD45C;&#xAE30;&#xBC95; (lemmatizing)</p>
+<ul>
+<li>&#xC5B4;&#xAC04;&#xCD94;&#xCD9C;&#xC744; &#xD588;&#xC744; &#xB54C; &#xC758;&#xBBF8;&#xAC00; &#xBD80;&#xB52A;&#xD790; &#xC704;&#xD5D8;&#xC774; &#xC788;&#xB294; &#xB3D9;&#xC74C;&#xC774;&#xC758;&#xC5B4; &#xB4F1;&#xC758; &#xB2E8;&#xC5B4;&#xB4E4;&#xC744; &#xCC98;&#xB9AC;&#xD558;&#xB294; &#xBC29;&#xBC95;</li>
+<li>&#xD488;&#xC0AC; &#xC815;&#xBCF4;&#xAC00; &#xBCF4;&#xC874;&#xB41C; &#xD615;&#xD0DC;&#xC758; &#xAE30;&#xBCF8;&#xD615;&#xC73C;&#xB85C; &#xBCC0;&#xD658;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <blockquote>
-<p><strong>&#xC218;&#xC5C5; &#xBAA9;&#xD45C;</strong></p>
+<p>&#xC815;&#xADDC;&#xD654;(normalization)
+&#xD1A0;&#xD070;&#xD654;(tokenization)
+&#xC5B4;&#xADFC;&#xD654;(stemming)
+&#xC5B4;&#xAD6C;&#xCD94;&#xCD9C;(phrase extraction)</p>
+</blockquote>
+<hr>
+<h3 id="&#xD14D;&#xC2A4;&#xD2B8;-&#xB370;&#xC774;&#xD130;-&#xBCA1;&#xD130;&#xD654;---&#x1F361;">[ &#xD14D;&#xC2A4;&#xD2B8; &#xB370;&#xC774;&#xD130; &#xBCA1;&#xD130;&#xD654; ]  &#x1F361;</h3>
 <blockquote>
-<p>&#xBC94;&#xC8C4; &#xD1B5;&#xACC4; &#xB370;&#xC774;&#xD130; &#xBD84;&#xC11D; &#xACFC;&#xC81C; &#xC810;&#xAC80;<br>&#xD568;&#xC218;&#xC640; &#xC774;&#xB984; &#xACF5;&#xAC04; &#xBCF5;&#xC2B5;<br>Lambda &#xB780;?<br>&#xACFC;&#xC81C; &#xC2E4;&#xC2B5; 1 (&#xB515;&#xC154;&#xB108;&#xB9AC; - &#xD3C9;&#xADE0; &#xAD6C;&#xD558;&#xAE30;)<br>&#xACFC;&#xC81C; &#xC2E4;&#xC2B5; 2 (&#xBD84;&#xC0B0;, &#xD45C;&#xC900;&#xD3B8;&#xCC28; &#xAD6C;&#xD558;&#xAE30;)  </p>
+<p>&#xBA38;&#xC2E0;&#xB7EC;&#xB2DD; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC740;, 0&#xACFC; 1&#xBC16;&#xC5D0; &#xBAA8;&#xB974;&#xB294; &#xAE30;&#xACC4;&#xC5D0;&#xAC8C; &#xC778;&#xAC04;&#xC758; &#xC5B8;&#xC5B4;&#xB97C; &#xC54C;&#xB824;&#xC8FC;&#xAE30; &#xC704;&#xD55C; &#xC808;&#xCC28;&#xC774;&#xB2E4;. &#xCEF4;&#xD4E8;&#xD130;&#xB294; &#xC22B;&#xC790;&#xB9CC; &#xC778;&#xC2DD;&#xD560; &#xC218; &#xC788;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC218;&#xCE58;&#xB85C; &#xBC14;&#xAFB8;&#xC5B4; &#xBC14;&#xC774;&#xB108;&#xB9AC; &#xCF54;&#xB4DC;&#xB85C; &#xCC98;&#xB9AC;&#xD574;&#xC8FC;&#xC5B4;&#xC57C; &#xD55C;&#xB2E4;.</p>
 </blockquote>
+<h4 id="1-&#xD14D;&#xC2A4;&#xD2B8;-&#xB370;&#xC774;&#xD130;-&#xBC94;&#xC8FC;&#xD615;-&#xB370;&#xC774;&#xD130;--&#xC218;&#xCE58;&#xD615;&#xB370;&#xC774;&#xD130;">(1) &#xD14D;&#xC2A4;&#xD2B8; &#xB370;&#xC774;&#xD130;, &#xBC94;&#xC8FC;&#xD615; &#xB370;&#xC774;&#xD130; =&gt; &#xC218;&#xCE58;&#xD615;&#xB370;&#xC774;&#xD130;</h4>
+<pre><code>- &#xBA38;&#xC2E0;&#xB7EC;&#xB2DD;&#xC774;&#xB098; &#xB525;&#xB7EC;&#xB2DD; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC740; &#xC218;&#xCE58;&#xB85C;&#xB41C; &#xB370;&#xC774;&#xD130;&#xB9CC; &#xC774;&#xD574;
+</code></pre><h4 id="2-one-hot-vector">(2) One Hot Vector</h4>
+<ul>
+<li>&#xD14D;&#xC2A4;&#xD2B8; &#xB370;&#xC774;&#xD130;&#xB098; &#xBC94;&#xC8FC;&#xD615; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC218;&#xCE58;&#xD615; &#xB370;&#xC774;&#xD130;&#xB85C; &#xBC14;&#xAFB8;&#xC5B4; &#xC8FC;&#xC5B4;&#xC57C; &#xD55C;&#xB2E4;. &#xBCA1;&#xD130;&#xC5D0;&#xC11C; &#xD574;&#xB2F9;&#xB418;&#xB294; &#xD558;&#xB098;&#xC758; &#xB370;&#xC774;&#xD130;&#xB9CC; 1&#xB85C; &#xBCC0;&#xACBD;&#xD574; &#xC8FC;&#xACE0;, &#xB098;&#xBA38;&#xC9C0;&#xB294; 0&#xC73C;&#xB85C; &#xCC44;&#xC6CC;&#xC900;&#xB2E4;. &#xC774; &#xD589;&#xB82C;&#xC744; Random Forests&#xC640; Decision Tree&#xC5D0; &#xB123;&#xC5B4;&#xC900;&#xB2E4;.</li>
+</ul>
+<h4 id="3-bow-bag-of-words">(3) BOW (bag of words)</h4>
+<ul>
+<li>&#xAC00;&#xC7A5; &#xAC04;&#xB2E8;&#xD558;&#xC9C0;&#xB9CC; &#xD6A8;&#xACFC;&#xC801;&#xC774;&#xB77C; &#xB110;&#xB9AC;&#xC4F0;&#xC778;&#xB2E4;.</li>
+<li><p>&#xAD6C;&#xC870;&#xC5D0; &#xC0C1;&#xAD00;&#xC5C6;&#xC774; &#xB2E8;&#xC5B4;&#xC758; &#xCD9C;&#xD604;&#xD69F;&#xC218;&#xB9CC; &#xC13C;&#xB2E4;.</p>
+</li>
+<li><p>&#xB2E8;&#xC5B4;&#xB294; &#xAC19;&#xC9C0;&#xB9CC; &#xBB38;&#xC7A5; &#xAD6C;&#xC870;&#xB098; &#xC21C;&#xC11C;&#xAC00; &#xB2EC;&#xB77C; &#xB73B;&#xC774; &#xC644;&#xC804;&#xD788; &#xB2EC;&#xB77C;&#xC9C0;&#xB294; &#xBB38;&#xC7A5;&#xB4E4;&#xC744; &#xC644;&#xC804;&#xD788; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xBC18;&#xD658;&#xD55C;&#xB2E4;&#xB294; &#xB2E8;&#xC810;&#xC774; &#xC788;&#xB2E4;. &#xC774;&#xB97C; &#xBCF4;&#xC644;&#xD558;&#xAE30; &#xC704;&#xD574; n-gram&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xC758;&#xBBF8;&#xAC00; &#xBCF4;&#xC874;&#xB418;&#xB3C4;&#xB85D; n&#xAC1C;&#xC758; &#xD1A0;&#xD070;&#xC744; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.</p>
+</li>
+<li>n-gram : uni-gram, bi-gram, tri-gram &#xB4F1;&#xC73C;&#xB85C; &#xAD6C;&#xBD84;. (&#xBB36;&#xC5B4;&#xC8FC;&#xB294; &#xD1A0;&#xD070;&#xC758; &#xAC1C;&#xC218;&#xC5D0; &#xB530;&#xB77C;). bi-gram (1,2)&#xB098; tri-gram(2,3) &#xB4F1;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xBA74; &#xD1A0;&#xD070; &#xAC1C;&#xC218;&#xB97C; &#xC11E;&#xC5B4;&#xC11C; &#xC0AC;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB2E4;.</li>
+</ul>
+<h4 id="4-tf-idf-term-frequency-inverse-document-frequency">(4) TF-IDF (Term frequency Inverse document frequency)</h4>
+<blockquote>
+<h4 id="tf-&#xB2E8;&#xC5B4;-&#xBE48;&#xB3C4;-term-frequency">TF (&#xB2E8;&#xC5B4; &#xBE48;&#xB3C4;, term frequency)</h4>
+<p>: &#xD2B9;&#xC815;&#xD55C; &#xB2E8;&#xC5B4;&#xAC00; &#xBB38;&#xC11C; &#xB0B4;&#xC5D0;&#xC11C; &#xC5BC;&#xB9C8;&#xB098; &#xC790;&#xC8FC; &#xB4F1;&#xC7A5;&#xD558;&#xB294;&#xC9C0;&#xB97C; &#xB098;&#xD0C0;&#xB0B4;&#xB294; &#xAC12; </p>
+<p>&#xC774; &#xAC12;&#xC774; &#xB192;&#xC744; &#xC218;&#xB85D; &#xBB38;&#xC11C;&#xC5D0;&#xC11C; &#xC911;&#xC694;&#xD55C; &#xB2E8;&#xC5B4;&#xB77C;&#xACE0; &#xC0DD;&#xAC01;&#xD560; &#xC218; &#xC788;&#xC9C0;&#xB9CC; &#xB2E8;&#xC5B4; &#xC790;&#xCCB4;&#xAC00; &#xBB38;&#xC11C;&#xAD70; &#xB0B4;&#xC5D0;&#xC11C; &#xC790;&#xC8FC; &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xACBD;&#xC6B0; &#xC774;&#xAC83;&#xC740; &#xADF8; &#xB2E8;&#xC5B4;&#xAC00; &#xD754;&#xD558;&#xAC8C; &#xB4F1;&#xC7A5;&#xD55C;&#xB2E4;&#xB294; &#xAC83;&#xC744; &#xC758;&#xBBF8;</p>
+<h4 id="df-&#xBB38;&#xC11C;-&#xBE48;&#xB3C4;-document-frequency">DF (&#xBB38;&#xC11C; &#xBE48;&#xB3C4;, document frequency)</h4>
+<p>: &#xBB38;&#xC11C;&#xAD70; &#xB0B4;&#xC5D0;&#xC11C; &#xC790;&#xC8FC; &#xC0AC;&#xC6A9;&#xB428;</p>
+<h4 id="idf-&#xC5ED;&#xBB38;&#xC11C;-&#xBE48;&#xB3C4;-inverse-document-frequency">IDF (&#xC5ED;&#xBB38;&#xC11C; &#xBE48;&#xB3C4;, inverse document frequency)</h4>
+<p>: &#xAC12;&#xC758; &#xC5ED;&#xC218;</p>
 </blockquote>
-<p>&apos;&#xC7AC;&#xADC0;&#xD568;&#xC218;&apos; = &#xC601;&#xD654; Inception </p>
 <ul>
-<li></li>
-<li>&#xD568;&#xC218; &#xC18D; &#xD568;&#xC218; = &#xAFC8; &#xC18D;&#xC758; &#xAFC8;</li>
-<li>def <strong>_</strong> &#xBCC4; &#xB2E8;&#xACC4; = &#xAFC8;</li>
-<li>return result<ul>
-<li>return&#xC740; &#xD0A5; (&#xAFC8;&#xC18D;&#xC5D0;&#xC11C; &#xBC97;&#xC5B4;&#xB098;&#xB294; &#xACC4;&#xAE30;)</li>
-<li>result&#xB294; &#xD1A0;&#xD15C; (&#xAFC8; &#xC18D;&#xC5D0;&#xC11C; &#xAC16;&#xACE0; &#xD0C8;&#xCD9C;)</li>
+<li>&#xC774;&#xB97C;&#xD14C;&#xBA74; &#xC804;&#xCCB4; &#xCCAD;&#xC6D0;&#xC5D0;&#xC11C; &apos;&#xCD08;&#xB4F1;&#xD559;&#xAD50;&apos;&#xB77C;&#xB294; &#xD0A4;&#xC6CC;&#xB4DC;&#xB294; &#xC790;&#xC8FC; &#xB4F1;&#xC7A5;&#xD558;&#xC9C0; &#xC54A;&#xC9C0;&#xB9CC;, &#xBCF4;&#xC721;&#xACFC; &#xAD00;&#xB828;&#xB41C; &#xD2B9;&#xC815; &#xCCAD;&#xC6D0;&#xC5D0;&#xC11C;&#xB294; &#xC774; &#xB2E8;&#xC5B4;&#xAC00; &#xC790;&#xC8FC; &#xB4F1;&#xC7A5;&#xD55C;&#xB2E4;.</li>
+<li>TF-IDF&#xB294; TF&#xC640; IDF&#xB97C; &#xACF1;&#xD55C; &#xAC12;&#xC774;&#xB2E4;.</li>
 </ul>
-</li>
-</ul>
-<h1 id="&#xAC15;&#xB825;&#xBC94;&#xC8C4;-&#xB370;&#xC774;&#xD130;">&#xAC15;&#xB825;&#xBC94;&#xC8C4; &#xB370;&#xC774;&#xD130;</h1>
-<pre><code>%matplotlib inline
-import pandas as pd
-import numpy as np
-import math
-import matplotlib.pyplot as plt
-
-df = pd.read_csv(&apos;https://s3.ap-northeast-2.amazonaws.com/data10902/messy/crime_clean.csv&apos;,encoding=&apos;utf-8&apos;)
-
-data = [d for d in df.get_values().tolist() if not math.isnan(d[-1])]
-</code></pre><ul>
-<li>&#xB370;&#xC774;&#xD130;&#xB97C; &#xBD88;&#xB7EC;&#xC628;&#xB2E4;.</li>
-</ul>
-<pre><code>df.groupby([&quot;&#xC820;&#xB354;&quot;, &quot;&#xC720;&#xD615;&quot;]).agg({&quot;&#xBA85;&quot;:&quot;sum&quot;})
-</code></pre><ul>
-<li>&#xC820;&#xB354;&#xBCC4; &#xC720;&#xD615;(&#xAC00;&#xD574;&#xC790;,&#xD53C;&#xD574;&#xC790;) &#xBA85; &#xC218;&#xC758; &#xD569;&#xC744; &#xD45C;&#xB85C; &#xBCFC; &#xC218; &#xC788;&#xB2E4;.</li>
-</ul>
-<pre><code>df.groupby([&quot;&#xC820;&#xB354;&quot;, &quot;&#xB300;&#xBD84;&#xB958;&quot;,&quot;&#xC720;&#xD615;&quot;]).agg({&quot;&#xBA85;&quot;:&quot;mean&quot;})
-</code></pre><ul>
-<li>&#xC820;&#xB354;-&#xB300;&#xBD84;&#xB958;-&#xC720;&#xD615;&#xC744; &#xADF8;&#xB8F9;&#xD654;&#xD558;&#xC5EC; &#xBA85; &#xC218;&#xC758; &#xD3C9;&#xADE0;&#xC744; &#xBCFC; &#xC218; &#xC788;&#xB2E4;.</li>
-</ul>
-<pre><code>def get_sum(data):
-    result = 0
-    for datum in data:
-        result = result + datum
-    return result
-
-def get_len(data):
-    result = 0
-    for datum in data:
-        result = result + 1
-    return result
-
-def get_average(data):
-    total = get_sum(data)
-    n = get_len(data)
-    result = total / n
-    return result
-
-
-score = [50, 60, 70]
-average = get_average(score)
-print(average)
-</code></pre><p><strong>Lambda</strong>
--
-&quot;&#xD55C; &#xC904; &#xC9DC;&#xB9AC; &#xAC04;&#xB2E8;&#xD55C; &#xD568;&#xC218;&#xB97C; &#xC815;&#xC758;&#xD558;&#xB294; &#xAC04;&#xACB0;&#xD55C; &#xBB38;&#xBC95;&quot;  </p>
-<p>lambda &#xB294;</p>
+<h4 id="4-word2vec">(4) Word2Vec</h4>
 <ul>
-<li>Second-order function(2&#xCC28; &#xD568;&#xC218;)</li>
-<li>&#xD568;&#xC218; &#xC18D; &#xD568;&#xC218;  </li>
+<li>&#xB525;&#xB7EC;&#xB2DD; &#xAE30;&#xBC18; &#xC54C;&#xACE0;&#xB9AC;&#xC998;.</li>
+<li>&#xC720;&#xC0AC;&#xD55C; &#xBCA1;&#xD130;&#xB97C; &#xADFC;&#xCC98;&#xC5D0; &#xBC30;&#xCE58;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0;, &#xCD94;&#xCC9C; &#xC2DC;&#xC2A4;&#xD15C;&#xC5D0;&#xB3C4; &#xB9CE;&#xC774; &#xC4F0;&#xC778;&#xB2E4;.</li>
+<li>CBOW (continuous bag-of-words), Skip-Gram<ul>
+<li>CBOW : &#xC804;&#xCCB4; &#xD14D;&#xC2A4;&#xD2B8;&#xB85C; &#xD558;&#xB098;&#xC758; &#xB2E8;&#xC5B4;&#xB97C; &#xC608;&#xCE21;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0;, &#xC791;&#xC740; &#xB370;&#xC774;&#xD130;&#xC14B;&#xC77C; &#xC218;&#xB85D; &#xC720;&#xB9AC;&#xD558;&#xB2E4;.</li>
+<li>Skip-Gram : &#xD0C0;&#xAC9F; &#xB2E8;&#xC5B4;&#xB4E4;&#xB85C;&#xBD80;&#xD130; &#xC6D0;&#xBCF8; &#xB2E8;&#xC5B4;&#xB97C; &#xC5ED;&#xC73C;&#xB85C; &#xC608;&#xCE21;&#xD558;&#xB294; &#xAC83;&#xC73C;&#xB85C;, CBOW&#xC640;&#xB294; &#xBC18;&#xB300;&#xB85C; &#xCEE8;&#xD14D;&#xC2A4;&#xD2B8;-&#xD0C0;&#xAC9F; &#xC30D;&#xC744; &#xC0C8;&#xB85C;&#xC6B4; &#xBC1C;&#xACAC;&#xC73C;&#xB85C; &#xCC98;&#xB9AC;&#xD558;&#xACE0; &#xD070; &#xADDC;&#xBAA8;&#xC758; &#xB370;&#xC774;&#xD130;&#xC14B;&#xC77C;&#xC218;&#xB85D; &#xC720;&#xB9AC;&#xD558;&#xB2E4;.</li>
 </ul>
-<p>&#xB9AC;&#xC2A4;&#xD2B8; &#xC774;&#xB984; &#xC21C;&#xC73C;&#xB85C; &#xC815;&#xB82C;&#xD558;&#xAE30;</p>
-<pre><code>students = [(&apos;alan&apos;, 50), (&apos;dave&apos;, 60), (&apos;brad&apos;, 30), (&apos;cate&apos;, 40)]
-def by_name(student):
-    return student[0] 
-    #0&#xBC88;&#xC9F8; element &#xAE30;&#xC900;&#xC73C;&#xB85C; &#xC815;&#xB82C;&#xD558;&#xACA0;&#xB2E4;
-    #&#xC774;&#xB984; &#xC21C;&#xC73C;&#xB85C; &#xC815;&#xB82C;&#xB428;
-sorted(students, key=by_name)
-&gt;&gt;&gt; [(&apos;alan&apos;,50),(&apos;brad&apos;,30),(&apos;cate&apos;,40),(&apos;dave&apos;,60)]
-
-#&#xC704; &#xD568;&#xC218;&#xB97C; &#xD55C; &#xC904;&#xB85C; &#xC815;&#xB9AC;&#xD558;&#xB294; &#xBC29;&#xBC95; (1&#xD68C;&#xC6A9;)
-sorted(students, key=lambda     s:s[0])
-#        &#xB9AC;&#xC2A4;&#xD2B8;  &#xD568;&#xC218;&#xBA85;&#xB530;&#xB85C;&#xC9C0;&#xC815;x &#xBCC0;&#xC218;:&#xD45C;&#xD604;&#xC2DD; 
-</code></pre><p>&#xB9AC;&#xC2A4;&#xD2B8; &#xB098;&#xC774; &#xC21C;&#xC73C;&#xB85C; &#xC815;&#xB82C;&#xD558;&#xAE30;</p>
-<pre><code>def by_age(student):
-    return student[1]
-sorted(students, key=by_age)
-#&#xC704;&#xC640; &#xAC19;&#xC740; &#xACB0;&#xACFC; &#xB098;&#xC624;&#xB294; lambda&#xD568;&#xC218;
-sorted(students, key = lambda s:s[1])
-&gt;&gt;&gt; [(&apos;brad&apos;,30),(&apos;cate&apos;,40),(&apos;alan&apos;,50),(&apos;dave&apos;,60)]
-</code></pre><p>&#xB354; &#xC27D;&#xAC8C;</p>
-<pre><code>def blah (x) :
-    return x+2
-blah = (lambda x : x+2)
-&#xAC19;&#xC740; &#xAC12;&#xC774; &#xB098;&#xC624;&#xB294; &#xD568;&#xC218;
-</code></pre><h1 id="&#xC2E4;&#xC2B5;-1-40m">&#xC2E4;&#xC2B5; #1 40m</h1>
+</li>
+</ul>
+<blockquote>
+<p> vector size&#xAC00; &#xB9E4;&#xC6B0; &#xD06C;&#xB85C; sparse&#xD558;&#xBBC0;&#xB85C; neural net &#xC131;&#xB2A5;&#xC774; &#xC798; &#xB098;&#xC624;&#xC9C0; X</p>
+</blockquote>
+<hr>
+<h3 id="&#xD14D;&#xC2A4;&#xD2B8;-&#xB370;&#xC774;&#xD130;-&#xC2DC;&#xAC01;&#xD654;-&#x1F48E;">[ &#xD14D;&#xC2A4;&#xD2B8; &#xB370;&#xC774;&#xD130; &#xC2DC;&#xAC01;&#xD654;] &#x1F48E;</h3>
+<blockquote>
 <ul>
-<li>&#xB2F9;&#xC2E0;&#xC740; &#xB18D;&#xAD6C;&#xD300; &#xCF54;&#xCE58;&#xC774;&#xBA70;, &#xB124; &#xBA85;&#xC758; &#xC9C0;&#xC6D0;&#xC790; &#xC911; &#xD55C; &#xBA85;&#xC744; &#xCD94;&#xAC00;&#xB85C; &#xC120;&#xBC1C;&#xD558;&#xACE0;&#xC790; &#xD569;&#xB2C8;&#xB2E4;. &#xB2E4;&#xC74C;&#xC740; &#xAC01; &#xC9C0;&#xC6D0;&#xC790; &#xBCC4; &#xCD5C;&#xADFC; &#xC5F4; &#xBC88; &#xACBD;&#xAE30;&#xC5D0;&#xC11C;&#xC758; &#xB4DD;&#xC810; &#xAE30;&#xB85D;&#xC785;&#xB2C8;&#xB2E4;.<pre><code>candidates = {
-&apos;alan&apos;: [8, 14, 6, 8, 14, 9, 14, 9, 15, 5],
-&apos;brad&apos;: [11, 4, 11, 7, 9, 7, 8, 7, 10, 6],
-&apos;cate&apos;: [16, 22, 13, 15, 12, 3, 20, 17, 13, 23],
-&apos;dave&apos;: [24, 15, 18, 12, 9, 19, 23, 13, 14, 18],
-}
-</code></pre></li>
-<li><p>&#xD3C9;&#xADE0; &#xB4DD;&#xC810;&#xC774; &#xAC00;&#xC7A5; &#xB192;&#xC740; &#xC120;&#xC218;&#xB97C; &#xC120;&#xBC1C;&#xD558;&#xACE0;&#xC790; &#xD569;&#xB2C8;&#xB2E4;. &#xC5B4;&#xB5A4; &#xC120;&#xC218;&#xB97C; &#xC120;&#xBC1C;&#xD574;&#xC57C; &#xD558;&#xB294;&#xC9C0;, &#xADF8; &#xC774;&#xC720;&#xB294; &#xBB34;&#xC5C7;&#xC778;&#xC9C0; &#xC124;&#xBA85;&#xD558;&#xB294; &#xBCF4;&#xACE0;&#xC11C;&#xB97C; &#xC791;&#xC131;&#xD558;&#xC138;&#xC694;.</p>
-</li>
-<li><p>&#xD78C;&#xD2B8;: &#xC790;&#xB8CC;&#xC758; &#xC694;&#xC57D; &#xC218;&#xC5C5; &#xB0B4;&#xC6A9;&#xC744; &#xCC38;&#xACE0;&#xD558;&#xC138;&#xC694;.
-```
-average = []</p>
-</li>
+<li>&#xC6CC;&#xB4DC;&#xD074;&#xB77C;&#xC6B0;&#xB4DC;</li>
+<li>&#xCCAD;&#xC640;&#xB300; &#xAD6D;&#xBBFC;&#xCCAD;&#xC6D0; &#xB370;&#xC774;&#xD130;</li>
+<li>IMDB &#xC601;&#xD654;&#xBDF0; &#xB370;&#xC774;&#xD130;</li>
+<li>&#xB2E8;&#xC5B4; &#xC218; &#xD639;&#xC740; &#xBB38;&#xC7A5;&#xAE38;&#xC774;, &#xD2B9;&#xC218;&#xBB38;&#xC790;, &#xBD88;&#xC6A9;&#xC5B4; &#xAC2F;&#xC218; &#xB4F1;&#xC744; &#xC2DC;&#xAC01;&#xD654;</li>
+<li>&#xC791;&#xAC00;&#xBCC4; &#xD488;&#xC0AC; &#xC0AC;&#xC6A9;&#xC5D0; &#xB300;&#xD55C; &#xC2DC;&#xAC01;&#xD654;</li>
+<li>&#xC791;&#xAC00;&#xBCC4; &#xB2E8;&#xC5B4;&#xAC1C;&#xC218; &#xC2DC;&#xAC01;&#xD654;</li>
 </ul>
-<p>for name in candidates.keys():
-  total = 0
-  n = 0
-  for i in candidates[name]:
-    total += i
-    n += 1
-  average.append(total/n)</p>
-<p>print(average)</p>
-<p>lst = list(zip(candidates.keys(), average))
-print(lst)</p>
-<pre><code>```
-sorted_averages = sorted(named_averages, key=lambda s: s[1], reverse=True)
-print(sorted_averages)
-</code></pre><pre><code>[(&apos;dave&apos;, 16.5), (&apos;cate&apos;, 15.4), (&apos;alan&apos;, 10.2), (&apos;brad&apos;, 8.0)]
-</code></pre><ul>
-<li>&#xD3C9;&#xADE0;&#xC774; &#xC81C;&#xC77C; &#xB192;&#xC740; dave&#xB97C; &#xD0DD;&#xD55C;&#xB2E4;.</li>
-</ul>
-<h1 id="&#xC2E4;&#xC2B5;-2-40m">&#xC2E4;&#xC2B5; #2 40m</h1>
+</blockquote>
+<h5 id="1-word2vec&#xC73C;&#xB85C;-&#xBCA1;&#xD130;&#xD654;&#xD558;&#xACE0;-&#xC77C;&#xBD80;-&#xB370;&#xC774;&#xD130;&#xB97C;-&#xCC28;&#xC6D0;&#xCD95;&#xC18C;-&#xAE30;&#xBC95;&#xC73C;&#xB85C;-&#xC904;&#xC5EC;&#xC11C;-&#xD45C;&#xD604;">(1) Word2Vec&#xC73C;&#xB85C; &#xBCA1;&#xD130;&#xD654;&#xD558;&#xACE0;, &#xC77C;&#xBD80; &#xB370;&#xC774;&#xD130;&#xB97C; &#xCC28;&#xC6D0;&#xCD95;&#xC18C; &#xAE30;&#xBC95;&#xC73C;&#xB85C; &#xC904;&#xC5EC;&#xC11C; &#xD45C;&#xD604;</h5>
 <ul>
-<li>&#xB2F9;&#xC2E0;&#xC740; &#xB18D;&#xAD6C;&#xD300; &#xCF54;&#xCE58;&#xC774;&#xBA70;, &#xB124; &#xBA85;&#xC758; &#xC9C0;&#xC6D0;&#xC790; &#xC911; &#xD55C; &#xBA85;&#xC744; &#xCD94;&#xAC00;&#xB85C; &#xC120;&#xBC1C;&#xD558;&#xACE0;&#xC790; &#xD569;&#xB2C8;&#xB2E4;. &#xB2E4;&#xC74C;&#xC740; &#xAC01; &#xC9C0;&#xC6D0;&#xC790; &#xBCC4; &#xCD5C;&#xADFC; &#xACBD;&#xAE30;&#xC5D0;&#xC11C;&#xC758; &#xB4DD;&#xC810; &#xAE30;&#xB85D; &#xC77C;&#xBD80;&#xB97C; &#xC784;&#xC758;&#xB85C; &#xCD94;&#xCD9C;&#xD55C; &#xB370;&#xC774;&#xD130;&#xC785;&#xB2C8;&#xB2E4;. &#xC120;&#xC218;&#xBCC4;&#xB85C; &#xACBD;&#xAE30; &#xD69F;&#xC218;&#xAC00; &#xB2E4;&#xB985;&#xB2C8;&#xB2E4;.<pre><code>candidates = {
-&apos;alan&apos;: [8, 14, 6, 8, 14, 9, 14, 9, 15, 5],
-&apos;brad&apos;: [11, 4, 11, 7, 9, 7, 8, 7, 6],
-&apos;cate&apos;: [16, 22, 15, 12, 3, 20, 17, 13, 23],
-&apos;dave&apos;: [24, 15, 18, 18, 12, 9, 19, 23, 13, 14, 18],
-}
-</code></pre></li>
-<li><p>&#xB9E4; &#xACBD;&#xAE30;&#xC5D0;&#xC11C;&#xC758; &#xAE30;&#xBCF5;&#xC774; &#xAC00;&#xC7A5; &#xC801;&#xC740; &#xC120;&#xC218;&#xB97C; &#xC120;&#xBC1C;&#xD558;&#xACE0;&#xC790; &#xD569;&#xB2C8;&#xB2E4;. &#xC5B4;&#xB5A4; &#xC120;&#xC218;&#xB97C; &#xC120;&#xBC1C;&#xD574;&#xC57C; &#xD558;&#xB294;&#xC9C0;, &#xADF8; &#xC774;&#xC720;&#xB294; &#xBB34;&#xC5C7;&#xC778;&#xC9C0; &#xC124;&#xBA85;&#xD558;&#xB294; &#xBCF4;&#xACE0;&#xC11C;&#xB97C; &#xC791;&#xC131;&#xD558;&#xC138;&#xC694;.</p>
-</li>
-<li><p>&#xD78C;&#xD2B8;: &#xC790;&#xB8CC;&#xC758; &#xC694;&#xC57D; &#xC218;&#xC5C5; &#xB0B4;&#xC6A9;&#xC744; &#xCC38;&#xACE0;&#xD558;&#xC138;&#xC694;.</p>
+<li>&#xBE44;&#xC2B7;&#xD55C; &#xB2E8;&#xC5B4;&#xB07C;&#xB9AC; &#xBE44;&#xC2B7;&#xD55C; &#xC704;&#xCE58;&#xC5D0; &#xBD84;&#xD3EC;</li>
+<li><p>&#xC870;&#xC0AC;&#xC640; &#xBD88;&#xC6A9;&#xC5B4;&#xAC00; &#xC11E;&#xC5EC; &#xC788;&#xC5B4; &#xB370;&#xC774;&#xD130; &#xC815;&#xC81C; &#xD544;&#xC694;</p>
+<p><strong>(2) &#xC791;&#xAC00;&#xBCC4; &#xD488;&#xC0AC; &#xC0AC;&#xC6A9;, &#xB2E8;&#xC5B4; &#xAC1C;&#xC218;, &#xC18C;&#xC124;&#xC5D0; &#xC790;&#xC8FC; &#xB4F1;&#xC7A5;&#xD558;&#xB294; &#xB2E8;&#xC5B4;</strong></p>
 </li>
 </ul>
-<pre><code>import math
-candidates = {
-  &apos;alan&apos;: [8, 14, 6, 8, 14, 9, 14, 9, 15, 5],
-  &apos;brad&apos;: [11, 4, 11, 7, 9, 7, 8, 7, 6],
-  &apos;cate&apos;: [16, 22, 15, 12, 3, 20, 17, 13, 23],
-  &apos;dave&apos;: [24, 15, 18, 18, 12, 9, 19, 23, 13, 14, 18],
-}
-
-sd = []
-
-for name, scores in candidates.items():
-    # &#xD569;&#xACC4; &#xAD6C;&#xD558;&#xAE30;
-    total = sum(scores)
-    # value&#xC758; &#xC804;&#xCCB4; &#xAC1C;&#xC218; &#xAD6C;&#xD558;&#xAE30;
-    n = len(scores)
-    # &#xD3C9;&#xADE0;&#xAD6C;&#xD558;&#xAE30;
-    mean = total / n
-
-    # &#xBD84;&#xC0B0;&#xAD6C;&#xD558;&#xAE30;
-    vsum = 0
-    for x in scores:
-      vsum = vsum + (x - mean)**2  # 
-    var = vsum / n-1
-
-# &#xD45C;&#xC900;&#xD3B8;&#xCC28; &#xAD6C;&#xD558;&#xAE30;
-    std = math.sqrt(var)
-    sd.append(std)
-
-
-named_sd = list(zip(candidates.keys(), sd))
-
-print(named_sd)
-</code></pre><pre><code>[(&apos;alan&apos;, 3.370459909270543), (&apos;brad&apos;, 1.9019158631804098), (&apos;cate&apos;, 5.647024782032472), (&apos;dave&apos;, 4.237768007566061)]
-</code></pre><ul>
-<li>&#xB85C; &#xD45C;&#xC900;&#xD3B8;&#xCC28;&#xAC00; &#xC791;&#xC740; brad&#xB97C; &#xD0DD;&#xD574;&#xC57C; &#xD55C;&#xB2E4;.</li>
+<hr>
+<h3 id="&#xC790;&#xC5F0;&#xC5B4;-&#xCC98;&#xB9AC;&#xB85C;-&#xD560;-&#xC218;-&#xC788;&#xB294;-&#xC77C;--&#x1F449;">[ &#xC790;&#xC5F0;&#xC5B4; &#xCC98;&#xB9AC;&#xB85C; &#xD560; &#xC218; &#xC788;&#xB294; &#xC77C; ] &#x1F449;</h3>
+<ul>
+<li>&#xC790;&#xB3D9; &#xC694;&#xC57D;, &#xB9DE;&#xCDA4;&#xBC95; &#xC218;&#xC815;, &#xC2A4;&#xD338;&#xBA54;&#xC77C; &#xAC80;&#xCD9C;, &#xBD84;&#xB958;, &#xC790;&#xB3D9;&#xB2F5;&#xBCC0;, &#xACE0;&#xAC1D;&#xC13C;&#xD130;, &#xCC57;&#xBD07;, &#xAE30;&#xACC4;&#xBC88;&#xC5ED;, &#xCD94;&#xCC9C;, &#xAC10;&#xC815;&#xBD84;&#xC11D; &#xB4F1;</li>
+<li>&#xC790;&#xC5F0;&#xC5B4; &#xCC98;&#xB9AC;&#xC5D0;&#xC11C; &#xD65C;&#xC6A9;&#xD558;&#xAE30;<ul>
+<li>Classification : &#xC2A4;&#xD338;&#xBA54;&#xC77C; &#xBD84;&#xB958;</li>
+<li>Regression : &#xB9AC;&#xBDF0; &#xD3C9;&#xC810; &#xC608;&#xCE21;</li>
+<li>Clustering : &#xBE44;&#xC2B7;&#xD55C; &#xBA54;&#xC77C;&#xB07C;&#xB9AC; &#xBAA8;&#xC73C;&#xAE30;</li>
+<li>Dimensionality reduction : &#xCC28;&#xC6D0; &#xCD95;&#xC18C; &#xAE30;&#xBC95;&#xC73C;&#xB85C; &#xC2DC;&#xAC01;&#xD654;</li>
+</ul>
+</li>
 </ul>
 
                                 
@@ -950,12 +896,12 @@ print(named_sd)
 
             
                 
-                <a href="Tutorial_180703_Python_introduction.html" class="navigation navigation-prev " aria-label="Previous page: 파이썬 기초 ">
+                <a href="Tutorial_180723_Machine_learning.html" class="navigation navigation-prev " aria-label="Previous page: 기계학습의 기초(지도학습/비지도학습/머신러닝)">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="Tutorial_180705_Resume_01.html" class="navigation navigation-next " aria-label="Next page: 특강-자기소개서 워크숍(1)">
+                <a href="Tutorial_180726_naver.html" class="navigation navigation-next " aria-label="Next page: 특강 - AI R&D Director ">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -966,7 +912,7 @@ print(named_sd)
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"범죄데이터로 파이썬 실습 (Lamda)","level":"1.9","depth":1,"next":{"title":"특강-자기소개서 워크숍(1)","level":"1.10","depth":1,"path":"Tutorial_180705_Resume_01.md","ref":"Tutorial_180705_Resume_01.md","articles":[]},"previous":{"title":"파이썬 기초 ","level":"1.8","depth":1,"path":"Tutorial_180703_Python_introduction.md","ref":"Tutorial_180703_Python_introduction.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"BASE_URL":"https://dataitgirls2.github.io"},"plugins":["ga","-sharing"],"pluginsConfig":{"ga":{"configuration":"auto","token":"UA-43356518-7"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Tutorial_180705_PythonReview_Lamda.md","mtime":"2018-09-09T04:17:19.738Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-09T04:41:47.437Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"텍스트 데이터 시각화 Word_vectorsization","level":"1.28","depth":1,"next":{"title":"특강 - AI R&D Director ","level":"1.29","depth":1,"path":"Tutorial_180726_naver.md","ref":"Tutorial_180726_naver.md","articles":[]},"previous":{"title":"기계학습의 기초(지도학습/비지도학습/머신러닝)","level":"1.27","depth":1,"path":"Tutorial_180723_Machine_learning.md","ref":"Tutorial_180723_Machine_learning.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"BASE_URL":"https://dataitgirls2.github.io"},"plugins":["ga","-sharing"],"pluginsConfig":{"ga":{"configuration":"auto","token":"UA-43356518-7"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Tutorial_180723_word_vectorsization.md","mtime":"2018-09-09T04:17:19.729Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-09T04:41:47.437Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

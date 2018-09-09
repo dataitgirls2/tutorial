@@ -1,0 +1,1658 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Beautiful Soup을 사용하여 크롤링 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Tutorial_180719_plotnine.md" />
+    
+    
+    <link rel="prev" href="Tutorial_180717_PandasPetition.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Tutorial_180628_Git_and_Github.html">
+            
+                <a href="Tutorial_180628_Git_and_Github.html">
+            
+                    
+                    Git과 Github, 기본 개념과 설명
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Tutorial_180629_Git_with_constitution.html">
+            
+                <a href="Tutorial_180629_Git_with_constitution.html">
+            
+                    
+                    헌법개정안으로 깃베쉬, 소스트리, 브랜치 이해하기 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Tutorial_180629_Github_practice_Statistics1.html">
+            
+                <a href="Tutorial_180629_Github_practice_Statistics1.html">
+            
+                    
+                     확률통계 기초와 깃허브 실습 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Tutorial_180629_Statistics.html">
+            
+                <a href="Tutorial_180629_Statistics.html">
+            
+                    
+                    통계 기본 개념과 설명
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Tutorial_180702_Programming_Intro.html">
+            
+                <a href="Tutorial_180702_Programming_Intro.html">
+            
+                    
+                    스크래치 실습을 통한 프로그래밍 맛보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Tutorial_180702_tidydata.html">
+            
+                <a href="Tutorial_180702_tidydata.html">
+            
+                    
+                    데이터다루기(tidydata)와 프로그래밍기초
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Tutorial_180703_Python_introduction.html">
+            
+                <a href="Tutorial_180703_Python_introduction.html">
+            
+                    
+                    파이썬 기초 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Tutorial_180705_PythonReview_Lamda.html">
+            
+                <a href="Tutorial_180705_PythonReview_Lamda.html">
+            
+                    
+                    범죄데이터로 파이썬 실습 (Lamda)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="Tutorial_180705_Resume_01.html">
+            
+                <a href="Tutorial_180705_Resume_01.html">
+            
+                    
+                    특강-자기소개서 워크숍(1)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="Tutorial_180706_Civic_hacking_seminar.html">
+            
+                <a href="Tutorial_180706_Civic_hacking_seminar.html">
+            
+                    
+                    특강-시빅해킹
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="Tutorial_180709_StaticBlogging_JekyllandRuby.html">
+            
+                <a href="Tutorial_180709_StaticBlogging_JekyllandRuby.html">
+            
+                    
+                    지킬과 루비로 정적 블로그 만들기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="Tutorial_180710_Lecture_Cooperation.html">
+            
+                <a href="Tutorial_180710_Lecture_Cooperation.html">
+            
+                    
+                    특강-협업
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="Tutorial_180710_Lecture_Speciality.html">
+            
+                <a href="Tutorial_180710_Lecture_Speciality.html">
+            
+                    
+                    특강-전문성
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="Tutorial_180712_DataVisualization101.html">
+            
+                <a href="Tutorial_180712_DataVisualization101.html">
+            
+                    
+                    데이터 시각화 이해
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="Tutorial_180712_AttraciveResume2.html">
+            
+                <a href="Tutorial_180712_AttraciveResume2.html">
+            
+                    
+                    특강-자기소개서 워크숍(2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="Tutorial_180713_Pandas101.html">
+            
+                <a href="Tutorial_180713_Pandas101.html">
+            
+                    
+                    자료의 요약 과제를 통한 판다스 실습
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="Tutorial_180713_ExperimentDesignLecture.html">
+            
+                <a href="Tutorial_180713_ExperimentDesignLecture.html">
+            
+                    
+                    특강-실험계획에 관해 알아보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="Tutorial_180716_Crawling_Shuffle.html">
+            
+                <a href="Tutorial_180716_Crawling_Shuffle.html">
+            
+                    
+                    저작권과 직업윤리를 인지하고 크롤링 셔플 실습
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="Tutorial_180716_Markup_Html5lib.html">
+            
+                <a href="Tutorial_180716_Markup_Html5lib.html">
+            
+                    
+                    Markup Html5lib, 파이썬으로 크롤링하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="Tutorial_180717_10minPandas.html">
+            
+                <a href="Tutorial_180717_10minPandas.html">
+            
+                    
+                    Pandas 10분 완성
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="Tutorial_180717_PandasPetition.html">
+            
+                <a href="Tutorial_180717_PandasPetition.html">
+            
+                    
+                    국민청원 첫시작 판다스로 국민청원하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.23" data-path="Tutorial_180719_BeautifulSoup.html">
+            
+                <a href="Tutorial_180719_BeautifulSoup.html">
+            
+                    
+                    Beautiful Soup을 사용하여 크롤링
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="Tutorial_180719_plotnine.md">
+            
+                <span>
+            
+                    
+                    국민청원 데이터 시각화와 자연어 처리-plontnine 실습하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="Tutorial_180720_coupang.html">
+            
+                <a href="Tutorial_180720_coupang.html">
+            
+                    
+                    특강 - 비전공자가 데이터 분석가로 취업하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="Tutorial_180720_ProbabilityDistribution.html">
+            
+                <a href="Tutorial_180720_ProbabilityDistribution.html">
+            
+                    
+                    통계학-자료의 요약, 확률분포(ProbabilityDistribution)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="Tutorial_180723_Machine_learning.html">
+            
+                <a href="Tutorial_180723_Machine_learning.html">
+            
+                    
+                    기계학습의 기초(지도학습/비지도학습/머신러닝)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="Tutorial_180723_word_vectorsization.html">
+            
+                <a href="Tutorial_180723_word_vectorsization.html">
+            
+                    
+                    텍스트 데이터 시각화 Word_vectorsization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="Tutorial_180726_naver.html">
+            
+                <a href="Tutorial_180726_naver.html">
+            
+                    
+                    특강 - AI R&D Director 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="Tutorial_180726_library.md">
+            
+                <span>
+            
+                    
+                    전국도서관표준데이터 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="Tutorial_180730_Categorizing_v2.html">
+            
+                <a href="Tutorial_180730_Categorizing_v2.html">
+            
+                    
+                    국민청원 카테고리 분류하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="Tutorial_180730_Kaggle_NLP_v2.html">
+            
+                <a href="Tutorial_180730_Kaggle_NLP_v2.html">
+            
+                    
+                    Kaggle NLP로 예측율 높이기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="Tutorial_180730_Statistics.html">
+            
+                <a href="Tutorial_180730_Statistics.html">
+            
+                    
+                    Hypothesis test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="Tutorial_180731_MTPlanning.html">
+            
+                <a href="Tutorial_180731_MTPlanning.html">
+            
+                    
+                    데잇걸즈 MT 계획으로 애자일 프로세스 실습해보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="Tutorial_180802_ZigZag.html">
+            
+                <a href="Tutorial_180802_ZigZag.html">
+            
+                    
+                    특강 - 쇼핑몰 데이터 분석 이야기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="Tutorial_180803_GettingJobGithub.html">
+            
+                <a href="Tutorial_180803_GettingJobGithub.html">
+            
+                    
+                    깃허브로 취업하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="Tutorial_180803_Statistics4.html">
+            
+                <a href="Tutorial_180803_Statistics4.html">
+            
+                    
+                    회귀분석(Linear regression)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="Tutorial_180806_Folium_practice.md">
+            
+                <span>
+            
+                    
+                    공공데이터 상권정보 분석해 보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="Tutorial_180806_Geolocatin_API_practice.md">
+            
+                <span>
+            
+                    
+                    서울창업허브(공덕역) 맛집지도
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="Tutorial_180806_XGBoost.md">
+            
+                <span>
+            
+                    
+                    XGBoost 분산형 그래디언트 부스팅 알고리즘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41" data-path="Tutorial_180807_Git_review.html">
+            
+                <a href="Tutorial_180807_Git_review.html">
+            
+                    
+                    깃과 깃헙 복습, 다른 사람의 레파지토리에 기여하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.42" data-path="Tutorial_180810_Apt_analysis_Statistics5.html">
+            
+                <a href="Tutorial_180810_Apt_analysis_Statistics5.html">
+            
+                    
+                    아파트 분양가 분석 및 회귀분석2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.43" data-path="Tutorial_180813_kaggle_Titanic.html">
+            
+                <a href="Tutorial_180813_kaggle_Titanic.html">
+            
+                    
+                    스프레드시트로 캐글 타이타닉 참가하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.44" data-path="Tutorial_180814_Python_Class.html">
+            
+                <a href="Tutorial_180814_Python_Class.html">
+            
+                    
+                    객체지향 프로그래밍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.45" data-path="Tutorial_180814_Test_Driven_Development.html">
+            
+                <a href="Tutorial_180814_Test_Driven_Development.html">
+            
+                    
+                    테스트 주도 개발
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46" data-path="Tutorial_180817_Colors_in_Data_Visualization.md">
+            
+                <span>
+            
+                    
+                    데이터 시각화와 색의 활용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.47" data-path="Tutorial_180817_Statistics5.html">
+            
+                <a href="Tutorial_180817_Statistics5.html">
+            
+                    
+                    통계-회귀분석3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Beautiful Soup을 사용하여 크롤링</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#xD06C;&#xB864;&#xB9C1;-3">&#xD06C;&#xB864;&#xB9C1; 3</h1>
+<h2 id="beautiful-soup">Beautiful Soup</h2>
+<ul>
+<li>&#xC65C; Beautiful Soup&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xB294;&#xAC00;?<ul>
+<li>&#xB9E4;&#xBC88; &#xC6F9;&#xC0AC;&#xC774;&#xD2B8;&#xB97C; &#xBC29;&#xBB38;&#xD574;&#xC11C; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC218;&#xC9D1;&#xD558;&#xACE0;, html5lib&#xB97C; &#xC0AC;&#xC6A9;&#xD574;&#xC11C; &#xD06C;&#xB864;&#xB9C1;&#xC744; &#xD574;&#xC654;&#xB294;&#xB370;, html5lib&#xAC00; &#xB098;&#xBB34;&#xAD6C;&#xC870;&#xC5EC;&#xC11C; &#xCC28;&#xC6D0;&#xC774; &#xB108;&#xBB34; &#xB9CE;&#xC544;&#xC11C; &#xC6D0;&#xD558;&#xB294; &#xC694;&#xC18C;&#xB97C; &#xBF51;&#xC544;&#xC624;&#xAE30; &#xC27D;&#xC9C0; &#xC54A;&#xC558;&#xB2E4;.</li>
+<li>Beautiful Soup&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xBA74; &#xC6D0;&#xD558;&#xB294; &#xC694;&#xC18C;&#xB97C; &#xC27D;&#xAC8C; &#xAC00;&#xC838;&#xC62C; &#xC218; &#xC788;&#xB2E4;.</li>
+</ul>
+</li>
+</ul>
+<h3 id="&#xAE30;&#xC874;-html5lib&#xC744;-&#xC0AC;&#xC6A9;&#xD574;&#xC11C;-naver&#xC758;-title-&#xAC00;&#xC838;&#xC624;&#xAE30;">&#xAE30;&#xC874; html5lib&#xC744; &#xC0AC;&#xC6A9;&#xD574;&#xC11C; Naver&#xC758; title &#xAC00;&#xC838;&#xC624;&#xAE30;</h3>
+<pre><code>from urllib import request
+import html5lib
+
+url = &quot;https://www.naver.com&quot;
+with request.urlopen(url) as f:
+  html = f.read().decode(&apos;utf-8&apos;)
+
+dom = html5lib.parse(html)
+head = dom.getchildren()[0]
+titles = [
+  child for child in head.getchildren()
+  if child.tag == &apos;{http://www.w3.org/1999/xhtml}title&apos;
+]
+title = titles[0].text
+print(title)
+</code></pre><pre><code>&gt;&gt; Naver
+</code></pre><h3 id="beautiful-soup&#xB97C;-&#xC0AC;&#xC6A9;&#xD574;&#xC11C;-naver&#xC758;-title-&#xAC00;&#xC838;&#xC624;&#xAE30;">Beautiful Soup&#xB97C; &#xC0AC;&#xC6A9;&#xD574;&#xC11C; Naver&#xC758; title &#xAC00;&#xC838;&#xC624;&#xAE30;</h3>
+<pre><code>from urllib import request
+from bs4 import BeautifulSoup
+
+url = &quot;https://www.naver.com&quot;
+with request.urlopen(url) as f:
+  html = f.read().decode(&apos;utf-8&apos;)
+
+bs = BeautifulSoup(html, &apos;html5lib&apos;)  # html5&#xB97C; &#xC0AC;&#xC6A9;&#xD574;&#xC11C; dom&#xC744; &#xC54C;&#xC544;&#xC11C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC900;&#xB2E4;.
+# select()&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xBA74; &#xBAA8;&#xB4E0; &#xACB0;&#xACFC;&#xB97C; &#xB9AC;&#xC2A4;&#xD2B8;&#xC5D0; &#xB2F4;&#xACE0;, select_one()&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xBA74; &#xD558;&#xB098;&#xC758; &#xC694;&#xC18C;&#xB9CC; &#xBC18;&#xD658;
+title = bs.select_one(&apos;title&apos;).text  # selec_one()&#xC548;&#xC5D0; &#xC778;&#xC790;&#xB294; &#xD0DC;&#xADF8;&#xC774;&#xB984;&#xC774; &#xC544;&#xB2C8;&#xB77C; css &#xBB38;&#xBC95;&#xC774;&#xB2E4;.
+print(title)
+</code></pre><pre><code>&gt;&gt; NAVER
+</code></pre><p>: &#xD6E8;&#xC52C; &#xB354; &#xC27D;&#xAC8C; &#xC6F9;&#xC0AC;&#xC774;&#xD2B8;&#xC758; &#xD0C0;&#xC774;&#xD2C0;&#xC744; &#xAC00;&#xC9C0;&#xACE0; &#xC62C; &#xC218; &#xC788;&#xB2E4;!</p>
+<h2 id="css-cascading-style-sheets">CSS (<strong>Cascading Style Sheets</strong>)</h2>
+<ul>
+<li>&#xC815;&#xC758;<ul>
+<li>&#xB9C8;&#xD06C;&#xC5C5; &#xC5B8;&#xC5B4;&#xAC00; &#xC6F9;&#xC0AC;&#xC774;&#xD2B8;&#xC758; &#xBAB8;&#xCCB4;&#xB97C; &#xB2F4;&#xB2F9;&#xD55C;&#xB2E4;&#xBA74;, CSS&#xB294; &#xC637;&#xACFC; &#xC561;&#xC138;&#xC11C;&#xB9AC;&#xC640; &#xAC19;&#xC740; &#xAFB8;&#xBBF8;&#xB294; &#xC5ED;&#xD560;&#xC744; &#xB2F4;&#xB2F9;&#xD55C;&#xB2E4;&#xACE0; &#xD560; &#xC218; &#xC788;&#xB2E4;.</li>
+</ul>
+</li>
+</ul>
+<h2 id="css-&#xBB38;&#xBC95;">CSS &#xBB38;&#xBC95;</h2>
+<ul>
+<li><p>&#xD074;&#xB798;&#xC2A4;&#xCC3E;&#xAE30; <code>.class</code></p>
+<pre><code>.classname {}
+</code></pre></li>
+</ul>
+<ul>
+<li><p>id&#xCC3E;&#xAE30; <code>#id</code></p>
+<pre><code>#idname {}
+</code></pre></li>
+</ul>
+<ul>
+<li><p>&#xC790;&#xC2DD; selector <code>&gt;</code></p>
+<pre><code>body &gt; .highlight {}
+</code></pre><ul>
+<li>body&#xC758; &#xBC14;&#xB85C; &#xBC11;&#xC5D0; &#xC790;&#xC2DD;(&#xC9C1;&#xACC4;&#xC790;&#xC2DD;) &#xC911; highlight &#xD074;&#xB798;&#xC2A4;&#xC778;&#xAC83;</li>
+<li>body&#xC758; &#xC790;&#xC2DD;&#xC758; &#xC790;&#xC2DD;&#xC911; hightlight &#xD074;&#xB798;&#xC2A4;&#xC778;&#xAC83;&#xC740; &#xD574;&#xB2F9; &#xC548;&#xB428;</li>
+</ul>
+</li>
+</ul>
+<h3 id="&#xC560;&#xB780;&#xC774;&#xB124;-&#xCC45;&#xBC29;-&#xC2E4;&#xC2B5;">&#xC560;&#xB780;&#xC774;&#xB124; &#xCC45;&#xBC29; &#xC2E4;&#xC2B5;</h3>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;&#xC560;&#xB780;&#xC774;&#xB124;&lt;/title&gt;
+    &lt;style&gt;
+    x {
+      background: #AFA;
+      outline: 1px solid black;
+    }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;&#xC560;&#xB780;&#xC774;&#xB124; &#xCC45;&#xBC29;&lt;/h1&gt;
+    &lt;p id=&quot;welcome&quot;&gt;&#xC560;&#xB780;&#xC774;&#xB124; &#xCC45;&#xBC29;&#xC5D0; &#xC624;&#xC2E0; &#xAC83;&#xC744; &#xD658;&#xC601;&#xD569;&#xB2C8;&#xB2E4;.&lt;/p&gt;
+    &lt;p class=&quot;highlight&quot;&gt;&#xB9C8;&#xC74C;&#xAECF; &#xAD6C;&#xACBD;&#xD558;&#xC138;&#xC694;.&lt;/p&gt;
+    &lt;ul class=&quot;category&quot;&gt;
+      &lt;li&gt;&#xC18C;&#xC124;&lt;/li&gt;
+      &lt;li class=&quot;highlight&quot;&gt;&#xB9CC;&#xD654;&lt;/li&gt;
+      &lt;li&gt;&#xC5ED;&#xC0AC;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p><strong>x&#xBD80;&#xBD84;&#xC744; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xBC14;&#xAFD4;&#xC8FC;&#xC138;&#xC694;!</strong></p>
+<ul>
+<li><p>highlight &#xD074;&#xB798;&#xC2A4;&#xB85C; &#xBC14;&#xAFB8;&#xAE30;</p>
+<pre><code>.highlight {}
+</code></pre><pre><code>&gt;&gt; &apos;&#xB9C8;&#xC74C;&#xAECF; &#xAD6C;&#xACBD;&#xD558;&#xC138;&#xC694;&apos;, &apos;&#xB9CC;&#xD654;&apos; &gt;&gt; background &#xC0C9;&#xC774; &#xBC14;&#xB010;&#xB2E4;.
+</code></pre></li>
+</ul>
+<ul>
+<li><p>welcome &#xC544;&#xC774;&#xB514;&#xB85C; &#xBC14;&#xAFB8;&#xAE30;</p>
+<pre><code>#welcome {}
+</code></pre><pre><code>&gt;&gt; &apos;&#xC560;&#xB780;&#xC774;&#xB124; &#xCC45;&#xBC29;&#xC5D0; &#xC624;&#xC2E0; &#xAC83;&#xC744; &#xD658;&#xC601;&#xD569;&#xB2C8;&#xB2E4;.&apos; &gt;&gt; background &#xC0C9;&#xC774; &#xBC14;&#xB010;&#xB2E4;.
+</code></pre></li>
+</ul>
+<ul>
+<li><p>ul &#xD639;&#xC740; ul&#xC758; &#xC790;&#xC2DD;&#xC774;&#xBA74;&#xC11C; hightlight &#xD074;&#xB798;&#xC2A4;&#xC778;&#xAC83;</p>
+<pre><code>ul .highlight {}
+</code></pre><pre><code>&gt;&gt; &apos;&#xB9CC;&#xD654;&apos; &gt;&gt; background &#xC0C9;&#xC774; &#xBC14;&#xB010;&#xB2E4;.
+</code></pre></li>
+</ul>
+<ul>
+<li><p>ul&#xC911;&#xC5D0; highlight &#xD074;&#xB798;&#xC2A4;&#xC778;&#xAC83;</p>
+<pre><code>ul.highlight {}
+</code></pre><pre><code>&gt;&gt; &#xC544;&#xBB34;&#xAC83;&#xB3C4; &#xBCC0;&#xD558;&#xC9C0; &#xC54A;&#xC74C;.
+</code></pre><ul>
+<li>&#xD0DC;&#xADF8;&#xC774;&#xB984;&#xC774; ul &#xC774;&#xBA74;&#xC11C; highlight &#xD074;&#xB798;&#xC2A4;&#xC778; Element&#xAC00; &#xC5C6;&#xC5B4;&#xC11C;</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>ul &#xD639;&#xC740; ul&#xC758; &#xC790;&#xC2DD;&#xC911; li &#xC774;&#xBA74;&#xC11C; highlight &#xD074;&#xB798;&#xC2A4;&#xC778;&#xAC83;</p>
+<pre><code>ul li.highlight {}
+</code></pre><pre><code>&gt;&gt; &apos;&#xB9CC;&#xD654;&apos; &gt;&gt; background &#xC0C9;&#xC774; &#xBCC0;&#xD55C;&#xB2E4;.
+</code></pre><ul>
+<li>&#xACF5;&#xBC31;&#xC774; &#xC5C6;&#xC73C;&#xBA74; &#xD574;&#xB2F9; element&#xB4E4; &#xC911; &#xD574;&#xB2F9; &#xC18D;&#xC131;&#xB4E4;</li>
+<li>&#xACF5;&#xBC31;&#xC774; &#xC788;&#xC73C;&#xBA74; &#xBCF8;&#xC778;&#xACFC; &#xC790;&#xC2DD;&#xC744; &#xD3EC;&#xD568;&#xD558;&#xB294; element&#xB4E4; &#xC911; &#xD574;&#xB2F9; &#xC18D;&#xC131;&#xB4E4;&#xC744; &#xBD88;&#xB7EC;&#xC634;</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>body &#xC758; &#xC9C1;&#xACC4;&#xC790;&#xC190;&#xC758; &#xD558;&#xC704;&#xD56D;&#xBAA9; &#xC911;&#xC5D0;&#xC11C; highlight &#xD074;&#xB798;&#xC2A4;&#xC778; Element</p>
+<pre><code>body &gt; .highlight {}
+</code></pre><pre><code>&gt;&gt; &apos;&#xB9C8;&#xC74C;&#xAECF; &#xAD6C;&#xACBD;&#xD558;&#xC138;&#xC694;&apos; &gt;&gt; background &#xC0C9;&#xC774; &#xBCC0;&#xD55C;&#xB2E4;.
+</code></pre></li>
+</ul>
+<h2 id="yes24-&#xD30C;&#xC774;&#xC36C;-&#xAC80;&#xC0C9;&#xACB0;&#xACFC;-&#xBAA9;&#xB85D;-&#xCD94;&#xCD9C;&#xD558;&#xAE30;">yes24 &#xD30C;&#xC774;&#xC36C; &#xAC80;&#xC0C9;&#xACB0;&#xACFC; &#xBAA9;&#xB85D; &#xCD94;&#xCD9C;&#xD558;&#xAE30;</h2>
+<h3 id="robotstxt-&#xD655;&#xC778;">robots.txt &#xD655;&#xC778;</h3>
+<p><a href="http://www.yes24.co.kr/robots.txt" target="_blank">robots.txt</a></p>
+<pre><code>User-agent: *
+Disallow: /templates/
+Disallow: /member/
+Allow: /
+</code></pre><p>templates&#xC640; member &#xB370;&#xC774;&#xD130;&#xB9CC; &#xAC74;&#xB4E4;&#xC9C0; &#xC54A;&#xC73C;&#xBA74;(&#xADF8;&#xB9AC;&#xACE0; &#xACFC;&#xB3C4;&#xD55C; &#xD2B8;&#xB798;&#xD53D;&#xC744; &#xC720;&#xBC1C;&#xD558;&#xC9C0; &#xC54A;&#xB294;&#xB2E4;&#xBA74;) &#xB370;&#xC774;&#xD130;&#xB97C; &#xC218;&#xC9D1;&#xD574;&#xB3C4; &#xAD1C;&#xCC2E;&#xC740; &#xAC83; &#xAC19;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<h3 id="&#xD544;&#xC694;&#xD55C;-&#xD328;&#xD0A4;&#xC9C0;--import">&#xD544;&#xC694;&#xD55C; &#xD328;&#xD0A4;&#xC9C0;  import</h3>
+<ul>
+<li>html5lib: &#xC5C9;&#xB9DD;&#xC73C;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC9C4; HTML &#xBB38;&#xC11C;&#xB3C4; &#xC801;&#xC808;&#xD788; &#xC798; &#xBD84;&#xC11D;&#xD574;&#xC11C; DOM &#xAD6C;&#xC870;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC90C;.</li>
+<li>beautifulsoup4: SS Selector&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; DOM &#xAD6C;&#xC870;&#xC5D0;&#xC11C; &#xC6D0;&#xD558;&#xB294; &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xB4E4;&#xC744; &#xBF51;&#xC544;&#xB0B4;&#xB294; &#xAE30;&#xB2A5;&#xC744; &#xC81C;&#xACF5;</li>
+</ul>
+<pre><code># html5lib&#xC640; beautifulsoup4&#xB97C; &#xC124;&#xCE58;&#xD558;&#xB294; &#xBA85;&#xB839;&#xC5B4;(&#xD639;&#xC2DC; &#xC548; &#xAE54;&#xB824; &#xC788;&#xC744; &#xB54C; &#xB300;&#xBE44;):
+# !pip install html5lib beautifulsoup4
+
+from urllib import request
+from bs4 import BeautifulSoup
+import pandas as pd
+</code></pre><h3 id="html-&#xBC1B;&#xC544;&#xC624;&#xAE30;">HTML &#xBC1B;&#xC544;&#xC624;&#xAE30;</h3>
+<ul>
+<li>&#xC608;&#xC2A4;24 &#xC11C;&#xBC84;&#xB85C; HTTP &#xC694;&#xCCAD;&#xC744; &#xBCF4;&#xB0B4;&#xC11C; HTML&#xC744; &#xBC1B;&#xC544;&#xC628; &#xD6C4; &#xD30C;&#xC774;&#xC36C; &#xBB38;&#xC790;&#xC5F4;(str)&#xB85C; &#xBCC0;&#xD658;&#xD574;&#xBCF4;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;.</li>
+</ul>
+<pre><code>url = &quot;http://www.yes24.com/searchcorner/Search?keywordAd=&amp;keyword=&amp;domain=BOOK&amp;qdomain=%B1%B9%B3%BB%B5%B5%BC%AD&amp;query=%C6%C4%C0%CC%BD%E3&quot;
+with request.urlopen(url) as f:
+  html = f.read().decode(&apos;utf-8&apos;)
+</code></pre><pre><code>---------------------------------------------------------------------------
+
+UnicodeDecodeError                        Traceback (most recent call last)
+
+&lt;ipython-input-16-8e12c9cf7762&gt; in &lt;module&gt;()
+      1 url = &quot;http://www.yes24.com/searchcorner/Search?keywordAd=&amp;keyword=&amp;domain=BOOK&amp;qdomain=%B1%B9%B3%BB%B5%B5%BC%AD&amp;query=%C6%C4%C0%CC%BD%E3&quot;
+      2 with request.urlopen(url) as f:
+----&gt; 3   html = f.read().decode(&apos;utf-8&apos;)
+
+
+UnicodeDecodeError: &apos;utf-8&apos; codec can&apos;t decode byte 0xb4 in position 241: invalid start byte
+</code></pre><h4 id="dont-panic">DON&apos;T PANIC</h4>
+<h4 id="&#xC65C;-&#xC624;&#xB958;&#xAC00;-&#xBC1C;&#xC0DD;&#xD588;&#xC744;&#xAE4C;">&#xC65C; &#xC624;&#xB958;&#xAC00; &#xBC1C;&#xC0DD;&#xD588;&#xC744;&#xAE4C;?</h4>
+<ul>
+<li>&#xC18C;&#xC2A4; &#xCF54;&#xB4DC;&#xB97C; &#xC0B4;&#xD3B4;&#xBCF4;&#xB2C8; &#xC544;&#xB798;&#xC640; &#xAC19;&#xC740; &#xBD80;&#xBD84;&#xC774; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">&quot;Content-Type&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;text/html;charset=euc-kr&quot;</span> /&gt;</span>
+</code></pre>
+</li>
+<li>utf-8&#xC774; &#xC544;&#xB2CC; <strong>euc-kr</strong>&#xC744; &#xC368;&#xC57C;&#xD569;&#xB2C8;&#xB2E4;. euc-kr&#xC740; &#xC624;&#xB798; &#xC804;&#xC5D0; &#xD55C;&#xAD6D;&#xC5D0;&#xC11C;&#xB9CC; &#xC4F0;&#xC774;&#xB358; &#xB0A1;&#xC740; &#xBC29;&#xC2DD;&#xC774;&#xC9C0;&#xB9CC; &#xBD88;&#xD589;&#xD788;&#xB3C4; &#xC544;&#xC9C1;&#xB3C4; &#xC0C1;&#xB2F9;&#xC218; &#xD55C;&#xAD6D; &#xC6F9;&#xC0AC;&#xC774;&#xD2B8;&#xC5D0;&#xC11C; &#xC774; &#xBC29;&#xC2DD;&#xC744; &#xC0AC;&#xC6A9;&#xD569;&#xB2C8;&#xB2E4;.</li>
+</ul>
+<pre><code>url = &quot;http://www.yes24.com/searchcorner/Search?keywordAd=&amp;keyword=&amp;domain=BOOK&amp;qdomain=%B1%B9%B3%BB%B5%B5%BC%AD&amp;query=%C6%C4%C0%CC%BD%E3&quot;
+with request.urlopen(url) as f:
+  html = f.read().decode(&apos;euc-kr&apos;)
+</code></pre><ul>
+<li>&#xC0AC;&#xC774;&#xD2B8;&#xC5D0; &#xB530;&#xB77C; utf-8 &#xB610;&#xB294; euc-kr&#xB85C; &#xCF54;&#xB4DC;&#xB97C; &#xBC14;&#xAFD4;&#xC8FC;&#xB294; &#xBC18;&#xBCF5; &#xC791;&#xC5C5;&#xC744; &#xD558;&#xACE0; &#xC2F6;&#xC9C0; &#xC54A;&#xC2B5;&#xB2C8;&#xB2E4;. (&#xC560;&#xB780;&#xC324;&#xC774;)&#xAD6C;&#xAE00; &#xAC80;&#xC0C9;&#xC744; &#xD574;&#xBCF4;&#xB2C8; &#xC774;&#xB807;&#xAC8C; &#xC4F0;&#xBA74; &#xB41C;&#xB2E4;&#xACE0; &#xD569;&#xB2C8;&#xB2E4;.</li>
+</ul>
+<pre><code>url = &quot;http://www.yes24.com/searchcorner/Search?keywordAd=&amp;keyword=&amp;domain=BOOK&amp;qdomain=%B1%B9%B3%BB%B5%B5%BC%AD&amp;query=%C6%C4%C0%CC%BD%E3&quot;
+with request.urlopen(url) as f:
+  charset = f.headers.get_content_charset()
+  html = f.read().decode(charset)
+</code></pre><h3 id="html-&#xBB38;&#xC790;&#xC5F4;&#xC744;-&#xBD84;&#xC11D;&#xD558;&#xC5EC;-dom-&#xAD6C;&#xC131;&#xD558;&#xAE30;">HTML &#xBB38;&#xC790;&#xC5F4;&#xC744; &#xBD84;&#xC11D;&#xD558;&#xC5EC; DOM &#xAD6C;&#xC131;&#xD558;&#xAE30;</h3>
+<ul>
+<li>html5lib&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; DOM&#xC744; &#xAD6C;&#xC131;&#xD55C; &#xD6C4; DOM &#xD2B8;&#xB9AC; &#xAD6C;&#xC870;&#xB97C; &#xD0D0;&#xC0C9;&#xD558;&#xC5EC; &#xC6D0;&#xD558;&#xB294; &#xC815;&#xBCF4;&#xB97C; &#xCD94;&#xCD9C;&#xD558;&#xB294; &#xCF54;&#xB4DC;&#xB97C; &#xB9CC;&#xB4E4;&#xC5B4;&#xB3C4; &#xB418;&#xC9C0;&#xB9CC; &#xBC88;&#xAC70;&#xB86D;&#xC2B5;&#xB2C8;&#xB2E4;.</li>
+<li><p>beautifulsoup&#xC744; &#xC774;&#xC6A9;&#xD558;&#xBA74; CSS &#xC140;&#xB809;&#xD130;&#xB97C; &#xC368;&#xC11C; &#xC6D0;&#xD558;&#xB294; &#xC815;&#xBCF4;&#xB97C; &#xC27D;&#xAC8C; &#xCD94;&#xCD9C;&#xD574;&#xB0BC; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+</li>
+<li><p>beautifulsoup&#xC740; &#xB0B4;&#xBD80;&#xC801;&#xC73C;&#xB85C; DOM &#xD2B8;&#xB9AC;&#xB97C; &#xAD6C;&#xC131;&#xD558;&#xB294;&#xB370;, &#xC774; &#xB54C; &#xC5B4;&#xB5A4; &#xBD84;&#xC11D;&#xAE30;(parser)&#xB97C; &#xC0AC;&#xC6A9;&#xD560;&#xC9C0; &#xC9C0;&#xC815;&#xD574;&#xC904; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xC6B0;&#xB9AC;&#xB294; html5lib&#xB97C; &#xC4F0;&#xB3C4;&#xB85D; &#xD558;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+</li>
+</ul>
+<pre><code>soup = BeautifulSoup(html, &apos;html5lib&apos;)
+</code></pre><ul>
+<li>soup &#xAC1D;&#xCCB4;&#xC5D0;&#xB294; select_one() &#xD568;&#xC218;&#xC640; select() &#xD568;&#xC218;&#xAC00; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xB450; &#xD568;&#xC218; &#xBAA8;&#xB450; CSS &#xC140;&#xB809;&#xD130;&#xB85C; &#xC6D0;&#xD558;&#xB294; &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xB97C; &#xCC3E;&#xC544;&#xC8FC;&#xB294; &#xAE30;&#xB2A5;&#xC744; &#xD55C;&#xB2E4;&#xB294; &#xC810;&#xC740; &#xAC19;&#xC9C0;&#xB9CC;  <ul>
+<li>select_one() &#xD568;&#xC218;&#xB294;: &#xCC98;&#xC74C;&#xC73C;&#xB85C; &#xBC1C;&#xACAC;&#xD55C; &#xD558;&#xB098;&#xC758; &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xB9CC; &#xBC18;&#xD658;&#xD569;&#xB2C8;&#xB2E4; </li>
+<li>select() &#xD568;&#xC218;&#xB294; &#xBC1C;&#xACAC;&#xD55C; &#xBAA8;&#xB4E0; &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xB97C; &#xB9AC;&#xC2A4;&#xD2B8; &#xD615;&#xC2DD;&#xC73C;&#xB85C; &#xBC18;&#xD658;&#xD569;&#xB2C8;&#xB2E4;.</li>
+</ul>
+</li>
+</ul>
+<pre><code>print(len(soup.select_one(&apos;a&apos;)))
+print(len(soup.select(&apos;a&apos;)))
+print (soup.select(&quot;a&quot;)[0] == soup.select_one(&quot;a&quot;))
+</code></pre><pre><code>1
+659
+True
+</code></pre><ul>
+<li>&#xBA3C;&#xC800; &#xC0C1;&#xD488; &#xB9AC;&#xC2A4;&#xD2B8;(div &#xD0DC;&#xADF8;, class&#xB294; goodsList) &#xC548;&#xC758; &#xC0C1;&#xD488;&#xBA85;&#xB9CC; &#xCD94;&#xCD9C;&#xD574;&#xBCF4;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;.</li>
+</ul>
+<pre><code>title_elem = soup.select(&apos;div.goodsList p.goods_name a strong&apos;)
+titles = []
+
+for i in title_elem:
+  titles.append(i.text)
+
+len(titles), titles
+</code></pre><pre><code>(20,
+ [&apos;Do it! &#xC810;&#xD504; &#xD22C; &#xD30C;&#xC774;&#xC36C;&apos;,
+  &apos;&#xBAA8;&#xB450;&#xC758; &#xD30C;&#xC774;&#xC36C;&apos;,
+  &apos;&#xBC11;&#xBC14;&#xB2E5;&#xBD80;&#xD130; &#xC2DC;&#xC791;&#xD558;&#xB294; &#xB525;&#xB7EC;&#xB2DD; &apos;,
+  &apos;&#xD30C;&#xC774;&#xC36C;&#xC744; &#xC774;&#xC6A9;&#xD55C; &#xBA38;&#xC2E0;&#xB7EC;&#xB2DD;, &#xB525;&#xB7EC;&#xB2DD; &#xC2E4;&#xC804; &#xAC1C;&#xBC1C; &#xC785;&#xBB38;&apos;,
+  &apos;&#xD30C;&#xC774;&#xC36C;&#xACFC; &#xCF00;&#xB77C;&#xC2A4;&#xB97C; &#xC774;&#xC6A9;&#xD55C; &#xB525;&#xB7EC;&#xB2DD;/&#xAC15;&#xD654;&#xD559;&#xC2B5; &#xC8FC;&#xC2DD;&#xD22C;&#xC790;&apos;,
+  &apos;&#xBAA8;&#xB450;&#xC758; &#xC54C;&#xACE0;&#xB9AC;&#xC998; with &#xD30C;&#xC774;&#xC36C;&apos;,
+  &apos;&#xD30C;&#xC774;&#xC36C; &#xB77C;&#xC774;&#xBE0C;&#xB7EC;&#xB9AC;&#xB97C; &#xD65C;&#xC6A9;&#xD55C; &#xBA38;&#xC2E0;&#xB7EC;&#xB2DD; &apos;,
+  &apos;&#xD30C;&#xC774;&#xC36C;&#xC73C;&#xB85C; &#xB370;&#xC774;&#xD130; &#xC8FC;&#xBB34;&#xB974;&#xAE30;&apos;,
+  &apos;&#xD30C;&#xC774;&#xC36C; &#xC790;&#xC5F0;&#xC5B4; &#xCC98;&#xB9AC;&#xC758; &#xC774;&#xB860;&#xACFC; &#xC2E4;&#xC81C;&apos;,
+  &apos;&#xD30C;&#xC774;&#xC36C; GUI &#xD504;&#xB85C;&#xADF8;&#xB798;&#xBC0D; &#xCFE1;&#xBD81; 2/e&apos;,
+  &apos;&#xCC98;&#xC74C; &#xC2DC;&#xC791;&#xD558;&#xB294; &#xD30C;&#xC774;&#xC36C;&apos;,
+  &apos;Hello Coding &#xD55C;&#xC785;&#xC5D0; &#xC3D9; &#xD30C;&#xC774;&#xC36C;&apos;,
+  &apos;&#xCD08;&#xBCF4;&#xC790;&#xB97C; &#xC704;&#xD55C; &#xD30C;&#xC774;&#xC36C; 200&#xC81C;&apos;,
+  &apos;&#xD55C; &#xAD8C;&#xC73C;&#xB85C; &#xBC30;&#xC6B0;&#xB294; &#xD30C;&#xC774;&#xC36C; &#xAE30;&#xCD08; &amp; &#xC54C;&#xACE0;&#xB9AC;&#xC998; &#xC0AC;&#xACE0;&#xBC95;&apos;,
+  &apos;&#xD30C;&#xC774;&#xC36C;&#xACFC; &#xCF00;&#xB77C;&#xC2A4;&#xB85C; &#xBC30;&#xC6B0;&#xB294; &#xAC15;&#xD654;&#xD559;&#xC2B5;&apos;,
+  &apos;&#xD30C;&#xC774;&#xC36C;&#xC744; &#xD65C;&#xC6A9;&#xD55C; &#xAE08;&#xC735;&#xACF5;&#xD559; &#xB808;&#xC2DC;&#xD53C;&apos;,
+  &apos;&#xD30C;&#xC774;&#xC36C;&#xC744; &#xC774;&#xC6A9;&#xD55C; &#xC6F9; &#xD06C;&#xB864;&#xB9C1;&#xACFC; &#xC2A4;&#xD06C;&#xB808;&#xC774;&#xD551;&apos;,
+  &apos;&#xD30C;&#xC774;&#xC36C; &#xB77C;&#xC774;&#xBE0C;&#xB7EC;&#xB9AC;&#xB97C; &#xD65C;&#xC6A9;&#xD55C; &#xB370;&#xC774;&#xD130; &#xBD84;&#xC11D;&apos;,
+  &apos;&#xD30C;&#xC774;&#xC36C;&#xC73C;&#xB85C; &#xBC30;&#xC6B0;&#xB294; &#xC54C;&#xACE0;&#xB9AC;&#xC998; &#xD2B8;&#xB808;&#xC774;&#xB529;&apos;,
+  &apos;&#xBE14;&#xB85D;&#xACFC; &#xD568;&#xAED8; &#xD558;&#xB294; &#xD30C;&#xC774;&#xC36C; &#xB525;&#xB7EC;&#xB2DD; &#xCF00;&#xB77C;&#xC2A4;&apos;])
+</code></pre><ul>
+<li>&#xB2E4;&#xC74C;&#xC73C;&#xB85C; &#xC0C1;&#xD488; &#xAC00;&#xACA9;(&#xD560;&#xC778;&#xC774; &#xC801;&#xC6A9;&#xB41C; &#xAC00;&#xACA9;)&#xC744; &#xCD94;&#xCD9C;&#xD574;&#xBCF4;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;.</li>
+</ul>
+<pre><code>price_elements = soup.select(&apos;div.goodsList p.goods_price strong&apos;)
+prices = [i.text for i in price_elements]
+
+len(prices), prices
+</code></pre><pre><code>(20,
+ [&apos;16,920&#xC6D0;&apos;,
+  &apos;10,800&#xC6D0;&apos;,
+  &apos;21,600&#xC6D0;&apos;,
+  &apos;27,000&#xC6D0;&apos;,
+  &apos;22,500&#xC6D0;&apos;,
+  &apos;14,400&#xC6D0;&apos;,
+  &apos;27,000&#xC6D0;&apos;,
+  &apos;24,750&#xC6D0;&apos;,
+  &apos;31,500&#xC6D0;&apos;,
+  &apos;31,500&#xC6D0;&apos;,
+  &apos;27,000&#xC6D0;&apos;,
+  &apos;13,500&#xC6D0;&apos;,
+  &apos;18,000&#xC6D0;&apos;,
+  &apos;27,000&#xC6D0;&apos;,
+  &apos;24,300&#xC6D0;&apos;,
+  &apos;25,200&#xC6D0;&apos;,
+  &apos;27,000&#xC6D0;&apos;,
+  &apos;29,700&#xC6D0;&apos;,
+  &apos;36,000&#xC6D0;&apos;,
+  &apos;22,500&#xC6D0;&apos;])
+</code></pre><p>&#xC774;&#xB7F0;! &#xC0AC;&#xB78C;&#xC774; &#xC77D;&#xAE30; &#xC27D;&#xB3C4;&#xB85D; &#xC138; &#xC790;&#xB9AC;&#xC218;&#xB9C8;&#xB2E4; &#xC27C;&#xD45C;&#xB97C; &#xC0BD;&#xC785;&#xD55C;&#xB370;&#xB2E4; &#xAC00;&#xACA9; &#xB4A4;&#xC5D0; &apos;&#xC6D0;&apos;&#xC774; &#xBD99;&#xC5B4;&#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xB610;&#xD55C; &#xAC00;&#xACA9; &#xB370;&#xC774;&#xD130;&#xC758; &#xD0C0;&#xC785;&#xC774; &#xC22B;&#xC790;(int)&#xAC00; &#xC544;&#xB2C8;&#xB77C; &#xBB38;&#xC790;&#xC5F4;&#xC785;&#xB2C8;&#xB2E4;. &#xC774;&#xB300;&#xB85C;&#xB77C;&#xBA74; &#xC0C1;&#xD488; &#xAC00;&#xACA9;&#xC744; &#xD1B5;&#xACC4;&#xC801;&#xC73C;&#xB85C; &#xBD84;&#xC11D;&#xD558;&#xB294; &#xB4F1;, &#xD06C;&#xB864;&#xB9C1;&#xD55C; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC774;&#xD6C4;&#xC5D0; &#xD65C;&#xC6A9;&#xD558;&#xB294; &#xB370;&#xC5D0; &#xBCC4;&#xB3C4;&#xC758; &#xC804;&#xCC98;&#xB9AC; &#xACFC;&#xC815;&#xC774; &#xD544;&#xC694;&#xD574; &#xBD88;&#xD3B8;&#xD574;&#xC9C8; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;.   </p>
+<ul>
+<li>&#xC27C;&#xD45C;&#xC640; &apos;&#xC6D0;&apos;&#xC744; &#xC81C;&#xAC70;&#xD558;&#xACE0;, &#xB370;&#xC774;&#xD130; &#xD0C0;&#xC785;&#xC744; int&#xB85C; &#xBCC0;&#xD658;&#xD574;&#xC90D;&#xC2DC;&#xB2E4;.</li>
+</ul>
+<ul>
+<li>&#xCF54;&#xB4DC; 1&#xACFC; 2&#xB294; &#xC2E4;&#xC9C8;&#xC801;&#xC73C;&#xB85C; &#xB3D9;&#xC77C;&#xD55C; &#xAE30;&#xB2A5;&#xC744; &#xD558;&#xBA70; &#xB3D9;&#xC77C;&#xD55C; &#xACB0;&#xACFC;&#xBB3C;&#xC744; &#xC0DD;&#xC131;&#xD558;&#xB098;, 2&#xAC00; &#xBCF4;&#xB2E4; &#xAE54;&#xB054;&#xD569;&#xB2C8;&#xB2E4;.</li>
+</ul>
+<pre><code># &#xCF54;&#xB4DC; 1
+prices_tidy = []
+for price in prices:
+  price_nocomma = price.replace(&apos;,&apos;, &apos;&apos;)
+  price_nowon = price_nocomma[:-1]
+  prices_tidy.append(price_nowon)
+
+prices_tidy
+</code></pre><pre><code>[&apos;16920&apos;,
+ &apos;10800&apos;,
+ &apos;21600&apos;,
+ &apos;27000&apos;,
+ &apos;22500&apos;,
+ &apos;14400&apos;,
+ &apos;27000&apos;,
+ &apos;24750&apos;,
+ &apos;31500&apos;,
+ &apos;31500&apos;,
+ &apos;27000&apos;,
+ &apos;13500&apos;,
+ &apos;18000&apos;,
+ &apos;27000&apos;,
+ &apos;24300&apos;,
+ &apos;25200&apos;,
+ &apos;27000&apos;,
+ &apos;29700&apos;,
+ &apos;36000&apos;,
+ &apos;22500&apos;]
+</code></pre><pre><code># &#xCF54;&#xB4DC; 2
+prices_tidy = [int(i.replace(&apos;,&apos;, &apos;&apos;)[:-1]) for i in prices]
+prices_tidy
+</code></pre><pre><code>[16920,
+ 10800,
+ 21600,
+ 27000,
+ 22500,
+ 14400,
+ 27000,
+ 24750,
+ 31500,
+ 31500,
+ 27000,
+ 13500,
+ 18000,
+ 27000,
+ 24300,
+ 25200,
+ 27000,
+ 29700,
+ 36000,
+ 22500]
+</code></pre><ul>
+<li>titles&#xC640; prices_tidy, &#xB450; &#xB9AC;&#xC2A4;&#xD2B8;&#xB85C; &#xB370;&#xC774;&#xD130;&#xD504;&#xB808;&#xC784;&#xC744; &#xB9CC;&#xB4E4;&#xC5B4;&#xBD05;&#xC2DC;&#xB2E4;.</li>
+</ul>
+<pre><code>df = pd.DataFrame({&quot;title&quot;:titles, &quot;price&quot;:prices_tidy },
+                  columns=[&apos;title&apos;, &apos;price&apos; ])
+df.head()
+</code></pre><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>title</th>
+      <th>price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Do it! &#xC810;&#xD504; &#xD22C; &#xD30C;&#xC774;&#xC36C;</td>
+      <td>16920</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>&#xBAA8;&#xB450;&#xC758; &#xD30C;&#xC774;&#xC36C;</td>
+      <td>10800</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>&#xBC11;&#xBC14;&#xB2E5;&#xBD80;&#xD130; &#xC2DC;&#xC791;&#xD558;&#xB294; &#xB525;&#xB7EC;&#xB2DD;</td>
+      <td>21600</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>&#xD30C;&#xC774;&#xC36C;&#xC744; &#xC774;&#xC6A9;&#xD55C; &#xBA38;&#xC2E0;&#xB7EC;&#xB2DD;, &#xB525;&#xB7EC;&#xB2DD; &#xC2E4;&#xC804; &#xAC1C;&#xBC1C; &#xC785;&#xBB38;</td>
+      <td>27000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>&#xD30C;&#xC774;&#xC36C;&#xACFC; &#xCF00;&#xB77C;&#xC2A4;&#xB97C; &#xC774;&#xC6A9;&#xD55C; &#xB525;&#xB7EC;&#xB2DD;/&#xAC15;&#xD654;&#xD559;&#xC2B5; &#xC8FC;&#xC2DD;&#xD22C;&#xC790;</td>
+      <td>22500</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<ul>
+<li>&#xC218;&#xACE0;&#xD558;&#xC168;&#xC2B5;&#xB2C8;&#xB2E4;!</li>
+</ul>
+<h2 id="yes24-&#xBCA0;&#xC2A4;&#xD2B8;&#xC140;&#xB7EC;-&#xBAA9;&#xB85D;-&#xCD94;&#xCD9C;&#xD558;&#xAE30;">yes24 &#xBCA0;&#xC2A4;&#xD2B8;&#xC140;&#xB7EC; &#xBAA9;&#xB85D; &#xCD94;&#xCD9C;&#xD558;&#xAE30;</h2>
+<p>&#xC218;&#xC5C5;&#xC5D0;&#xC11C;&#xB294; yes24 &apos;&#xD30C;&#xC774;&#xC36C;&apos; &#xD0A4;&#xC6CC;&#xB4DC; &#xAC80;&#xC0C9; &#xACB0;&#xACFC;&#xCC3D;&#xC744; &#xB300;&#xC0C1;&#xC73C;&#xB85C; &#xC2E4;&#xC2B5;&#xC744; &#xD588;&#xB358; &#xAC83; &#xAC19;&#xC740;&#xB370;, &#xC218;&#xC5C5;&#xC790;&#xB8CC;&#xC640; &#xC560;&#xB780;&#xC324;&#xC774; &#xC62C;&#xB824;&#xC8FC;&#xC2E0; &#xCF5C;&#xB7A9; &#xB178;&#xD2B8;&#xBD81;&#xC5D0;&#xB294; &#xBCA0;&#xC2A4;&#xD2B8;&#xC140;&#xB7EC; &#xD398;&#xC774;&#xC9C0; &#xBAA9;&#xB85D; &#xCD94;&#xCD9C; &#xC2E4;&#xC2B5;&#xC73C;&#xB85C; &#xB418;&#xC5B4;&#xC788;&#xC5B4;&#xC11C; &#xB0B4;&#xC6A9;&#xC744; &#xCD94;&#xAC00;&#xD588;&#xC2B5;&#xB2C8;&#xB2E4;.  </p>
+<p>&#xC0AC;&#xC2E4; &#xC6B0;&#xB9AC;&#xAC00; &#xC218;&#xC5C5;&#xC2DC;&#xAC04;&#xC5D0; &#xBC30;&#xC6B0;&#xC9C0; &#xC54A;&#xC740; &#xB0B4;&#xC6A9;&#xC774; &#xC788;&#xC744; &#xAC00;&#xB2A5;&#xC131;&#xC774; &#xC788;&#xC5B4; &#xC560;&#xB780;&#xC324;&#xC774; &#xC62C;&#xB824;&#xC8FC;&#xC2E0; &#xCF5C;&#xB7A9; &#xB178;&#xD2B8;&#xBD81; &#xB0B4;&#xC6A9;&#xC744; &#xADF8;&#xB300;&#xB85C; &#xBCF5;&#xC0AC;&#xD574;&#xC654;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code># html5lib&#xC640; beautifulsoup4&#xB97C; &#xC124;&#xCE58;&#xD558;&#xB294; &#xBA85;&#xB839;&#xC5B4;(&#xD639;&#xC2DC; &#xC548; &#xAE54;&#xB824; &#xC788;&#xC744; &#xB54C; &#xB300;&#xBE44;):
+# !pip install html5lib beautifulsoup4
+
+from urllib import request
+from bs4 import BeautifulSoup
+</code></pre><p>f12&#xB97C; &#xB20C;&#xB7EC; &#xD06C;&#xB86C;&#xC758; &#xAC1C;&#xBC1C;&#xC790; &#xB3C4;&#xAD6C;&#xB97C; &#xD1B5;&#xD574; &#xBB38;&#xC11C;&#xB97C; &#xC0B4;&#xD3B4;&#xBCF4;&#xB2C8; &#xBCA0;&#xC2A4;&#xD2B8;&#xC140;&#xB7EC;&#xB97C; &#xB2F4;&#xACE0; &#xC788;&#xB294; &#xC601;&#xC5ED;&#xC740; id&#xAC00; &quot;bestList&quot;&#xC778; div &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xC758; &#xC790;&#xC2DD;&#xC778; ol &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xC785;&#xB2C8;&#xB2E4;. ol &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xC5D0; &#xC18D;&#xD55C; li &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8; &#xD558;&#xB098;&#xD558;&#xB098;&#xAC00; &#xAC01; &#xCC45;&#xC5D0; &#xB300;&#xD55C; &#xC815;&#xBCF4;&#xB97C; &#xB2F4;&#xACE0; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xB530;&#xB77C;&#xC11C; &#xC544;&#xB798;&#xC640; &#xAC19;&#xC774; &#xC4F0;&#xBA74; &#xCC45; 40&#xAD8C;&#xC5D0; &#xD574;&#xB2F9;&#xD558;&#xB294; li &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8; 40&#xAC1C;&#xAC00; &#xB098;&#xC640;&#xC57C; &#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code>url = &quot;http://www.yes24.com/24/category/bestseller&quot;
+with request.urlopen(url) as f:
+  charset = f.headers.get_content_charset()
+  html = f.read().decode(charset)
+
+bs = BeautifulSoup(html, &apos;html5lib&apos;)
+</code></pre><pre><code>len(bs.select(&apos;#bestList &gt; ol &gt; li&apos;))
+</code></pre><pre><code>40
+</code></pre><p>&#xC798;&#xB418;&#xB294; &#xAC83;&#xC744; &#xD655;&#xC778;&#xD558;&#xC600;&#xC2B5;&#xB2C8;&#xB2E4;. &#xAC01; li &#xC548;&#xC5D0;&#xB294; p &#xD0DC;&#xADF8;&#xAC00; &#xC5EC;&#xB7EC;&#xAC1C; &#xC788;&#xB294;&#xB370; &#xC774; &#xC911; &#xC138;&#xBC88;&#xC9F8; p &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8; &#xC548;&#xC5D0; &#xCC45; &#xC774;&#xB984;&#xC774; &#xB2F4;&#xACA8; &#xC788;&#xACE0;, &#xAC00;&#xACA9;&#xC744; &#xB2F4;&#xACE0; &#xC788;&#xB294; p &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xC5D0;&#xB294; price &#xD074;&#xB798;&#xC2A4;&#xAC00; &#xBD99;&#xC5B4; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;...&quot;</span>&gt;</span>&#xCC45;&#xC774;&#xB984;<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+   ...
+   <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;price&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>&#xAC00;&#xACA9;<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</code></pre>
+<p>&#xCC45; &#xC774;&#xB984;&#xC744; &#xBF51;&#xC544;&#xB0B4;&#xBCFC;&#xAE4C;&#xC694;?</p>
+<pre><code>bs.select(&apos;#bestList &gt; ol &gt; li p:nth-child(3) a&apos;)
+</code></pre><pre><code>---------------------------------------------------------------------------
+
+NotImplementedError                       Traceback (most recent call last)
+
+&lt;ipython-input-29-4dcaccc7a75f&gt; in &lt;module&gt;()
+----&gt; 1 bs.select(&apos;#bestList &gt; ol &gt; li p:nth-child(3) a&apos;)
+
+
+/usr/local/lib/python3.6/dist-packages/bs4/element.py in select(self, selector, _candidate_generator, limit)
+   1449                 else:
+   1450                     raise NotImplementedError(
+-&gt; 1451                         &apos;Only the following pseudo-classes are implemented: nth-of-type.&apos;)
+   1452 
+   1453             elif token == &apos;*&apos;:
+
+
+NotImplementedError: Only the following pseudo-classes are implemented: nth-of-type.
+</code></pre><p>&#xAC01; li&#xC758; &#xC790;&#xC2DD; &#xC911; &#xC138;&#xBC88;&#xC9F8; &#xC790;&#xC2DD;&#xC778; p&#xB97C; &#xCC3E;&#xC73C;&#xB824;&#xACE0; &#xD588;&#xC73C;&#xB098; &#xD574;&#xB2F9; &#xC140;&#xB809;&#xD130; &#xBB38;&#xBC95;&#xC740; beautifulsoup4&#xC5D0;&#xC11C; &#xC544;&#xC9C1; &#xAD6C;&#xD604;&#xD558;&#xC9C0; &#xC54A;&#xC558;&#xB2E4;&#xBA70; &#xC5D0;&#xB7EC;&#xAC00; &#xBC1C;&#xC0DD;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<p>&#xC544;&#xC27D;&#xC9C0;&#xB9CC; &#xAC01; &#xCC45;&#xC5D0; &#xD574;&#xB2F9;&#xD558;&#xB294; li &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xB4E4;&#xAE4C;&#xC9C0;&#xB9CC; &#xCC3E;&#xC544;&#xC11C; &#xBCC0;&#xC218;&#xC5D0; &#xB2F4;&#xC740; &#xD6C4; &#xAC01; li &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xC5D0;&#xC11C; &#xC6D0;&#xD558;&#xB294; &#xC815;&#xBCF4;&#xB97C; &#xBF51;&#xC544;&#xB0B4;&#xB294; &#xCF54;&#xB4DC;&#xB97C; &#xB530;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC57C;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code>books = bs.select(&apos;#bestList &gt; ol &gt; li&apos;)
+titles = []
+for book in books:
+  # &quot;p:nth-of-type(3)&quot;&#xC740; li&#xC758; &#xC790;&#xC2DD; &#xC911; &#xC138;&#xBC88;&#xC9F8; p &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xB97C; &#xCC3E;&#xC544;&#xC90D;&#xB2C8;&#xB2E4;.
+  title = book.select_one(&apos;p:nth-of-type(3) a&apos;).text
+  titles.append(title)
+titles
+</code></pre><pre><code>[&apos;&#xC5ED;&#xC0AC;&#xC758; &#xC5ED;&#xC0AC;&apos;,
+ &apos;&#xC8FD;&#xACE0; &#xC2F6;&#xC9C0;&#xB9CC; &#xB5A1;&#xBCF6;&#xC774;&#xB294; &#xBA39;&#xACE0; &#xC2F6;&#xC5B4;&apos;,
+ &apos;&#xC5F4;&#xB450; &#xBC1C;&#xC790;&#xAD6D;&apos;,
+ &apos;&#xC124;&#xBBFC;&#xC11D;&#xC758; &#xD55C;&#xAD6D;&#xC0AC; &#xB300;&#xBAA8;&#xD5D8; 7&apos;,
+ &apos;&#xB3CC;&#xC774;&#xD0AC; &#xC218; &#xC5C6;&#xB294; &#xC57D;&#xC18D;&apos;,
+ &apos;&#xB098;&#xB294; &#xC624;&#xB298;&#xB3C4; &#xACBD;&#xC81C;&#xC801; &#xC790;&#xC720;&#xB97C; &#xAFC8;&#xAFBC;&#xB2E4;&apos;,
+ &apos;&#xBAA8;&#xB4E0; &#xC21C;&#xAC04;&#xC774; &#xB108;&#xC600;&#xB2E4;&apos;,
+ &apos;&#xC5B8;&#xC5B4;&#xC758; &#xC628;&#xB3C4; (100&#xB9CC;&#xBD80; &#xB3CC;&#xD30C; &#xAE30;&#xB150; &#xC591;&#xC7A5; &#xD2B9;&#xBCC4;&#xD310;)&apos;,
+ &apos;&#xACF0;&#xB3CC;&#xC774; &#xD478;, &#xD589;&#xBCF5;&#xD55C; &#xC77C;&#xC740; &#xB9E4;&#xC77C; &#xC788;&#xC5B4;&apos;,
+ &apos;&#xC0AC;&#xD53C;&#xC5D4;&#xC2A4;&apos;,
+ &apos;&#xC6D0;&#xD53C;&#xC2A4; ONE PIECE 89&apos;,
+ &apos;&#xB098;&#xB294; &#xB098;&#xB85C; &#xC0B4;&#xAE30;&#xB85C; &#xD588;&#xB2E4;&apos;,
+ &apos;&#xC544;&#xBAAC;&#xB4DC;&apos;,
+ &apos;&#xACE0;&#xC591;&#xC774; 1&apos;,
+ &apos;&#xD55C;&#xB54C; &#xC18C;&#xC911;&#xD588;&#xB358; &#xAC83;&#xB4E4;&apos;,
+ &apos;&#xAC1C;&#xC778;&#xC8FC;&#xC758;&#xC790; &#xC120;&#xC5B8;&apos;,
+ &apos;&#xB098;&#xBBF8;&#xC57C; &#xC7A1;&#xD654;&#xC810;&#xC758; &#xAE30;&#xC801; (100&#xB9CC; &#xBD80; &#xAE30;&#xB150; &#xD2B9;&#xBCC4; &#xD55C;&#xC815;&#xD310;)&apos;,
+ &apos;&#xACE0;&#xC591;&#xC774; 2&apos;,
+ &apos;&#xC5D0;&#xB4C0;&#xC70C; &#xD55C;&#xAD6D;&#xC0AC;&#xB2A5;&#xB825;&#xAC80;&#xC815;&#xC2DC;&#xD5D8; 2&#xC8FC;&#xB05D;&#xC7A5; &#xACE0;&#xAE09; &#xAC1C;&#xC815;&#xD310; 3.0&apos;,
+ &apos;&#xD63C;&#xC790;&#xACF5;&#xBD80;&#xBC95;&apos;,
+ &apos;&#xD574;&#xCEE4;&#xC2A4; &#xD1A0;&#xC775; &#xC2E4;&#xC804; 1000&#xC81C; READING 1 &#xBB38;&#xC81C;&#xC9D1;&apos;,
+ &apos;&#xC568;&#xB9AC;&#xC2A4;, &#xB108;&#xB9CC;&#xC758; &#xAE38;&#xC744; &#xADF8;&#xB824;&#xBD10;&apos;,
+ &apos;2019 &#xC804;&#xD55C;&#xAE38; &#xD55C;&#xAD6D;&#xC0AC; &#xD544;&#xAE30;&#xB178;&#xD2B8;+&#xBE75;&#xAFB8;&#xB178;&#xD2B8;&apos;,
+ &apos;&#xC124;&#xBBFC;&#xC11D;&#xC758; &#xD55C;&#xAD6D;&#xC0AC; &#xB300;&#xBAA8;&#xD5D8; 6&apos;,
+ &apos;&#xD589;&#xBCF5;&#xD574;&#xC9C0;&#xB294; &#xC5F0;&#xC2B5;&#xC744; &#xD574;&#xC694;&apos;,
+ &apos;&#xD574;&#xCEE4;&#xC2A4; &#xD1A0;&#xC775; &#xAE30;&#xCD9C; &#xBCF4;&#xCE74;&apos;,
+ &apos;&#xC124;&#xBBFC;&#xC11D;&#xC758; &#xD55C;&#xAD6D;&#xC0AC; &#xB300;&#xBAA8;&#xD5D8; 1&apos;,
+ &apos;82&#xB144;&#xC0DD; &#xAE40;&#xC9C0;&#xC601;&apos;,
+ &apos;&#xD558;&#xB9C8;&#xD130;&#xBA74; &#xC5F4;&#xC2EC;&#xD788; &#xC0B4; &#xBED4;&#xD588;&#xB2E4;&apos;,
+ &apos;&#xC5B4;&#xB514;&#xC11C; &#xC0B4; &#xAC83;&#xC778;&#xAC00;&apos;,
+ &apos;&#xD574;&#xCEE4;&#xC2A4; &#xD1A0;&#xC775; &#xC2E4;&#xC804; 1000&#xC81C; LISTENING 1 &#xBB38;&#xC81C;&#xC9D1;&apos;,
+ &apos;&#xD574;&#xCEE4;&#xC2A4; &#xD1A0;&#xC775; Reading (2018)&apos;,
+ &apos;&#xC5B4;&#xB5BB;&#xAC8C; &#xC0B4; &#xAC83;&#xC778;&#xAC00;&apos;,
+ &apos;2019 &#xC120;&#xC7AC;&#xAD6D;&#xC5B4; &#xC138;&#xD2B8;&apos;,
+ &apos;&#xACF0;&#xB3CC;&#xC774; &#xD478;, &#xC11C;&#xB450;&#xB974;&#xC9C0; &#xC54A;&#xC544;&#xB3C4; &#xAD1C;&#xCC2E;&#xC544;&apos;,
+ &apos;&#xC5F4;&#xD608;&#xAC15;&#xD638; 76&apos;,
+ &apos;&#xC788;&#xC73C;&#xB824;&#xB098; &#xC11C;&#xC810;&apos;,
+ &apos;&#xB0B4;&#xAC8C; &#xBB34;&#xD574;&#xD55C; &#xC0AC;&#xB78C;&apos;,
+ &apos;&#xB9C8;&#xBC95;&#xCC9C;&#xC790;&#xBB38; 42&apos;,
+ &apos;&#xB300;&#xD55C;&#xBBFC;&#xAD6D; &#xC544;&#xD30C;&#xD2B8; &#xBD80;&#xC758; &#xC9C0;&#xB3C4;&apos;]
+</code></pre><p>&#xBE44;&#xC2B7;&#xD55C; &#xBC29;&#xBC95;&#xC73C;&#xB85C; &#xAC00;&#xACA9;&#xB3C4; &#xBF51;&#xC544;&#xB0C5;&#xC2DC;&#xB2E4;.</p>
+<pre><code>books = bs.select(&apos;#bestList &gt; ol &gt; li&apos;)
+
+titles = []
+prices = []
+for book in books:
+  # &quot;p:nth-of-type(3)&quot;&#xC740; li&#xC758; &#xC790;&#xC2DD; &#xC911; &#xC138;&#xBC88;&#xC9F8; p &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xB97C; &#xCC3E;&#xC544;&#xC90D;&#xB2C8;&#xB2E4;.
+  title = book.select_one(&apos;p:nth-of-type(3) a&apos;).text
+  titles.append(title)
+
+  price = book.select_one(&apos;p.price&apos;).text
+  prices.append(price)
+
+prices
+</code></pre><pre><code>[&apos;14,400&#xC6D0;(10%+5%)&apos;,
+ &apos;12,420&#xC6D0;(10%+5%)&apos;,
+ &apos;15,120&#xC6D0;(10%+5%)&apos;,
+ &apos;9,450&#xC6D0;(10%+5%)&apos;,
+ &apos;13,500&#xC6D0;(10%+5%)&apos;,
+ &apos;15,120&#xC6D0;(10%+5%)&apos;,
+ &apos;12,420&#xC6D0;(10%+5%)&apos;,
+ &apos;12,420&#xC6D0;(10%+5%)&apos;,
+ &apos;10,800&#xC6D0;(10%+5%)&apos;,
+ &apos;19,800&#xC6D0;(10%+5%)&apos;,
+ &apos;4,500&#xC6D0;(10%+5%)&apos;,
+ &apos;12,420&#xC6D0;(10%+5%)&apos;,
+ &apos;10,800&#xC6D0;(10%+5%)&apos;,
+ &apos;11,520&#xC6D0;(10%+5%)&apos;,
+ &apos;12,600&#xC6D0;(10%+5%)&apos;,
+ &apos;12,150&#xC6D0;(10%+5%)&apos;,
+ &apos;13,320&#xC6D0;(10%+5%)&apos;,
+ &apos;11,520&#xC6D0;(10%+5%)&apos;,
+ &apos;18,900&#xC6D0;(10%+5%)&apos;,
+ &apos;12,600&#xC6D0;(10%+5%)&apos;,
+ &apos;10,710&#xC6D0;(10%+5%)&apos;,
+ &apos;12,420&#xC6D0;(10%+5%)&apos;,
+ &apos;18,900&#xC6D0;(10%)&apos;,
+ &apos;9,450&#xC6D0;(10%+5%)&apos;,
+ &apos;13,050&#xC6D0;(10%+5%)&apos;,
+ &apos;11,610&#xC6D0;(10%+5%)&apos;,
+ &apos;8,820&#xC6D0;(10%+5%)&apos;,
+ &apos;11,700&#xC6D0;(10%+5%)&apos;,
+ &apos;13,500&#xC6D0;(10%+5%)&apos;,
+ &apos;14,400&#xC6D0;(10%+5%)&apos;,
+ &apos;10,710&#xC6D0;(10%+5%)&apos;,
+ &apos;16,920&#xC6D0;(10%+5%)&apos;,
+ &apos;13,500&#xC6D0;(10%+5%)&apos;,
+ &apos;46,800&#xC6D0;(10%)&apos;,
+ &apos;12,420&#xC6D0;(10%+5%)&apos;,
+ &apos;4,050&#xC6D0;(10%+5%)&apos;,
+ &apos;11,520&#xC6D0;(10%+5%)&apos;,
+ &apos;12,150&#xC6D0;(10%+5%)&apos;,
+ &apos;8,820&#xC6D0;(10%+5%)&apos;,
+ &apos;15,120&#xC6D0;(10%+5%)&apos;]
+</code></pre><p>&#xAC00;&#xACA9;&#xC744; &#xC815;&#xC218;&#xB85C; &#xBC14;&#xAFD4;&#xC8FC;&#xBA74; &#xC88B;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;. &#xC6B0;&#xC120; &#xAD04;&#xD638; &#xC548;&#xC5D0; &#xB2F4;&#xAE34; &#xB0B4;&#xC6A9;&#xC744; &#xC81C;&#xAC70;&#xD574;&#xBCFC;&#xAE4C;&#xC694;? &#xD30C;&#xC774;&#xC36C; &#xBB38;&#xC790;&#xC5F4; &#xAC1D;&#xCCB4;&#xC5D0;&#xB294; split() &#xD568;&#xC218;&#xAC00; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xC774; &#xD568;&#xC218;&#xB97C; &#xC368;&#xC11C; &#xC5EC;&#xB294; &#xAD04;&#xD638; &quot;(&quot; &#xBB38;&#xC790;&#xB97C; &#xAE30;&#xC900;&#xC73C;&#xB85C; &#xBB38;&#xC790;&#xC5F4;&#xC744; &#xB458;&#xB85C; &#xB098;&#xB208; &#xB4A4; &#xC55E; &#xBD80;&#xBD84;(0&#xBC88;&#xC9F8; &#xC870;&#xAC01;)&#xC744; &#xCDE8;&#xD558;&#xBA74; &#xAD04;&#xD638; &#xB4B7; &#xBD80;&#xBD84;&#xC744; &#xC81C;&#xAC70;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code>&quot;14,000&#xC6D0;(10%+5%)&quot;.split(&quot;(&quot;)
+</code></pre><pre><code>[&apos;14,000&#xC6D0;&apos;, &apos;10%+5%)&apos;]
+</code></pre><pre><code>&quot;14,000&#xC6D0;(10%+5%)&quot;.split(&quot;(&quot;)[0]
+</code></pre><pre><code>&apos;14,000&#xC6D0;&apos;
+</code></pre><p>&quot;&#xC6D0;&quot;&#xC774;&#xB77C;&#xB294; &#xAE00;&#xC790;&#xC640; &#xC27C;&#xD45C;&#xB97C; &#xC81C;&#xAC70;&#xD558;&#xBA74; &#xC22B;&#xC790;&#xB9CC; &#xB0A8;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code>&quot;14,000&#xC6D0;(10%+5%)&quot;.split(&quot;(&quot;)[0].replace(&apos;&#xC6D0;&apos;, &apos;&apos;).replace(&apos;,&apos;, &apos;&apos;)
+</code></pre><pre><code>&apos;14000&apos;
+</code></pre><p>&#xC774;&#xC81C; &#xC22B;&#xC790;&#xB9CC; &#xB0A8;&#xC740; &#xBB38;&#xC790;&#xC5F4;&#xB4E4;&#xC744; &#xC815;&#xC218;&#xB85C; &#xBC14;&#xAFD4;&#xC90D;&#xC2DC;&#xB2E4;.</p>
+<pre><code>int(&quot;14,000&#xC6D0;(10%+5%)&quot;.split(&quot;(&quot;)[0].replace(&apos;&#xC6D0;&apos;, &apos;&apos;).replace(&apos;,&apos;, &apos;&apos;))
+</code></pre><pre><code>14000
+</code></pre><p>&#xD574;&#xB2F9; &#xCF54;&#xB4DC;&#xB97C; &#xD568;&#xC218;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4;&#xBCFC;&#xAE4C;&#xC694;?</p>
+<pre><code>def to_int(raw):
+  nums = raw.split(&quot;(&quot;)[0].replace(&apos;&#xC6D0;&apos;, &apos;&apos;).replace(&apos;,&apos;, &apos;&apos;)
+  return int(nums)
+
+to_int(&quot;14,000&#xC6D0;(10%+5%)&quot;)
+</code></pre><pre><code>14000
+</code></pre><p>&#xC774;&#xC81C; &#xC6D0;&#xB798; &#xCF54;&#xB4DC;&#xC5D0; &#xC801;&#xC6A9;&#xD574;&#xBD05;&#xC2DC;&#xB2E4;.</p>
+<pre><code>books = bs.select(&apos;#bestList &gt; ol &gt; li&apos;)
+
+titles = []
+prices = []
+for book in books:
+  # &quot;p:nth-of-type(3)&quot;&#xC740; li&#xC758; &#xC790;&#xC2DD; &#xC911; &#xC138;&#xBC88;&#xC9F8; p &#xC5D8;&#xB9AC;&#xBA3C;&#xD2B8;&#xB97C; &#xCC3E;&#xC544;&#xC90D;&#xB2C8;&#xB2E4;.
+  title = book.select_one(&apos;p:nth-of-type(3) a&apos;).text
+  titles.append(title)
+  price = book.select_one(&apos;p.price&apos;).text
+  prices.append(to_int(price))
+
+prices
+</code></pre><pre><code>[14400,
+ 12420,
+ 15120,
+ 9450,
+ 13500,
+ 15120,
+ 12420,
+ 12420,
+ 10800,
+ 19800,
+ 4500,
+ 12420,
+ 10800,
+ 11520,
+ 12600,
+ 12150,
+ 13320,
+ 11520,
+ 18900,
+ 12600,
+ 10710,
+ 12420,
+ 18900,
+ 9450,
+ 13050,
+ 11610,
+ 8820,
+ 11700,
+ 13500,
+ 14400,
+ 10710,
+ 16920,
+ 13500,
+ 46800,
+ 12420,
+ 4050,
+ 11520,
+ 12150,
+ 8820,
+ 15120]
+</code></pre><p>&#xB9AC;&#xC2A4;&#xD2B8; &#xCEF4;&#xD504;&#xB9AC;&#xD5E8;&#xC158;&#xC744; &#xC368;&#xC11C; &#xCF54;&#xB4DC;&#xB97C; &#xC904;&#xC5EC;&#xBCFC;&#xAE4C;&#xC694;?</p>
+<pre><code>books = bs.select(&apos;#bestList &gt; ol &gt; li&apos;)
+titles = [b.select_one(&apos;p:nth-of-type(3) a&apos;).text for b in books]
+prices = [to_int(b.select_one(&apos;p.price&apos;).text) for b in books]
+</code></pre><p>DataFrame&#xC5D0; &#xB123;&#xC5B4;&#xBD05;&#xC2DC;&#xB2E4;.</p>
+<pre><code>import pandas as pd
+
+df = pd.DataFrame(
+    {&apos;title&apos;: titles, &apos;price&apos;: prices},
+    columns=[&apos;title&apos;, &apos;price&apos;]
+)
+df.head()
+</code></pre><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>title</th>
+      <th>price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>&#xC5ED;&#xC0AC;&#xC758; &#xC5ED;&#xC0AC;</td>
+      <td>14400</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>&#xC8FD;&#xACE0; &#xC2F6;&#xC9C0;&#xB9CC; &#xB5A1;&#xBCF6;&#xC774;&#xB294; &#xBA39;&#xACE0; &#xC2F6;&#xC5B4;</td>
+      <td>12420</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>&#xC5F4;&#xB450; &#xBC1C;&#xC790;&#xAD6D;</td>
+      <td>15120</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>&#xC124;&#xBBFC;&#xC11D;&#xC758; &#xD55C;&#xAD6D;&#xC0AC; &#xB300;&#xBAA8;&#xD5D8; 7</td>
+      <td>9450</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>&#xB3CC;&#xC774;&#xD0AC; &#xC218; &#xC5C6;&#xB294; &#xC57D;&#xC18D;</td>
+      <td>13500</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>&#xC804;&#xCCB4; &#xCF54;&#xB4DC;&#xB97C; &#xD55C; &#xBC88;&#xC5D0; &#xBAA8;&#xC544;&#xBCFC;&#xAE4C;&#xC694;?</p>
+<pre><code>from urllib import request
+import pandas as pd
+from bs4 import BeautifulSoup
+
+url = &quot;http://www.yes24.com/24/category/bestseller&quot;
+with request.urlopen(url) as f:
+  charset = f.headers.get_content_charset()
+  html = f.read().decode(charset)
+
+def to_int(raw):
+  nums = raw.split(&quot;(&quot;)[0].replace(&apos;&#xC6D0;&apos;, &apos;&apos;).replace(&apos;,&apos;, &apos;&apos;)
+  return int(nums)
+
+bs = BeautifulSoup(html, &apos;html5lib&apos;)
+books = bs.select(&apos;#bestList &gt; ol &gt; li&apos;)
+titles = [b.select_one(&apos;p:nth-of-type(3) a&apos;).text for b in books]
+prices = [to_int(b.select_one(&apos;p.price&apos;).text) for b in books]
+
+df = pd.DataFrame(
+    {&apos;title&apos;: titles, &apos;price&apos;: prices},
+    columns=[&apos;title&apos;, &apos;price&apos;]
+)
+df.head()
+</code></pre><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>title</th>
+      <th>price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>&#xC5ED;&#xC0AC;&#xC758; &#xC5ED;&#xC0AC;</td>
+      <td>14400</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>&#xC8FD;&#xACE0; &#xC2F6;&#xC9C0;&#xB9CC; &#xB5A1;&#xBCF6;&#xC774;&#xB294; &#xBA39;&#xACE0; &#xC2F6;&#xC5B4;</td>
+      <td>12420</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>&#xC5F4;&#xB450; &#xBC1C;&#xC790;&#xAD6D;</td>
+      <td>15120</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>&#xC124;&#xBBFC;&#xC11D;&#xC758; &#xD55C;&#xAD6D;&#xC0AC; &#xB300;&#xBAA8;&#xD5D8; 7</td>
+      <td>9450</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>&#xB3CC;&#xC774;&#xD0AC; &#xC218; &#xC5C6;&#xB294; &#xC57D;&#xC18D;</td>
+      <td>13500</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p>URL&#xB9CC; &#xB123;&#xC73C;&#xBA74; BeautifulSoup &#xAC1D;&#xCCB4;&#xB97C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC8FC;&#xB294; &#xCF54;&#xB4DC;&#xB3C4; &#xD568;&#xC218;&#xB85C; &#xB9CC;&#xB4E4;&#xBA74; &#xC88B;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;</p>
+<pre><code>from urllib import request
+import pandas as pd
+from bs4 import BeautifulSoup
+
+def load_url(url):
+  &quot;&quot;&quot;URL&#xC758; HTML &#xBB38;&#xC11C;&#xB97C; &#xBC1B;&#xC544;&#xC640;&#xC11C; BeautifulSoup &#xAC1D;&#xCCB4; &#xC0DD;&#xC131;&quot;&quot;&quot;
+  with request.urlopen(url) as f:
+    charset = f.headers.get_content_charset()
+    html = f.read().decode(charset)
+  return BeautifulSoup(html, &apos;html5lib&apos;)
+
+def to_int(raw):
+  &quot;&quot;&quot;Yes24&#xC758; &#xCC45; &#xAC00;&#xACA9; &#xBB38;&#xC790;&#xC5F4;&#xC744; &#xC815;&#xC218;&#xB85C; &#xBCC0;&#xD658;&quot;&quot;&quot;
+  nums = raw.split(&quot;(&quot;)[0].replace(&apos;&#xC6D0;&apos;, &apos;&apos;).replace(&apos;,&apos;, &apos;&apos;)
+  return int(nums)
+
+bestseller_url = &quot;http://www.yes24.com/24/category/bestseller&quot;
+bs = load_url(bestseller_url)
+books = bs.select(&apos;#bestList &gt; ol &gt; li&apos;)
+titles = [b.select_one(&apos;p:nth-of-type(3) a&apos;).text for b in books]
+prices = [to_int(b.select_one(&apos;p.price&apos;).text) for b in books]
+
+df = pd.DataFrame(
+    {&apos;title&apos;: titles, &apos;price&apos;: prices},
+    columns=[&apos;title&apos;, &apos;price&apos;]
+)
+df.head()
+</code></pre><p><div></div></p>
+<p><style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }</p>
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+</code></pre><p>&lt;/style&gt;</p>
+<p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>title</th>
+      <th>price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>역사의 역사</td>
+      <td>14400</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>죽고 싶지만 떡볶이는 먹고 싶어</td>
+      <td>12420</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>열두 발자국</td>
+      <td>15120</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>설민석의 한국사 대모험 7</td>
+      <td>9450</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>돌이킬 수 없는 약속</td>
+      <td>13500</td>
+    </tr>
+  </tbody></p>
+</style></p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Tutorial_180717_PandasPetition.html" class="navigation navigation-prev " aria-label="Previous page: 국민청원 첫시작 판다스로 국민청원하기">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Tutorial_180719_plotnine.md" class="navigation navigation-next " aria-label="Next page: 국민청원 데이터 시각화와 자연어 처리-plontnine 실습하기">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Beautiful Soup을 사용하여 크롤링","level":"1.23","depth":1,"next":{"title":"국민청원 데이터 시각화와 자연어 처리-plontnine 실습하기","level":"1.24","depth":1,"path":"Tutorial_180719_plotnine.md","ref":"Tutorial_180719_plotnine.md","articles":[]},"previous":{"title":"국민청원 첫시작 판다스로 국민청원하기","level":"1.22","depth":1,"path":"Tutorial_180717_PandasPetition.md","ref":"Tutorial_180717_PandasPetition.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"BASE_URL":"https://dataitgirls2.github.io"},"plugins":["ga","-sharing"],"pluginsConfig":{"ga":{"configuration":"auto","token":"UA-43356518-7"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Tutorial_180719_BeautifulSoup.md","mtime":"2018-09-09T04:17:19.733Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-09T04:41:47.437Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
