@@ -82,7 +82,7 @@
 
 * [깃과 깃헙 복습, 다른 사람의 레파지토리에 기여하기](Tutorial_180807_Git_review.md)
 
-* [아파트 분양가 분석 및 회귀분석](Tutorial_180810_Apt_analysis_Statistics5.md)
+* [아파트 분양가 분석 및 회귀분석2](Tutorial_180810_Apt_analysis_Statistics5.md)
 
 * [스프레드시트로 캐글 타이타닉 참가하기](Tutorial_180813_kaggle_Titanic.md)
 
@@ -91,3 +91,5 @@
 * [테스트 주도 개발](Tutorial_180814_Test_Driven_Development.md)
 
 * [데이터 시각화와 색의 활용](Tutorial_180817_Colors_in_Data_Visualization.md)
+
+* [통계-회귀분석3](Tutorial_180817_Statistics5.md)
