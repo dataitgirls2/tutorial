@@ -1,0 +1,1075 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>통계-회귀분석3 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="Tutorial_180817_Colors_in_Data_Visualization.md" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Tutorial_180628_Git_and_Github.html">
+            
+                <a href="Tutorial_180628_Git_and_Github.html">
+            
+                    
+                    Git과 Github, 기본 개념과 설명
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Tutorial_180629_Git_with_constitution.html">
+            
+                <a href="Tutorial_180629_Git_with_constitution.html">
+            
+                    
+                    헌법개정안으로 깃베쉬, 소스트리, 브랜치 이해하기 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Tutorial_180629_Github_practice_Statistics1.html">
+            
+                <a href="Tutorial_180629_Github_practice_Statistics1.html">
+            
+                    
+                     확률통계 기초와 깃허브 실습 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Tutorial_180629_Statistics.html">
+            
+                <a href="Tutorial_180629_Statistics.html">
+            
+                    
+                    통계 기본 개념과 설명
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Tutorial_180702_Programming_Intro.html">
+            
+                <a href="Tutorial_180702_Programming_Intro.html">
+            
+                    
+                    스크래치 실습을 통한 프로그래밍 맛보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Tutorial_180702_tidydata.html">
+            
+                <a href="Tutorial_180702_tidydata.html">
+            
+                    
+                    데이터다루기(tidydata)와 프로그래밍기초
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Tutorial_180703_Python_introduction.html">
+            
+                <a href="Tutorial_180703_Python_introduction.html">
+            
+                    
+                    파이썬 기초 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Tutorial_180705_PythonReview_Lamda.html">
+            
+                <a href="Tutorial_180705_PythonReview_Lamda.html">
+            
+                    
+                    범죄데이터로 파이썬 실습 (Lamda)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="Tutorial_180705_Resume_01.html">
+            
+                <a href="Tutorial_180705_Resume_01.html">
+            
+                    
+                    특강-자기소개서 워크숍(1)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="Tutorial_180706_Civic_hacking_seminar.html">
+            
+                <a href="Tutorial_180706_Civic_hacking_seminar.html">
+            
+                    
+                    특강-시빅해킹
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="Tutorial_180709_StaticBlogging_JekyllandRuby.html">
+            
+                <a href="Tutorial_180709_StaticBlogging_JekyllandRuby.html">
+            
+                    
+                    지킬과 루비로 정적 블로그 만들기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="Tutorial_180710_Lecture_Cooperation.html">
+            
+                <a href="Tutorial_180710_Lecture_Cooperation.html">
+            
+                    
+                    특강-협업
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="Tutorial_180710_Lecture_Speciality.html">
+            
+                <a href="Tutorial_180710_Lecture_Speciality.html">
+            
+                    
+                    특강-전문성
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="Tutorial_180712_DataVisualization101.html">
+            
+                <a href="Tutorial_180712_DataVisualization101.html">
+            
+                    
+                    데이터 시각화 이해
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="Tutorial_180712_AttraciveResume2.html">
+            
+                <a href="Tutorial_180712_AttraciveResume2.html">
+            
+                    
+                    특강-자기소개서 워크숍(2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="Tutorial_180713_Pandas101.html">
+            
+                <a href="Tutorial_180713_Pandas101.html">
+            
+                    
+                    자료의 요약 과제를 통한 판다스 실습
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="Tutorial_180713_ExperimentDesignLecture.html">
+            
+                <a href="Tutorial_180713_ExperimentDesignLecture.html">
+            
+                    
+                    특강-실험계획에 관해 알아보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="Tutorial_180716_Crawling_Shuffle.html">
+            
+                <a href="Tutorial_180716_Crawling_Shuffle.html">
+            
+                    
+                    저작권과 직업윤리를 인지하고 크롤링 셔플 실습
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="Tutorial_180716_Markup_Html5lib.html">
+            
+                <a href="Tutorial_180716_Markup_Html5lib.html">
+            
+                    
+                    Markup Html5lib, 파이썬으로 크롤링하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="Tutorial_180717_10minPandas.html">
+            
+                <a href="Tutorial_180717_10minPandas.html">
+            
+                    
+                    Pandas 10분 완성
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="Tutorial_180717_PandasPetition.html">
+            
+                <a href="Tutorial_180717_PandasPetition.html">
+            
+                    
+                    국민청원 첫시작 판다스로 국민청원하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="Tutorial_180719_BeautifulSoup.html">
+            
+                <a href="Tutorial_180719_BeautifulSoup.html">
+            
+                    
+                    Beautiful Soup을 사용하여 크롤링
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="Tutorial_180719_plotnine.md">
+            
+                <span>
+            
+                    
+                    국민청원 데이터 시각화와 자연어 처리-plontnine 실습하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="Tutorial_180720_coupang.html">
+            
+                <a href="Tutorial_180720_coupang.html">
+            
+                    
+                    특강 - 비전공자가 데이터 분석가로 취업하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="Tutorial_180720_ProbabilityDistribution.html">
+            
+                <a href="Tutorial_180720_ProbabilityDistribution.html">
+            
+                    
+                    통계학-자료의 요약, 확률분포(ProbabilityDistribution)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="Tutorial_180723_Machine_learning.html">
+            
+                <a href="Tutorial_180723_Machine_learning.html">
+            
+                    
+                    기계학습의 기초(지도학습/비지도학습/머신러닝)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="Tutorial_180723_word_vectorsization.html">
+            
+                <a href="Tutorial_180723_word_vectorsization.html">
+            
+                    
+                    텍스트 데이터 시각화 Word_vectorsization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="Tutorial_180726_naver.html">
+            
+                <a href="Tutorial_180726_naver.html">
+            
+                    
+                    특강 - AI R&D Director 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="Tutorial_180726_library.md">
+            
+                <span>
+            
+                    
+                    전국도서관표준데이터 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="Tutorial_180730_Categorizing_v2.html">
+            
+                <a href="Tutorial_180730_Categorizing_v2.html">
+            
+                    
+                    국민청원 카테고리 분류하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="Tutorial_180730_Kaggle_NLP_v2.html">
+            
+                <a href="Tutorial_180730_Kaggle_NLP_v2.html">
+            
+                    
+                    Kaggle NLP로 예측율 높이기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="Tutorial_180730_Statistics.html">
+            
+                <a href="Tutorial_180730_Statistics.html">
+            
+                    
+                    Hypothesis test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="Tutorial_180731_MTPlanning.html">
+            
+                <a href="Tutorial_180731_MTPlanning.html">
+            
+                    
+                    데잇걸즈 MT 계획으로 애자일 프로세스 실습해보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="Tutorial_180802_ZigZag.html">
+            
+                <a href="Tutorial_180802_ZigZag.html">
+            
+                    
+                    특강 - 쇼핑몰 데이터 분석 이야기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="Tutorial_180803_GettingJobGithub.html">
+            
+                <a href="Tutorial_180803_GettingJobGithub.html">
+            
+                    
+                    깃허브로 취업하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="Tutorial_180803_Statistics4.html">
+            
+                <a href="Tutorial_180803_Statistics4.html">
+            
+                    
+                    회귀분석(Linear regression)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="Tutorial_180806_Folium_practice.md">
+            
+                <span>
+            
+                    
+                    공공데이터 상권정보 분석해 보기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="Tutorial_180806_Geolocatin_API_practice.md">
+            
+                <span>
+            
+                    
+                    서울창업허브(공덕역) 맛집지도
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="Tutorial_180806_XGBoost.md">
+            
+                <span>
+            
+                    
+                    XGBoost 분산형 그래디언트 부스팅 알고리즘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41" data-path="Tutorial_180807_Git_review.html">
+            
+                <a href="Tutorial_180807_Git_review.html">
+            
+                    
+                    깃과 깃헙 복습, 다른 사람의 레파지토리에 기여하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.42" data-path="Tutorial_180810_Apt_analysis_Statistics5.html">
+            
+                <a href="Tutorial_180810_Apt_analysis_Statistics5.html">
+            
+                    
+                    아파트 분양가 분석 및 회귀분석2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.43" data-path="Tutorial_180813_kaggle_Titanic.html">
+            
+                <a href="Tutorial_180813_kaggle_Titanic.html">
+            
+                    
+                    스프레드시트로 캐글 타이타닉 참가하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.44" data-path="Tutorial_180814_Python_Class.html">
+            
+                <a href="Tutorial_180814_Python_Class.html">
+            
+                    
+                    객체지향 프로그래밍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.45" data-path="Tutorial_180814_Test_Driven_Development.html">
+            
+                <a href="Tutorial_180814_Test_Driven_Development.html">
+            
+                    
+                    테스트 주도 개발
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46" data-path="Tutorial_180817_Colors_in_Data_Visualization.md">
+            
+                <span>
+            
+                    
+                    데이터 시각화와 색의 활용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.47" data-path="Tutorial_180817_Statistics5.html">
+            
+                <a href="Tutorial_180817_Statistics5.html">
+            
+                    
+                    통계-회귀분석3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >통계-회귀분석3</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#xD68C;&#xADC0;&#xBD84;&#xC11D;3">&#xD68C;&#xADC0;&#xBD84;&#xC11D;3</h1>
+<h2 id="&#xC0C1;&#xAD00;&#xBD84;&#xC11D;">&#xC0C1;&#xAD00;&#xBD84;&#xC11D;</h2>
+<h3 id="1-&#xC0C1;&#xAD00;&#xBD84;&#xC11D;&#xACFC;-&#xC0C1;&#xAD00;&#xACC4;&#xC218;">1. &#xC0C1;&#xAD00;&#xBD84;&#xC11D;&#xACFC; &#xC0C1;&#xAD00;&#xACC4;&#xC218;</h3>
+<ul>
+<li><p>&#xC0C1;&#xAD00;&#xBD84;&#xC11D;&#xC774;&#xB780; : &#xB450; &#xAC1C;&#xC758; &#xC5F0;&#xC18D;&#xD615; &#xBCC0;&#xC218;&#xC5D0; &#xB300;&#xD574;&#xC11C; &#xC0C1;&#xAD00;&#xACC4;&#xC218;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xC120;&#xD615;&#xAD00;&#xACC4; &#xBD84;&#xC11D;</p>
+<blockquote>
+<p>e.g. &#xD0A4;&#xC640; &#xBAB8;&#xBB34;&#xAC8C;&#xC758; &#xAD00;&#xACC4;, &#xAD11;&#xACE0;&#xBE44;&#xC640; &#xB9E4;&#xCD9C;&#xC561;&#xC758; &#xAD00;&#xACC4;, &#xD761;&#xC5F0;&#xACFC; &#xC218;&#xBA85;&#xC758; &#xAD00;&#xACC4; &#xB4F1; </p>
+</blockquote>
+</li>
+<li><p>&#xC0C1;&#xAD00;&#xACC4;&#xC218; :  &#xC11C;&#xB85C; &#xB2E4;&#xB978; &#xB450; &#xBCC0;&#xC218;&#xC758; &#xD769;&#xC5B4;&#xC9D0; &#xC815;&#xB3C4;&#xB97C; &#xB098;&#xD0C0;&#xB0C4; </p>
+<blockquote>
+<p>cf. &#xC0C1;&#xAD00;&#xACC4;&#xC218;&#xB294; &#xACF5;&#xBD84;&#xC0B0;&#xACFC; &#xD568;&#xAED8; &#xB450; &#xBCC0;&#xC218;&#xC758; &#xC5F0;&#xAD00;&#xC131;&#xC744; &#xD655;&#xC778;&#xD560; &#xC218; &#xC788;&#xC73C;&#xBA70;, &#xACF5;&#xBD84;&#xC0B0;&#xC744; &#xD45C;&#xC900;&#xD654;&#xD55C; &#xAC12;&#xC774;&#xAE30;&#xB3C4; &#xD568;    </p>
+</blockquote>
+<ul>
+<li><p>&#xC0C1;&#xAD00;&#xACC4;&#xC218; &#xBC94;&#xC704;: -1 &#x2264; &#x1D45F; &#x2264; 1 </p>
+</li>
+<li><p>r&#xC774; &#xC591;&#xC218;&#xC774;&#xBA74; &#xC591;&#xC758; &#xC0C1;&#xAD00;&#xAD00;&#xACC4;, &#xC74C;&#xC218;&#xC774;&#xBA74; &#xC74C;&#xC758; &#xC0C1;&#xAD00;&#xAD00;&#xACC4;&#xB97C; &#xC758;&#xBBF8; </p>
+</li>
+<li><p>&#xAC12;&#xC758; &#xD06C;&#xAE30;&#xB294; &#xC120;&#xD615;&#xAD00;&#xACC4;&#xC758; &#xAC15;&#xB3C4;&#xB97C; &#xC758;&#xBBF8; </p>
+<p>&#x1D45F; = &#xB1;1 : &#xC644;&#xBCBD;&#xD55C; &#xC120;&#xD615;&#xAD00;&#xACC4; </p>
+<p>&#x1D45F; = 0 : &#xC120;&#xD615;&#xAD00;&#xACC4;&#xAC00; &#xC5C6;&#xC74C; </p>
+</li>
+<li><p>&#xAC12;&#xC774; &#xD06C;&#xBA74; &#xD074; &#xC218;&#xB85D; &#xC120;&#xD615;&#xAD00;&#xACC4;&#xAC00; &#xAC15;&#xD558;&#xB2E4;</p>
+<blockquote>
+<p><u><strong>&#xC0C1;&#xAD00;&#xACC4;&#xC218;&#xB294; &#xBC18;&#xB4DC;&#xC2DC; &#xC0B0;&#xC810;&#xB3C4;&#xC640; &#xD568;&#xAED8; &#xACC4;&#xC0B0;&#xD574;&#xC57C;&#xD55C;&#xB2E4; !!</strong></u></p>
+<p>why? &#xC0C1;&#xAD00;&#xACC4;&#xC218;&#xAC00; &#xB192;&#xB354;&#xB77C;&#xB3C4; &#xC0B0;&#xC810;&#xB3C4;&#xB97C; &#xADF8;&#xB838;&#xC744; &#xB54C; &#xC0C1;&#xAD00;&#xAD00;&#xACC4;&#xAC00; &#xB4DC;&#xB7EC;&#xB098;&#xC9C0; &#xC54A;&#xC744; &#xC218; &#xC788;&#xB2E4;.  </p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#xD68C;&#xADC0;&#xBD84;&#xC11D;">&#xD68C;&#xADC0;&#xBD84;&#xC11D;</h2>
+<h3 id="1-&#xD68C;&#xADC0;&#xBD84;&#xC11D;&#xC774;&#xB780;">1. &#xD68C;&#xADC0;&#xBD84;&#xC11D;&#xC774;&#xB780;?</h3>
+<ul>
+<li>&#xD68C;&#xADC0;&#xBD84;&#xC11D;&#xC774;&#xB780; : &#xB3C5;&#xB9BD;&#xBCC0;&#xC218;&#xC640; &#xC885;&#xC18D;&#xBCC0;&#xC218; &#xC0AC;&#xC774; &#xD1B5;&#xACC4;&#xC801; &#xC720;&#xC758;&#xBBF8;&#xC131; &#xAC80;&#xC99D;&#xD558;&#xACE0; &#xB450; &#xBCC0;&#xC218;&#xAC00; &#xAC00;&#xC9C4; &#xAD00;&#xACC4;&#xC758; &#xC815;&#xB3C4;&#xB97C; &#xBD84;&#xC11D;&#xD558;&#xB294; &#xAC83;</li>
+</ul>
+<blockquote>
+<p>&#xB3C5;&#xB9BD;&#xBCC0;&#xC218; : &#xC124;&#xBA85;&#xBCC0;&#xC218; (X)</p>
+<p>&#xC885;&#xC18D;&#xBCC0;&#xC218; : &#xBC18;&#xC751;&#xBCC0;&#xC218; (Y)</p>
+</blockquote>
+<ul>
+<li><p>&#xB2E8;&#xC21C;&#xC120;&#xD615; &#xD68C;&#xADC0;&#xBD84;&#xC11D; : &#xC124;&#xBA85;&#xBCC0;&#xC218;&#xAC00; &#xD55C; &#xAC1C;&#xC778; &#xC120;&#xD615;&#xD68C;&#xADC0;&#xBAA8;&#xD615; </p>
+<p>&#xB2E4;&#xC911;&#xC120;&#xD615; &#xD68C;&#xADC0;&#xBD84;&#xC11D; : &#xC124;&#xBA85;&#xBCC0;&#xC218;&#xAC00; &#xB450; &#xAC1C;&#xC778; &#xC120;&#xD615;&#xD68C;&#xADC0;&#xBAA8;&#xD615;</p>
+<blockquote>
+<ul>
+<li><p>&#xB2E8;&#xC21C;&#xC120;&#xD615; &#xD68C;&#xADC0;&#xBD84;&#xC11D;&#xACFC; &#xB2E4;&#xC911;&#xC120;&#xD615; &#xD68C;&#xADC0;&#xBD84;&#xC11D;&#xC740; &#xC124;&#xBA85;&#xBCC0;&#xC218;&#xC758; &#xAC2F;&#xC218;&#xB85C; &#xBD84;&#xB958;&#xB428;. &#xC774;&#xC678;&#xC758; &#xCC28;&#xC774;&#xB294; &#xD06C;&#xAC8C; &#xC5C6;&#xC74C;</p>
+</li>
+<li><p>&#xC120;&#xD615;&#xD68C;&#xADC0;&#xBD84;&#xC11D;: &#xAC00;&#xC9C0;&#xACE0; &#xC788;&#xB294; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC9C1;&#xC120; &#xD615;&#xD0DC;&#xB85C; &#xB098;&#xD0C0;&#xB0B4;&#xB294; &#xC120;&#xC744; &#xCC3E;&#xC544;&#xAC00;&#xB294; &#xBD84;&#xC11D;</p>
+</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<h3 id="2-&#xD68C;&#xADC0;&#xBD84;&#xC11D;&#xC758;-&#xAC00;&#xC815;">2. &#xD68C;&#xADC0;&#xBD84;&#xC11D;&#xC758; &#xAC00;&#xC815;</h3>
+<ul>
+<li><p>&#x1D465;&#xC640; &#x1D466;&#xB294; &#xC120;&#xD615;&#xAD00;&#xACC4;&#xB97C; &#xAC00;&#xC9D0;<strong>(&#xC120;&#xD615;&#xC131;)</strong> </p>
+<blockquote>
+<p>&#xC120;&#xD615;&#xC131; &#xAC80;&#xC99D;: x&#xC640; y&#xC758; &#xADF8;&#xB798;&#xD504;&#xB97C; &#xADF8;&#xB824;&#xBCF4;&#xAE30;        </p>
+</blockquote>
+</li>
+<li><p>&#xC624;&#xCC28;&#xC5D0; &#xB300;&#xD55C; &#xAC00;&#xC815; </p>
+<ul>
+<li><p>&#xC624;&#xCC28;&#xB294; &#xC815;&#xADDC;&#xBD84;&#xD3EC;&#xB97C; &#xB530;&#xB978;&#xB2E4;<strong>(&#xC815;&#xADDC;&#xC131;)</strong>  </p>
+<p>(= y&#xB294; &#xC815;&#xADDC;&#xBD84;&#xD3EC;&#xB97C; &#xB530;&#xB978;&#xB2E4; = &#xAC01; &#x1D465;&#xAC12;&#xC5D0; &#xB300;&#xD558;&#xC5EC; &#xBAA8;&#xC9D1;&#xB2E8;&#xC5D0;&#xC11C;&#xC758; &#x1D466;&#xAC12;&#xC740; &#xC815;&#xADDC;&#xBD84;&#xD3EC;&#xB97C; &#xB530;&#xB984;)</p>
+<blockquote>
+<ul>
+<li>&#xC815;&#xADDC;&#xC131; &#xAC80;&#xC99D;1 : &#xD788;&#xC2A4;&#xD1A0;&#xADF8;&#xB7A8;&#xC744; &#xADF8;&#xB824;&#xC11C; &#xC815;&#xADDC;&#xBD84;&#xD3EC;&#xD615;&#xC778;&#xC9C0; &#xD655;&#xC778;</li>
+<li>&#xC815;&#xADDC;&#xC131; &#xAC80;&#xC99D;2 : Q-Q plot&#xC744; &#xADF8;&#xB824;&#xC11C; &#xC9C1;&#xC120;&#xC704;&#xC5D0; &#xB370;&#xC774;&#xD130;&#xB4E4;&#xC774; &#xB2E4; &#xC788;&#xC73C;&#xBA74; &#xC815;&#xADDC;&#xBD84;&#xD3EC;&#xB97C; &#xB530;&#xB978;&#xB2E4;&#xACE0; &#xBCFC; &#xC218; &#xC788;&#xC74C;</li>
+</ul>
+</blockquote>
+</li>
+<li><p>&#x1D466;&#xAC12; &#xBD84;&#xD3EC;&#xC758; &#xBD84;&#xC0B0;&#xC740; &#xBAA8;&#xB4E0; &#x1D465;&#xAC12;&#xC5D0;&#xC11C; &#xAC19;&#xB2E4;<strong>(&#xB4F1;&#xBD84;&#xC0B0;&#xC131;)</strong> </p>
+<p>= &#xC624;&#xCC28;&#xB294; &#xBAA8;&#xB4E0; x&#xAC12;&#xC5D0;&#xC11C; &#xB3D9;&#xC77C;&#xD55C; &#xBD84;&#xC0B0;&#xC744; &#xAC16;&#xB294;&#xB2E4;</p>
+</li>
+</ul>
+</li>
+<li><p>&#xB3C5;&#xB9BD;&#xBCC0;&#xC218;(x) &#xC0C1;&#xD638;&#xAC04;&#xC5D0;&#xB294; &#xC0C1;&#xAD00;&#xAD00;&#xACC4;&#xAC00; &#xC5C6;&#xC5B4;&#xC57C; &#xD55C;&#xB2E4; <strong>(&#xB2E4;&#xC911;&#xACF5;&#xC120;&#xC131;)</strong></p>
+<ul>
+<li><p>&#xB2E4;&#xC911;&#xACF5;&#xC120;&#xC131; ? : &#xB3C5;&#xB9BD;&#xBCC0;&#xC218;&#xB4E4;&#xAC04;&#xC5D0; &#xC0C1;&#xAD00;&#xAD00;&#xACC4;&#xAC00; &#xB098;&#xD0C0;&#xB098;&#xB294; &#xC0C1;&#xD669;</p>
+</li>
+<li><p>&#xB2E4;&#xC911;&#xACF5;&#xC120;&#xC131;&#xC774; &#xCD08;&#xB798;&#xD558;&#xB294; &#xBB38;&#xC81C; ? : &#xD68C;&#xADC0;&#xACC4;&#xC218;&#xC758; &#xBD84;&#xC0B0;&#xC774; &#xCEE4;&#xC838;&#xC11C; &#xD574;&#xC11D;&#xC5D0; &#xC65C;&#xACE1;&#xC774; &#xC0DD;&#xAE38; &#xC218; &#xC788;&#xC74C;</p>
+<p>(=&#xC720;&#xC758;&#xD55C; &#xD68C;&#xADC0;&#xACC4;&#xC218;&#xAC00; &#xC720;&#xC758;&#xD558;&#xC9C0; &#xC54A;&#xB2E4;&#xACE0; &#xD310;&#xB2E8;&#xB420; &#xC218;&#xB3C4; &#xC788;&#xB2E4;&#xB294; &#xAC83;)</p>
+<ul>
+<li><p>&#xB2E4;&#xC911;&#xACF5;&#xC120;&#xC131; &#xBB38;&#xC81C; &#xD574;&#xACB0;&#xD558;&#xB294; &#xBC29;&#xBC95; </p>
+<p>1) &#xC0C1;&#xAD00;&#xAD00;&#xACC4;&#xAC00; &#xB192;&#xC740; &#xB3C5;&#xB9BD;&#xBCC0;&#xC218; &#xC911; &#xD558;&#xB098; &#xD639;&#xC740; &#xC77C;&#xBD80;&#xB97C; &#xC81C;&#xAC70;&#xD55C;&#xB2E4; </p>
+<p>2) &#xBCC0;&#xC218;&#xB97C; &#xBCC0;&#xD658;&#xD558;&#xC5EC; &#xC0C1;&#xAD00;&#xAD00;&#xACC4;&#xAC00; &#xC801;&#xC5B4;&#xC9C0;&#xAC8C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC904; &#xC218; &#xC788;&#xC74C; </p>
+<p>3) PCA &#xBC29;&#xBC95;&#xC744; &#xC774;&#xC6A9;&#xD574; &#xACF5;&#xC120;&#xC131;&#xC744; &#xC81C;&#xAC70;&#xD574;&#xC900;&#xB2E4;  </p>
+<blockquote>
+<p> PCA : &#xAC01; &#xBCC0;&#xC218;&#xC758; &#xC0C1;&#xAD00;&#xACC4;&#xC218;&#xB97C; 0&#xC73C;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC8FC;&#xB294; &#xAE30;&#xBC95;</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-&#xBCC0;&#xC218;">3. &#xBCC0;&#xC218;</h3>
+<ul>
+<li><p>&#xC5F0;&#xC18D;&#xD615; &#xBCC0;&#xC218;&#xC758; &#xD574;&#xC11D;</p>
+<p>&#xB3C5;&#xB9BD;&#xBCC0;&#xC218; x&#xAC00; &#xD55C; &#xB2E8;&#xC704; &#xC99D;&#xAC00;&#xD560; &#xB54C; y&#xC758; &#xD3C9;&#xADE0; &#xBCC0;&#xD654;&#xB7C9;</p>
+</li>
+<li><p>&#xBC94;&#xC8FC;&#xD615; &#xBCC0;&#xC218;&#xC758; &#xD574;&#xC11D; </p>
+<p>&#xAE30;&#xBCF8;&#xC774; &#xB418;&#xB294; &#xBC94;&#xC8FC;&#xC5D0; &#xBE44;&#xAD50; &#xD588;&#xC744; &#xB54C;, Y&#xC758; &#xD3C9;&#xADE0; &#xCC28;&#xC774;&#xB7C9; </p>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li><p>&#xC9C0;&#xC2DC;&#xD615; &#xBCC0;&#xC218;</p>
+<p>&#xBCC0;&#xC218;&#xD615; &#xBCC0;&#xC218;&#xB97C; &#xCC98;&#xB9AC;&#xD558;&#xAE30; &#xC704;&#xD574; (class&#xC758; &#xAC1C;&#xC218; - 1) </p>
+<p>&#xD558;&#xB098;&#xC758; &#xBCC0;&#xC218;&#xB97C; &#xAE30;&#xC900; &#xBCC0;&#xC218;&#xB85C; &#xB194;&#xB46C;&#xC57C; &#xD568;(&#xADF8;&#xB798;&#xC11C; 1&#xACFC; 0&#xC73C;&#xB85C; &#xB098;&#xB214;. 1&#xC774; &#xAE30;&#xC900;&#xBCC0;&#xC218;)</p>
+<blockquote>
+<p>class&#xC758; &#xAC1C;&#xC218; -1&#xC744; &#xD558;&#xB294; &#xC774;&#xC720;? </p>
+<p>: &#xB2E4;&#xC911;&#xACF5;&#xC120;&#xC131;&#xB54C;&#xBB38;&#xC5D0; &#xBC94;&#xC8FC;&#xD615; &#xBCC0;&#xC218;&#xC5D0;&#xC11C; &#xD558;&#xB098;&#xB97C; &#xBE7C;&#xAC8C; &#xB418;&#xB294; &#xAC83; (&#xBCC0;&#xC218;&#xB4E4;&#xC744; &#xC5B4;&#xCC0C;&#xC800;&#xCC0C; &#xC870;&#xC808;&#xD558;&#xB2E4; &#xBCF4;&#xBA74; &#xC0C1;&#xAD00;&#xAD00;&#xACC4;&#xAC00; &#xB192;&#xC544;&#xC9C0;&#xB294; &#xACC4;&#xC218;&#xB97C; &#xCC3E;&#xC744; &#xC218; &#xC788;&#xAC8C; &#xB428;. &#xADF8;&#xB798;&#xC11C; -1&#xC744; &#xD574;&#xC90C; )</p>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<ul>
+<li><p>&#xD30C;&#xC0DD;&#xBCC0;&#xC218; </p>
+<ul>
+<li><p>&#xD56D;&#xC0C1; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC801;&#xD569;&#xD55C; &#xAC83;&#xC774; &#xC544;&#xB2C8;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xBD84;&#xC11D; &#xBAA9;&#xC801;&#xC5D0; &#xB9DE;&#xAC8C; &#xAC1C;&#xBC1C;&#xD574; &#xB0B8; &#xC720;&#xC758;&#xBBF8;&#xD558;&#xACE0; &#xC801;&#xD569;&#xD55C; &#xBCC0;&#xC218;</p>
+</li>
+<li><p>&#xAE30;&#xC874;&#xC758; &#xBCC0;&#xC218;&#xB97C; &#xAC00;&#xC9C0;&#xACE0; &#xD2B9;&#xC815; &#xC870;&#xAC74;&#xC744; &#xB9CC;&#xC871;&#xD558;&#xAC70;&#xB098; &#xD2B9;&#xC815; &#xD568;&#xC218;&#xC5D0; &#xC758;&#xD574; &#xAC12;&#xC744; &#xB9CC;&#xB4E4;&#xC5B4; &#xC758;&#xBBF8;&#xB97C; &#xBD80;&#xC5EC;&#xD55C; &#xD568;&#xC218;</p>
+</li>
+<li><p>&#xD30C;&#xC0DD;&#xBCC0;&#xC218;&#xC758; &#xC0DD;&#xC131;&#xBC29;&#xBC95;</p>
+<ul>
+<li><p>&#xB3C4;&#xBA54;&#xC778; &amp; &#xB370;&#xC774;&#xD130; &#xC790;&#xCCB4;&#xC5D0; &#xB300;&#xD55C; &#xC9C0;&#xC2DD;</p>
+<blockquote>
+<p>e.g. &#xC0B0;&#xBD88;&#xC5D0; &#xC601;&#xD5A5;&#xC744; &#xBBF8;&#xCE58;&#xB294; &#xC778;&#xC790;&#xB97C; &#xBD84;&#xC11D;&#xD560; &#xB54C;, &#xB0B4;&#xAC00; &#xAC00;&#xC9C0;&#xACE0; &#xC788;&#xB294; &#xB370;&#xC774;&#xD130;&#xB294; &#xC2B5;&#xB3C4; &#xB370;&#xC774;&#xD130;. &#xD544;&#xC694;&#xD55C; &#xB370;&#xC774;&#xD130;&#xB294; &#xC2B5;&#xB3C4;&#xAC00; &#xC544;&#xB2CC; 3&#xC77C;&#xCE58; &#xD3C9;&#xADE0; &#xC2B5;&#xB3C4;. &#xC774;&#xB54C; 3&#xC77C;&#xCE58; &#xD3C9;&#xADE0;&#xC2B5;&#xB3C4;&#xAC00; &#xD30C;&#xC0DD;&#xBCC0;&#xC218;&#xAC00; &#xB428;</p>
+</blockquote>
+</li>
+<li><p>EDA&#xD1B5;&#xD574; insight &#xC5BB;&#xAE30; </p>
+<p>&#xC6D4;&#xB9D0; &#xC9C0;&#xC2DC;&#xBCC0;&#xC218; &#xC0DD;&#xC131; (&#xC6D4;&#xB9D0;&#xC774;&#xBA74; 1, &#xC544;&#xB2C8;&#xBA74; 0 &#xC73C;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC11C; &#xC2DC;&#xAC01;&#xD654;&#xD568;)</p>
+</li>
+<li><p>&#xC0C1;&#xD638;&#xC791;&#xC6A9; &#xBCC0;&#xC218;(<strong>&#xAD50;&#xD638;&#xC791;&#xC6A9; &#xBCC0;&#xC218;</strong>) &#xCD94;&#xAC00;</p>
+<p><em>&#xD30C;&#xC0DD;&#xBCC0;&#xC218; &#xC0DD;&#xC131; &#xC2DC; &#xC8FC;&#xAD00;&#xC801;&#xC778; &#xAD00;&#xC810;&#xC774; &#xC0C1;&#xB2F9;&#xBD80;&#xBD84; &#xD3EC;&#xD568;&#xB420; &#xC218; &#xC788;&#xC73C;&#xBBC0;&#xB85C; &#xD0C0;&#xB2F9;&#xC131; &#xC788;&#xAC8C; &#xAC1C;&#xBC1C;&#xD574;&#xC57C; &#xD568;</em></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-&#xAD50;&#xD638;&#xC791;&#xC6A9;-&#xBCC0;&#xC218;">4. &#xAD50;&#xD638;&#xC791;&#xC6A9; &#xBCC0;&#xC218;</h3>
+<ul>
+<li><p>&#xAD50;&#xD638;(&#xC0C1;&#xD638;; interaction ) &#xC791;&#xC6A9; &#xBCC0;&#xC218;?</p>
+<p>:  &#xD55C; &#xBCC0;&#xC218;&#xC758; &#xD6A8;&#xACFC;&#xAC00; &#xB2E4;&#xB978; &#xBCC0;&#xC218;&#xC758; &#xC218;&#xC900;&#xC5D0; &#xC758;&#xC874;&#xD558;&#xB294; &#xACBD;&#xC6B0; </p>
+<p>   &#xC989;, &#xD55C; &#xBCC0;&#xC218;&#xC758; &#xD6A8;&#xACFC;&#xAC00; &#xB2E4;&#xB978; &#xBCC0;&#xC218;&#xC758; &#xC218;&#xC900;&#xC5D0; &#xC758;&#xC874;&#xD558;&#xB294; &#xACBD;&#xC6B0;</p>
+<blockquote>
+<p>e.g </p>
+<p>&#xD761;&#xC5F0;&#xC744; &#xD558;&#xBA74; &#xAC74;&#xAC15;&#xC5D0; &#xC601;&#xD5A5;(-3)&#xC744; &#xBBF8;&#xCE68; </p>
+<p>&#xC74C;&#xC8FC;&#xB97C; &#xD558;&#xBA74; &#xAC74;&#xAC15;&#xC5D0; &#xC601;&#xD5A5;(-2)&#xC744; &#xBBF8;&#xCE68; </p>
+<p>&#xADF8;&#xB807;&#xB2E4;&#xBA74;, &#xD761;&#xC5F0;&#xB3C4;&#xD558;&#xACE0; &#xC74C;&#xC8FC;&#xB97C; &#xD558;&#xB294; &#xC0AC;&#xB78C;&#xC740; &#xAC74;&#xAC15;&#xC5D0; &#xC5BC;&#xB9CC;&#xD07C; &#xC601;&#xD5A5;&#xC744; &#xBBF8;&#xCE60;&#xAE4C;? </p>
+<p>&#xB9CC;&#xC57D; &#xAC74;&#xAC15;&#xC5D0; &#xBBF8;&#xCE58;&#xB294; &#xC601;&#xD5A5;&#xC774; &#x2018;-5&#x2019; &#xC774;&#xB77C;&#xBA74; &#xAD50;&#xD638;&#xC791;&#xC6A9;&#xBCC0;&#xC218;&#xB294; &#xACE0;&#xB824;&#xD558;&#xC9C0; &#xC54A;&#xC544;&#xB3C4; &#xB41C;&#xB2E4;. </p>
+<p>&#xD558;&#xC9C0;&#xB9CC;, &#xD761;&#xC5F0;&#xACFC; &#xC74C;&#xC8FC;&#xB97C; &#xB3D9;&#xC2DC;&#xC5D0; &#xD55C; &#xACB0;&#xACFC; &#xB354; &#xB9CE;&#xC740; &#xC545;&#xC601;&#xD5A5;(-10)&#xC774; &#xB07C;&#xCE5C;&#xB2E4;&#xBA74; &#xAD50;&#xD638;&#xC791;&#xC6A9;&#xBCC0;&#xC218;&#xB97C; &#xACE0;&#xB824;&#xD574;&#xC57C; &#xD55C;&#xB2E4;.  </p>
+<ul>
+<li><p>&#xC0C1;&#xD638;&#xC791;&#xC6A9; &#xBCC0;&#xC218; &#xC5C6;&#xB294; &#xAE30;&#xC874;&#xC758; &#xBAA8;&#xB378;: &#xAC74;&#xAC15; ~ &#xD761;&#xC5F0; + &#xC74C;&#xC8FC; </p>
+<p>&#xC0C1;&#xD638;&#xC791;&#xC6A9; &#xBCC0;&#xC218; &#xCD94;&#xAC00;&#xD55C; &#xBAA8;&#xB378;: &#xAC74;&#xAC15; ~ &#xD761;&#xC5F0; + &#xC74C;&#xC8FC; + &#xD761;&#xC5F0;:&#xC74C;&#xC8FC;(=&#xD761;&#xC5F0;<em>&#xC74C;&#xC8FC;) </em></p>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p>&#xBC94;&#xC8FC;&#xD615; <em> &#xBC94;&#xC8FC;&#xD615;  &amp;  &#xBC94;&#xC8FC;&#xD615; </em> &#xC5F0;&#xC18D;&#xD615; &#xBCC0;&#xC218;&#xC758; &#xAD00;&#xACC4;&#xB9CC; &#xBD04;</p>
+<blockquote>
+<p>&#xC5F0;&#xC18D;&#xD615; *&#xC5F0;&#xC18D;&#xC169; &#xAD50;&#xD638;&#xC791;&#xC6A9;&#xC744; &#xC798; &#xBCF4;&#xC9C0; &#xC54A;&#xB294; &#xC774;&#xC720;&#xB294; &#xD574;&#xC11D;&#xC774; &#xC560;&#xB9E4;&#xD558;&#xAC8C; &#xB418;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xBCF4;&#xD1B5;&#xC740; &#xB450; &#xBCC0;&#xC218;&#xC758; &#xAD00;&#xACC4;&#xC5D0;&#xC11C;&#xB294; &#xAD50;&#xD638;&#xC791;&#xC6A9;&#xC744; &#xACE0;&#xB824;&#xD558;&#xC9C0; &#xC54A;&#xC74C;</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="5-&#xB370;&#xC774;&#xD130;-&#xBD84;&#xD560;">5. &#xB370;&#xC774;&#xD130; &#xBD84;&#xD560;</h3>
+<ul>
+<li><p>Data&#xB97C; Train Data&#xC640; Test Data&#xB85C; &#xB098;&#xB208;&#xB2E4;</p>
+<p>Train Data : &#xBAA8;&#xB378;&#xC744; &#xC138;&#xC6B0;&#xAE30; &#xC704;&#xD55C; &#xB370;&#xC774;&#xD130; </p>
+<p>Test Data : &#xBAA8;&#xB378;&#xC758; &#xC131;&#xB2A5;&#xC744; &#xD3C9;&#xAC00;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xB370;&#xC774;&#xD130; </p>
+</li>
+<li><p>&#xB370;&#xC774;&#xD130; &#xBD84;&#xD560;&#xC744; &#xD558;&#xB294; &#xC774;&#xC720;</p>
+<p>: &#xC8FC;&#xC5B4;&#xC9C4; &#xB370;&#xC774;&#xD130;&#xB9CC; &#xC124;&#xBA85;&#xD558;&#xB294; &#xAC83;&#xC774; &#xBAA9;&#xC801;&#xC774; &#xC544;&#xB2C8;&#xB77C; &#xB370;&#xC774;&#xD130; &#xBAA8;&#xB378;&#xC744; &#xBC14;&#xD0D5;&#xC73C;&#xB85C; &#xBBF8;&#xB798;&#xB97C; &#xC608;&#xCE21;&#xD560; &#xB54C;&#xC5D0;&#xB294; &#xB2E4;&#xB978; &#xC0C1;&#xD669;&#xC5D0;&#xC11C;&#xB3C4; &#xC801;&#xC6A9; &#xAC00;&#xB2A5;&#xD55C; &#xBAA8;&#xB378;&#xC744; &#xB9CC;&#xB4E4;&#xC5B4;&#xC57C; &#xD558;&#xAE30; &#xB54C;&#xBB38;</p>
+<p>: &#xAC00;&#xC9C0;&#xACE0; &#xC788;&#xB294; &#xB370;&#xC774;&#xD130;&#xB85C;&#xB9CC; &#xBAA8;&#xB378;&#xC744; &#xB9CC;&#xB4E4;&#xBA74; overfitting&#xC758; &#xC704;&#xD5D8;&#xC774; &#xC874;&#xC7AC;&#xD568;</p>
+</li>
+</ul>
+<h3 id="6-&#xC794;&#xCC28;&#xBD84;&#xC11D;">6. &#xC794;&#xCC28;&#xBD84;&#xC11D;</h3>
+<ul>
+<li><p>&#xC794;&#xCC28;&#xBD84;&#xC11D;&#xC774;&#xB780; : </p>
+<p>-&#xD68C;&#xADC0;&#xBD84;&#xC11D; &#xAC00;&#xC815; &#xC911; &#xC624;&#xCC28;&#xC758; &#xB4F1;&#xBD84;&#xC0B0;&#xC131; &#xAC00;&#xC815;&#xC744; &#xB9CC;&#xC871;&#xD558;&#xB294;&#xC9C0; &#xD655;&#xC778;&#xD558;&#xB294; &#xBC29;&#xBC95;</p>
+<ul>
+<li>&#xD68C;&#xADC0;&#xBD84;&#xC11D; &#xBAA8;&#xD615;&#xC744; &#xC801;&#xD569;&#xD55C; &#xD6C4; &#xBAA8;&#xD615;&#xC758; &#xACB0;&#xD568;&#xC744; &#xCC3E;&#xC544;&#xB0B4;&#xB294; &#xBC29;&#xBC95;</li>
+</ul>
+<blockquote>
+<p>&#xC794;&#xCC28;&#xB780;? </p>
+<p>(&#xC2E4;&#xC81C; &#xAD00;&#xCE21;&#xAC12; - &#xC608;&#xCE21;&#xAC12;)</p>
+</blockquote>
+</li>
+<li><p>&#xC794;&#xCC28;&#xBD84;&#xC11D; </p>
+<ol>
+<li><p>&#xC794;&#xCC28; &#xC640; &#xC608;&#xCE21;&#xAC12;&#xC758; &#xC0B0;&#xC810;&#xB3C4; &#xADF8;&#xB824;&#xBCF4;&#xAE30;</p>
+</li>
+<li><p>&#xC794;&#xCC28;&#xC640; &#xBC18;&#xC751;&#xBCC0;&#xC218;&#xC758; &#xC0B0;&#xC810;&#xB3C4; &#xADF8;&#xB824;&#xBCF4;&#xAE30;</p>
+<p>(&#xC794;&#xCC28;&#xB294; &#xBC18;&#xC751;&#xBCC0;&#xC218;&#xC640; &#xAD00;&#xB828;&#xC131;&#xC774; &#xC5C6;&#xC5B4;&#xC57C;&#xD558;&#xAE30; &#xB54C;&#xBB34;&#xC5D0; &#xADF8;&#xB9BC;&#xC5D0; &#xD328;&#xD134;&#xC774; &#xB4DC;&#xB7EC;&#xB098;&#xC9C0; &#xC54A;&#xC544;&#xC57C;&#xD568;</p>
+<p>&#xD328;&#xD134;&#xC774; &#xB4DC;&#xB7EC;&#xB098;&#xBA74; &#xAC00;&#xC815; &#xC704;&#xBC18;&#xC784;)</p>
+</li>
+<li><p>&#xC794;&#xCC28;&#xC758; &#xC815;&#xADDC;&#xD655;&#xB960; &#xD50C;&#xB86F; (Q-Q plot) &#xADF8;&#xB824;&#xBCF4;&#xAE30;</p>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="6-&#xACB0;&#xC815;&#xACC4;&#xC218;-r-square">6. &#xACB0;&#xC815;&#xACC4;&#xC218; (R-square)</h3>
+<ul>
+<li><p>&#xACB0;&#xC815;&#xACC4;&#xC218; </p>
+<p>-X&#xAC00; Y&#xB97C; &#xC5BC;&#xB9C8;&#xB098; &#xC124;&#xBA85;&#xD558;&#xB294;&#xC9C0;&#xC5D0; &#xAD00;&#xD55C; &#xC815;&#xBCF4;&#xB97C; &#xC81C;&#xACF5; (&#xD68C;&#xADC0;&#xC2DD;&#xC774; &#xC5BC;&#xB9C8;&#xB098; &#xC815;&#xD655;&#xD55C;&#xC9C0;)</p>
+<p>-&#xBC18;&#xC751;&#xBCC0;&#xC218; (Y)&#xC758; &#xC804;&#xCCB4; &#xBCC0;&#xB3D9;(SST) &#xC911; &#xC608;&#xCE21;&#xBCC0;&#xC218;(X)&#xAC00; &#xCC28;&#xC9C0;&#xD558;&#xB294; &#xBCC0;&#xB3D9;(SSR)&#xC758; &#xBE44;&#xC728; </p>
+</li>
+<li><p>&#xC218;&#xC815;&#xB41C; &#xACB0;&#xC815;&#xACC4;&#xC218; </p>
+<p>-&#xBCC0;&#xC218;&#xC758; &#xAC1C;&#xC218;&#xB97C; &#xACE0;&#xB824;&#xD55C; &#xACB0;&#xC815;&#xACC4;&#xC218; </p>
+<p>-&#xACB0;&#xC815;&#xACC4;&#xC218;&#xC758; &#xB2E8;&#xC810;&#xC744; &#xBCF4;&#xC644;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xACC4;&#xC218; </p>
+<blockquote>
+<p>&#xACB0;&#xC815;&#xACC4;&#xC218;&#xC758; &#xB2E8;&#xC810; : &#xBCC0;&#xC218;&#xC758; &#xAC1C;&#xC218;&#xAC00; &#xB298;&#xC5B4;&#xB098;&#xBA74; &#xACB0;&#xC815;&#xACC4;&#xC218;&#xAC00; &#xCEE4;&#xC9C0;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xBAA8;&#xB378; &#xD310;&#xB2E8;&#xC758; &#xAE30;&#xC900;&#xC744; &#xACB0;&#xC815;&#xACC4;&#xC218;&#xB85C; &#xC120;&#xD0DD;&#xD558;&#xBA74; <u>&#xBCC0;&#xC218;&#xAC00; &#xB9CE;&#xC740; &#xBAA8;&#xB378;&#xC744; &#xC120;&#xD0DD;&#xD560; &#xACBD;&#xD5A5;</u>&#xC774; &#xB192;&#xC74C; </p>
+</blockquote>
+<p><strong><em>&#xB2E4;&#xC911;&#xD68C;&#xADC0;&#xBD84;&#xC11D;&#xC5D0;&#xC11C;&#xC758; &#xBAA8;&#xB378;&#xC120;&#xD0DD;&#xC740; &#xC218;&#xC815;&#xB41C; &#xACB0;&#xC815;&#xACC4;&#xC218;&#xAC00; &#xB354; &#xC801;&#xC808;&#xD558;&#xB2E4;</em></strong> </p>
+</li>
+</ul>
+<h3 id="7-&#xC608;&#xCE21;&#xB825;-&#xD3C9;&#xAC00;">7. &#xC608;&#xCE21;&#xB825; &#xD3C9;&#xAC00;</h3>
+<ul>
+<li>MSE : &#xD3C9;&#xADE0; &#xC81C;&#xACF1; &#xC624;&#xCC28; &#xBC29;&#xBC95;</li>
+<li>RMSE : &#xD3C9;&#xADE0; &#xC81C;&#xACF1;&#xADFC; &#xC624;&#xCC28; </li>
+</ul>
+<h3 id="8-&#xBAA8;&#xB378;-&#xC120;&#xD0DD;&#xC758;-&#xAE30;&#xC900;">8. &#xBAA8;&#xB378; &#xC120;&#xD0DD;&#xC758; &#xAE30;&#xC900;</h3>
+<ul>
+<li><p>&#xBAA8;&#xB378; &#xC124;&#xBA85;&#xB825;, &#xC801;&#xD569;&#xB3C4;  (&#xACB0;&#xC815;&#xACC4;&#xC218; / &#xC218;&#xC815;&#xB41C; &#xACB0;&#xC815;&#xACC4;&#xC218;)</p>
+</li>
+<li><p>&#xC608;&#xCE21;&#xB825; (MSE / RMSE)</p>
+<p><strong><em>&#xC774; &#xC911; &#xBAA8;&#xB378; &#xC120;&#xD0DD;&#xC740; &#xBCF8;&#xC778;&#xC774; &#xC815;&#xD55C; &#xD558;&#xB098;&#xC758; &#xAE30;&#xC900;&#xC73C;&#xB85C; &#xD310;&#xB2E8;&#xD558;&#xBA74; &#xB428;</em></strong> </p>
+</li>
+</ul>
+<h2 id="&#xBD84;&#xC11D;-process">&#xBD84;&#xC11D; Process</h2>
+<ol>
+<li><p>&#xBB38;&#xC81C;&#xC815;&#xC758; </p>
+<p>&#xBD84;&#xC11D;&#xBAA9;&#xC801; &#xC124;&#xC815;, &#xB370;&#xC774;&#xD130; &#xC218;&#xC9D1;, &#xB370;&#xC774;&#xD130; &#xC815;&#xC81C; &#xBC0F; &#xCC98;&#xB9AC; </p>
+</li>
+<li><p>EDA </p>
+<p>&#xAC01; &#xBCC0;&#xC218;&#xB4E4;&#xC758; &#xBD84;&#xD3EC; &#xD655;&#xC778; (missing, outlier &#xD655;&#xC778; &#xBC0F; &#xCC98;&#xB9AC; &#x2026; ) &#xD68C;&#xADC0;&#xBD84;&#xC11D; &#xAC00;&#xC815; &#xD655;&#xC778; (&#xC120;&#xD615;&#xC131;, &#xC815;&#xADDC;&#xC131;, &#xB2E4;&#xC911;&#xACF5;&#xC120;&#xC131;) &#xD30C;&#xC0DD;&#xBCC0;&#xC218; &#xC0DD;&#xC131; </p>
+</li>
+<li><p>modeling </p>
+<p>&#xD68C;&#xADC0;&#xBD84;&#xC11D;, xgboost, randomforest &#x2026; </p>
+</li>
+<li><p>&#xBCC0;&#xC218;&#xC120;&#xD0DD;</p>
+<p> forward, backward, stepwise &#x2026; (&#xC18C;&#xAC1C;&#xB41C; &#xAC83;&#xC740; &#xC120;&#xD615;&#xBAA8;&#xD615;&#xC5D0;&#xC11C; &#xAC00;&#xB2A5;) </p>
+</li>
+<li><p>&#xC794;&#xCC28;&#xBD84;&#xC11D; </p>
+<p>residual plot, partial residual plot, &#x2026; </p>
+</li>
+<li><p>&#xBAA8;&#xB378; &#xC218;&#xC815; </p>
+<p>&#xC794;&#xCC28; &#xD655;&#xC778; &#xD6C4; &#xCD94;&#xAC00;&#xC801;&#xC778; &#xD30C;&#xC0DD;&#xBCC0;&#xC218; &#xACE0;&#xB824; </p>
+</li>
+<li><p>&#xBAA8;&#xD615;&#xBE44;&#xAD50; &#xAC01; &#xBAA8;&#xB378; &#xBCC4;&#xB85C; performance &#xD655;&#xC778; </p>
+</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Tutorial_180817_Colors_in_Data_Visualization.md" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 데이터 시각화와 색의 활용">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"통계-회귀분석3","level":"1.47","depth":1,"previous":{"title":"데이터 시각화와 색의 활용","level":"1.46","depth":1,"path":"Tutorial_180817_Colors_in_Data_Visualization.md","ref":"Tutorial_180817_Colors_in_Data_Visualization.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"BASE_URL":"https://dataitgirls2.github.io"},"plugins":["ga","-sharing"],"pluginsConfig":{"ga":{"configuration":"auto","token":"UA-43356518-7"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Tutorial_180817_Statistics5.md","mtime":"2018-09-09T04:15:27.619Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-09T04:41:47.437Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
