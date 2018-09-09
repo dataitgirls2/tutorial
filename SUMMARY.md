@@ -14,6 +14,7 @@
 
 * [데이터다루기(tidydata)와 프로그래밍기초](Tutorial_180702_tidydata.md)
 
+<<<<<<< HEAD
 * [파이썬 기초 ](Tutorial_180703_Python%20introduction.md)
 
 * [범죄데이터로 파이썬 실습 (Lamda)](Tutorial_180705_PythonReview(Lamda).md)
@@ -35,6 +36,29 @@
 * [자료의 요약 과제를 통한 판다스 실습](Tutorial_180713_Pandas101.md)
 
 * [실험계획에 관해 알아보기](Tutorial_180713_ExperimentDesignLecture_%EA%B9%80%EC%B0%BD%EC%A4%80%EB%8B%98.md)
+=======
+* [파이썬 기초 ](Tutorial_180703_Python_introduction.md)
+
+* [범죄데이터로 파이썬 실습 (Lamda)](Tutorial_180705_PythonReview_Lamda.md)
+
+* [특강-자기소개서 워크숍(1)](Tutorial_180705_Resume_01.md)
+
+* [특강-시빅해킹](Tutorial_180706_Civic_hacking_seminar.md)
+
+* [지킬과 루비로 정적 블로그 만들기](Tutorial_180709_StaticBlogging_JekyllandRuby.md)
+
+* [특강-협업](Tutorial_180710_Lecture_Cooperation.md)
+
+* [특강-전문성](Tutorial_180710_Lecture_Speciality.md)
+
+* [데이터 시각화 이해](Tutorial_180712_DataVisualization101.md)
+
+* [특강-자기소개서 워크숍(2)](Tutorial_180712_AttraciveResume2.md)
+
+* [자료의 요약 과제를 통한 판다스 실습](Tutorial_180713_Pandas101.md)
+
+* [특강-실험계획에 관해 알아보기](Tutorial_180713_ExperimentDesignLecture.md)
+>>>>>>> master
 
 * [저작권과 직업윤리를 인지하고 크롤링 셔플 실습](Tutorial_180716_Crawling_Shuffle.md)
 
@@ -42,9 +66,15 @@
 
 * [Pandas 10분 완성](Tutorial_180717_10minPandas.md)
 
+<<<<<<< HEAD
 * 국민청원 첫시작 판다스로 국민청원하기 [PandasPetition](Tutorial_180717_PandasPetition.md)
 
 * [Beautiful Soup을 사용하여 크롤링](Tutorial_180719_%20BeautifulSoup.md)
+=======
+* [국민청원 첫시작 판다스로 국민청원하기](Tutorial_180717_PandasPetition.md)
+
+* [Beautiful Soup을 사용하여 크롤링](Tutorial_180719_BeautifulSoup.md)
+>>>>>>> master
 
 * [국민청원 데이터 시각화와 자연어 처리-plontnine 실습하기](Tutorial_180719_plotnine.md)
 
@@ -52,9 +82,15 @@
 
 * [통계학-자료의 요약, 확률분포(ProbabilityDistribution)](Tutorial_180720_ProbabilityDistribution.md)   
 
+<<<<<<< HEAD
 * [기계학습의 기초(지도학습/비지도학습/머신러닝)](Tutorial_180723_Machine%20learning.md)
 
 * [텍스트 데이터 시각화 Word_vectorsization](Tutorial_180723_word%20vectorsization.md)
+=======
+* [기계학습의 기초(지도학습/비지도학습/머신러닝)](Tutorial_180723_Machine_learning.md)
+
+* [텍스트 데이터 시각화 Word_vectorsization](Tutorial_180723_word_vectorsization.md)
+>>>>>>> master
 
 * [특강 - AI R&D Director ](Tutorial_180726_naver.md)
 
@@ -82,7 +118,11 @@
 
 * [깃과 깃헙 복습, 다른 사람의 레파지토리에 기여하기](Tutorial_180807_Git_review.md)
 
+<<<<<<< HEAD
 * [아파트 분양가 분석 및 회귀분석](Tutorial_180810_Apt_analysis_Statistics5.md)
+=======
+* [아파트 분양가 분석 및 회귀분석2](Tutorial_180810_Apt_analysis_Statistics5.md)
+>>>>>>> master
 
 * [스프레드시트로 캐글 타이타닉 참가하기](Tutorial_180813_kaggle_Titanic.md)
 
@@ -91,3 +131,8 @@
 * [테스트 주도 개발](Tutorial_180814_Test_Driven_Development.md)
 
 * [데이터 시각화와 색의 활용](Tutorial_180817_Colors_in_Data_Visualization.md)
+<<<<<<< HEAD
+=======
+
+* [통계-회귀분석3](Tutorial_180817_Statistics5.md)
+>>>>>>> master
