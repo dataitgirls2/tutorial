@@ -14,7 +14,7 @@
 
 * [데이터다루기(tidydata)와 프로그래밍기초](Tutorial_180702_tidydata.md)
 
-* [파이썬 기초 ](Tutorial_180703_Python%20introduction.md)
+* [파이썬 기초 ](Tutorial_180703_Python_introduction.md)
 
 * [범죄데이터로 파이썬 실습 (Lamda)](Tutorial_180705_PythonReview_Lamda.md)
 
@@ -44,7 +44,7 @@
 
 * [국민청원 첫시작 판다스로 국민청원하기](Tutorial_180717_PandasPetition.md)
 
-* [Beautiful Soup을 사용하여 크롤링](Tutorial_180719_%20BeautifulSoup.md)
+* [Beautiful Soup을 사용하여 크롤링](Tutorial_180719_BeautifulSoup.md)
 
 * [국민청원 데이터 시각화와 자연어 처리-plontnine 실습하기](Tutorial_180719_plotnine.md)
 
@@ -52,9 +52,9 @@
 
 * [통계학-자료의 요약, 확률분포(ProbabilityDistribution)](Tutorial_180720_ProbabilityDistribution.md)   
 
-* [기계학습의 기초(지도학습/비지도학습/머신러닝)](Tutorial_180723_Machine%20learning.md)
+* [기계학습의 기초(지도학습/비지도학습/머신러닝)](Tutorial_180723_Machine_learning.md)
 
-* [텍스트 데이터 시각화 Word_vectorsization](Tutorial_180723_word%20vectorsization.md)
+* [텍스트 데이터 시각화 Word_vectorsization](Tutorial_180723_word_vectorsization.md)
 
 * [특강 - AI R&D Director ](Tutorial_180726_naver.md)
 
